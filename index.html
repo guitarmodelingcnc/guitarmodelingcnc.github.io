@@ -4,402 +4,334 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Guitar Modeling for CNC — 3D Files for Luthiers</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<meta name="description" content="Fusion 360, STEP and STL models of guitars and basses for CNC luthiers. Pay with PayPal and download instantly.">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-:root{--black:#0a0a0a;--dark:#111111;--panel:#161616;--border:#2a2a2a;--gold:#c8a84b;--gold-dim:#7a6330;--amber:#e8b84b;--white:#f0ede8;--muted:#6a6560;--wood:#3d2b1f}
+:root{--black:#0a0a0a;--panel:#161616;--border:#2a2a2a;--gold:#c8a84b;--gold-dim:#7a6330;--amber:#e8b84b;--white:#f0ede8;--muted:#8a847d;--wood:#3d2b1f;--ok:#7bc47f;--err:#e06c5a}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;font-weight:300;overflow-x:hidden}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:1000;opacity:.4}
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.5rem 6vw;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(to bottom,rgba(10,10,10,.95),transparent);backdrop-filter:blur(4px)}
-.nav-brand{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:.15em;color:var(--white);text-decoration:none}
-.nav-brand span{color:var(--gold)}
-.nav-links{display:flex;gap:2.5rem;list-style:none}
-.nav-links a{font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s}
-.nav-links a:hover{color:var(--gold)}
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;position:relative;padding:0 6vw;border-bottom:1px solid var(--border);overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 70% 50%,rgba(200,168,75,.06) 0%,transparent 70%),radial-gradient(ellipse 40% 80% at 20% 80%,rgba(61,43,31,.4) 0%,transparent 60%)}
-.hero-lines{position:absolute;right:0;top:0;width:55%;height:100%;background:repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(200,168,75,.04) 39px,rgba(200,168,75,.04) 40px)}
-.hero-tag{font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;margin-bottom:2rem;opacity:0;animation:fadeUp .8s ease .2s forwards}
-.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(4rem,12vw,11rem);line-height:.9;letter-spacing:-.02em;opacity:0;animation:fadeUp .8s ease .4s forwards}
-.hero h1 span{color:var(--gold);display:block}
-.hero-sub{margin-top:2.5rem;font-size:clamp(1rem,1.8vw,1.2rem);color:var(--muted);max-width:480px;line-height:1.7;opacity:0;animation:fadeUp .8s ease .6s forwards}
-.hero-cta{display:flex;gap:1.2rem;margin-top:3rem;flex-wrap:wrap;opacity:0;animation:fadeUp .8s ease .8s forwards}
-.hero-stats{position:absolute;bottom:3rem;right:6vw;display:flex;gap:3rem;opacity:0;animation:fadeUp .8s ease 1s forwards}
-.stat{text-align:right}
-.stat-num{font-family:'Bebas Neue',sans-serif;font-size:3rem;color:var(--gold);line-height:1}
-.stat-label{font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:.15em;color:var(--muted);text-transform:uppercase;margin-top:.3rem}
-.btn-primary{display:inline-flex;align-items:center;gap:.6rem;background:var(--gold);color:var(--black);font-family:'Barlow',sans-serif;font-weight:600;font-size:13px;letter-spacing:.15em;text-transform:uppercase;padding:1rem 2.2rem;text-decoration:none;transition:all .2s;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px))}
-.btn-primary:hover{background:var(--amber);transform:translateY(-2px)}
-.btn-secondary{display:inline-flex;align-items:center;gap:.6rem;border:1px solid var(--border);color:var(--muted);font-family:'Barlow',sans-serif;font-weight:400;font-size:13px;letter-spacing:.15em;text-transform:uppercase;padding:1rem 2.2rem;text-decoration:none;transition:all .2s}
-.btn-secondary:hover{border-color:var(--gold);color:var(--gold)}
-.btn-paypal{display:inline-flex;align-items:center;gap:.8rem;background:#0070ba;color:#fff;font-family:'Barlow',sans-serif;font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:1rem 2.2rem;text-decoration:none;transition:all .2s;border-radius:4px}
-.btn-paypal:hover{background:#005ea6;transform:translateY(-2px)}
-.btn-free{display:inline-flex;align-items:center;gap:.6rem;background:#4caf50;color:#000;font-family:'Barlow',sans-serif;font-weight:700;font-size:12px;letter-spacing:.15em;text-transform:uppercase;padding:.9rem 2rem;text-decoration:none;transition:all .2s}
-.btn-free:hover{background:#66bb6a;transform:translateY(-2px)}
-.pricing{padding:8rem 6vw;border-bottom:1px solid var(--border)}
-.section-label{font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:.25em;color:var(--gold);text-transform:uppercase;margin-bottom:1rem}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,5vw,4rem);line-height:1;margin-bottom:4rem}
-.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
-.price-card{background:var(--panel);padding:3rem 2.5rem;position:relative;transition:background .2s}
-.price-card:hover{background:var(--dark)}
-.price-card.featured{background:var(--wood)}
-.price-card.featured:hover{background:#4a3526}
-.price-card.featured::before{content:'BEST VALUE';position:absolute;top:1.5rem;right:1.5rem;font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:.15em;color:var(--gold);border:1px solid var(--gold-dim);padding:.3rem .7rem}
-.price-amount{font-family:'Bebas Neue',sans-serif;font-size:4.5rem;color:var(--gold);line-height:1}
-.price-currency{font-family:'Share Tech Mono',monospace;font-size:14px;color:var(--muted);vertical-align:super;margin-right:4px}
-.price-desc{margin-top:1.2rem;font-size:15px;color:var(--white);line-height:1.5}
-.price-sub{margin-top:.5rem;font-size:12px;color:var(--muted);font-family:'Share Tech Mono',monospace;letter-spacing:.05em}
-.buy-section{padding:5rem 6vw;background:var(--wood);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:3rem;align-items:center;justify-content:space-between}
-.buy-text h2{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;margin-bottom:1rem}
-.buy-text p{color:var(--muted);font-size:14px;line-height:1.7;max-width:480px}
-.buy-actions{display:flex;flex-direction:column;gap:1rem;align-items:flex-start}
-.buy-note{font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--gold-dim);letter-spacing:.1em;margin-top:.5rem}
-.catalog{padding:8rem 6vw;border-bottom:1px solid var(--border)}
-.cat-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem;flex-wrap:wrap;gap:1rem}
-.cat-note{font-family:'Share Tech Mono',monospace;font-size:11px;color:var(--muted);letter-spacing:.1em;max-width:320px;line-height:1.6;text-align:right}
-.cat-section{margin-bottom:4rem}
-.cat-section-title{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:.1em;color:var(--gold);border-bottom:1px solid var(--border);padding-bottom:.8rem;margin-bottom:1.5rem;display:flex;align-items:center;gap:1rem}
-.cat-badge{font-size:.7rem;color:var(--gold);font-family:'Share Tech Mono',monospace;border:1px solid var(--gold-dim);padding:.2rem .6rem}
-.model-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;background:var(--border)}
-.model-card{background:var(--panel);cursor:pointer;transition:background .15s;position:relative;overflow:hidden}
-.model-card:hover{background:#1e1e1e}
-.model-card:hover .model-img{transform:scale(1.04)}
-.model-img-wrap{width:100%;aspect-ratio:16/10;overflow:hidden;background:#0d0d0d}
-.model-img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease;display:block}
-.model-info{padding:1rem 1.2rem}
-.model-name{font-size:14px;font-weight:600;color:var(--white);letter-spacing:.03em}
-.model-spec{font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--muted);margin-top:.3rem;letter-spacing:.05em}
-.model-badge{position:absolute;top:.6rem;right:.6rem;font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:.1em;color:var(--gold);background:rgba(10,10,10,.85);padding:.2rem .5rem;border:1px solid var(--gold-dim)}
-.model-free-badge{color:#4caf50;border-color:#4caf50}
-.free-highlight{background:rgba(76,175,80,.08);border:1px solid rgba(76,175,80,.3);padding:2rem 2.5rem;margin-bottom:3rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem}
-.free-text h3{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:#4caf50}
-.free-text p{font-size:13px;color:var(--muted);margin-top:.4rem;font-family:'Share Tech Mono',monospace;letter-spacing:.05em}
-.how{padding:8rem 6vw;border-bottom:1px solid var(--border);background:var(--panel)}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:3rem;margin-top:4rem}
-.step{position:relative;padding-left:2rem;border-left:2px solid var(--border);transition:border-color .2s}
-.step:hover{border-color:var(--gold)}
-.step-num{font-family:'Bebas Neue',sans-serif;font-size:5rem;color:var(--border);line-height:1;position:absolute;top:-1rem;left:-1rem;transition:color .2s}
-.step:hover .step-num{color:rgba(200,168,75,.15)}
-.step-title{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:.05em;margin-bottom:.8rem;margin-top:1rem}
-.step-text{font-size:14px;color:var(--muted);line-height:1.7}
-.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:500;align-items:center;justify-content:center;padding:2rem}
-.modal-overlay.open{display:flex}
-.modal{background:var(--dark);border:1px solid var(--border);max-width:900px;width:100%;max-height:90vh;overflow-y:auto;position:relative}
-.modal-img{width:100%;max-height:450px;object-fit:cover;display:block}
-.modal-body{padding:2rem}
-.modal-name{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;letter-spacing:.05em}
-.modal-spec{font-family:'Share Tech Mono',monospace;font-size:12px;color:var(--gold);margin-top:.5rem;letter-spacing:.1em}
-.modal-desc{font-size:14px;color:var(--muted);margin-top:1rem;line-height:1.7}
-.modal-actions{display:flex;gap:1rem;margin-top:2rem;flex-wrap:wrap}
-.modal-close{position:absolute;top:1rem;right:1rem;background:rgba(0,0,0,.7);border:1px solid var(--border);color:var(--muted);width:36px;height:36px;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;z-index:10}
-.modal-close:hover{border-color:var(--gold);color:var(--gold)}
-footer{padding:3rem 6vw;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
-.footer-brand{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:.1em;color:var(--muted)}
-.footer-note{font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.1em}
-.divider{height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);margin:0 6vw}
-@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:600px){.nav-links{display:none}.hero-stats{display:none}.cat-note{text-align:left}.model-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;font-weight:300;line-height:1.5}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 16px}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.bar{display:flex;align-items:center;gap:16px;height:60px}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:.08em;color:var(--gold);text-decoration:none;margin-right:auto}
+.logo span{color:var(--white)}
+.cart-btn{position:relative;background:var(--gold);color:#111;border:0;padding:8px 18px;font-weight:600;letter-spacing:.04em}
+.cart-btn .n{display:inline-block;min-width:20px;margin-left:8px;padding:0 6px;background:#111;color:var(--gold);border-radius:10px;font-size:.8rem;text-align:center}
+/* hero */
+.hero{padding:56px 0 32px;border-bottom:1px solid var(--border);background:radial-gradient(ellipse at 20% 0,rgba(200,168,75,.12),transparent 60%)}
+.hero h1{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(2.6rem,8vw,5.2rem);line-height:.95;letter-spacing:.02em}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{max-width:620px;margin-top:16px;color:#cfc9c0;font-size:1.05rem}
+.deals{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.deal{border:1px solid var(--border);background:var(--panel);padding:12px 18px}
+.deal b{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--gold);font-weight:400;letter-spacing:.04em}
+.deal span{display:block;color:var(--muted);font-size:.85rem}
+.deal.pack{border-color:var(--gold);cursor:pointer;text-align:left}
+.deal.pack:hover{background:#1d1a12}
+/* toolbar */
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:24px 0 12px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tab{background:transparent;border:1px solid var(--border);padding:6px 14px;font-size:.9rem}
+.tab[aria-pressed=true]{background:var(--gold);color:#111;border-color:var(--gold);font-weight:600}
+.search,.sort{background:var(--panel);border:1px solid var(--border);color:var(--white);padding:8px 12px;font:inherit}
+.search{flex:1;min-width:180px}
+.count{color:var(--muted);font-size:.9rem;width:100%}
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:12px 0 56px}
+.card{background:var(--panel);border:1px solid var(--border);display:flex;flex-direction:column}
+.card .ph{aspect-ratio:4/3;background:#0f0f0f;cursor:pointer;overflow:hidden;display:block;width:100%;border:0;padding:0}
+.card img{width:100%;height:100%;object-fit:contain;display:block}
+.card .bd{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-weight:600;font-size:.95rem;line-height:1.25;word-break:break-word}
+.meta{display:flex;justify-content:space-between;align-items:center;margin-top:auto}
+.price{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;color:var(--gold);letter-spacing:.03em}
+.kind{font-size:.75rem;color:var(--muted);border:1px solid var(--border);padding:1px 8px}
+.add{background:transparent;border:1px solid var(--gold);color:var(--gold);padding:7px;font-weight:600}
+.add:hover{background:var(--gold);color:#111}
+.add.in{background:var(--gold-dim);border-color:var(--gold-dim);color:var(--white)}
+.empty{grid-column:1/-1;color:var(--muted);padding:40px 0}
+/* modal + drawer */
+.back{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:90;display:none}
+.back.open{display:block}
+.modal{position:fixed;z-index:100;inset:4vh 0 auto 0;margin:0 auto;width:min(960px,94vw);max-height:92vh;overflow:auto;background:var(--panel);border:1px solid var(--border);display:none}
+.modal.open{display:block}
+.modal .x,.drawer .x{position:absolute;top:8px;right:12px;background:none;border:0;font-size:1.8rem;color:var(--muted);line-height:1}
+.mgrid{display:grid;grid-template-columns:1.4fr 1fr}
+.mimg{background:#0f0f0f;padding:12px}
+.mimg img.big{width:100%;aspect-ratio:4/3;object-fit:contain;display:block}
+.thumbs{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.thumbs button{border:1px solid var(--border);background:#0f0f0f;padding:0;width:64px;height:48px}
+.thumbs button[aria-current=true]{border-color:var(--gold)}
+.thumbs img{width:100%;height:100%;object-fit:contain}
+.minfo{padding:28px 24px;display:flex;flex-direction:column;gap:14px}
+.minfo h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:2rem;letter-spacing:.03em;line-height:1.05}
+.fmts{display:flex;gap:6px;flex-wrap:wrap}
+.fmts span{border:1px solid var(--gold-dim);color:var(--gold);padding:2px 10px;font-size:.8rem}
+.minfo p{color:#cfc9c0;font-size:.95rem}
+.drawer{position:fixed;z-index:100;top:0;right:0;bottom:0;width:min(440px,100vw);background:var(--panel);border-left:1px solid var(--border);display:none;flex-direction:column}
+.drawer.open{display:flex}
+.drawer h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1.8rem;padding:18px 20px;border-bottom:1px solid var(--border);letter-spacing:.04em}
+.lines{flex:1;overflow:auto;padding:8px 20px}
+.line{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--border)}
+.line img{width:56px;height:42px;object-fit:contain;background:#0f0f0f}
+.line .t{flex:1;font-size:.9rem;line-height:1.25;word-break:break-word}
+.line .p{color:var(--muted);font-size:.9rem}
+.line button{background:none;border:0;color:var(--muted);font-size:1.3rem}
+.sum{padding:16px 20px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:6px}
+.row{display:flex;justify-content:space-between}
+.row.save{color:var(--ok)}
+.row.tot{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;letter-spacing:.03em}
+.hint{color:var(--muted);font-size:.85rem}
+#paypal{margin-top:10px;min-height:48px}
+.note{padding:10px 12px;border:1px solid var(--gold-dim);background:#1d1a12;font-size:.9rem}
+.err{color:var(--err);font-size:.9rem}
+/* delivery */
+.done{padding:28px 24px}
+.done h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:2.2rem;color:var(--ok)}
+.dl{padding:12px 0;border-bottom:1px solid var(--border)}
+.dl b{display:block;font-weight:600;margin-bottom:6px}
+.dl a{display:inline-block;margin:0 8px 6px 0;padding:6px 14px;background:var(--gold);color:#111;text-decoration:none;font-weight:600;font-size:.9rem}
+footer{border-top:1px solid var(--border);padding:32px 0;color:var(--muted);font-size:.9rem}
+footer a{color:var(--gold)}
+@media(max-width:720px){.mgrid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+@media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--gold-dim)}}
 </style>
 </head>
 <body>
+<header><div class="wrap bar">
+  <a class="logo" href="#top">GUITAR <span>MODELING</span> FOR CNC</a>
+  <button class="cart-btn" id="cartBtn" aria-label="Open cart">Cart<span class="n" id="cartN">0</span></button>
+</div></header>
 
-<nav>
-  <a href="#" class="nav-brand">Guitar<span>Modeling</span>CNC</a>
-  <ul class="nav-links">
-    <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#catalog">Catalog</a></li>
-    <li><a href="#how">How It Works</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+<main id="top">
+<section class="hero"><div class="wrap">
+  <h1>Guitar &amp; bass models<br>for <em>CNC luthiers</em></h1>
+  <p>Fusion 360, STEP and STL files, ready for your toolpaths. Pay with PayPal and download right after checkout.</p>
+  <div class="deals" id="deals">
+    <div class="deal"><b>2 for USD 100</b><span>Any two models</span></div>
+    <div class="deal"><b>5 for USD 200</b><span>Any five models</span></div>
+    <button class="deal pack" id="packDeal"><b id="packTitle">Builder's Pack</b><span id="packSub">See what's inside</span></button>
+  </div>
+</div></section>
 
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-lines"></div>
-  <p class="hero-tag">// Professional 3D Files for CNC Luthiers</p>
-  <h1>Guitar<span>Modeling</span>for CNC</h1>
-  <p class="hero-sub">100+ precision 3D models of guitars and basses, built in Fusion 360. Ready for your CNC workflow. From classic shapes to rare signature designs.</p>
-  <div class="hero-cta">
-    <a href="#catalog" class="btn-primary">Browse Catalog →</a>
-    <a href="https://paypal.me/guitarsresourses" target="_blank" class="btn-paypal">💳 Pay via PayPal</a>
+<section class="wrap" id="catalog">
+  <div class="tools">
+    <div class="tabs" id="tabs" role="group" aria-label="Category"></div>
+    <input class="search" id="q" type="search" placeholder="Search models" aria-label="Search models">
+    <select class="sort" id="sort" aria-label="Sort"><option value="name">Name</option><option value="pa">Price, low to high</option><option value="pd">Price, high to low</option></select>
+    <div class="count" id="count"></div>
   </div>
-  <div class="hero-stats">
-    <div class="stat"><div class="stat-num">100+</div><div class="stat-label">Models</div></div>
-    <div class="stat"><div class="stat-num">F360</div><div class="stat-label">Native Format</div></div>
-    <div class="stat"><div class="stat-num">USD</div><div class="stat-label">Pricing</div></div>
-  </div>
+  <div class="grid" id="grid"></div>
 </section>
+</main>
 
-<section class="pricing" id="pricing">
-  <p class="section-label">// Pricing</p>
-  <h2 class="section-title">Simple, Flat Rates</h2>
-  <div class="pricing-grid">
-    <div class="price-card"><div class="price-amount"><span class="price-currency">USD</span>60</div><div class="price-desc">1 Model from the catalog</div><div class="price-sub">Any body, full instrument or bass file</div></div>
-    <div class="price-card featured"><div class="price-amount"><span class="price-currency">USD</span>100</div><div class="price-desc">2 Models from the catalog</div><div class="price-sub">Mix and match any two models</div></div>
-    <div class="price-card"><div class="price-amount"><span class="price-currency">USD</span>200</div><div class="price-desc">5 Models from the catalog</div><div class="price-sub">Best rate — ideal for small shops</div></div>
-    <div class="price-card"><div class="price-amount"><span class="price-currency">USD</span>200</div><div class="price-desc">Custom model on request</div><div class="price-sub">Built to your specs in Fusion 360</div></div>
-  </div>
-</section>
+<footer><div class="wrap">
+  Each purchase includes every file format listed on the model. Need a model that is not here? We build custom models to order.
+  <a href="#" id="fb" target="_blank" rel="noopener">Message us on Facebook</a>.
+  <p style="margin-top:12px">Models are original digital files made for CNC machining. Brand and model names are used only to describe the guitar style and belong to their owners.</p>
+</div></footer>
 
-<div class="divider"></div>
+<div class="back" id="back"></div>
 
-<section class="buy-section" id="contact">
-  <div class="buy-text">
-    <p class="section-label">// How to Buy</p>
-    <h2>Ready to Order?</h2>
-    <p>Pick the models you want from the catalog, then pay directly via PayPal. Files are delivered to your email in Fusion 360 native format (.f3d). Include the model name(s) in the PayPal payment note.</p>
-  </div>
-  <div class="buy-actions">
-    <a href="https://paypal.me/guitarsresourses" target="_blank" class="btn-paypal">💳 Pay Now via PayPal</a>
-    <a href="https://www.facebook.com/GUITARMODELINGFORCNC" target="_blank" class="btn-secondary">Message on Facebook</a>
-    <p class="buy-note">PAYMENT IN USD · DELIVERY VIA EMAIL · WORLDWIDE</p>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<section class="catalog" id="catalog">
-  <div class="cat-header">
-    <div><p class="section-label">// Full Catalog</p><h2 class="section-title">Available Models</h2></div>
-    <p class="cat-note">Click any model to see details and buy. Files delivered in Fusion 360 native format (.f3d).</p>
-  </div>
-
-  <div class="free-highlight">
-    <div class="free-text"><h3>🎸 FREE Model — Pero Juguetona (Mikro)</h3><p>Short scale 22.2" · Download the .f3d file for free and try it on your CNC</p></div>
-    <a href="https://www.mediafire.com/file/7od2yrb88o739ym/MIKRO_v30.rar/file" target="_blank" class="btn-free">⬇ Download Free</a>
-  </div>
-
-  <div class="cat-section">
-    <div class="cat-section-title">Body Files</div>
-    <div class="model-grid" id="grid-bodies"></div>
-  </div>
-
-  <div class="cat-section">
-    <div class="cat-section-title">Bodies with CAM in Fusion <span class="cat-badge">TOOLPATH INCLUDED</span></div>
-    <div class="model-grid" id="grid-cam"></div>
-  </div>
-
-  <div class="cat-section">
-    <div class="cat-section-title">Neck Inlay Files</div>
-    <div class="model-grid" id="grid-inlays"></div>
-  </div>
-
-  <div class="cat-section">
-    <div class="cat-section-title">Full Instrument Files</div>
-    <div class="model-grid" id="grid-full"></div>
-  </div>
-
-  <div class="cat-section">
-    <div class="cat-section-title">Bass Files</div>
-    <div class="model-grid" id="grid-bass"></div>
-  </div>
-</section>
-
-<section class="how" id="how">
-  <p class="section-label">// Process</p>
-  <h2 class="section-title">How It Works</h2>
-  <div class="steps">
-    <div class="step"><div class="step-num">01</div><div class="step-title">Browse & Choose</div><div class="step-text">Pick one or more models from the catalog. Can't find your shape? Request a custom model built to your specs for USD 200.</div></div>
-    <div class="step"><div class="step-num">02</div><div class="step-title">Pay via PayPal</div><div class="step-text">Send payment via PayPal to <strong style="color:var(--gold)">paypal.me/guitarsresourses</strong>. Include the model name(s) in the note. Fast, secure, worldwide.</div></div>
-    <div class="step"><div class="step-num">03</div><div class="step-title">Receive the File</div><div class="step-text">Get your Fusion 360 native file (.f3d) delivered to your email. Open, review, and set up your own toolpath for your machine and tools.</div></div>
-    <div class="step"><div class="step-num">04</div><div class="step-title">Cut & Build</div><div class="step-text">Generate your CAM toolpath in Fusion 360 or export to your preferred CAM software. Cut on your CNC and start building.</div></div>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-brand">Guitar Modeling for CNC</div>
-  <div class="footer-note">3D Files for CNC Luthiers · Worldwide · PayPal Accepted · paypal.me/guitarsresourses</div>
-</footer>
-
-<div class="modal-overlay" id="modal" onclick="closeOnOverlay(event)">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal()">✕</button>
-    <img class="modal-img" id="modal-img" src="" alt="">
-    <div class="modal-body">
-      <div class="modal-name" id="modal-name"></div>
-      <div class="modal-spec" id="modal-spec"></div>
-      <div class="modal-desc" id="modal-desc"></div>
-      <div class="modal-actions" id="modal-actions"></div>
-    </div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mName">
+  <button class="x" id="mClose" aria-label="Close">&times;</button>
+  <div class="mgrid">
+    <div class="mimg"><img class="big" id="mBig" alt=""><div class="thumbs" id="mThumbs"></div></div>
+    <div class="minfo"><h2 id="mName"></h2><div class="fmts" id="mFmts"></div><p id="mDesc"></p>
+      <div class="price" id="mPrice"></div><button class="add" id="mAdd"></button></div>
   </div>
 </div>
 
+<aside class="drawer" id="drawer" aria-label="Cart">
+  <button class="x" id="dClose" aria-label="Close">&times;</button>
+  <h2>Your cart</h2>
+  <div class="lines" id="lines"></div>
+  <div class="sum" id="sum"></div>
+</aside>
+
+<div class="modal" id="doneModal" role="dialog" aria-modal="true"><div class="done" id="done"></div></div>
+
+<script src="config.js"></script>
 <script>
-const MODELS = {
-  bodies: [
-    {name:'Classic Strat', spec:'2 neck joint options · Classic / Ergonomic', desc:'Fender Stratocaster style body. Two neck pocket options: classic square and ergonomic contoured.', img:'images/classic-strat.jpg'},
-    {name:'HSS Strat', spec:'Classic or ergonomic neck joint', desc:'HSS pickup configuration Stratocaster body.', img:'images/hss-strat.jpg'},
-    {name:'HSS Strat — 2pt Bridge', spec:'Two-point bridge variant', desc:'HSS Strat body with two-point tremolo bridge routing.', img:'images/hss-strat-2pt.jpg'},
-    {name:'Lynch Tiger', spec:'ESP-style', desc:'George Lynch Tiger-style body. ESP-inspired design.', img:'images/lynch-tiger.jpg'},
-    {name:'Modern Strat', spec:'Charvel-style', desc:'Modern contoured Strat body in Charvel style.', img:'images/modern-strat-body.jpg'},
-    {name:'San Dimas Style', spec:'Scale 25.5" · 22 frets · Strat neck joint', desc:'Charvel San Dimas inspired body. Classic Strat neck pocket.', img:'images/san-dimas.jpg'},
-    {name:'MII', spec:'ESP-style', desc:'ESP MII inspired body file.', img:'images/mii.jpg'},
-    {name:'Banzai', spec:'ESP-style', desc:'ESP Banzai inspired body file.', img:'images/banzai.jpg'},
-    {name:'Electra Jet Style', spec:'Scale 25.5" · 22 frets', desc:'Electra Jet inspired body. Classic Strat neck joint.', img:'images/electra-jet-body.jpg'},
-    {name:'Pensa Style', spec:'Classic Strat-inspired', desc:'Pensa-style body, Mark Knopfler inspired.', img:'images/pensa.jpg'},
-    {name:'PRS Single Cut', spec:'Scale 25" · Set neck · 22 frets', desc:'PRS Single Cut style body with set neck joint.', img:'images/prs-single-cut-body.jpg'},
-    {name:'Winger', spec:'After RBM/Voyager · 24 frets RG neck', desc:'Made after the RBM or Voyager. Designed for 24-fret RG type necks. Fusion history available.', img:'images/winger-body.jpg'},
-    {name:'Testament', spec:'Ibanez-style · Alt neck & control layouts', desc:'Testament body, Ibanez style. Alternative neck joints and control layouts included.', img:'images/testament.jpg'},
-    {name:'JPM', spec:'Ibanez John Petrucci Model', desc:'JPM style body, Ibanez-inspired.', img:'images/jpm.jpg'},
-    {name:'RGA', spec:'After Ibanez RGA · 24 frets RG neck', desc:'Made after the Ibanez RGA. Designed for 24-fret RG necks. Fusion history available.', img:'images/rga.jpg'},
-    {name:'Surfing in a Blue Dream', spec:'After Joe Satriani · Scale 25.5" · 22 frets', desc:'Made after Joe Satriani signature guitar. 25.5" scale, 22 frets.', img:'images/surfing-blue-dream.jpg'},
-    {name:'GEM', spec:'Ibanez Steve Vai-style · Multiple variants', desc:'Steve Vai GEM inspired body. Multiple variants available.', img:'images/gem.jpg'},
-    {name:'CIA', spec:'Original design', desc:'CIA original body design.', img:'images/cia-body.jpg'},
-    {name:'CIA 7', spec:'7-string original design', desc:'CIA body in 7-string version.', img:'images/cia-7-body.jpg'},
-    {name:'GEM 7', spec:'7-string variant', desc:'GEM body in 7-string version.', img:'images/gem-7.jpg'},
-    {name:'Deep Space', spec:'Original design', desc:'Deep Space original body design.', img:'images/deep-space.jpg'},
-    {name:'Fire', spec:'Original design', desc:'Fire original body design.', img:'images/fire.jpg'},
-  ],
-  cam: [
-    {name:'Fighter + 540piii', spec:'CAM Ready — Toolpath included', desc:'Fighter and 540piii bodies with full Fusion 360 CAM setup. Toolpath ready to run.', img:'images/cam-fighter-540.jpg', badge:'CAM READY'},
-    {name:'Winger + Chernobyl Tiger', spec:'CAM Ready — Toolpath included', desc:'Winger and Chernobyl Tiger bodies with full Fusion 360 CAM setup included.', img:'images/cam-winger-chernobyl.jpg', badge:'CAM READY'},
-  ],
-  inlays: [
-    {name:'Cia Blossom Inlay', spec:'Neck inlay pattern set', desc:'Cia Blossom decorative neck inlay pattern set.', img:'images/inlay-cia-blossom.jpg'},
-    {name:'TOL Inlay', spec:'Neck inlay pattern set', desc:'TOL decorative neck inlay pattern set.', img:'images/inlay-tol.jpg'},
-    {name:'Egypt Inlay', spec:'Neck inlay pattern set', desc:'Egypt themed decorative neck inlay pattern set.', img:'images/inlay-egypt.jpg'},
-  ],
-  full: [
-    {name:'Classic Strat — Full', spec:'Baritone / Modern / Fusion variants', desc:'Complete instrument file. Includes baritone, modern and fusion variants.', img:'images/full-classic-strat.jpg'},
-    {name:'DK24 Style', spec:'After Charvel DK24 · Scale 25.5" · 24 frets', desc:'Made after the Charvel DK24. Full instrument file.', img:'images/dk24.jpg'},
-    {name:'Jazz Baby!', spec:'Jazzmaster style', desc:'Jazzmaster inspired full instrument file.', img:'images/jazz-baby.jpg'},
-    {name:'Custom Jazzmaster', spec:'Scale 25.5" · 22 frets', desc:'Custom Jazzmaster full instrument file.', img:'images/custom-jazzmaster.jpg'},
-    {name:'Les', spec:'Single cut inspired', desc:'Les Paul inspired full instrument file.', img:'images/les.jpg'},
-    {name:'Far from a 335', spec:'Semi-hollow inspired', desc:'Semi-hollow body inspired full instrument.', img:'images/far-from-335.jpg'},
-    {name:'Custom Single Cut', spec:'Scale 24.75" · Set neck · 22 frets', desc:'Custom single cut full instrument with set neck joint.', img:'images/custom-single-cut.jpg'},
-    {name:'58 V', spec:'Flying V style', desc:'58 Flying V style full instrument.', img:'images/58v.jpg'},
-    {name:'Asteroida', spec:'Original design', desc:'Asteroida original design full instrument.', img:'images/asteroida.jpg'},
-    {name:'Snakefart', spec:'Original design', desc:'Snakefart original design full instrument.', img:'images/snakefart.jpg'},
-    {name:'GIGER TV', spec:'TV-style original', desc:'GIGER TV style body full instrument.', img:'images/giger-tv.jpg'},
-    {name:'TV', spec:'TV-style', desc:'TV style full instrument.', img:'images/tv.jpg'},
-    {name:'Custom TVZ', spec:'TV variant', desc:'Custom TVZ full instrument.', img:'images/custom-tvz.jpg'},
-    {name:'Porthlander', spec:'Hybrid original', desc:'Porthlander hybrid original design.', img:'images/porthlander.jpg'},
-    {name:'TV Strat', spec:'Hybrid original', desc:'TV meets Strat hybrid design.', img:'images/tv-strat.jpg'},
-    {name:'DK 24TV', spec:'Dinky meets TV', desc:'Dinky DK meets TV body full instrument.', img:'images/dk24tv.jpg'},
-    {name:'DK 22TV', spec:'Dinky meets TV', desc:'Dinky DK22 meets TV body full instrument.', img:'images/dk22tv.jpg'},
-    {name:'Cabronita', spec:'Original design', desc:'Cabronita full instrument file.', img:'images/cabronita.jpg'},
-    {name:'PRS — Full', spec:'Scale 25" · Set neck · 22 frets', desc:'PRS full instrument file with set neck.', img:'images/prs-full.jpg'},
-    {name:'Echopark Bakersfield', spec:'Scale 24.75" · Set neck · 22 frets', desc:'Echopark Bakersfield style full instrument.', img:'images/echopark.jpg'},
-    {name:'Travis Bean Style', spec:'Scale 24.75" · 22 frets', desc:'Travis Bean inspired full instrument.', img:'images/travis-bean.jpg'},
-    {name:'Valeno', spec:'Scale 25" · 24 frets · Bolt-on', desc:'Valeno original design, bolt-on neck.', img:'images/valeno.jpg'},
-    {name:'Custom Fusion Axe', spec:'Scale 25.5" · 24 frets', desc:'Custom fusion style guitar full instrument.', img:'images/custom-fusion-axe.jpg'},
-    {name:'North Modern', spec:'Original design', desc:'North Modern original design full instrument.', img:'images/north-modern.jpg'},
-    {name:'D Straits Style', spec:'After Mark Knopfler Pensa · Set neck', desc:'Made after Mark Knopfler Pensa guitar. Set neck joint.', img:'images/d-straits.jpg'},
-    {name:'Horizont', spec:'Original design', desc:'Horizont original design full instrument.', img:'images/horizont.jpg'},
-    {name:'Horizont Floyd', spec:'Floyd Rose variant', desc:'Horizont with Floyd Rose routing full instrument.', img:'images/horizont-floyd.jpg'},
-    {name:'Nuno', spec:'After Extreme · Unique neck joint · History incl.', desc:'Made after Nuno Bettencourt Extreme guitar. Unique neck joint. Fusion history included.', img:'images/nuno.jpg'},
-    {name:'Majesty', spec:'After Music Man Majesty · Set neck · History incl.', desc:'Made after the Music Man John Petrucci Majesty. Set neck. Fusion history included.', img:'images/majesty.jpg'},
-    {name:'Heartfield', spec:'Original design', desc:'Heartfield full instrument file.', img:'images/heartfield.jpg'},
-    {name:'Hellbringer', spec:'Original design', desc:'Hellbringer original design full instrument.', img:'images/hellbringer.jpg'},
-    {name:'Nefertiti', spec:'Original design', desc:'Nefertiti original design full instrument.', img:'images/nefertiti.jpg'},
-    {name:'UFO', spec:'Original design', desc:'UFO original design full instrument.', img:'images/ufo.jpg'},
-    {name:'Southern Cross', spec:'After Dimebag · Scale 24.75" · Set neck · History incl.', desc:'Made after the classic Dimebag Darrell guitar. 24.75" scale, set neck. Fusion history included.', img:'images/southern-cross.jpg'},
-    {name:'Dimes X', spec:'Original design', desc:'Dimes X full instrument file.', img:'images/dimes-x.jpg'},
-    {name:'Stealth', spec:'W-style · Scale 24.75" · Set neck · History incl.', desc:'Made after the W Stealth. 24.75" scale, set neck. Fusion history included.', img:'images/stealth.jpg'},
-    {name:'Baritone Stealth', spec:'Scale 27" · Set neck · History incl.', desc:'W Stealth in baritone. 27" scale, set neck. Fusion history included.', img:'images/baritone-stealth.jpg'},
-    {name:'Kelly Fighter', spec:'Jackson-style', desc:'Kelly Fighter Jackson inspired full instrument.', img:'images/kelly-fighter.jpg'},
-    {name:'Fighter', spec:'Original design', desc:'Fighter original design full instrument.', img:'images/fighter.jpg'},
-    {name:'Andy Oads', spec:'Original design', desc:'Andy Oads original design full instrument.', img:'images/andy-oads.jpg'},
-    {name:'Emperor B', spec:'Original design', desc:'Emperor B original design full instrument.', img:'images/emperor-b.jpg'},
-    {name:'Dinky DK Style', spec:'Scale 25.5" · 24 frets', desc:'Dinky meets DK full instrument. 25.5" scale, 24 frets.', img:'images/dinky-dk.jpg'},
-    {name:'540piii', spec:'Ibanez 540 inspired', desc:'540piii full instrument file.', img:'images/540piii.jpg'},
-    {name:'540p VAI', spec:'Steve Vai variant', desc:'540p VAI Steve Vai inspired full instrument.', img:'images/540p-vai.jpg'},
-    {name:'Medussa', spec:'Original design', desc:'Medussa original design full instrument.', img:'images/medussa.jpg'},
-    {name:'Warlock Style', spec:'BC Rich inspired · 24.75" neck-thru', desc:'BC Rich Warlock inspired. 24.75" scale, neck-thru design.', img:'images/warlock.jpg'},
-    {name:'Bich!!', spec:'BC Rich inspired · 24.75" neck-thru · History incl.', desc:'BC Rich Bich inspired. 24.75" scale, neck-thru. Fusion history included.', img:'images/bich.jpg'},
-    {name:'Victorynox', spec:'BC Rich variant', desc:'Victorynox BC Rich inspired full instrument.', img:'images/victorynox.jpg'},
-    {name:'X Bich', spec:'BC Rich variant', desc:'X Bich variant full instrument.', img:'images/x-bich.jpg'},
-    {name:'Iron Eagle', spec:'Original design', desc:'Iron Eagle original design full instrument.', img:'images/iron-eagle.jpg'},
-    {name:'X Rays', spec:'Original design', desc:'X Rays original design full instrument.', img:'images/x-rays.jpg'},
-    {name:'Tiger', spec:'Original design', desc:'Tiger original design full instrument.', img:'images/tiger.jpg'},
-    {name:'Chernobyl Tiger', spec:'Original design', desc:'Chernobyl Tiger original design full instrument.', img:'images/chernobyl-tiger.jpg'},
-    {name:'WASP', spec:'Original design', desc:'WASP original design full instrument.', img:'images/wasp.jpg'},
-    {name:'Cyber Punk 77', spec:'Original futuristic design', desc:'Cyber Punk 77 — original futuristic design full instrument.', img:'images/cyber-punk-77.jpg'},
-    {name:'7 Rhoads', spec:'7-string Randy Rhoads style', desc:'7 Rhoads, 7-string Randy Rhoads inspired.', img:'images/7-rhoads.jpg'},
-    {name:'7 Kelly Fighter', spec:'7-string Kelly style', desc:'7 Kelly Fighter, 7-string version.', img:'images/7-kelly-fighter.jpg'},
-    {name:'XIPHIOS', spec:'Original design', desc:'XIPHIOS original design full instrument.', img:'images/xiphios.jpg'},
-    {name:'Mii — Full', spec:'Original design', desc:'Mii full instrument file.', img:'images/mii-full.jpg'},
-    {name:'Sex and Warfare', spec:'Original design', desc:'Sex and Warfare original design.', img:'images/sex-and-warfare.jpg'},
-    {name:'Sevilla 92', spec:'Original design', desc:'Sevilla 92 original design full instrument.', img:'images/sevilla-92.jpg'},
-    {name:'Martins Dream', spec:'Tribute design', desc:"Martin's Dream tribute design full instrument.", img:'images/martins-dream.jpg'},
-    {name:'1987 GEM', spec:'Tribute design', desc:'1987 GEM tribute design full instrument.', img:'images/1987-gem.jpg'},
-    {name:'CIA — Full', spec:'Original design', desc:'CIA full instrument file.', img:'images/cia-full.jpg'},
-    {name:'Pero Juguetona — FREE 🎸', spec:'Mikro · Scale 22.2" · Free download', desc:'Short scale Mikro guitar. Scale 22.2". This model is completely FREE — download and try it on your CNC!', img:'images/mikro-free.jpg', badge:'FREE', freeLink:'https://www.mediafire.com/file/7od2yrb88o739ym/MIKRO_v30.rar/file'},
-    {name:'Reb Red', spec:'Original design', desc:'Reb Red original design full instrument.', img:'images/reb-red.jpg'},
-    {name:'Aceituna', spec:'Original design', desc:'Aceituna original design full instrument.', img:'images/aceituna.jpg'},
-    {name:'Fear in the Space', spec:'Original design', desc:'Fear in the Space original design.', img:'images/fear-in-space.jpg'},
-    {name:'Kikos Style', spec:'Original design', desc:'Kikos Style full instrument.', img:'images/kikos.jpg'},
-    {name:'Teemu Style', spec:'Original design', desc:'Teemu Style full instrument.', img:'images/teemu.jpg'},
-    {name:'Joes', spec:'Original design', desc:'Joes original design full instrument.', img:'images/joes.jpg'},
-    {name:'Sable', spec:'Original design', desc:'Sable original design full instrument.', img:'images/sable.jpg'},
-    {name:'Fear in 7 Space', spec:'7-string variant', desc:'Fear in 7 Space, 7-string version.', img:'images/fear-7-space.jpg'},
-    {name:'Old School', spec:'Original design', desc:'Old School original design full instrument.', img:'images/old-school.jpg'},
-    {name:'New School', spec:'Original design', desc:'New School original design full instrument.', img:'images/new-school.jpg'},
-    {name:'Khaller', spec:'Original design', desc:'Khaller original design full instrument.', img:'images/khaller.jpg'},
-    {name:'Cia 7 — Full', spec:'7-string original design', desc:'CIA 7-string full instrument file.', img:'images/cia-7-full.jpg'},
-    {name:'Cool RG Design', spec:'Original design', desc:'Cool RG Design original full instrument.', img:'images/cool-rg.jpg'},
-    {name:'Stephen Carpenter Style', spec:'8-string inspired', desc:'Stephen Carpenter style 8-string inspired design.', img:'images/stephen-carpenter.jpg'},
-    {name:'Ugly', spec:'Experimental original', desc:'Ugly experimental original design.', img:'images/ugly.jpg'},
-    {name:'Still Ugly', spec:'Experimental original', desc:'Still Ugly experimental original design.', img:'images/still-ugly.jpg'},
-    {name:'WTF?', spec:'Experimental original', desc:'WTF? experimental original design.', img:'images/wtf.jpg'},
-    {name:'42 Frets', spec:'Extended range · Experimental', desc:'42 fret experimental extended range instrument.', img:'images/42-frets.jpg'},
-  ],
-  bass: [
-    {name:'Majesty Bass', spec:'34" scale', desc:'Music Man Majesty style bass. 34" scale full instrument.', img:'images/bass-majesty.jpg'},
-    {name:'McCartney Style Bass', spec:'30" scale · Short scale', desc:'Paul McCartney violin bass inspired. 30" short scale.', img:'images/bass-mccartney.jpg'},
-    {name:'Press Bass', spec:'Scale 24.75" · 22 frets', desc:'Press bass full instrument file.', img:'images/bass-press.jpg'},
-    {name:'Iron Bass', spec:'Original design', desc:'Iron bass original design full instrument.', img:'images/bass-iron.jpg'},
-    {name:'War Bass', spec:'Original design', desc:'War bass original design full instrument.', img:'images/bass-war.jpg'},
-  ]
-};
+(function(){
+const CFG = window.SHOP_CONFIG || {};
+const $ = id => document.getElementById(id);
+const VIEW_LABEL = {front:'Front',back:'Back',caballera:'Left-handed',iso:'Isometric',persp_a:'Perspective A',persp_b:'Perspective B'};
+const CATS = [['all','All'],['guitars','Guitars'],['bodies','Bodies'],['basses','Basses'],['cam','With CAM']];
+const KIND = {guitars:'Full guitar',bodies:'Body',basses:'Bass',cam:'With CAM'};
+const FMT_NOTE = {f3d:'Fusion 360',step:'STEP',stl:'STL'};
+const DL_NOTE = {f3d:'Fusion 360 (.f3d)',zip:'STEP + STL (.zip)'};
+const CAM_NOTE = 'Includes toolpaths (CAM) set up in Fusion 360.';
+let ALL = [], PACK = {price:500,models:[]}, byId = {};
+let cat = 'all', q = '', sort = 'name';
+let cart = [];
+try { cart = JSON.parse(localStorage.getItem('gm_cart') || '[]'); } catch(e){}
 
-function makeCard(m, category, index) {
-  const badge = m.badge ? `<div class="model-badge ${m.badge==='FREE'?'model-free-badge':''}">${m.badge}</div>` : '';
-  return `<div class="model-card" data-cat="${category}" data-idx="${index}">
-    ${badge}
-    <div class="model-img-wrap"><img class="model-img" src="${m.img}" alt="${m.name}" loading="lazy"></div>
-    <div class="model-info"><div class="model-name">${m.name}</div><div class="model-spec">${m.spec}</div></div>
-  </div>`;
-}
-
-function renderGrid(id, category) {
-  document.getElementById(id).innerHTML = MODELS[category].map((m,i) => makeCard(m, category, i)).join('');
-}
-renderGrid('grid-bodies','bodies');
-renderGrid('grid-cam','cam');
-renderGrid('grid-inlays','inlays');
-renderGrid('grid-full','full');
-renderGrid('grid-bass','bass');
-
-// Event delegation — un solo listener para todos los cards
-document.addEventListener('click', function(e) {
-  const card = e.target.closest('.model-card');
-  if (!card) return;
-  const cat = card.dataset.cat;
-  const idx = parseInt(card.dataset.idx);
-  const m = MODELS[cat][idx];
-  if (!m) return;
-  openModal(m.name, m.spec, m.desc, m.img, m.badge||'', m.freeLink||'');
-});
-
-function openModal(name, spec, desc, img, badge, freeLink) {
-  document.getElementById('modal-name').textContent = name;
-  document.getElementById('modal-spec').textContent = spec;
-  document.getElementById('modal-desc').textContent = desc;
-  document.getElementById('modal-img').src = img;
-  document.getElementById('modal-img').alt = name;
-  const actions = document.getElementById('modal-actions');
-  if (badge === 'FREE') {
-    actions.innerHTML = `<a href="${freeLink}" target="_blank" class="btn-free">⬇ Download Free</a><a href="https://www.facebook.com/GUITARMODELINGFORCNC" target="_blank" class="btn-secondary">Questions? Facebook</a>`;
-  } else {
-    actions.innerHTML = `<a href="https://paypal.me/guitarsresourses" target="_blank" class="btn-paypal">💳 Buy via PayPal</a><a href="https://www.facebook.com/GUITARMODELINGFORCNC" target="_blank" class="btn-secondary">Message on Facebook</a>`;
+// ---- precio: mismo calculo que el servidor ----
+function priceOf(ids){
+  const p = ids.map(i => byId[i].price).sort((a,b) => b-a), n = p.length, best = Array(n+1).fill(Infinity);
+  best[0] = 0;
+  for (let i=1;i<=n;i++) for (const [s,cap] of [[1,Infinity],[2,100],[5,200]]) if (i>=s){
+    const sum = p.slice(i-s,i).reduce((a,b)=>a+b,0);
+    best[i] = Math.min(best[i], best[i-s] + Math.min(sum,cap));
   }
-  document.getElementById('modal').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  return best[n];
 }
-function closeModal() { document.getElementById('modal').classList.remove('open'); document.body.style.overflow = ''; }
-function closeOnOverlay(e) { if (e.target === document.getElementById('modal')) closeModal(); }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+function totals(){
+  const pack = cart.includes('PACK');
+  const singles = cart.filter(i => i !== 'PACK');
+  const rest = singles.filter(i => !(pack && PACK.models.includes(i)));
+  const base = singles.reduce((a,i) => a + byId[i].price, 0) + (pack ? PACK.price : 0);
+  const total = (pack ? PACK.price : 0) + (rest.length ? priceOf(rest) : 0);
+  const dups = pack ? singles.filter(i => PACK.models.includes(i)).length : 0;
+  return {pack, singles, base, total, save: base - total, dups};
+}
+const money = n => 'USD ' + n.toFixed(0);
+const save = () => { try { localStorage.setItem('gm_cart', JSON.stringify(cart)); } catch(e){} };
+const img = (m, v) => m.images[v] || m.images.front || m.images.iso || '';
+
+// ---- grilla ----
+function render(){
+  let list = ALL.filter(m => (cat==='all' || m.cat===cat) && (!q || m.name.toLowerCase().includes(q)));
+  list.sort(sort==='pa' ? (a,b)=>a.price-b.price||a.name.localeCompare(b.name) : sort==='pd' ? (a,b)=>b.price-a.price||a.name.localeCompare(b.name) : (a,b)=>a.name.localeCompare(b.name));
+  $('count').textContent = list.length + ' models';
+  $('grid').innerHTML = list.length ? list.map(m => `
+    <article class="card">
+      <button class="ph" data-open="${m.id}" aria-label="View ${esc(m.name)}"><img loading="lazy" src="${img(m,'front')}" alt="${esc(m.name)}"></button>
+      <div class="bd"><h3>${esc(m.name)}</h3>
+        <div class="meta"><span class="price">${money(m.price)}</span><span class="kind">${KIND[m.cat]}</span></div>
+        <button class="add ${cart.includes(m.id)?'in':''}" data-add="${m.id}">${cart.includes(m.id)?'In cart ✓':'Add to cart'}</button>
+      </div>
+    </article>`).join('') : '<p class="empty">No models match your search.</p>';
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+// ---- carrito ----
+function toggle(id){ cart = cart.includes(id) ? cart.filter(x=>x!==id) : [...cart,id]; save(); update(); }
+function update(){
+  $('cartN').textContent = cart.length;
+  render(); drawLines();
+  const m = $('modal').dataset.id; if (m==='PACK') setPackBtn(); else if (m) setMAdd(m);
+}
+function drawLines(){
+  const t = totals();
+  $('lines').innerHTML = cart.length ? cart.map(id => {
+    const isP = id==='PACK', m = isP ? null : byId[id];
+    const name = isP ? `${PACK.name} (${PACK.models.length} models)` : m.name;
+    const pic = isP ? img(byId[PACK.models[0]]||{images:{}},'front') : img(m,'front');
+    const dup = !isP && t.pack && PACK.models.includes(id);
+    return `<div class="line"><img src="${pic}" alt=""><div class="t">${esc(name)}${dup?'<br><span class="hint">Already in the Pack, not charged twice</span>':''}</div><div class="p">${isP?money(PACK.price):money(m.price)}</div><button data-rm="${id}" aria-label="Remove">&times;</button></div>`;
+  }).join('') : '<p class="hint" style="padding:24px 0">Your cart is empty.</p>';
+  let h = '';
+  if (cart.length){
+    if (t.save>0) h += `<div class="row"><span>Subtotal</span><span>${money(t.base)}</span></div><div class="row save"><span>Bundle discount</span><span>- ${money(t.save)}</span></div>`;
+    h += `<div class="row tot"><span>Total</span><span>${money(t.total)}</span></div><div id="paypal"></div><div id="payMsg"></div>`;
+    if (!CFG.PAYPAL_CLIENT_ID || !CFG.API_BASE) h += `<div class="note">Checkout is not connected yet. Message us on Facebook to order.</div>`;
+  }
+  $('sum').innerHTML = h;
+  if (cart.length) mountPayPal();
+}
+
+// ---- PayPal ----
+let sdkP = null, rendered = false;
+function loadSdk(){
+  if (sdkP) return sdkP;
+  sdkP = new Promise((ok,ko) => { const s = document.createElement('script');
+    s.src = 'https://www.paypal.com/sdk/js?client-id=' + encodeURIComponent(CFG.PAYPAL_CLIENT_ID) + '&currency=USD&intent=capture';
+    s.onload = ok; s.onerror = ko; document.head.appendChild(s); });
+  return sdkP;
+}
+async function api(path, body){
+  const r = await fetch(CFG.API_BASE.replace(/\/$/,'') + path, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+  const j = await r.json(); if (!r.ok) throw new Error(j.error || 'Request failed'); return j;
+}
+async function mountPayPal(){
+  if (!CFG.PAYPAL_CLIENT_ID || !CFG.API_BASE) return;
+  try { await loadSdk(); } catch(e){ $('payMsg').innerHTML = '<p class="err">Could not load PayPal. Check your connection and reload.</p>'; return; }
+  const el = $('paypal'); if (!el) return;
+  paypal.Buttons({
+    style:{layout:'vertical',color:'gold',shape:'rect',label:'pay'},
+    createOrder: () => api('/create-order',{items:cart}).then(o => o.id),
+    onApprove: async d => {
+      try { const r = await api('/capture-order',{orderId:d.orderID, items:cart.slice()}); delivered(r); cart = []; save(); update(); }
+      catch(e){ $('payMsg').innerHTML = `<p class="err">Payment received but we could not prepare your files (${esc(e.message)}). Do not pay again. Message us on Facebook with this order ID: ${esc(d.orderID)}</p>`; }
+    },
+    onError: () => { const m = $('payMsg'); if (m) m.innerHTML = '<p class="err">PayPal reported an error. You were not charged. Try again.</p>'; }
+  }).render('#paypal');
+}
+function delivered(r){
+  closeAll();
+  const exp = new Date(r.expires*1000).toLocaleString();
+  $('done').innerHTML = `<h2>Payment complete</h2>
+    <p>Download your files now. These links stay valid until ${esc(exp)}.${r.email?` We also sent them to ${esc(r.email)}.`:''}</p>
+    <p class="hint">Save the files somewhere safe. Order ${esc(r.orderId)}.</p>
+    ${r.models.map(m => `<div class="dl"><b>${esc(m.name)}</b>${Object.entries(m.files).map(([f,u])=>`<a href="${u}">${DL_NOTE[f]||f}</a>`).join('')}</div>`).join('')}`;
+  open('doneModal');
+}
+
+// ---- modal ----
+function setMAdd(id){ const b = $('mAdd'); const on = cart.includes(id); b.textContent = on ? 'In cart ✓ (click to remove)' : 'Add to cart'; b.className = 'add' + (on?' in':''); b.dataset.add = id; }
+function showImg(src, alt){ $('mBig').src = src; $('mBig').alt = alt; }
+function openModel(id){
+  const m = byId[id]; $('modal').dataset.id = id;
+  $('mName').textContent = m.name;
+  $('mFmts').innerHTML = m.formats.map(f => `<span>${FMT_NOTE[f]||f}</span>`).join('');
+  $('mDesc').textContent = m.cat==='cam' ? CAM_NOTE : m.cat==='bodies' ? 'Body only, ready to machine.' : m.cat==='basses' ? 'Bass guitar model.' : 'Full instrument model.';
+  $('mPrice').textContent = money(m.price);
+  const views = Object.keys(m.images);
+  showImg(img(m,'iso'), m.name);
+  $('mThumbs').innerHTML = views.map(v => `<button data-view="${m.images[v]}" aria-label="${VIEW_LABEL[v]||v}" ${v==='iso'?'aria-current="true"':''}><img src="${m.images[v]}" alt="${VIEW_LABEL[v]||v}"></button>`).join('');
+  setMAdd(id); open('modal');
+}
+function setPackBtn(){ const b = $('mAdd'), on = cart.includes('PACK'); b.textContent = on ? 'In cart ✓ (click to remove)' : 'Add Pack to cart'; b.className = 'add'+(on?' in':''); b.dataset.add = 'PACK'; }
+function openPack(){
+  $('modal').dataset.id = 'PACK';
+  const ms = PACK.models.map(i => byId[i]).filter(Boolean);
+  $('mName').textContent = `${PACK.name}: ${ms.length} models`;
+  $('mFmts').innerHTML = ['f3d','step','stl'].map(f => `<span>${FMT_NOTE[f]}</span>`).join('');
+  const sum = ms.reduce((a,m)=>a+m.price,0);
+  $('mDesc').textContent = `${ms.length} models worth ${money(sum)} if bought one by one. ` + ms.map(m=>m.name).join(', ') + '.';
+  $('mPrice').textContent = money(PACK.price);
+  showImg(img(ms[0]), PACK.name);
+  $('mThumbs').innerHTML = ms.map(m => `<button data-view="${img(m,'front')}" aria-label="${esc(m.name)}"><img src="${img(m,'front')}" alt="${esc(m.name)}"></button>`).join('');
+  setPackBtn(); open('modal');
+}
+function open(id){ closeAll(true); $(id).classList.add('open'); $('back').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeAll(keep){ ['modal','drawer','doneModal'].forEach(i => $(i).classList.remove('open')); if(!keep){ $('back').classList.remove('open'); document.body.style.overflow=''; } }
+
+// ---- eventos ----
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-add],[data-open],[data-rm],[data-view]'); if (!t) return;
+  if (t.dataset.add) toggle(t.dataset.add);
+  else if (t.dataset.open) openModel(t.dataset.open);
+  else if (t.dataset.rm) toggle(t.dataset.rm);
+  else if (t.dataset.view) { showImg(t.dataset.view, ''); document.querySelectorAll('#mThumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current','true'); }
+});
+$('cartBtn').onclick = () => { drawLines(); open('drawer'); };
+$('packDeal').onclick = openPack;
+['mClose','dClose','back'].forEach(i => $(i).onclick = () => closeAll());
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeAll(); });
+$('q').oninput = e => { q = e.target.value.trim().toLowerCase(); render(); };
+$('sort').onchange = e => { sort = e.target.value; render(); };
+$('fb').href = CFG.FACEBOOK || '#';
+$('tabs').innerHTML = CATS.map(([k,l]) => `<button class="tab" data-tab="${k}" aria-pressed="${k==='all'}">${l}</button>`).join('');
+$('tabs').onclick = e => { const b = e.target.closest('[data-tab]'); if(!b) return; cat = b.dataset.tab; document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-pressed', x===b)); render(); };
+
+// ---- datos ----
+Promise.all([fetch('catalog.json').then(r=>r.json()), fetch('pack.json').then(r=>r.json())]).then(([c,p]) => {
+  ALL = c; PACK = p; ALL.forEach(m => byId[m.id] = m);
+  cart = cart.filter(i => i==='PACK' || byId[i]);
+  PACK.models = PACK.models.filter(i => byId[i]);
+  const sum = PACK.models.reduce((a,i)=>a+byId[i].price,0);
+  $('packTitle').textContent = `${PACK.name}: ${PACK.models.length} models for USD ${PACK.price}`;
+  $('packSub').textContent = `Worth USD ${sum} one by one. See what's inside`;
+  update();
+}).catch(() => { $('grid').innerHTML = '<p class="empty">Could not load the catalog. Reload the page.</p>'; });
+})();
 </script>
 </body>
 </html>

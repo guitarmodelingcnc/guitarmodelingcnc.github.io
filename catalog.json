@@ -1,0 +1,4467 @@
+[
+ {
+  "id": "42_Trastes",
+  "slug": "42-trastes",
+  "name": "MONSTER 42!!",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/42-trastes/front.jpg",
+   "back": "images/42-trastes/back.jpg",
+   "caballera": "images/42-trastes/caballera.jpg",
+   "iso": "images/42-trastes/iso.jpg",
+   "persp_b": "images/42-trastes/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540P_HS_v_2.0",
+  "slug": "540p-hs-v-2-0",
+  "name": "540P HS v 2.0",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540p-hs-v-2-0/front.jpg",
+   "back": "images/540p-hs-v-2-0/back.jpg",
+   "caballera": "images/540p-hs-v-2-0/caballera.jpg",
+   "iso": "images/540p-hs-v-2-0/iso.jpg",
+   "persp_b": "images/540p-hs-v-2-0/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_2.0",
+  "slug": "540pii-2-0",
+  "name": "540pii 2.0",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-2-0/front.jpg",
+   "back": "images/540pii-2-0/back.jpg",
+   "caballera": "images/540pii-2-0/caballera.jpg",
+   "iso": "images/540pii-2-0/iso.jpg",
+   "persp_b": "images/540pii-2-0/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_2.RG",
+  "slug": "540pii-2-rg",
+  "name": "540pii 2.RG",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-2-rg/front.jpg",
+   "back": "images/540pii-2-rg/back.jpg",
+   "caballera": "images/540pii-2-rg/caballera.jpg",
+   "iso": "images/540pii-2-rg/iso.jpg",
+   "persp_b": "images/540pii-2-rg/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_2.RG_Controls",
+  "slug": "540pii-2-rg-controls",
+  "name": "540pii 2.RG Controls",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-2-rg-controls/front.jpg",
+   "back": "images/540pii-2-rg-controls/back.jpg",
+   "caballera": "images/540pii-2-rg-controls/caballera.jpg",
+   "iso": "images/540pii-2-rg-controls/iso.jpg",
+   "persp_b": "images/540pii-2-rg-controls/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_27_frets",
+  "slug": "540pii-27-frets",
+  "name": "540pii 27 frets",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-27-frets/front.jpg",
+   "back": "images/540pii-27-frets/back.jpg",
+   "caballera": "images/540pii-27-frets/caballera.jpg",
+   "iso": "images/540pii-27-frets/iso.jpg",
+   "persp_b": "images/540pii-27-frets/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_3.0_HH_y_HS",
+  "slug": "540pii-3-0-hh-y-hs",
+  "name": "540pii 3.0 HH y HS",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-3-0-hh-y-hs/front.jpg",
+   "back": "images/540pii-3-0-hh-y-hs/back.jpg",
+   "caballera": "images/540pii-3-0-hh-y-hs/caballera.jpg",
+   "iso": "images/540pii-3-0-hh-y-hs/iso.jpg",
+   "persp_b": "images/540pii-3-0-hh-y-hs/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_3.RG",
+  "slug": "540pii-3-rg",
+  "name": "540pii 3.RG",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-3-rg/front.jpg",
+   "back": "images/540pii-3-rg/back.jpg",
+   "caballera": "images/540pii-3-rg/caballera.jpg",
+   "iso": "images/540pii-3-rg/iso.jpg",
+   "persp_b": "images/540pii-3-rg/persp_b.jpg"
+  }
+ },
+ {
+  "id": "540pii_Meets_RGD",
+  "slug": "540pii-meets-rgd",
+  "name": "540pii Meets RGD",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/540pii-meets-rgd/front.jpg",
+   "back": "images/540pii-meets-rgd/back.jpg",
+   "caballera": "images/540pii-meets-rgd/caballera.jpg",
+   "iso": "images/540pii-meets-rgd/iso.jpg",
+   "persp_b": "images/540pii-meets-rgd/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ADRIAN_HAMMER",
+  "slug": "adrian-hammer",
+  "name": "ADRIAN HAMMER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/adrian-hammer/front.jpg",
+   "back": "images/adrian-hammer/back.jpg",
+   "caballera": "images/adrian-hammer/caballera.jpg",
+   "iso": "images/adrian-hammer/iso.jpg",
+   "persp_b": "images/adrian-hammer/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ALL_STRATS_2",
+  "slug": "all-strats-2",
+  "name": "ALL STRATS 2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/all-strats-2/front.jpg",
+   "back": "images/all-strats-2/back.jpg",
+   "caballera": "images/all-strats-2/caballera.jpg",
+   "iso": "images/all-strats-2/iso.jpg",
+   "persp_b": "images/all-strats-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "axis",
+  "slug": "axis",
+  "name": "axis",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/axis/front.jpg",
+   "back": "images/axis/back.jpg",
+   "caballera": "images/axis/caballera.jpg",
+   "iso": "images/axis/iso.jpg",
+   "persp_b": "images/axis/persp_b.jpg"
+  }
+ },
+ {
+  "id": "bass_precision",
+  "slug": "bass-precision",
+  "name": "bass precision",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bass-precision/front.jpg",
+   "back": "images/bass-precision/back.jpg",
+   "caballera": "images/bass-precision/caballera.jpg",
+   "iso": "images/bass-precision/iso.jpg",
+   "persp_b": "images/bass-precision/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BC_RICH_BITCH",
+  "slug": "bc-rich-bitch",
+  "name": "BC RICH BITCH",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bc-rich-bitch/front.jpg",
+   "back": "images/bc-rich-bitch/back.jpg",
+   "caballera": "images/bc-rich-bitch/caballera.jpg",
+   "iso": "images/bc-rich-bitch/iso.jpg",
+   "persp_b": "images/bc-rich-bitch/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BC_Rich_IGNITOR_6_Strings",
+  "slug": "bc-rich-ignitor-6-strings",
+  "name": "BC Rich IGNITOR 6 Strings",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bc-rich-ignitor-6-strings/front.jpg",
+   "back": "images/bc-rich-ignitor-6-strings/back.jpg",
+   "caballera": "images/bc-rich-ignitor-6-strings/caballera.jpg",
+   "iso": "images/bc-rich-ignitor-6-strings/iso.jpg",
+   "persp_b": "images/bc-rich-ignitor-6-strings/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BC_Rich_IGNITOR_6_Strings_bolt_on",
+  "slug": "bc-rich-ignitor-6-strings-bolt-on",
+  "name": "BC Rich IGNITOR 6 Strings bolt on",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bc-rich-ignitor-6-strings-bolt-on/front.jpg",
+   "back": "images/bc-rich-ignitor-6-strings-bolt-on/back.jpg",
+   "caballera": "images/bc-rich-ignitor-6-strings-bolt-on/caballera.jpg",
+   "iso": "images/bc-rich-ignitor-6-strings-bolt-on/iso.jpg",
+   "persp_b": "images/bc-rich-ignitor-6-strings-bolt-on/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BC_Rich_IGNITOR_6_Strings_v51_CLEAN",
+  "slug": "bc-rich-ignitor-6-strings-v51-clean",
+  "name": "BC Rich IGNITOR 6 Strings v51 CLEAN",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bc-rich-ignitor-6-strings-v51-clean/front.jpg",
+   "back": "images/bc-rich-ignitor-6-strings-v51-clean/back.jpg",
+   "caballera": "images/bc-rich-ignitor-6-strings-v51-clean/caballera.jpg",
+   "iso": "images/bc-rich-ignitor-6-strings-v51-clean/iso.jpg",
+   "persp_b": "images/bc-rich-ignitor-6-strings-v51-clean/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BC_Rich_IGNITOR_7_Strings",
+  "slug": "bc-rich-ignitor-7-strings",
+  "name": "BC Rich IGNITOR 7 Strings",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bc-rich-ignitor-7-strings/front.jpg",
+   "back": "images/bc-rich-ignitor-7-strings/back.jpg",
+   "caballera": "images/bc-rich-ignitor-7-strings/caballera.jpg",
+   "iso": "images/bc-rich-ignitor-7-strings/iso.jpg",
+   "persp_b": "images/bc-rich-ignitor-7-strings/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BC_RICH_STEALTH",
+  "slug": "bc-rich-stealth",
+  "name": "BC RICH STEALTH",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bc-rich-stealth/front.jpg",
+   "back": "images/bc-rich-stealth/back.jpg",
+   "caballera": "images/bc-rich-stealth/caballera.jpg",
+   "iso": "images/bc-rich-stealth/iso.jpg",
+   "persp_b": "images/bc-rich-stealth/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BODEN",
+  "slug": "boden",
+  "name": "BODEN",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/boden/front.jpg",
+   "back": "images/boden/back.jpg",
+   "caballera": "images/boden/caballera.jpg",
+   "iso": "images/boden/iso.jpg",
+   "persp_b": "images/boden/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BODEN_MULTISCALE",
+  "slug": "boden-multiscale",
+  "name": "BODEN MULTISCALE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/boden-multiscale/front.jpg",
+   "back": "images/boden-multiscale/back.jpg",
+   "caballera": "images/boden-multiscale/caballera.jpg",
+   "iso": "images/boden-multiscale/iso.jpg",
+   "persp_b": "images/boden-multiscale/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BODEN_TOP_MULTI",
+  "slug": "boden-top-multi",
+  "name": "BODEN TOP MULTI",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/boden-top-multi/front.jpg",
+   "back": "images/boden-top-multi/back.jpg",
+   "caballera": "images/boden-top-multi/caballera.jpg",
+   "iso": "images/boden-top-multi/iso.jpg",
+   "persp_b": "images/boden-top-multi/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Body__Vintage_1962",
+  "slug": "body-vintage-1962",
+  "name": "Classic Strat",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/body-vintage-1962/front.jpg",
+   "back": "images/body-vintage-1962/back.jpg",
+   "caballera": "images/body-vintage-1962/caballera.jpg",
+   "iso": "images/body-vintage-1962/iso.jpg",
+   "persp_b": "images/body-vintage-1962/persp_b.jpg"
+  }
+ },
+ {
+  "id": "BONES",
+  "slug": "bones",
+  "name": "X RAYS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/bones/front.jpg",
+   "back": "images/bones/back.jpg",
+   "caballera": "images/bones/caballera.jpg",
+   "iso": "images/bones/iso.jpg",
+   "persp_b": "images/bones/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Brown_JazzTwist",
+  "slug": "brown-jazztwist",
+  "name": "JAZZ TWIST",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/brown-jazztwist/front.jpg",
+   "back": "images/brown-jazztwist/back.jpg",
+   "caballera": "images/brown-jazztwist/caballera.jpg",
+   "iso": "images/brown-jazztwist/iso.jpg",
+   "persp_b": "images/brown-jazztwist/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Burnt_tiger_ESP",
+  "slug": "burnt-tiger-esp",
+  "name": "Burnt tiger ESP",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/burnt-tiger-esp/front.jpg",
+   "back": "images/burnt-tiger-esp/back.jpg",
+   "caballera": "images/burnt-tiger-esp/caballera.jpg",
+   "iso": "images/burnt-tiger-esp/iso.jpg",
+   "persp_b": "images/burnt-tiger-esp/persp_b.jpg"
+  }
+ },
+ {
+  "id": "CHARVEL_DK24_ROUNDED",
+  "slug": "charvel-dk24-rounded",
+  "name": "CHARVEL DK24 ROUNDED",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/charvel-dk24-rounded/front.jpg",
+   "back": "images/charvel-dk24-rounded/back.jpg",
+   "caballera": "images/charvel-dk24-rounded/caballera.jpg",
+   "iso": "images/charvel-dk24-rounded/iso.jpg",
+   "persp_b": "images/charvel-dk24-rounded/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Charvel_Model_1",
+  "slug": "charvel-model-1",
+  "name": "Charvel Model 1",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/charvel-model-1/front.jpg",
+   "back": "images/charvel-model-1/back.jpg",
+   "caballera": "images/charvel-model-1/caballera.jpg",
+   "iso": "images/charvel-model-1/iso.jpg",
+   "persp_b": "images/charvel-model-1/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Chris_Gee_Hampa",
+  "slug": "chris-gee-hampa",
+  "name": "HAMPA",
+  "cat": "guitars",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/chris-gee-hampa/front.jpg",
+   "back": "images/chris-gee-hampa/back.jpg",
+   "caballera": "images/chris-gee-hampa/caballera.jpg",
+   "iso": "images/chris-gee-hampa/iso.jpg",
+   "persp_b": "images/chris-gee-hampa/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Ciberpunk_2077",
+  "slug": "ciberpunk-2077",
+  "name": "Ciberpunk 2077",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ciberpunk-2077/front.jpg",
+   "back": "images/ciberpunk-2077/back.jpg",
+   "caballera": "images/ciberpunk-2077/caballera.jpg",
+   "iso": "images/ciberpunk-2077/iso.jpg",
+   "persp_b": "images/ciberpunk-2077/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Cool_modern_strat",
+  "slug": "cool-modern-strat",
+  "name": "Cool modern strat",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/cool-modern-strat/front.jpg",
+   "back": "images/cool-modern-strat/back.jpg",
+   "caballera": "images/cool-modern-strat/caballera.jpg",
+   "iso": "images/cool-modern-strat/iso.jpg",
+   "persp_b": "images/cool-modern-strat/persp_b.jpg"
+  }
+ },
+ {
+  "id": "CUERPO_JPM",
+  "slug": "cuerpo-jpm",
+  "name": "CUERPO JPM",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/cuerpo-jpm/front.jpg",
+   "back": "images/cuerpo-jpm/back.jpg",
+   "caballera": "images/cuerpo-jpm/caballera.jpg",
+   "iso": "images/cuerpo-jpm/iso.jpg",
+   "persp_b": "images/cuerpo-jpm/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Custon_jazzwaster",
+  "slug": "custon-jazzwaster",
+  "name": "JAZZWASTER",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/custon-jazzwaster/front.jpg",
+   "back": "images/custon-jazzwaster/back.jpg",
+   "caballera": "images/custon-jazzwaster/caballera.jpg",
+   "iso": "images/custon-jazzwaster/iso.jpg",
+   "persp_b": "images/custon-jazzwaster/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Danijel_custom",
+  "slug": "danijel-custom",
+  "name": "FuSSion Custom",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/danijel-custom/front.jpg",
+   "back": "images/danijel-custom/back.jpg",
+   "caballera": "images/danijel-custom/caballera.jpg",
+   "iso": "images/danijel-custom/iso.jpg",
+   "persp_b": "images/danijel-custom/persp_b.jpg"
+  }
+ },
+ {
+  "id": "DEATH_DAGGER",
+  "slug": "death-dagger",
+  "name": "DEATH DAGGER",
+  "cat": "guitars",
+  "price": 20,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/death-dagger/front.jpg",
+   "back": "images/death-dagger/back.jpg",
+   "caballera": "images/death-dagger/caballera.jpg",
+   "iso": "images/death-dagger/iso.jpg",
+   "persp_b": "images/death-dagger/persp_b.jpg"
+  }
+ },
+ {
+  "id": "DEATH_IRON_WESTONE",
+  "slug": "death-iron-westone",
+  "name": "DEATH IRON WESTONE",
+  "cat": "guitars",
+  "price": 30,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/death-iron-westone/front.jpg",
+   "back": "images/death-iron-westone/back.jpg",
+   "caballera": "images/death-iron-westone/caballera.jpg",
+   "iso": "images/death-iron-westone/iso.jpg",
+   "persp_b": "images/death-iron-westone/persp_b.jpg"
+  }
+ },
+ {
+  "id": "DINKY",
+  "slug": "dinky",
+  "name": "DINKY",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/dinky/front.jpg",
+   "back": "images/dinky/back.jpg",
+   "caballera": "images/dinky/caballera.jpg",
+   "iso": "images/dinky/iso.jpg",
+   "persp_b": "images/dinky/persp_b.jpg"
+  }
+ },
+ {
+  "id": "DK_24_body",
+  "slug": "dk-24-body",
+  "name": "DK 24 body",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/dk-24-body/front.jpg",
+   "back": "images/dk-24-body/back.jpg",
+   "caballera": "images/dk-24-body/caballera.jpg",
+   "iso": "images/dk-24-body/iso.jpg",
+   "persp_b": "images/dk-24-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ECHOPARK_LES_PAUL",
+  "slug": "echopark-les-paul",
+  "name": "ECHOPARK LES PAUL",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/echopark-les-paul/front.jpg",
+   "back": "images/echopark-les-paul/back.jpg",
+   "caballera": "images/echopark-les-paul/caballera.jpg",
+   "iso": "images/echopark-les-paul/iso.jpg",
+   "persp_b": "images/echopark-les-paul/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ELECTRAJET",
+  "slug": "electrajet",
+  "name": "ELECTRAJET",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/electrajet/front.jpg",
+   "back": "images/electrajet/back.jpg",
+   "caballera": "images/electrajet/caballera.jpg",
+   "iso": "images/electrajet/iso.jpg",
+   "persp_b": "images/electrajet/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ELECTRAJET_P90",
+  "slug": "electrajet-p90",
+  "name": "ELECTRAJET P90",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/electrajet-p90/front.jpg",
+   "back": "images/electrajet-p90/back.jpg",
+   "caballera": "images/electrajet-p90/caballera.jpg",
+   "iso": "images/electrajet-p90/iso.jpg",
+   "persp_b": "images/electrajet-p90/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Electric_Bass_Guitar_v23",
+  "slug": "electric-bass-guitar-v23",
+  "name": "Electric Bass Guitar v23",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/electric-bass-guitar-v23/front.jpg",
+   "back": "images/electric-bass-guitar-v23/back.jpg",
+   "caballera": "images/electric-bass-guitar-v23/caballera.jpg",
+   "iso": "images/electric-bass-guitar-v23/iso.jpg",
+   "persp_b": "images/electric-bass-guitar-v23/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Ensemble_Guitare_Gretsch_R26",
+  "slug": "ensemble-guitare-gretsch-r26",
+  "name": "Ensemble Guitare Gretsch R26",
+  "cat": "guitars",
+  "price": 30,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ensemble-guitare-gretsch-r26/front.jpg",
+   "back": "images/ensemble-guitare-gretsch-r26/back.jpg",
+   "caballera": "images/ensemble-guitare-gretsch-r26/caballera.jpg",
+   "iso": "images/ensemble-guitare-gretsch-r26/iso.jpg",
+   "persp_b": "images/ensemble-guitare-gretsch-r26/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ERNIE_BALL_MM_VH",
+  "slug": "ernie-ball-mm-vh",
+  "name": "ERNIE BALL MM VH",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ernie-ball-mm-vh/front.jpg",
+   "back": "images/ernie-ball-mm-vh/back.jpg",
+   "caballera": "images/ernie-ball-mm-vh/caballera.jpg",
+   "iso": "images/ernie-ball-mm-vh/iso.jpg",
+   "persp_b": "images/ernie-ball-mm-vh/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_HORIZONT_6_FLoyd",
+  "slug": "esp-horizont-6-floyd",
+  "name": "ESP HORIZONT 6 FLoyd 15mm",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-horizont-6-floyd/front.jpg",
+   "back": "images/esp-horizont-6-floyd/back.jpg",
+   "caballera": "images/esp-horizont-6-floyd/caballera.jpg",
+   "iso": "images/esp-horizont-6-floyd/iso.jpg",
+   "persp_b": "images/esp-horizont-6-floyd/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_HORIZONT_6_FLoyd_v9mm",
+  "slug": "esp-horizont-6-floyd-v9mm",
+  "name": "ESP HORIZONT 6 FLoyd v9mm",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-horizont-6-floyd-v9mm/front.jpg",
+   "back": "images/esp-horizont-6-floyd-v9mm/back.jpg",
+   "caballera": "images/esp-horizont-6-floyd-v9mm/caballera.jpg",
+   "iso": "images/esp-horizont-6-floyd-v9mm/iso.jpg",
+   "persp_b": "images/esp-horizont-6-floyd-v9mm/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_HORIZONT_6_Stings",
+  "slug": "esp-horizont-6-stings",
+  "name": "ESP HORIZONT 6 Stings 15mm",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-horizont-6-stings/front.jpg",
+   "back": "images/esp-horizont-6-stings/back.jpg",
+   "caballera": "images/esp-horizont-6-stings/caballera.jpg",
+   "iso": "images/esp-horizont-6-stings/iso.jpg",
+   "persp_b": "images/esp-horizont-6-stings/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_HORIZONT_6_Strings",
+  "slug": "esp-horizont-6-strings",
+  "name": "ESP HORIZONT 6 Strings",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-horizont-6-strings/front.jpg",
+   "back": "images/esp-horizont-6-strings/back.jpg",
+   "caballera": "images/esp-horizont-6-strings/caballera.jpg",
+   "iso": "images/esp-horizont-6-strings/iso.jpg",
+   "persp_b": "images/esp-horizont-6-strings/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_Kamizake",
+  "slug": "esp-kamizake",
+  "name": "ESP Kamizake",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-kamizake/front.jpg",
+   "back": "images/esp-kamizake/back.jpg",
+   "caballera": "images/esp-kamizake/caballera.jpg",
+   "iso": "images/esp-kamizake/iso.jpg",
+   "persp_b": "images/esp-kamizake/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_MII_24_Trastes",
+  "slug": "esp-mii-24-trastes",
+  "name": "ESP MII 24 Trastes",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-mii-24-trastes/front.jpg",
+   "back": "images/esp-mii-24-trastes/back.jpg",
+   "caballera": "images/esp-mii-24-trastes/caballera.jpg",
+   "iso": "images/esp-mii-24-trastes/iso.jpg",
+   "persp_b": "images/esp-mii-24-trastes/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_M-II_Body",
+  "slug": "esp-m-ii-body",
+  "name": "ESP M-II Body",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-m-ii-body/front.jpg",
+   "back": "images/esp-m-ii-body/back.jpg",
+   "caballera": "images/esp-m-ii-body/caballera.jpg",
+   "iso": "images/esp-m-ii-body/iso.jpg",
+   "persp_b": "images/esp-m-ii-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ESP_M-II_Body_v15_-_AUTOCAM",
+  "slug": "esp-m-ii-body-v15-autocam",
+  "name": "ESP M-II Body v15 - AUTOCAM",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/esp-m-ii-body-v15-autocam/front.jpg",
+   "back": "images/esp-m-ii-body-v15-autocam/back.jpg",
+   "caballera": "images/esp-m-ii-body-v15-autocam/caballera.jpg",
+   "iso": "images/esp-m-ii-body-v15-autocam/iso.jpg",
+   "persp_b": "images/esp-m-ii-body-v15-autocam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Fender_Jaguar_Body",
+  "slug": "fender-jaguar-body",
+  "name": "Fender Jaguar Body",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/fender-jaguar-body/front.jpg",
+   "back": "images/fender-jaguar-body/back.jpg",
+   "caballera": "images/fender-jaguar-body/caballera.jpg",
+   "iso": "images/fender-jaguar-body/iso.jpg",
+   "persp_b": "images/fender-jaguar-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "FENDER_TALON",
+  "slug": "fender-talon",
+  "name": "FENDER TALON",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/fender-talon/front.jpg",
+   "back": "images/fender-talon/back.jpg",
+   "caballera": "images/fender-talon/caballera.jpg",
+   "iso": "images/fender-talon/iso.jpg",
+   "persp_b": "images/fender-talon/persp_b.jpg"
+  }
+ },
+ {
+  "id": "FLAME",
+  "slug": "flame",
+  "name": "FLAME",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/flame/front.jpg",
+   "back": "images/flame/back.jpg",
+   "caballera": "images/flame/caballera.jpg",
+   "iso": "images/flame/iso.jpg",
+   "persp_b": "images/flame/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Flame_Body_front_v3",
+  "slug": "flame-body-front-v3",
+  "name": "Flame Body front v3",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/flame-body-front-v3/front.jpg",
+   "back": "images/flame-body-front-v3/back.jpg",
+   "caballera": "images/flame-body-front-v3/caballera.jpg",
+   "iso": "images/flame-body-front-v3/iso.jpg",
+   "persp_b": "images/flame-body-front-v3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Gibson__59_Les_Paul",
+  "slug": "gibson-59-les-paul",
+  "name": "Gibson  59 Les Paul",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/gibson-59-les-paul/front.jpg",
+   "back": "images/gibson-59-les-paul/back.jpg",
+   "caballera": "images/gibson-59-les-paul/caballera.jpg",
+   "iso": "images/gibson-59-les-paul/iso.jpg",
+   "persp_b": "images/gibson-59-les-paul/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Gibson_ES_335",
+  "slug": "gibson-es-335",
+  "name": "Gibson ES 335",
+  "cat": "guitars",
+  "price": 30,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/gibson-es-335/front.jpg",
+   "back": "images/gibson-es-335/back.jpg",
+   "caballera": "images/gibson-es-335/caballera.jpg",
+   "iso": "images/gibson-es-335/iso.jpg",
+   "persp_b": "images/gibson-es-335/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Gibson_V_1958",
+  "slug": "gibson-v-1958",
+  "name": "Gibson V 1958",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/gibson-v-1958/front.jpg",
+   "back": "images/gibson-v-1958/back.jpg",
+   "caballera": "images/gibson-v-1958/caballera.jpg",
+   "iso": "images/gibson-v-1958/iso.jpg",
+   "persp_b": "images/gibson-v-1958/persp_b.jpg"
+  }
+ },
+ {
+  "id": "GREEN_MEDUSSA_TAKE_2",
+  "slug": "green-medussa-take-2",
+  "name": "GREEN MEDUSSA TAKE 2",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/green-medussa-take-2/front.jpg",
+   "back": "images/green-medussa-take-2/back.jpg",
+   "caballera": "images/green-medussa-take-2/caballera.jpg",
+   "iso": "images/green-medussa-take-2/iso.jpg",
+   "persp_b": "images/green-medussa-take-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HELLRAISER_v9",
+  "slug": "hellraiser-v9",
+  "name": "HELLRAISER v9",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/hellraiser-v9/front.jpg",
+   "back": "images/hellraiser-v9/back.jpg",
+   "caballera": "images/hellraiser-v9/caballera.jpg",
+   "iso": "images/hellraiser-v9/iso.jpg",
+   "persp_b": "images/hellraiser-v9/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HETFIELD_EXPLORER_HEADSTOCK",
+  "slug": "hetfield-explorer-headstock",
+  "name": "HETFIELD EXPLORER HEADSTOCK",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/hetfield-explorer-headstock/front.jpg",
+   "back": "images/hetfield-explorer-headstock/back.jpg",
+   "caballera": "images/hetfield-explorer-headstock/caballera.jpg",
+   "iso": "images/hetfield-explorer-headstock/iso.jpg",
+   "persp_b": "images/hetfield-explorer-headstock/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HIGER_7__H_Cuerdas_HARD_TAIL",
+  "slug": "higer-7-h-cuerdas-hard-tail",
+  "name": "HIGER 7  H Cuerdas HARD TAIL",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/higer-7-h-cuerdas-hard-tail/front.jpg",
+   "back": "images/higer-7-h-cuerdas-hard-tail/back.jpg",
+   "caballera": "images/higer-7-h-cuerdas-hard-tail/caballera.jpg",
+   "iso": "images/higer-7-h-cuerdas-hard-tail/iso.jpg",
+   "persp_b": "images/higer-7-h-cuerdas-hard-tail/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HIGER_7_Cuerdas",
+  "slug": "higer-7-cuerdas",
+  "name": "HIGER 7 Cuerdas",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/higer-7-cuerdas/front.jpg",
+   "back": "images/higer-7-cuerdas/back.jpg",
+   "caballera": "images/higer-7-cuerdas/caballera.jpg",
+   "iso": "images/higer-7-cuerdas/iso.jpg",
+   "persp_b": "images/higer-7-cuerdas/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HIGER_7_Cuerdas_HARD_TAIL",
+  "slug": "higer-7-cuerdas-hard-tail",
+  "name": "HIGER 7 Cuerdas HARD TAIL",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/higer-7-cuerdas-hard-tail/front.jpg",
+   "back": "images/higer-7-cuerdas-hard-tail/back.jpg",
+   "caballera": "images/higer-7-cuerdas-hard-tail/caballera.jpg",
+   "iso": "images/higer-7-cuerdas-hard-tail/iso.jpg",
+   "persp_b": "images/higer-7-cuerdas-hard-tail/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HIGER_Completo",
+  "slug": "higer-completo",
+  "name": "HIGER Completo",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/higer-completo/front.jpg",
+   "back": "images/higer-completo/back.jpg",
+   "caballera": "images/higer-completo/caballera.jpg",
+   "iso": "images/higer-completo/iso.jpg",
+   "persp_b": "images/higer-completo/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HIGER_Completo_2",
+  "slug": "higer-completo-2",
+  "name": "HIGER Completo 2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/higer-completo-2/front.jpg",
+   "back": "images/higer-completo-2/back.jpg",
+   "caballera": "images/higer-completo-2/caballera.jpg",
+   "iso": "images/higer-completo-2/iso.jpg",
+   "persp_b": "images/higer-completo-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HORUS_ALA",
+  "slug": "horus-ala",
+  "name": "HORUS ALA",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/horus-ala/front.jpg",
+   "back": "images/horus-ala/back.jpg",
+   "caballera": "images/horus-ala/caballera.jpg",
+   "iso": "images/horus-ala/iso.jpg",
+   "persp_b": "images/horus-ala/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HORUS_BODY",
+  "slug": "horus-body",
+  "name": "HORUS BODY",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/horus-body/front.jpg",
+   "back": "images/horus-body/back.jpg",
+   "caballera": "images/horus-body/caballera.jpg",
+   "iso": "images/horus-body/iso.jpg",
+   "persp_b": "images/horus-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "HORUS_EYE",
+  "slug": "horus-eye",
+  "name": "HORUS EYE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/horus-eye/front.jpg",
+   "back": "images/horus-eye/back.jpg",
+   "caballera": "images/horus-eye/caballera.jpg",
+   "iso": "images/horus-eye/iso.jpg",
+   "persp_b": "images/horus-eye/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Ibanez_AZ_TELE",
+  "slug": "ibanez-az-tele",
+  "name": "Ibanez AZ TELE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-az-tele/front.jpg",
+   "back": "images/ibanez-az-tele/back.jpg",
+   "caballera": "images/ibanez-az-tele/caballera.jpg",
+   "iso": "images/ibanez-az-tele/iso.jpg",
+   "persp_b": "images/ibanez-az-tele/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Ibanez_Iceman_24.75",
+  "slug": "ibanez-iceman-24-75",
+  "name": "Ibanez Iceman 24.75",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-iceman-24-75/front.jpg",
+   "back": "images/ibanez-iceman-24-75/back.jpg",
+   "caballera": "images/ibanez-iceman-24-75/caballera.jpg",
+   "iso": "images/ibanez-iceman-24-75/iso.jpg",
+   "persp_b": "images/ibanez-iceman-24-75/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Ibanez_JEM_-_AANJ__FULL_CAM",
+  "slug": "ibanez-jem-aanj-full-cam",
+  "name": "Ibanez JEM - AANJ  FULL CAM",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-jem-aanj-full-cam/front.jpg",
+   "back": "images/ibanez-jem-aanj-full-cam/back.jpg",
+   "caballera": "images/ibanez-jem-aanj-full-cam/caballera.jpg",
+   "iso": "images/ibanez-jem-aanj-full-cam/iso.jpg",
+   "persp_b": "images/ibanez-jem-aanj-full-cam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "IBANEZ_S_2",
+  "slug": "ibanez-s-2",
+  "name": "IBANEZ S 2",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-s-2/front.jpg",
+   "back": "images/ibanez-s-2/back.jpg",
+   "caballera": "images/ibanez-s-2/caballera.jpg",
+   "iso": "images/ibanez-s-2/iso.jpg",
+   "persp_b": "images/ibanez-s-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_FR_HH_AANJ_FINAL",
+  "slug": "ibanez-540p-fr-hh-aanj-final",
+  "name": "ibanez-540P FR HH AANJ FINAL",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-fr-hh-aanj-final/front.jpg",
+   "back": "images/ibanez-540p-fr-hh-aanj-final/back.jpg",
+   "caballera": "images/ibanez-540p-fr-hh-aanj-final/caballera.jpg",
+   "iso": "images/ibanez-540p-fr-hh-aanj-final/iso.jpg",
+   "persp_b": "images/ibanez-540p-fr-hh-aanj-final/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_FR_HH_AANJ_FINAL_JPM_PICASSO",
+  "slug": "ibanez-540p-fr-hh-aanj-final-jpm-picasso",
+  "name": "ibanez-540P FR HH AANJ FINAL JPM PICASSO",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/front.jpg",
+   "back": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/back.jpg",
+   "caballera": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/caballera.jpg",
+   "iso": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/iso.jpg",
+   "persp_b": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_FR_HH_AANJ_RGD_1_BISEL_MONKEYG_v2",
+  "slug": "ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2",
+  "name": "ibanez-540P FR HH AANJ RGD 1 BISEL MONKEYG v2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/front.jpg",
+   "back": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/back.jpg",
+   "caballera": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/caballera.jpg",
+   "iso": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/iso.jpg",
+   "persp_b": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_FR_HH_MONKEY_GRIP_FINAL_v2",
+  "slug": "ibanez-540p-fr-hh-monkey-grip-final-v2",
+  "name": "ibanez-540P FR HH MONKEY GRIP FINAL v2",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/front.jpg",
+   "back": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/back.jpg",
+   "caballera": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/caballera.jpg",
+   "iso": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/iso.jpg",
+   "persp_b": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_FR_HS_AANJ_FINAL",
+  "slug": "ibanez-540p-fr-hs-aanj-final",
+  "name": "ibanez-540P FR HS AANJ FINAL",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-fr-hs-aanj-final/front.jpg",
+   "back": "images/ibanez-540p-fr-hs-aanj-final/back.jpg",
+   "caballera": "images/ibanez-540p-fr-hs-aanj-final/caballera.jpg",
+   "iso": "images/ibanez-540p-fr-hs-aanj-final/iso.jpg",
+   "persp_b": "images/ibanez-540p-fr-hs-aanj-final/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_Petal_2_v5_Rigth",
+  "slug": "ibanez-540p-petal-2-v5-rigth",
+  "name": "ibanez-540P Petal 2 v5 Rigth",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-petal-2-v5-rigth/front.jpg",
+   "back": "images/ibanez-540p-petal-2-v5-rigth/back.jpg",
+   "caballera": "images/ibanez-540p-petal-2-v5-rigth/caballera.jpg",
+   "iso": "images/ibanez-540p-petal-2-v5-rigth/iso.jpg",
+   "persp_b": "images/ibanez-540p-petal-2-v5-rigth/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540P_RGD_v10",
+  "slug": "ibanez-540p-rgd-v10",
+  "name": "ibanez-540P RGD v10",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540p-rgd-v10/front.jpg",
+   "back": "images/ibanez-540p-rgd-v10/back.jpg",
+   "caballera": "images/ibanez-540p-rgd-v10/caballera.jpg",
+   "iso": "images/ibanez-540p-rgd-v10/iso.jpg",
+   "persp_b": "images/ibanez-540p-rgd-v10/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540PII_DIENTES",
+  "slug": "ibanez-540pii-dientes",
+  "name": "ibanez-540PII DIENTES",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540pii-dientes/front.jpg",
+   "back": "images/ibanez-540pii-dientes/back.jpg",
+   "caballera": "images/ibanez-540pii-dientes/caballera.jpg",
+   "iso": "images/ibanez-540pii-dientes/iso.jpg",
+   "persp_b": "images/ibanez-540pii-dientes/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540PII_DIENTES_REVERSED",
+  "slug": "ibanez-540pii-dientes-reversed",
+  "name": "MEDUSSA",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540pii-dientes-reversed/front.jpg",
+   "back": "images/ibanez-540pii-dientes-reversed/back.jpg",
+   "caballera": "images/ibanez-540pii-dientes-reversed/caballera.jpg",
+   "iso": "images/ibanez-540pii-dientes-reversed/iso.jpg",
+   "persp_b": "images/ibanez-540pii-dientes-reversed/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540PII_OFF_DOTS",
+  "slug": "ibanez-540pii-off-dots",
+  "name": "ibanez-540PII OFF DOTS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540pii-off-dots/front.jpg",
+   "back": "images/ibanez-540pii-off-dots/back.jpg",
+   "caballera": "images/ibanez-540pii-off-dots/caballera.jpg",
+   "iso": "images/ibanez-540pii-off-dots/iso.jpg",
+   "persp_b": "images/ibanez-540pii-off-dots/persp_b.jpg"
+  }
+ },
+ {
+  "id": "ibanez-540PII_RGD_DIENTES",
+  "slug": "ibanez-540pii-rgd-dientes",
+  "name": "ibanez-540PII RGD DIENTES",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-540pii-rgd-dientes/front.jpg",
+   "back": "images/ibanez-540pii-rgd-dientes/back.jpg",
+   "caballera": "images/ibanez-540pii-rgd-dientes/caballera.jpg",
+   "iso": "images/ibanez-540pii-rgd-dientes/iso.jpg",
+   "persp_b": "images/ibanez-540pii-rgd-dientes/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Ibanez-Xiphos-XPT700_v23_RIGTH",
+  "slug": "ibanez-xiphos-xpt700-v23-rigth",
+  "name": "Ibanez-Xiphos-XPT700 v23 RIGTH",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ibanez-xiphos-xpt700-v23-rigth/front.jpg",
+   "back": "images/ibanez-xiphos-xpt700-v23-rigth/back.jpg",
+   "caballera": "images/ibanez-xiphos-xpt700-v23-rigth/caballera.jpg",
+   "iso": "images/ibanez-xiphos-xpt700-v23-rigth/iso.jpg",
+   "persp_b": "images/ibanez-xiphos-xpt700-v23-rigth/persp_b.jpg"
+  }
+ },
+ {
+  "id": "IKIGAI_1",
+  "slug": "ikigai-1",
+  "name": "IKIGAI 1",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ikigai-1/front.jpg",
+   "back": "images/ikigai-1/back.jpg",
+   "caballera": "images/ikigai-1/caballera.jpg",
+   "iso": "images/ikigai-1/iso.jpg",
+   "persp_b": "images/ikigai-1/persp_b.jpg"
+  }
+ },
+ {
+  "id": "IRONBIRD",
+  "slug": "ironbird",
+  "name": "IRON BIRD",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ironbird/front.jpg",
+   "back": "images/ironbird/back.jpg",
+   "caballera": "images/ironbird/caballera.jpg",
+   "iso": "images/ironbird/iso.jpg",
+   "persp_b": "images/ironbird/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JACKSON_KELLY_WARRIOR_7_Strings_25.5",
+  "slug": "jackson-kelly-warrior-7-strings-25-5",
+  "name": "JACKSON KELLY WARRIOR 7 Strings 25.5",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-kelly-warrior-7-strings-25-5/front.jpg",
+   "back": "images/jackson-kelly-warrior-7-strings-25-5/back.jpg",
+   "caballera": "images/jackson-kelly-warrior-7-strings-25-5/caballera.jpg",
+   "iso": "images/jackson-kelly-warrior-7-strings-25-5/iso.jpg",
+   "persp_b": "images/jackson-kelly-warrior-7-strings-25-5/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Jackson_King_V_no_History",
+  "slug": "jackson-king-v-no-history",
+  "name": "Jackson King V no History",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-king-v-no-history/front.jpg",
+   "back": "images/jackson-king-v-no-history/back.jpg",
+   "caballera": "images/jackson-king-v-no-history/caballera.jpg",
+   "iso": "images/jackson-king-v-no-history/iso.jpg",
+   "persp_b": "images/jackson-king-v-no-history/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JACKSON_RHOADS_6",
+  "slug": "jackson-rhoads-6",
+  "name": "JACKSON RHOADS 6",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-rhoads-6/front.jpg",
+   "back": "images/jackson-rhoads-6/back.jpg",
+   "caballera": "images/jackson-rhoads-6/caballera.jpg",
+   "iso": "images/jackson-rhoads-6/iso.jpg",
+   "persp_b": "images/jackson-rhoads-6/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JACKSON_RHOADS_7_Strings_25.5",
+  "slug": "jackson-rhoads-7-strings-25-5",
+  "name": "JACKSON RHOADS 7 Strings 25.5",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-rhoads-7-strings-25-5/front.jpg",
+   "back": "images/jackson-rhoads-7-strings-25-5/back.jpg",
+   "caballera": "images/jackson-rhoads-7-strings-25-5/caballera.jpg",
+   "iso": "images/jackson-rhoads-7-strings-25-5/iso.jpg",
+   "persp_b": "images/jackson-rhoads-7-strings-25-5/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JACKSON_RHOADS_HH_7_Strings_25.5",
+  "slug": "jackson-rhoads-hh-7-strings-25-5",
+  "name": "JACKSON RHOADS HH 7 Strings 25.5",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-rhoads-hh-7-strings-25-5/front.jpg",
+   "back": "images/jackson-rhoads-hh-7-strings-25-5/back.jpg",
+   "caballera": "images/jackson-rhoads-hh-7-strings-25-5/caballera.jpg",
+   "iso": "images/jackson-rhoads-hh-7-strings-25-5/iso.jpg",
+   "persp_b": "images/jackson-rhoads-hh-7-strings-25-5/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JACKSON_RHOADS_LEFT",
+  "slug": "jackson-rhoads-left",
+  "name": "JACKSON RHOADS LEFT",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-rhoads-left/front.jpg",
+   "back": "images/jackson-rhoads-left/back.jpg",
+   "caballera": "images/jackson-rhoads-left/caballera.jpg",
+   "iso": "images/jackson-rhoads-left/iso.jpg",
+   "persp_b": "images/jackson-rhoads-left/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JACKSON_WARRIOR",
+  "slug": "jackson-warrior",
+  "name": "JACKSON WARRIOR",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jackson-warrior/front.jpg",
+   "back": "images/jackson-warrior/back.jpg",
+   "caballera": "images/jackson-warrior/caballera.jpg",
+   "iso": "images/jackson-warrior/iso.jpg",
+   "persp_b": "images/jackson-warrior/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Jakson_King_V",
+  "slug": "jakson-king-v",
+  "name": "Jakson King V",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jakson-king-v/front.jpg",
+   "back": "images/jakson-king-v/back.jpg",
+   "caballera": "images/jakson-king-v/caballera.jpg",
+   "iso": "images/jakson-king-v/iso.jpg",
+   "persp_b": "images/jakson-king-v/persp_b.jpg"
+  }
+ },
+ {
+  "id": "jazzmaster",
+  "slug": "jazzmaster",
+  "name": "jazzmaster",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jazzmaster/front.jpg",
+   "back": "images/jazzmaster/back.jpg",
+   "caballera": "images/jazzmaster/caballera.jpg",
+   "iso": "images/jazzmaster/iso.jpg",
+   "persp_b": "images/jazzmaster/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_505_MARTIN",
+  "slug": "jem-505-martin",
+  "name": "JEM 505 MARTIN",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-505-martin/front.jpg",
+   "back": "images/jem-505-martin/back.jpg",
+   "caballera": "images/jem-505-martin/caballera.jpg",
+   "iso": "images/jem-505-martin/iso.jpg",
+   "persp_b": "images/jem-505-martin/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_77_PBK",
+  "slug": "jem-77-pbk",
+  "name": "JEM 77 PBK",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-77-pbk/front.jpg",
+   "back": "images/jem-77-pbk/back.jpg",
+   "caballera": "images/jem-77-pbk/caballera.jpg",
+   "iso": "images/jem-77-pbk/iso.jpg",
+   "persp_b": "images/jem-77-pbk/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_777_DY",
+  "slug": "jem-777-dy",
+  "name": "JEM 777 DY",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-777-dy/front.jpg",
+   "back": "images/jem-777-dy/back.jpg",
+   "caballera": "images/jem-777-dy/caballera.jpg",
+   "iso": "images/jem-777-dy/iso.jpg",
+   "persp_b": "images/jem-777-dy/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_777_LNG",
+  "slug": "jem-777-lng",
+  "name": "JEM 777 LNG",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-777-lng/front.jpg",
+   "back": "images/jem-777-lng/back.jpg",
+   "caballera": "images/jem-777-lng/caballera.jpg",
+   "iso": "images/jem-777-lng/iso.jpg",
+   "persp_b": "images/jem-777-lng/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_7V",
+  "slug": "jem-7v",
+  "name": "JEM 7V",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-7v/front.jpg",
+   "back": "images/jem-7v/back.jpg",
+   "caballera": "images/jem-7v/caballera.jpg",
+   "iso": "images/jem-7v/iso.jpg",
+   "persp_b": "images/jem-7v/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_AANJ_LEFT_HANDED_v2",
+  "slug": "jem-aanj-left-handed-v2",
+  "name": "JEM AANJ LEFT HANDED v2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-aanj-left-handed-v2/front.jpg",
+   "back": "images/jem-aanj-left-handed-v2/back.jpg",
+   "caballera": "images/jem-aanj-left-handed-v2/caballera.jpg",
+   "iso": "images/jem-aanj-left-handed-v2/iso.jpg",
+   "persp_b": "images/jem-aanj-left-handed-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_Body",
+  "slug": "jem-body",
+  "name": "JEM Body",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-body/front.jpg",
+   "back": "images/jem-body/back.jpg",
+   "caballera": "images/jem-body/caballera.jpg",
+   "iso": "images/jem-body/iso.jpg",
+   "persp_b": "images/jem-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_OLD_CAM",
+  "slug": "jem-old-cam",
+  "name": "JEM OLD CAM",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-old-cam/front.jpg",
+   "back": "images/jem-old-cam/back.jpg",
+   "caballera": "images/jem-old-cam/caballera.jpg",
+   "iso": "images/jem-old-cam/iso.jpg",
+   "persp_b": "images/jem-old-cam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_OLD_REAR",
+  "slug": "jem-old-rear",
+  "name": "JEM OLD REAR",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-old-rear/front.jpg",
+   "back": "images/jem-old-rear/back.jpg",
+   "caballera": "images/jem-old-rear/caballera.jpg",
+   "iso": "images/jem-old-rear/iso.jpg",
+   "persp_b": "images/jem-old-rear/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_REAR_ROUTED",
+  "slug": "jem-rear-routed",
+  "name": "JEM REAR ROUTED",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-rear-routed/front.jpg",
+   "back": "images/jem-rear-routed/back.jpg",
+   "caballera": "images/jem-rear-routed/caballera.jpg",
+   "iso": "images/jem-rear-routed/iso.jpg",
+   "persp_b": "images/jem-rear-routed/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_REAR_ROUTED_CAM",
+  "slug": "jem-rear-routed-cam",
+  "name": "JEM REAR ROUTED CAM",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-rear-routed-cam/front.jpg",
+   "back": "images/jem-rear-routed-cam/back.jpg",
+   "caballera": "images/jem-rear-routed-cam/caballera.jpg",
+   "iso": "images/jem-rear-routed-cam/iso.jpg",
+   "persp_b": "images/jem-rear-routed-cam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JEM_Sergio",
+  "slug": "jem-sergio",
+  "name": "JEM Sergio",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jem-sergio/front.jpg",
+   "back": "images/jem-sergio/back.jpg",
+   "caballera": "images/jem-sergio/caballera.jpg",
+   "iso": "images/jem-sergio/iso.jpg",
+   "persp_b": "images/jem-sergio/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JPM_100_P3",
+  "slug": "jpm-100-p3",
+  "name": "JPM 100 P3",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jpm-100-p3/front.jpg",
+   "back": "images/jpm-100-p3/back.jpg",
+   "caballera": "images/jpm-100-p3/caballera.jpg",
+   "iso": "images/jpm-100-p3/iso.jpg",
+   "persp_b": "images/jpm-100-p3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JPM_con_Puntos",
+  "slug": "jpm-con-puntos",
+  "name": "JPM con Puntos",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jpm-con-puntos/front.jpg",
+   "back": "images/jpm-con-puntos/back.jpg",
+   "caballera": "images/jpm-con-puntos/caballera.jpg",
+   "iso": "images/jpm-con-puntos/iso.jpg",
+   "persp_b": "images/jpm-con-puntos/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JPM_LEFT_v2",
+  "slug": "jpm-left-v2",
+  "name": "JPM LEFT v2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jpm-left-v2/front.jpg",
+   "back": "images/jpm-left-v2/back.jpg",
+   "caballera": "images/jpm-left-v2/caballera.jpg",
+   "iso": "images/jpm-left-v2/iso.jpg",
+   "persp_b": "images/jpm-left-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JPM_Plain_v3",
+  "slug": "jpm-plain-v3",
+  "name": "JPM Plain v3",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jpm-plain-v3/front.jpg",
+   "back": "images/jpm-plain-v3/back.jpg",
+   "caballera": "images/jpm-plain-v3/caballera.jpg",
+   "iso": "images/jpm-plain-v3/iso.jpg",
+   "persp_b": "images/jpm-plain-v3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JPM_POST_CUERPO",
+  "slug": "jpm-post-cuerpo",
+  "name": "JPM POST CUERPO",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/jpm-post-cuerpo/front.jpg",
+   "back": "images/jpm-post-cuerpo/back.jpg",
+   "caballera": "images/jpm-post-cuerpo/caballera.jpg",
+   "iso": "images/jpm-post-cuerpo/iso.jpg",
+   "persp_b": "images/jpm-post-cuerpo/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JS2410",
+  "slug": "js2410",
+  "name": "JS 2410",
+  "cat": "bodies",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/js2410/front.jpg",
+   "back": "images/js2410/back.jpg",
+   "caballera": "images/js2410/caballera.jpg",
+   "iso": "images/js2410/iso.jpg",
+   "persp_b": "images/js2410/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JS_SEBA",
+  "slug": "js-seba",
+  "name": "JS SEBA",
+  "cat": "bodies",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/js-seba/front.jpg",
+   "back": "images/js-seba/back.jpg",
+   "caballera": "images/js-seba/caballera.jpg",
+   "iso": "images/js-seba/iso.jpg",
+   "persp_b": "images/js-seba/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JS_TELE",
+  "slug": "js-tele",
+  "name": "JS TELE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/js-tele/front.jpg",
+   "back": "images/js-tele/back.jpg",
+   "caballera": "images/js-tele/caballera.jpg",
+   "iso": "images/js-tele/iso.jpg",
+   "persp_b": "images/js-tele/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JS_V_3",
+  "slug": "js-v-3",
+  "name": "JS V 3",
+  "cat": "bodies",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/js-v-3/front.jpg",
+   "back": "images/js-v-3/back.jpg",
+   "caballera": "images/js-v-3/caballera.jpg",
+   "iso": "images/js-v-3/iso.jpg",
+   "persp_b": "images/js-v-3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "JS1",
+  "slug": "js1",
+  "name": "JS1",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/js1/front.jpg",
+   "back": "images/js1/back.jpg",
+   "caballera": "images/js1/caballera.jpg",
+   "iso": "images/js1/iso.jpg",
+   "persp_b": "images/js1/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Kamikaze__3",
+  "slug": "kamikaze-3",
+  "name": "Kamikaze  3",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/kamikaze-3/front.jpg",
+   "back": "images/kamikaze-3/back.jpg",
+   "caballera": "images/kamikaze-3/caballera.jpg",
+   "iso": "images/kamikaze-3/iso.jpg",
+   "persp_b": "images/kamikaze-3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Kelly_Fanned_frets",
+  "slug": "kelly-fanned-frets",
+  "name": "Kelly Fanned frets",
+  "cat": "guitars",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/kelly-fanned-frets/front.jpg",
+   "back": "images/kelly-fanned-frets/back.jpg",
+   "caballera": "images/kelly-fanned-frets/caballera.jpg",
+   "iso": "images/kelly-fanned-frets/iso.jpg",
+   "persp_b": "images/kelly-fanned-frets/persp_b.jpg"
+  }
+ },
+ {
+  "id": "KLAUDIO__NECK",
+  "slug": "klaudio-neck",
+  "name": "Super Kurt",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/klaudio-neck/front.jpg",
+   "back": "images/klaudio-neck/back.jpg",
+   "caballera": "images/klaudio-neck/caballera.jpg",
+   "iso": "images/klaudio-neck/iso.jpg",
+   "persp_b": "images/klaudio-neck/persp_b.jpg"
+  }
+ },
+ {
+  "id": "KLONDIKE",
+  "slug": "klondike",
+  "name": "KLONDIKE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/klondike/front.jpg",
+   "back": "images/klondike/back.jpg",
+   "caballera": "images/klondike/caballera.jpg",
+   "iso": "images/klondike/iso.jpg",
+   "persp_b": "images/klondike/persp_b.jpg"
+  }
+ },
+ {
+  "id": "LES_PAUL_JR_MAXI",
+  "slug": "les-paul-jr-maxi",
+  "name": "LES PAUL JR MAXI",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/les-paul-jr-maxi/front.jpg",
+   "back": "images/les-paul-jr-maxi/back.jpg",
+   "caballera": "images/les-paul-jr-maxi/caballera.jpg",
+   "iso": "images/les-paul-jr-maxi/iso.jpg",
+   "persp_b": "images/les-paul-jr-maxi/persp_b.jpg"
+  }
+ },
+ {
+  "id": "LES_PAUL_JR_SINGLE_CUT_MAXI",
+  "slug": "les-paul-jr-single-cut-maxi",
+  "name": "LES PAUL JR SINGLE CUT MAXI",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/les-paul-jr-single-cut-maxi/front.jpg",
+   "back": "images/les-paul-jr-single-cut-maxi/back.jpg",
+   "caballera": "images/les-paul-jr-single-cut-maxi/caballera.jpg",
+   "iso": "images/les-paul-jr-single-cut-maxi/iso.jpg",
+   "persp_b": "images/les-paul-jr-single-cut-maxi/persp_b.jpg"
+  }
+ },
+ {
+  "id": "LTD_SC-608_BARITONE",
+  "slug": "ltd-sc-608-baritone",
+  "name": "LTD SC-608 BARITONE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ltd-sc-608-baritone/front.jpg",
+   "back": "images/ltd-sc-608-baritone/back.jpg",
+   "caballera": "images/ltd-sc-608-baritone/caballera.jpg",
+   "iso": "images/ltd-sc-608-baritone/iso.jpg",
+   "persp_b": "images/ltd-sc-608-baritone/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Majesty_bass_Sin_historia",
+  "slug": "majesty-bass-sin-historia",
+  "name": "Majesty bass Sin historia",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/majesty-bass-sin-historia/front.jpg",
+   "back": "images/majesty-bass-sin-historia/back.jpg",
+   "caballera": "images/majesty-bass-sin-historia/caballera.jpg",
+   "iso": "images/majesty-bass-sin-historia/iso.jpg",
+   "persp_b": "images/majesty-bass-sin-historia/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MAMBA_BODY",
+  "slug": "mamba-body",
+  "name": "MAMBA BODY",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/mamba-body/front.jpg",
+   "back": "images/mamba-body/back.jpg",
+   "caballera": "images/mamba-body/caballera.jpg",
+   "iso": "images/mamba-body/iso.jpg",
+   "persp_b": "images/mamba-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Mandolina_neck",
+  "slug": "mandolina-neck",
+  "name": "Mandolina neck",
+  "cat": "guitars",
+  "price": 30,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/mandolina-neck/front.jpg",
+   "back": "images/mandolina-neck/back.jpg",
+   "caballera": "images/mandolina-neck/caballera.jpg",
+   "iso": "images/mandolina-neck/iso.jpg",
+   "persp_b": "images/mandolina-neck/persp_b.jpg"
+  }
+ },
+ {
+  "id": "maxi_luthier",
+  "slug": "maxi-luthier",
+  "name": "maxi luthier",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/maxi-luthier/front.jpg",
+   "back": "images/maxi-luthier/back.jpg",
+   "caballera": "images/maxi-luthier/caballera.jpg",
+   "iso": "images/maxi-luthier/iso.jpg",
+   "persp_b": "images/maxi-luthier/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Medussa_Body",
+  "slug": "medussa-body",
+  "name": "Medussa Body",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/medussa-body/front.jpg",
+   "back": "images/medussa-body/back.jpg",
+   "caballera": "images/medussa-body/caballera.jpg",
+   "iso": "images/medussa-body/iso.jpg",
+   "persp_b": "images/medussa-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Medussa_Body_v8_-_AUTOCAM",
+  "slug": "medussa-body-v8-autocam",
+  "name": "Medussa Body v8 - AUTOCAM",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/medussa-body-v8-autocam/front.jpg",
+   "back": "images/medussa-body-v8-autocam/back.jpg",
+   "caballera": "images/medussa-body-v8-autocam/caballera.jpg",
+   "iso": "images/medussa-body-v8-autocam/iso.jpg",
+   "persp_b": "images/medussa-body-v8-autocam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Meteora_Body",
+  "slug": "meteora-body",
+  "name": "Meteora Body",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/meteora-body/front.jpg",
+   "back": "images/meteora-body/back.jpg",
+   "caballera": "images/meteora-body/caballera.jpg",
+   "iso": "images/meteora-body/iso.jpg",
+   "persp_b": "images/meteora-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MIKE_Musiquiatra",
+  "slug": "mike-musiquiatra",
+  "name": "TRAVEL",
+  "cat": "guitars",
+  "price": 20,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/mike-musiquiatra/front.jpg",
+   "back": "images/mike-musiquiatra/back.jpg",
+   "caballera": "images/mike-musiquiatra/caballera.jpg",
+   "iso": "images/mike-musiquiatra/iso.jpg",
+   "persp_b": "images/mike-musiquiatra/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MIKRO",
+  "slug": "mikro",
+  "name": "MIKRO",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/mikro/front.jpg",
+   "back": "images/mikro/back.jpg",
+   "caballera": "images/mikro/caballera.jpg",
+   "iso": "images/mikro/iso.jpg",
+   "persp_b": "images/mikro/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Mini_Eddie",
+  "slug": "mini-eddie",
+  "name": "Mini Eddie",
+  "cat": "guitars",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/mini-eddie/front.jpg",
+   "back": "images/mini-eddie/back.jpg",
+   "caballera": "images/mini-eddie/caballera.jpg",
+   "iso": "images/mini-eddie/iso.jpg",
+   "persp_b": "images/mini-eddie/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MODELO_NUEVO_temolo_jazzmaster",
+  "slug": "modelo-nuevo-temolo-jazzmaster",
+  "name": "Hell Yeah!!",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/modelo-nuevo-temolo-jazzmaster/front.jpg",
+   "back": "images/modelo-nuevo-temolo-jazzmaster/back.jpg",
+   "caballera": "images/modelo-nuevo-temolo-jazzmaster/caballera.jpg",
+   "iso": "images/modelo-nuevo-temolo-jazzmaster/iso.jpg",
+   "persp_b": "images/modelo-nuevo-temolo-jazzmaster/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MODERN_STRAT_BODY",
+  "slug": "modern-strat-body",
+  "name": "MODERN STRAT BODY",
+  "cat": "bodies",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/modern-strat-body/front.jpg",
+   "back": "images/modern-strat-body/back.jpg",
+   "caballera": "images/modern-strat-body/caballera.jpg",
+   "iso": "images/modern-strat-body/iso.jpg",
+   "persp_b": "images/modern-strat-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MODERN_STRAT_FLOYD",
+  "slug": "modern-strat-floyd",
+  "name": "MODERN STRAT FLOYD",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/modern-strat-floyd/front.jpg",
+   "back": "images/modern-strat-floyd/back.jpg",
+   "caballera": "images/modern-strat-floyd/caballera.jpg",
+   "iso": "images/modern-strat-floyd/iso.jpg",
+   "persp_b": "images/modern-strat-floyd/persp_b.jpg"
+  }
+ },
+ {
+  "id": "MODERN_STRAT_Gotoh",
+  "slug": "modern-strat-gotoh",
+  "name": "MODERN STRAT Gotoh",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/modern-strat-gotoh/front.jpg",
+   "back": "images/modern-strat-gotoh/back.jpg",
+   "caballera": "images/modern-strat-gotoh/caballera.jpg",
+   "iso": "images/modern-strat-gotoh/iso.jpg",
+   "persp_b": "images/modern-strat-gotoh/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Music-Man-Majesty_Solido",
+  "slug": "music-man-majesty-solido",
+  "name": "Music-Man-Majesty Solido",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/music-man-majesty-solido/front.jpg",
+   "back": "images/music-man-majesty-solido/back.jpg",
+   "caballera": "images/music-man-majesty-solido/caballera.jpg",
+   "iso": "images/music-man-majesty-solido/iso.jpg",
+   "persp_b": "images/music-man-majesty-solido/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Music-Man-Majesty_V3",
+  "slug": "music-man-majesty-v3",
+  "name": "Music-Man-Majesty V3",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/music-man-majesty-v3/front.jpg",
+   "back": "images/music-man-majesty-v3/back.jpg",
+   "caballera": "images/music-man-majesty-v3/caballera.jpg",
+   "iso": "images/music-man-majesty-v3/iso.jpg",
+   "persp_b": "images/music-man-majesty-v3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "N4",
+  "slug": "n4",
+  "name": "N4",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/n4/front.jpg",
+   "back": "images/n4/back.jpg",
+   "caballera": "images/n4/caballera.jpg",
+   "iso": "images/n4/iso.jpg",
+   "persp_b": "images/n4/persp_b.jpg"
+  }
+ },
+ {
+  "id": "NECK_LEE",
+  "slug": "neck-lee",
+  "name": "NECK LEE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/neck-lee/front.jpg",
+   "back": "images/neck-lee/back.jpg",
+   "caballera": "images/neck-lee/caballera.jpg",
+   "iso": "images/neck-lee/iso.jpg",
+   "persp_b": "images/neck-lee/persp_b.jpg"
+  }
+ },
+ {
+  "id": "NECK_LEE_new_neck_joint",
+  "slug": "neck-lee-new-neck-joint",
+  "name": "NECK LEE new neck joint",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/neck-lee-new-neck-joint/front.jpg",
+   "back": "images/neck-lee-new-neck-joint/back.jpg",
+   "caballera": "images/neck-lee-new-neck-joint/caballera.jpg",
+   "iso": "images/neck-lee-new-neck-joint/iso.jpg",
+   "persp_b": "images/neck-lee-new-neck-joint/persp_b.jpg"
+  }
+ },
+ {
+  "id": "New_Brown_Design",
+  "slug": "new-brown-design",
+  "name": "New Brown Design",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/new-brown-design/front.jpg",
+   "back": "images/new-brown-design/back.jpg",
+   "caballera": "images/new-brown-design/caballera.jpg",
+   "iso": "images/new-brown-design/iso.jpg",
+   "persp_b": "images/new-brown-design/persp_b.jpg"
+  }
+ },
+ {
+  "id": "New_Decker_Design",
+  "slug": "new-decker-design",
+  "name": "New Decker Design",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/new-decker-design/front.jpg",
+   "back": "images/new-decker-design/back.jpg",
+   "caballera": "images/new-decker-design/caballera.jpg",
+   "iso": "images/new-decker-design/iso.jpg",
+   "persp_b": "images/new-decker-design/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Nueva_JPM",
+  "slug": "nueva-jpm",
+  "name": "Nueva JPM",
+  "cat": "bodies",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/nueva-jpm/front.jpg",
+   "back": "images/nueva-jpm/back.jpg",
+   "caballera": "images/nueva-jpm/caballera.jpg",
+   "iso": "images/nueva-jpm/iso.jpg",
+   "persp_b": "images/nueva-jpm/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Nueva_JPM_Plain",
+  "slug": "nueva-jpm-plain",
+  "name": "Nueva JPM Plain",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/nueva-jpm-plain/front.jpg",
+   "back": "images/nueva-jpm-plain/back.jpg",
+   "caballera": "images/nueva-jpm-plain/caballera.jpg",
+   "iso": "images/nueva-jpm-plain/iso.jpg",
+   "persp_b": "images/nueva-jpm-plain/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Nueva_JPM_Plain_v1_-_AUTOCAM",
+  "slug": "nueva-jpm-plain-v1-autocam",
+  "name": "Nueva JPM Plain v1 - AUTOCAM",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/nueva-jpm-plain-v1-autocam/front.jpg",
+   "back": "images/nueva-jpm-plain-v1-autocam/back.jpg",
+   "caballera": "images/nueva-jpm-plain-v1-autocam/caballera.jpg",
+   "iso": "images/nueva-jpm-plain-v1-autocam/iso.jpg",
+   "persp_b": "images/nueva-jpm-plain-v1-autocam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "NUNO_N4_ESTA_LOCAL",
+  "slug": "nuno-n4-esta-local",
+  "name": "NUNO N4 ESTA LOCAL",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/nuno-n4-esta-local/front.jpg",
+   "back": "images/nuno-n4-esta-local/back.jpg",
+   "caballera": "images/nuno-n4-esta-local/caballera.jpg",
+   "iso": "images/nuno-n4-esta-local/iso.jpg",
+   "persp_b": "images/nuno-n4-esta-local/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PARKER",
+  "slug": "parker",
+  "name": "PARKER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/parker/front.jpg",
+   "back": "images/parker/back.jpg",
+   "caballera": "images/parker/caballera.jpg",
+   "iso": "images/parker/iso.jpg",
+   "persp_b": "images/parker/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Peavey_T_40",
+  "slug": "peavey-t-40",
+  "name": "Peavey T 40",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/peavey-t-40/front.jpg",
+   "back": "images/peavey-t-40/back.jpg",
+   "caballera": "images/peavey-t-40/caballera.jpg",
+   "iso": "images/peavey-t-40/iso.jpg",
+   "persp_b": "images/peavey-t-40/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PENSA_HH",
+  "slug": "pensa-hh",
+  "name": "PENSA HH",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pensa-hh/front.jpg",
+   "back": "images/pensa-hh/back.jpg",
+   "caballera": "images/pensa-hh/caballera.jpg",
+   "iso": "images/pensa-hh/iso.jpg",
+   "persp_b": "images/pensa-hh/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PENSA_HH_2",
+  "slug": "pensa-hh-2",
+  "name": "PENSA HH 2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pensa-hh-2/front.jpg",
+   "back": "images/pensa-hh-2/back.jpg",
+   "caballera": "images/pensa-hh-2/caballera.jpg",
+   "iso": "images/pensa-hh-2/iso.jpg",
+   "persp_b": "images/pensa-hh-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PENSA_KNOFLER",
+  "slug": "pensa-knofler",
+  "name": "PENSA KNOFLER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pensa-knofler/front.jpg",
+   "back": "images/pensa-knofler/back.jpg",
+   "caballera": "images/pensa-knofler/caballera.jpg",
+   "iso": "images/pensa-knofler/iso.jpg",
+   "persp_b": "images/pensa-knofler/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PENSA_KNOFLER_v23",
+  "slug": "pensa-knofler-v23",
+  "name": "PENSA KNOFLER v23",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pensa-knofler-v23/front.jpg",
+   "back": "images/pensa-knofler-v23/back.jpg",
+   "caballera": "images/pensa-knofler-v23/caballera.jpg",
+   "iso": "images/pensa-knofler-v23/iso.jpg",
+   "persp_b": "images/pensa-knofler-v23/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PIA__7__V2",
+  "slug": "pia-7-v2",
+  "name": "PIA  7  V2",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pia-7-v2/front.jpg",
+   "back": "images/pia-7-v2/back.jpg",
+   "caballera": "images/pia-7-v2/caballera.jpg",
+   "iso": "images/pia-7-v2/iso.jpg",
+   "persp_b": "images/pia-7-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PIA_SILVER",
+  "slug": "pia-silver",
+  "name": "PIA SILVER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pia-silver/front.jpg",
+   "back": "images/pia-silver/back.jpg",
+   "caballera": "images/pia-silver/caballera.jpg",
+   "iso": "images/pia-silver/iso.jpg",
+   "persp_b": "images/pia-silver/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PIA_SILVER_Straigth_Front_routed",
+  "slug": "pia-silver-straigth-front-routed",
+  "name": "VAI Dreams",
+  "cat": "guitars",
+  "price": 120,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pia-silver-straigth-front-routed/front.jpg",
+   "back": "images/pia-silver-straigth-front-routed/back.jpg",
+   "caballera": "images/pia-silver-straigth-front-routed/caballera.jpg",
+   "iso": "images/pia-silver-straigth-front-routed/iso.jpg",
+   "persp_b": "images/pia-silver-straigth-front-routed/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PIA_SILVER_Straigth_v1",
+  "slug": "pia-silver-straigth-v1",
+  "name": "PIA SILVER Straigth v1",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pia-silver-straigth-v1/front.jpg",
+   "back": "images/pia-silver-straigth-v1/back.jpg",
+   "caballera": "images/pia-silver-straigth-v1/caballera.jpg",
+   "iso": "images/pia-silver-straigth-v1/iso.jpg",
+   "persp_b": "images/pia-silver-straigth-v1/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PIA_V3",
+  "slug": "pia-v3",
+  "name": "PIA V3",
+  "cat": "bodies",
+  "price": 50,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pia-v3/front.jpg",
+   "back": "images/pia-v3/back.jpg",
+   "caballera": "images/pia-v3/caballera.jpg",
+   "iso": "images/pia-v3/iso.jpg",
+   "persp_b": "images/pia-v3/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PIA_V3_CAM",
+  "slug": "pia-v3-cam",
+  "name": "PIA V3 CAM",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/pia-v3-cam/front.jpg",
+   "back": "images/pia-v3-cam/back.jpg",
+   "caballera": "images/pia-v3-cam/caballera.jpg",
+   "iso": "images/pia-v3-cam/iso.jpg",
+   "persp_b": "images/pia-v3-cam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PRS",
+  "slug": "prs",
+  "name": "PRS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/prs/front.jpg",
+   "back": "images/prs/back.jpg",
+   "caballera": "images/prs/caballera.jpg",
+   "iso": "images/prs/iso.jpg",
+   "persp_b": "images/prs/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PRS_24",
+  "slug": "prs-24",
+  "name": "PRS 24",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/prs-24/front.jpg",
+   "back": "images/prs-24/back.jpg",
+   "caballera": "images/prs-24/caballera.jpg",
+   "iso": "images/prs-24/iso.jpg",
+   "persp_b": "images/prs-24/persp_b.jpg"
+  }
+ },
+ {
+  "id": "PRS_SC",
+  "slug": "prs-sc",
+  "name": "PRS SC",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/prs-sc/front.jpg",
+   "back": "images/prs-sc/back.jpg",
+   "caballera": "images/prs-sc/caballera.jpg",
+   "iso": "images/prs-sc/iso.jpg",
+   "persp_b": "images/prs-sc/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RBM",
+  "slug": "rbm",
+  "name": "RBM",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rbm/front.jpg",
+   "back": "images/rbm/back.jpg",
+   "caballera": "images/rbm/caballera.jpg",
+   "iso": "images/rbm/iso.jpg",
+   "persp_b": "images/rbm/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RBM_v25_-_CAM_GENERAL",
+  "slug": "rbm-v25-cam-general",
+  "name": "RBM v25 - CAM GENERAL",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rbm-v25-cam-general/front.jpg",
+   "back": "images/rbm-v25-cam-general/back.jpg",
+   "caballera": "images/rbm-v25-cam-general/caballera.jpg",
+   "iso": "images/rbm-v25-cam-general/iso.jpg",
+   "persp_b": "images/rbm-v25-cam-general/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RG_520_GIGER",
+  "slug": "rg-520-giger",
+  "name": "RG 520",
+  "cat": "guitars",
+  "price": 50,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rg-520-giger/front.jpg",
+   "back": "images/rg-520-giger/back.jpg",
+   "caballera": "images/rg-520-giger/caballera.jpg",
+   "iso": "images/rg-520-giger/iso.jpg",
+   "persp_b": "images/rg-520-giger/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RG_550",
+  "slug": "rg-550",
+  "name": "RG 550",
+  "cat": "guitars",
+  "price": 50,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rg-550/front.jpg",
+   "back": "images/rg-550/back.jpg",
+   "caballera": "images/rg-550/caballera.jpg",
+   "iso": "images/rg-550/iso.jpg",
+   "persp_b": "images/rg-550/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RG_570",
+  "slug": "rg-570",
+  "name": "RG 570",
+  "cat": "guitars",
+  "price": 50,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rg-570/front.jpg",
+   "back": "images/rg-570/back.jpg",
+   "caballera": "images/rg-570/caballera.jpg",
+   "iso": "images/rg-570/iso.jpg",
+   "persp_b": "images/rg-570/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RG_7_Cuerdas_Hard_Tail",
+  "slug": "rg-7-cuerdas-hard-tail",
+  "name": "RG 7 Cuerdas Hard Tail",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rg-7-cuerdas-hard-tail/front.jpg",
+   "back": "images/rg-7-cuerdas-hard-tail/back.jpg",
+   "caballera": "images/rg-7-cuerdas-hard-tail/caballera.jpg",
+   "iso": "images/rg-7-cuerdas-hard-tail/iso.jpg",
+   "persp_b": "images/rg-7-cuerdas-hard-tail/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RGA",
+  "slug": "rga",
+  "name": "RGA",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rga/front.jpg",
+   "back": "images/rga/back.jpg",
+   "caballera": "images/rga/caballera.jpg",
+   "iso": "images/rga/iso.jpg",
+   "persp_b": "images/rga/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RGA_27_Frets",
+  "slug": "rga-27-frets",
+  "name": "RGA 27 Frets",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rga-27-frets/front.jpg",
+   "back": "images/rga-27-frets/back.jpg",
+   "caballera": "images/rga-27-frets/caballera.jpg",
+   "iso": "images/rga-27-frets/iso.jpg",
+   "persp_b": "images/rga-27-frets/persp_b.jpg"
+  }
+ },
+ {
+  "id": "RGD_7_Mejor",
+  "slug": "rgd-7-mejor",
+  "name": "RGD 7 Mejor",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/rgd-7-mejor/front.jpg",
+   "back": "images/rgd-7-mejor/back.jpg",
+   "caballera": "images/rgd-7-mejor/caballera.jpg",
+   "iso": "images/rgd-7-mejor/iso.jpg",
+   "persp_b": "images/rgd-7-mejor/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Robin_meddley",
+  "slug": "robin-meddley",
+  "name": "Robin meddley",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/robin-meddley/front.jpg",
+   "back": "images/robin-meddley/back.jpg",
+   "caballera": "images/robin-meddley/caballera.jpg",
+   "iso": "images/robin-meddley/iso.jpg",
+   "persp_b": "images/robin-meddley/persp_b.jpg"
+  }
+ },
+ {
+  "id": "san_dimas",
+  "slug": "san-dimas",
+  "name": "san dimas",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/san-dimas/front.jpg",
+   "back": "images/san-dimas/back.jpg",
+   "caballera": "images/san-dimas/caballera.jpg",
+   "iso": "images/san-dimas/iso.jpg",
+   "persp_b": "images/san-dimas/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Shorte_rickenbacker_bass_neck",
+  "slug": "shorte-rickenbacker-bass-neck",
+  "name": "PAULS BASS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/shorte-rickenbacker-bass-neck/front.jpg",
+   "back": "images/shorte-rickenbacker-bass-neck/back.jpg",
+   "caballera": "images/shorte-rickenbacker-bass-neck/caballera.jpg",
+   "iso": "images/shorte-rickenbacker-bass-neck/iso.jpg",
+   "persp_b": "images/shorte-rickenbacker-bass-neck/persp_b.jpg"
+  }
+ },
+ {
+  "id": "SNAKEBYTE",
+  "slug": "snakebyte",
+  "name": "SNAKEBYTE",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/snakebyte/front.jpg",
+   "back": "images/snakebyte/back.jpg",
+   "caballera": "images/snakebyte/caballera.jpg",
+   "iso": "images/snakebyte/iso.jpg",
+   "persp_b": "images/snakebyte/persp_b.jpg"
+  }
+ },
+ {
+  "id": "SR5_Bass_Neck_Steve_Miles",
+  "slug": "sr5-bass-neck-steve-miles",
+  "name": "SR5 Bass Neck",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/sr5-bass-neck-steve-miles/front.jpg",
+   "back": "images/sr5-bass-neck-steve-miles/back.jpg",
+   "caballera": "images/sr5-bass-neck-steve-miles/caballera.jpg",
+   "iso": "images/sr5-bass-neck-steve-miles/iso.jpg",
+   "persp_b": "images/sr5-bass-neck-steve-miles/persp_b.jpg"
+  }
+ },
+ {
+  "id": "STEALTH",
+  "slug": "stealth",
+  "name": "STEALTH",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/stealth/front.jpg",
+   "back": "images/stealth/back.jpg",
+   "caballera": "images/stealth/caballera.jpg",
+   "iso": "images/stealth/iso.jpg",
+   "persp_b": "images/stealth/persp_b.jpg"
+  }
+ },
+ {
+  "id": "stingray_body",
+  "slug": "stingray-body",
+  "name": "stingray body",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/stingray-body/front.jpg",
+   "back": "images/stingray-body/back.jpg",
+   "caballera": "images/stingray-body/caballera.jpg",
+   "iso": "images/stingray-body/iso.jpg",
+   "persp_b": "images/stingray-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "stingray_body_2",
+  "slug": "stingray-body-2",
+  "name": "stingray body 2",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/stingray-body-2/front.jpg",
+   "back": "images/stingray-body-2/back.jpg",
+   "caballera": "images/stingray-body-2/caballera.jpg",
+   "iso": "images/stingray-body-2/iso.jpg",
+   "persp_b": "images/stingray-body-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Strato_Baritono",
+  "slug": "strato-baritono",
+  "name": "Strato Baritono 28\"",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/strato-baritono/front.jpg",
+   "back": "images/strato-baritono/back.jpg",
+   "caballera": "images/strato-baritono/caballera.jpg",
+   "iso": "images/strato-baritono/iso.jpg",
+   "persp_b": "images/strato-baritono/persp_b.jpg"
+  }
+ },
+ {
+  "id": "STRATOCASTER_Body__Vintage_1962",
+  "slug": "stratocaster-body-vintage-1962",
+  "name": "STRATOCASTER Body  Vintage 1962",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/stratocaster-body-vintage-1962/front.jpg",
+   "back": "images/stratocaster-body-vintage-1962/back.jpg",
+   "caballera": "images/stratocaster-body-vintage-1962/caballera.jpg",
+   "iso": "images/stratocaster-body-vintage-1962/iso.jpg",
+   "persp_b": "images/stratocaster-body-vintage-1962/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Suhr_Modern",
+  "slug": "suhr-modern",
+  "name": "Suhr Modern",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/suhr-modern/front.jpg",
+   "back": "images/suhr-modern/back.jpg",
+   "caballera": "images/suhr-modern/caballera.jpg",
+   "iso": "images/suhr-modern/iso.jpg",
+   "persp_b": "images/suhr-modern/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Suhr_Modern_Flato_top",
+  "slug": "suhr-modern-flato-top",
+  "name": "Suhr Modern Flato top",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/suhr-modern-flato-top/front.jpg",
+   "back": "images/suhr-modern-flato-top/back.jpg",
+   "caballera": "images/suhr-modern-flato-top/caballera.jpg",
+   "iso": "images/suhr-modern-flato-top/iso.jpg",
+   "persp_b": "images/suhr-modern-flato-top/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Suhr_Modern_Flato_top_REVERSED",
+  "slug": "suhr-modern-flato-top-reversed",
+  "name": "Suhr Modern Flato top REVERSED",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/suhr-modern-flato-top-reversed/front.jpg",
+   "back": "images/suhr-modern-flato-top-reversed/back.jpg",
+   "caballera": "images/suhr-modern-flato-top-reversed/caballera.jpg",
+   "iso": "images/suhr-modern-flato-top-reversed/iso.jpg",
+   "persp_b": "images/suhr-modern-flato-top-reversed/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Suhr_Modern_Flato_top_REVERSED_LOOKING_NUT",
+  "slug": "suhr-modern-flato-top-reversed-looking-nut",
+  "name": "Suhr Modern Flato top REVERSED LOOKING NUT",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/suhr-modern-flato-top-reversed-looking-nut/front.jpg",
+   "back": "images/suhr-modern-flato-top-reversed-looking-nut/back.jpg",
+   "caballera": "images/suhr-modern-flato-top-reversed-looking-nut/caballera.jpg",
+   "iso": "images/suhr-modern-flato-top-reversed-looking-nut/iso.jpg",
+   "persp_b": "images/suhr-modern-flato-top-reversed-looking-nut/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Surh_Modern_Top_11_16_radius",
+  "slug": "surh-modern-top-11-16-radius",
+  "name": "Surh Modern Top 11 16 radius",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/surh-modern-top-11-16-radius/front.jpg",
+   "back": "images/surh-modern-top-11-16-radius/back.jpg",
+   "caballera": "images/surh-modern-top-11-16-radius/caballera.jpg",
+   "iso": "images/surh-modern-top-11-16-radius/iso.jpg",
+   "persp_b": "images/surh-modern-top-11-16-radius/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELE__ROUNDED",
+  "slug": "tele-rounded",
+  "name": "TELE  ROUNDED",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/tele-rounded/front.jpg",
+   "back": "images/tele-rounded/back.jpg",
+   "caballera": "images/tele-rounded/caballera.jpg",
+   "iso": "images/tele-rounded/iso.jpg",
+   "persp_b": "images/tele-rounded/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELE__ROUNDED_CABRONITA",
+  "slug": "tele-rounded-cabronita",
+  "name": "TELE  ROUNDED CABRONITA",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/tele-rounded-cabronita/front.jpg",
+   "back": "images/tele-rounded-cabronita/back.jpg",
+   "caballera": "images/tele-rounded-cabronita/caballera.jpg",
+   "iso": "images/tele-rounded-cabronita/iso.jpg",
+   "persp_b": "images/tele-rounded-cabronita/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELE__ROUNDED_CABRONITA_HSS",
+  "slug": "tele-rounded-cabronita-hss",
+  "name": "TELE  ROUNDED CABRONITA HSS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/tele-rounded-cabronita-hss/front.jpg",
+   "back": "images/tele-rounded-cabronita-hss/back.jpg",
+   "caballera": "images/tele-rounded-cabronita-hss/caballera.jpg",
+   "iso": "images/tele-rounded-cabronita-hss/iso.jpg",
+   "persp_b": "images/tele-rounded-cabronita-hss/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELE_CABRONITA_2",
+  "slug": "tele-cabronita-2",
+  "name": "TELE CABRONITA 2",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/tele-cabronita-2/front.jpg",
+   "back": "images/tele-cabronita-2/back.jpg",
+   "caballera": "images/tele-cabronita-2/caballera.jpg",
+   "iso": "images/tele-cabronita-2/iso.jpg",
+   "persp_b": "images/tele-cabronita-2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Tele_Hybrid",
+  "slug": "tele-hybrid",
+  "name": "Tele Hybrid",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/tele-hybrid/front.jpg",
+   "back": "images/tele-hybrid/back.jpg",
+   "caballera": "images/tele-hybrid/caballera.jpg",
+   "iso": "images/tele-hybrid/iso.jpg",
+   "persp_b": "images/tele-hybrid/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELECASTER_GIGER",
+  "slug": "telecaster-giger",
+  "name": "TELECASTER GIGER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/telecaster-giger/front.jpg",
+   "back": "images/telecaster-giger/back.jpg",
+   "caballera": "images/telecaster-giger/caballera.jpg",
+   "iso": "images/telecaster-giger/iso.jpg",
+   "persp_b": "images/telecaster-giger/persp_b.jpg"
+  }
+ },
+ {
+  "id": "telecaster_thinline",
+  "slug": "telecaster-thinline",
+  "name": "telecaster thinline",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/telecaster-thinline/front.jpg",
+   "back": "images/telecaster-thinline/back.jpg",
+   "caballera": "images/telecaster-thinline/caballera.jpg",
+   "iso": "images/telecaster-thinline/iso.jpg",
+   "persp_b": "images/telecaster-thinline/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELECASTER_v6_v1",
+  "slug": "telecaster-v6-v1",
+  "name": "TELECASTER v6 v1",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/telecaster-v6-v1/front.jpg",
+   "back": "images/telecaster-v6-v1/back.jpg",
+   "caballera": "images/telecaster-v6-v1/caballera.jpg",
+   "iso": "images/telecaster-v6-v1/iso.jpg",
+   "persp_b": "images/telecaster-v6-v1/persp_b.jpg"
+  }
+ },
+ {
+  "id": "TELECASTERS",
+  "slug": "telecasters",
+  "name": "TELECASTERS",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/telecasters/front.jpg",
+   "back": "images/telecasters/back.jpg",
+   "caballera": "images/telecasters/caballera.jpg",
+   "iso": "images/telecasters/iso.jpg",
+   "persp_b": "images/telecasters/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Travis_Neck",
+  "slug": "travis-neck",
+  "name": "Travis Neck",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/travis-neck/front.jpg",
+   "back": "images/travis-neck/back.jpg",
+   "caballera": "images/travis-neck/caballera.jpg",
+   "iso": "images/travis-neck/iso.jpg",
+   "persp_b": "images/travis-neck/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Trevis_Bean_tb_1000",
+  "slug": "trevis-bean-tb-1000",
+  "name": "Trevis Bean tb 1000",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/trevis-bean-tb-1000/front.jpg",
+   "back": "images/trevis-bean-tb-1000/back.jpg",
+   "caballera": "images/trevis-bean-tb-1000/caballera.jpg",
+   "iso": "images/trevis-bean-tb-1000/iso.jpg",
+   "persp_b": "images/trevis-bean-tb-1000/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UFO_ZACHARY",
+  "slug": "ufo-zachary",
+  "name": "UFO",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/ufo-zachary/front.jpg",
+   "back": "images/ufo-zachary/back.jpg",
+   "caballera": "images/ufo-zachary/caballera.jpg",
+   "iso": "images/ufo-zachary/iso.jpg",
+   "persp_b": "images/ufo-zachary/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE",
+  "slug": "universe",
+  "name": "UNIVERSE",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe/front.jpg",
+   "back": "images/universe/back.jpg",
+   "caballera": "images/universe/caballera.jpg",
+   "iso": "images/universe/iso.jpg",
+   "persp_b": "images/universe/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE_7",
+  "slug": "universe-7",
+  "name": "UNIVERSE 7",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe-7/front.jpg",
+   "back": "images/universe-7/back.jpg",
+   "caballera": "images/universe-7/caballera.jpg",
+   "iso": "images/universe-7/iso.jpg",
+   "persp_b": "images/universe-7/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE_7_OLD_SCHOOL",
+  "slug": "universe-7-old-school",
+  "name": "UNIVERSE 7 OLD SCHOOL",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe-7-old-school/front.jpg",
+   "back": "images/universe-7-old-school/back.jpg",
+   "caballera": "images/universe-7-old-school/caballera.jpg",
+   "iso": "images/universe-7-old-school/iso.jpg",
+   "persp_b": "images/universe-7-old-school/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE_AANJ_KAHLER",
+  "slug": "universe-aanj-kahler",
+  "name": "UNIVERSE AANJ KAHLER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe-aanj-kahler/front.jpg",
+   "back": "images/universe-aanj-kahler/back.jpg",
+   "caballera": "images/universe-aanj-kahler/caballera.jpg",
+   "iso": "images/universe-aanj-kahler/iso.jpg",
+   "persp_b": "images/universe-aanj-kahler/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE_AANJ_V2",
+  "slug": "universe-aanj-v2",
+  "name": "UNIVERSE AANJ V2",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe-aanj-v2/front.jpg",
+   "back": "images/universe-aanj-v2/back.jpg",
+   "caballera": "images/universe-aanj-v2/caballera.jpg",
+   "iso": "images/universe-aanj-v2/iso.jpg",
+   "persp_b": "images/universe-aanj-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE_AANJ_V2_FULL_INLAYS",
+  "slug": "universe-aanj-v2-full-inlays",
+  "name": "UNIVERSE AANJ V2 FULL INLAYS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe-aanj-v2-full-inlays/front.jpg",
+   "back": "images/universe-aanj-v2-full-inlays/back.jpg",
+   "caballera": "images/universe-aanj-v2-full-inlays/caballera.jpg",
+   "iso": "images/universe-aanj-v2-full-inlays/iso.jpg",
+   "persp_b": "images/universe-aanj-v2-full-inlays/persp_b.jpg"
+  }
+ },
+ {
+  "id": "UNIVERSE_FRONT_AANJ_V2",
+  "slug": "universe-front-aanj-v2",
+  "name": "UNIVERSE FRONT AANJ V2",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/universe-front-aanj-v2/front.jpg",
+   "back": "images/universe-front-aanj-v2/back.jpg",
+   "caballera": "images/universe-front-aanj-v2/caballera.jpg",
+   "iso": "images/universe-front-aanj-v2/iso.jpg",
+   "persp_b": "images/universe-front-aanj-v2/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VALENO",
+  "slug": "valeno",
+  "name": "VALENO",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/valeno/front.jpg",
+   "back": "images/valeno/back.jpg",
+   "caballera": "images/valeno/caballera.jpg",
+   "iso": "images/valeno/iso.jpg",
+   "persp_b": "images/valeno/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VALENO_NECK",
+  "slug": "valeno-neck",
+  "name": "VALENO NECK",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/valeno-neck/front.jpg",
+   "back": "images/valeno-neck/back.jpg",
+   "caballera": "images/valeno-neck/caballera.jpg",
+   "iso": "images/valeno-neck/iso.jpg",
+   "persp_b": "images/valeno-neck/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VARBERG",
+  "slug": "varberg",
+  "name": "VARBERG",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/varberg/front.jpg",
+   "back": "images/varberg/back.jpg",
+   "caballera": "images/varberg/caballera.jpg",
+   "iso": "images/varberg/iso.jpg",
+   "persp_b": "images/varberg/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Veritas_Jazz",
+  "slug": "veritas-jazz",
+  "name": "Veritas Jazz",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/veritas-jazz/front.jpg",
+   "back": "images/veritas-jazz/back.jpg",
+   "caballera": "images/veritas-jazz/caballera.jpg",
+   "iso": "images/veritas-jazz/iso.jpg",
+   "persp_b": "images/veritas-jazz/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VERITAS_PORTHLANDER",
+  "slug": "veritas-porthlander",
+  "name": "VERITAS PORTHLANDER",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/veritas-porthlander/front.jpg",
+   "back": "images/veritas-porthlander/back.jpg",
+   "caballera": "images/veritas-porthlander/caballera.jpg",
+   "iso": "images/veritas-porthlander/iso.jpg",
+   "persp_b": "images/veritas-porthlander/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VERITAS_PORTHLANDER_Solid_Body",
+  "slug": "veritas-porthlander-solid-body",
+  "name": "VERITAS PORTHLANDER Solid Body",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/veritas-porthlander-solid-body/front.jpg",
+   "back": "images/veritas-porthlander-solid-body/back.jpg",
+   "caballera": "images/veritas-porthlander-solid-body/caballera.jpg",
+   "iso": "images/veritas-porthlander-solid-body/iso.jpg",
+   "persp_b": "images/veritas-porthlander-solid-body/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VERITAS_PORTHLANDER_Solid_Body_23.8",
+  "slug": "veritas-porthlander-solid-body-23-8",
+  "name": "VERITAS PORTHLANDER Solid Body 23.8",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/veritas-porthlander-solid-body-23-8/front.jpg",
+   "back": "images/veritas-porthlander-solid-body-23-8/back.jpg",
+   "caballera": "images/veritas-porthlander-solid-body-23-8/caballera.jpg",
+   "iso": "images/veritas-porthlander-solid-body-23-8/iso.jpg",
+   "persp_b": "images/veritas-porthlander-solid-body-23-8/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VERITAS_PORTHLANDER_Solid_Body_23.8_p90",
+  "slug": "veritas-porthlander-solid-body-23-8-p90",
+  "name": "VERITAS PORTHLANDER Solid Body 23.8 p90",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/veritas-porthlander-solid-body-23-8-p90/front.jpg",
+   "back": "images/veritas-porthlander-solid-body-23-8-p90/back.jpg",
+   "caballera": "images/veritas-porthlander-solid-body-23-8-p90/caballera.jpg",
+   "iso": "images/veritas-porthlander-solid-body-23-8-p90/iso.jpg",
+   "persp_b": "images/veritas-porthlander-solid-body-23-8-p90/persp_b.jpg"
+  }
+ },
+ {
+  "id": "VERITAS_STRAT",
+  "slug": "veritas-strat",
+  "name": "VERITAS STRAT",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/veritas-strat/front.jpg",
+   "back": "images/veritas-strat/back.jpg",
+   "caballera": "images/veritas-strat/caballera.jpg",
+   "iso": "images/veritas-strat/iso.jpg",
+   "persp_b": "images/veritas-strat/persp_b.jpg"
+  }
+ },
+ {
+  "id": "WARLOCK",
+  "slug": "warlock",
+  "name": "WARLOCK",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/warlock/front.jpg",
+   "back": "images/warlock/back.jpg",
+   "caballera": "images/warlock/caballera.jpg",
+   "iso": "images/warlock/iso.jpg",
+   "persp_b": "images/warlock/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Warrior_CAM",
+  "slug": "warrior-cam",
+  "name": "Warrior CAM",
+  "cat": "cam",
+  "price": 100,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/warrior-cam/front.jpg",
+   "back": "images/warrior-cam/back.jpg",
+   "caballera": "images/warrior-cam/caballera.jpg",
+   "iso": "images/warrior-cam/iso.jpg",
+   "persp_b": "images/warrior-cam/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Warrior_Close_to_original",
+  "slug": "warrior-close-to-original",
+  "name": "Warrior Close to original",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/warrior-close-to-original/front.jpg",
+   "back": "images/warrior-close-to-original/back.jpg",
+   "caballera": "images/warrior-close-to-original/caballera.jpg",
+   "iso": "images/warrior-close-to-original/iso.jpg",
+   "persp_b": "images/warrior-close-to-original/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Warrior_Kelly",
+  "slug": "warrior-kelly",
+  "name": "Warrior Kelly",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/warrior-kelly/front.jpg",
+   "back": "images/warrior-kelly/back.jpg",
+   "caballera": "images/warrior-kelly/caballera.jpg",
+   "iso": "images/warrior-kelly/iso.jpg",
+   "persp_b": "images/warrior-kelly/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Warrior_Kelly_7",
+  "slug": "warrior-kelly-7",
+  "name": "Warrior Kelly 7",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/warrior-kelly-7/front.jpg",
+   "back": "images/warrior-kelly-7/back.jpg",
+   "caballera": "images/warrior-kelly-7/caballera.jpg",
+   "iso": "images/warrior-kelly-7/iso.jpg",
+   "persp_b": "images/warrior-kelly-7/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Warwick_neck",
+  "slug": "warwick-neck",
+  "name": "Warwick neck",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/warwick-neck/front.jpg",
+   "back": "images/warwick-neck/back.jpg",
+   "caballera": "images/warwick-neck/caballera.jpg",
+   "iso": "images/warwick-neck/iso.jpg",
+   "persp_b": "images/warwick-neck/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Washburn__NO_INLAY_EXPLORER_HEADSTOCK",
+  "slug": "washburn-no-inlay-explorer-headstock",
+  "name": "Washburn  NO INLAY EXPLORER HEADSTOCK",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/washburn-no-inlay-explorer-headstock/front.jpg",
+   "back": "images/washburn-no-inlay-explorer-headstock/back.jpg",
+   "caballera": "images/washburn-no-inlay-explorer-headstock/caballera.jpg",
+   "iso": "images/washburn-no-inlay-explorer-headstock/iso.jpg",
+   "persp_b": "images/washburn-no-inlay-explorer-headstock/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Washburn_Dime_SCROSS",
+  "slug": "washburn-dime-scross",
+  "name": "Washburn Dime SCROSS",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/washburn-dime-scross/front.jpg",
+   "back": "images/washburn-dime-scross/back.jpg",
+   "caballera": "images/washburn-dime-scross/caballera.jpg",
+   "iso": "images/washburn-dime-scross/iso.jpg",
+   "persp_b": "images/washburn-dime-scross/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Washburn_SCROSS_NO_INLAY",
+  "slug": "washburn-scross-no-inlay",
+  "name": "Washburn SCROSS NO INLAY",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/washburn-scross-no-inlay/front.jpg",
+   "back": "images/washburn-scross-no-inlay/back.jpg",
+   "caballera": "images/washburn-scross-no-inlay/caballera.jpg",
+   "iso": "images/washburn-scross-no-inlay/iso.jpg",
+   "persp_b": "images/washburn-scross-no-inlay/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Washburn_Stealth",
+  "slug": "washburn-stealth",
+  "name": "Washburn Stealth",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/washburn-stealth/front.jpg",
+   "back": "images/washburn-stealth/back.jpg",
+   "caballera": "images/washburn-stealth/caballera.jpg",
+   "iso": "images/washburn-stealth/iso.jpg",
+   "persp_b": "images/washburn-stealth/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Washburn_Stealth_27",
+  "slug": "washburn-stealth-27",
+  "name": "Washburn Stealth 27",
+  "cat": "guitars",
+  "price": 80,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/washburn-stealth-27/front.jpg",
+   "back": "images/washburn-stealth-27/back.jpg",
+   "caballera": "images/washburn-stealth-27/caballera.jpg",
+   "iso": "images/washburn-stealth-27/iso.jpg",
+   "persp_b": "images/washburn-stealth-27/persp_b.jpg"
+  }
+ },
+ {
+  "id": "WASP",
+  "slug": "wasp",
+  "name": "WASP",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/wasp/front.jpg",
+   "back": "images/wasp/back.jpg",
+   "caballera": "images/wasp/caballera.jpg",
+   "iso": "images/wasp/iso.jpg",
+   "persp_b": "images/wasp/persp_b.jpg"
+  }
+ },
+ {
+  "id": "WESTONE",
+  "slug": "westone",
+  "name": "WESTONE",
+  "cat": "guitars",
+  "price": 30,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/westone/front.jpg",
+   "back": "images/westone/back.jpg",
+   "caballera": "images/westone/caballera.jpg",
+   "iso": "images/westone/iso.jpg",
+   "persp_b": "images/westone/persp_b.jpg"
+  }
+ },
+ {
+  "id": "WESTONE_SPECTOR_FINAL",
+  "slug": "westone-spector-final",
+  "name": "WESTONE SPECTOR FINAL",
+  "cat": "bodies",
+  "price": 40,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/westone-spector-final/front.jpg",
+   "back": "images/westone-spector-final/back.jpg",
+   "caballera": "images/westone-spector-final/caballera.jpg",
+   "iso": "images/westone-spector-final/iso.jpg",
+   "persp_b": "images/westone-spector-final/persp_b.jpg"
+  }
+ },
+ {
+  "id": "WOODY",
+  "slug": "woody",
+  "name": "WOODY",
+  "cat": "guitars",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/woody/front.jpg",
+   "back": "images/woody/back.jpg",
+   "caballera": "images/woody/caballera.jpg",
+   "iso": "images/woody/iso.jpg",
+   "persp_b": "images/woody/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Xiphos_HIGER",
+  "slug": "xiphos-higer",
+  "name": "Xiphos HIGER",
+  "cat": "bodies",
+  "price": 70,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/xiphos-higer/front.jpg",
+   "back": "images/xiphos-higer/back.jpg",
+   "caballera": "images/xiphos-higer/caballera.jpg",
+   "iso": "images/xiphos-higer/iso.jpg",
+   "persp_b": "images/xiphos-higer/persp_b.jpg"
+  }
+ },
+ {
+  "id": "Yamaha",
+  "slug": "yamaha",
+  "name": "Yamaha",
+  "cat": "basses",
+  "price": 60,
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/yamaha/front.jpg",
+   "back": "images/yamaha/back.jpg",
+   "caballera": "images/yamaha/caballera.jpg",
+   "iso": "images/yamaha/iso.jpg",
+   "persp_b": "images/yamaha/persp_b.jpg"
+  }
+ }
+]
