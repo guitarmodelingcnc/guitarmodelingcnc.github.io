@@ -275,7 +275,8 @@
    "back": "images/bc-rich-bitch/back.jpg",
    "caballera": "images/bc-rich-bitch/caballera.jpg",
    "iso": "images/bc-rich-bitch/iso.jpg",
-   "persp_b": "images/bc-rich-bitch/persp_b.jpg"
+   "persp_b": "images/bc-rich-bitch/persp_b.jpg",
+   "real1": "images/bc-rich-bitch/real1.jpg"
   },
   "main": "front"
  },
@@ -435,7 +436,10 @@
    "back": "images/boden-top-multi/back.jpg",
    "caballera": "images/boden-top-multi/caballera.jpg",
    "iso": "images/boden-top-multi/iso.jpg",
-   "persp_b": "images/boden-top-multi/persp_b.jpg"
+   "persp_b": "images/boden-top-multi/persp_b.jpg",
+   "real1": "images/boden-top-multi/real1.jpg",
+   "real2": "images/boden-top-multi/real2.jpg",
+   "real3": "images/boden-top-multi/real3.jpg"
   },
   "main": "front"
  },
@@ -1195,7 +1199,9 @@
    "back": "images/green-medussa-take-2/back.jpg",
    "caballera": "images/green-medussa-take-2/caballera.jpg",
    "iso": "images/green-medussa-take-2/iso.jpg",
-   "persp_b": "images/green-medussa-take-2/persp_b.jpg"
+   "persp_b": "images/green-medussa-take-2/persp_b.jpg",
+   "real1": "images/green-medussa-take-2/real1.jpg",
+   "real2": "images/green-medussa-take-2/real2.jpg"
   },
   "main": "front"
  },
@@ -1415,7 +1421,9 @@
    "back": "images/ibanez-az-tele/back.jpg",
    "caballera": "images/ibanez-az-tele/caballera.jpg",
    "iso": "images/ibanez-az-tele/iso.jpg",
-   "persp_b": "images/ibanez-az-tele/persp_b.jpg"
+   "persp_b": "images/ibanez-az-tele/persp_b.jpg",
+   "real1": "images/ibanez-az-tele/real1.jpg",
+   "real2": "images/ibanez-az-tele/real2.jpg"
   },
   "main": "front"
  },
@@ -1655,7 +1663,9 @@
    "back": "images/ibanez-540pii-dientes-reversed/back.jpg",
    "caballera": "images/ibanez-540pii-dientes-reversed/caballera.jpg",
    "iso": "images/ibanez-540pii-dientes-reversed/iso.jpg",
-   "persp_b": "images/ibanez-540pii-dientes-reversed/persp_b.jpg"
+   "persp_b": "images/ibanez-540pii-dientes-reversed/persp_b.jpg",
+   "real1": "images/ibanez-540pii-dientes-reversed/real1.jpg",
+   "real2": "images/ibanez-540pii-dientes-reversed/real2.jpg"
   },
   "main": "front"
  },
@@ -1775,7 +1785,8 @@
    "back": "images/jackson-kelly-warrior-7-strings-25-5/back.jpg",
    "caballera": "images/jackson-kelly-warrior-7-strings-25-5/caballera.jpg",
    "iso": "images/jackson-kelly-warrior-7-strings-25-5/iso.jpg",
-   "persp_b": "images/jackson-kelly-warrior-7-strings-25-5/persp_b.jpg"
+   "persp_b": "images/jackson-kelly-warrior-7-strings-25-5/persp_b.jpg",
+   "real1": "images/jackson-kelly-warrior-7-strings-25-5/real1.jpg"
   },
   "main": "front"
  },
@@ -1815,7 +1826,9 @@
    "back": "images/jackson-rhoads-6/back.jpg",
    "caballera": "images/jackson-rhoads-6/caballera.jpg",
    "iso": "images/jackson-rhoads-6/iso.jpg",
-   "persp_b": "images/jackson-rhoads-6/persp_b.jpg"
+   "persp_b": "images/jackson-rhoads-6/persp_b.jpg",
+   "real1": "images/jackson-rhoads-6/real1.jpg",
+   "real2": "images/jackson-rhoads-6/real2.jpg"
   },
   "main": "front"
  },
@@ -1835,7 +1848,9 @@
    "back": "images/jackson-rhoads-7-strings-25-5/back.jpg",
    "caballera": "images/jackson-rhoads-7-strings-25-5/caballera.jpg",
    "iso": "images/jackson-rhoads-7-strings-25-5/iso.jpg",
-   "persp_b": "images/jackson-rhoads-7-strings-25-5/persp_b.jpg"
+   "persp_b": "images/jackson-rhoads-7-strings-25-5/persp_b.jpg",
+   "real1": "images/jackson-rhoads-7-strings-25-5/real1.jpg",
+   "real2": "images/jackson-rhoads-7-strings-25-5/real2.jpg"
   },
   "main": "front"
  },
@@ -1855,7 +1870,9 @@
    "back": "images/jackson-rhoads-hh-7-strings-25-5/back.jpg",
    "caballera": "images/jackson-rhoads-hh-7-strings-25-5/caballera.jpg",
    "iso": "images/jackson-rhoads-hh-7-strings-25-5/iso.jpg",
-   "persp_b": "images/jackson-rhoads-hh-7-strings-25-5/persp_b.jpg"
+   "persp_b": "images/jackson-rhoads-hh-7-strings-25-5/persp_b.jpg",
+   "real1": "images/jackson-rhoads-hh-7-strings-25-5/real1.jpg",
+   "real2": "images/jackson-rhoads-hh-7-strings-25-5/real2.jpg"
   },
   "main": "front"
  },
@@ -1875,7 +1892,9 @@
    "back": "images/jackson-rhoads-left/back.jpg",
    "caballera": "images/jackson-rhoads-left/caballera.jpg",
    "iso": "images/jackson-rhoads-left/iso.jpg",
-   "persp_b": "images/jackson-rhoads-left/persp_b.jpg"
+   "persp_b": "images/jackson-rhoads-left/persp_b.jpg",
+   "real1": "images/jackson-rhoads-left/real1.jpg",
+   "real2": "images/jackson-rhoads-left/real2.jpg"
   },
   "main": "front"
  },
@@ -2035,7 +2054,9 @@
    "back": "images/jem-7v/back.jpg",
    "caballera": "images/jem-7v/caballera.jpg",
    "iso": "images/jem-7v/iso.jpg",
-   "persp_b": "images/jem-7v/persp_b.jpg"
+   "persp_b": "images/jem-7v/persp_b.jpg",
+   "real1": "images/jem-7v/real1.jpg",
+   "real2": "images/jem-7v/real2.jpg"
   },
   "main": "front"
  },
@@ -2135,7 +2156,9 @@
    "back": "images/jem-rear-routed/back.jpg",
    "caballera": "images/jem-rear-routed/caballera.jpg",
    "iso": "images/jem-rear-routed/iso.jpg",
-   "persp_b": "images/jem-rear-routed/persp_b.jpg"
+   "persp_b": "images/jem-rear-routed/persp_b.jpg",
+   "real1": "images/jem-rear-routed/real1.jpg",
+   "real2": "images/jem-rear-routed/real2.jpg"
   },
   "main": "front"
  },
@@ -2255,7 +2278,9 @@
    "back": "images/jpm-plain-v3/back.jpg",
    "caballera": "images/jpm-plain-v3/caballera.jpg",
    "iso": "images/jpm-plain-v3/iso.jpg",
-   "persp_b": "images/jpm-plain-v3/persp_b.jpg"
+   "persp_b": "images/jpm-plain-v3/persp_b.jpg",
+   "real1": "images/jpm-plain-v3/real1.jpg",
+   "real2": "images/jpm-plain-v3/real2.jpg"
   },
   "main": "front"
  },
@@ -2295,7 +2320,9 @@
    "back": "images/js2410/back.jpg",
    "caballera": "images/js2410/caballera.jpg",
    "iso": "images/js2410/iso.jpg",
-   "persp_b": "images/js2410/persp_b.jpg"
+   "persp_b": "images/js2410/persp_b.jpg",
+   "real1": "images/js2410/real1.jpg",
+   "real2": "images/js2410/real2.jpg"
   },
   "main": "front"
  },
@@ -2615,7 +2642,9 @@
    "back": "images/medussa-body/back.jpg",
    "caballera": "images/medussa-body/caballera.jpg",
    "iso": "images/medussa-body/iso.jpg",
-   "persp_b": "images/medussa-body/persp_b.jpg"
+   "persp_b": "images/medussa-body/persp_b.jpg",
+   "real1": "images/medussa-body/real1.jpg",
+   "real2": "images/medussa-body/real2.jpg"
   },
   "main": "front"
  },
@@ -2635,7 +2664,9 @@
    "back": "images/medussa-body-v8-autocam/back.jpg",
    "caballera": "images/medussa-body-v8-autocam/caballera.jpg",
    "iso": "images/medussa-body-v8-autocam/iso.jpg",
-   "persp_b": "images/medussa-body-v8-autocam/persp_b.jpg"
+   "persp_b": "images/medussa-body-v8-autocam/persp_b.jpg",
+   "real1": "images/medussa-body-v8-autocam/real1.jpg",
+   "real2": "images/medussa-body-v8-autocam/real2.jpg"
   },
   "main": "front"
  },
@@ -2695,7 +2726,9 @@
    "back": "images/mikro/back.jpg",
    "caballera": "images/mikro/caballera.jpg",
    "iso": "images/mikro/iso.jpg",
-   "persp_b": "images/mikro/persp_b.jpg"
+   "persp_b": "images/mikro/persp_b.jpg",
+   "real1": "images/mikro/real1.jpg",
+   "real2": "images/mikro/real2.jpg"
   },
   "main": "front"
  },
@@ -3015,7 +3048,9 @@
    "back": "images/nuno-n4-esta-local/back.jpg",
    "caballera": "images/nuno-n4-esta-local/caballera.jpg",
    "iso": "images/nuno-n4-esta-local/iso.jpg",
-   "persp_b": "images/nuno-n4-esta-local/persp_b.jpg"
+   "persp_b": "images/nuno-n4-esta-local/persp_b.jpg",
+   "real1": "images/nuno-n4-esta-local/real1.jpg",
+   "real2": "images/nuno-n4-esta-local/real2.jpg"
   },
   "main": "front"
  },
@@ -4115,7 +4150,10 @@
    "back": "images/universe-aanj-kahler/back.jpg",
    "caballera": "images/universe-aanj-kahler/caballera.jpg",
    "iso": "images/universe-aanj-kahler/iso.jpg",
-   "persp_b": "images/universe-aanj-kahler/persp_b.jpg"
+   "persp_b": "images/universe-aanj-kahler/persp_b.jpg",
+   "real1": "images/universe-aanj-kahler/real1.jpg",
+   "real2": "images/universe-aanj-kahler/real2.jpg",
+   "real3": "images/universe-aanj-kahler/real3.jpg"
   },
   "main": "front"
  },
@@ -4195,7 +4233,10 @@
    "back": "images/valeno/back.jpg",
    "caballera": "images/valeno/caballera.jpg",
    "iso": "images/valeno/iso.jpg",
-   "persp_b": "images/valeno/persp_b.jpg"
+   "persp_b": "images/valeno/persp_b.jpg",
+   "real1": "images/valeno/real1.jpg",
+   "real2": "images/valeno/real2.jpg",
+   "real3": "images/valeno/real3.jpg"
   },
   "main": "front"
  },
@@ -4215,7 +4256,10 @@
    "back": "images/valeno-neck/back.jpg",
    "caballera": "images/valeno-neck/caballera.jpg",
    "iso": "images/valeno-neck/iso.jpg",
-   "persp_b": "images/valeno-neck/persp_b.jpg"
+   "persp_b": "images/valeno-neck/persp_b.jpg",
+   "real1": "images/valeno-neck/real1.jpg",
+   "real2": "images/valeno-neck/real2.jpg",
+   "real3": "images/valeno-neck/real3.jpg"
   },
   "main": "front"
  },
@@ -4275,7 +4319,9 @@
    "back": "images/veritas-porthlander/back.jpg",
    "caballera": "images/veritas-porthlander/caballera.jpg",
    "iso": "images/veritas-porthlander/iso.jpg",
-   "persp_b": "images/veritas-porthlander/persp_b.jpg"
+   "persp_b": "images/veritas-porthlander/persp_b.jpg",
+   "real1": "images/veritas-porthlander/real1.jpg",
+   "real2": "images/veritas-porthlander/real2.jpg"
   },
   "main": "front"
  },
@@ -4295,7 +4341,9 @@
    "back": "images/veritas-porthlander-solid-body/back.jpg",
    "caballera": "images/veritas-porthlander-solid-body/caballera.jpg",
    "iso": "images/veritas-porthlander-solid-body/iso.jpg",
-   "persp_b": "images/veritas-porthlander-solid-body/persp_b.jpg"
+   "persp_b": "images/veritas-porthlander-solid-body/persp_b.jpg",
+   "real1": "images/veritas-porthlander-solid-body/real1.jpg",
+   "real2": "images/veritas-porthlander-solid-body/real2.jpg"
   },
   "main": "front"
  },
@@ -4315,7 +4363,9 @@
    "back": "images/veritas-porthlander-solid-body-23-8/back.jpg",
    "caballera": "images/veritas-porthlander-solid-body-23-8/caballera.jpg",
    "iso": "images/veritas-porthlander-solid-body-23-8/iso.jpg",
-   "persp_b": "images/veritas-porthlander-solid-body-23-8/persp_b.jpg"
+   "persp_b": "images/veritas-porthlander-solid-body-23-8/persp_b.jpg",
+   "real1": "images/veritas-porthlander-solid-body-23-8/real1.jpg",
+   "real2": "images/veritas-porthlander-solid-body-23-8/real2.jpg"
   },
   "main": "front"
  },
@@ -4335,7 +4385,9 @@
    "back": "images/veritas-porthlander-solid-body-23-8-p90/back.jpg",
    "caballera": "images/veritas-porthlander-solid-body-23-8-p90/caballera.jpg",
    "iso": "images/veritas-porthlander-solid-body-23-8-p90/iso.jpg",
-   "persp_b": "images/veritas-porthlander-solid-body-23-8-p90/persp_b.jpg"
+   "persp_b": "images/veritas-porthlander-solid-body-23-8-p90/persp_b.jpg",
+   "real1": "images/veritas-porthlander-solid-body-23-8-p90/real1.jpg",
+   "real2": "images/veritas-porthlander-solid-body-23-8-p90/real2.jpg"
   },
   "main": "front"
  },
@@ -4728,7 +4780,9 @@
    "back": "images/js-2410/back.jpg",
    "caballera": "images/js-2410/caballera.jpg",
    "iso": "images/js-2410/iso.jpg",
-   "persp_b": "images/js-2410/persp_b.jpg"
+   "persp_b": "images/js-2410/persp_b.jpg",
+   "real1": "images/js-2410/real1.jpg",
+   "real2": "images/js-2410/real2.jpg"
   },
   "main": "front"
  }

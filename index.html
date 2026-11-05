@@ -77,6 +77,12 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .modal[data-id=PACK] .nav{display:none}
 .pos{color:var(--muted);font-size:.85rem}
 .vp.full{position:fixed;inset:0;z-index:300;height:auto;width:auto}
+.vn{display:none;position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:48px;height:80px;background:rgba(10,10,10,.8);border:1px solid var(--gold-dim);color:var(--gold);font-size:2.6rem;line-height:1;padding:0 0 6px}
+.vn:hover{background:var(--gold);color:#111}
+.vn.pv{left:14px}.vn.nx{right:14px}
+.vcount{display:none;position:absolute;bottom:14px;left:50%;transform:translateX(-50%);z-index:3;background:rgba(10,10,10,.85);color:var(--gold);padding:4px 12px;font-size:.9rem}
+.vp.full[data-multi="1"] .vn{display:block}.vp.full[data-multi="1"] .vcount{display:block}
+.modal[data-id=PACK] .vn,.modal[data-id=PACK] .vcount{display:none!important}
 .thumbs{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
 .thumbs button{border:1px solid var(--border);background:#fff;padding:0;width:96px;height:72px}
 .thumbs button[aria-current=true]{border-color:var(--gold)}
@@ -111,6 +117,19 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .dl a{display:inline-block;margin:0 8px 6px 0;padding:6px 14px;background:var(--gold);color:#111;text-decoration:none;font-weight:600;font-size:.9rem}
 footer{border-top:1px solid var(--border);padding:32px 0;color:var(--muted);font-size:.9rem}
 footer a{color:var(--gold)}
+.feat{margin:28px auto 0}
+.feat-card{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);background:var(--panel);border:1px solid var(--gold-dim)}
+.feat-ph{background:#fff;border:0;padding:0;cursor:pointer;display:block;aspect-ratio:3/2;overflow:hidden}
+.feat-ph img{width:100%;height:100%;object-fit:contain;display:block}
+.feat-bd{padding:24px;display:flex;flex-direction:column;justify-content:center;gap:12px}
+.feat-tag{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.feat-bd h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:2.2rem;letter-spacing:.04em;line-height:1.05}
+.feat-bd .price{font-size:2rem}
+.feat-acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.feat-acts button{padding:10px 20px;font-weight:600;letter-spacing:.03em}
+.feat-acts .view{background:var(--gold);color:#111;border:1px solid var(--gold)}
+.feat-acts .view:hover{background:var(--amber)}
+@media(max-width:720px){.feat-card{grid-template-columns:1fr}.feat-bd{padding:16px}.feat-bd h2{font-size:1.8rem}}
 @media(max-width:720px){.mgrid{grid-template-columns:1fr}.vp{height:56vh}.nav{top:calc(56vh / 2 + 12px);width:36px;height:56px}.vh{display:none}.thumbs button{width:64px;height:48px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
 @media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--gold-dim)}}
 </style>
@@ -131,6 +150,8 @@ footer a{color:var(--gold)}
     <button class="deal pack" id="packDeal"><b id="packTitle">Builder's Pack</b><span id="packSub">See what's inside</span></button>
   </div>
 </div></section>
+
+<section class="wrap feat" id="featured" hidden></section>
 
 <section class="wrap" id="catalog">
   <div class="tools">
@@ -156,6 +177,7 @@ footer a{color:var(--gold)}
   <div class="mgrid">
     <div class="mimg"><button class="nav prev" id="mPrev" aria-label="Previous model">&#8249;</button><button class="nav next" id="mNext" aria-label="Next model">&#8250;</button><div class="vp" id="vp"><div class="vz" id="vz"><img id="mBig" alt=""></div>
       <div class="vc"><button id="zIn" aria-label="Zoom in">+</button><button id="zOut" aria-label="Zoom out">&minus;</button><button id="zReset" aria-label="Reset view">&#8634;</button><button id="zFull" aria-label="Full screen">&#9974;</button></div>
+      <button class="vn pv" id="pPrev" aria-label="Previous photo">&#8249;</button><button class="vn nx" id="pNext" aria-label="Next photo">&#8250;</button><div class="vcount" id="pCount"></div>
       <div class="vh">Scroll or pinch to zoom, drag to move, double-click to zoom in</div></div>
     <div class="thumbs" id="mThumbs"></div></div>
     <div class="minfo"><div class="pos" id="mPos"></div><h2 id="mName"></h2><div class="fmts" id="mFmts"></div><p id="mDesc"></p>
@@ -178,6 +200,7 @@ footer a{color:var(--gold)}
 const CFG = window.SHOP_CONFIG || {};
 const $ = id => document.getElementById(id);
 const VIEW_LABEL = {front:'Front',back:'Back',caballera:'Left-handed',iso:'Isometric',persp_a:'Perspective A',persp_b:'Perspective B'};
+const viewLabel = v => VIEW_LABEL[v] || (/^real/.test(v) ? 'Real build ' + v.slice(4) : v);
 const CATS = [['all','All'],['guitars','Guitars'],['bodies','Bodies'],['basses','Basses'],['cam','With CAM']];
 const KIND = {guitars:'Full guitar',bodies:'Body',basses:'Bass',cam:'With CAM'};
 const FMT_NOTE = {f3d:'Fusion 360',step:'STEP',stl:'STL'};
@@ -231,11 +254,26 @@ function render(){
 }
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+// ---- destacado (una guitarra al azar por visita) ----
+let FEAT = null;
+function renderFeatured(){
+  const el = $('featured'); if (!el) return;
+  if (!FEAT) { const pool = ALL.filter(m => m.cat==='guitars' && m.images && m.images.front && mainV(m)==='front'); if (!pool.length) return; FEAT = pool[Math.floor(Math.random()*pool.length)].id; }
+  const m = byId[FEAT], inCart = cart.includes(m.id);
+  el.hidden = false;
+  el.innerHTML = `<div class="feat-card">
+    <button class="feat-ph" data-open="${m.id}" aria-label="View ${esc(m.name)}"><img src="${img(m,'front')}" alt="${esc(m.name)}"></button>
+    <div class="feat-bd"><span class="feat-tag">Featured guitar</span><h2>${esc(m.name)}</h2>
+      <div class="meta"><span class="price">${money(m.price)}</span><span class="kind">${KIND[m.cat]}</span></div>
+      <p class="hint">${m.formats.map(f=>f.toUpperCase()).join(' · ')}</p>
+      <div class="feat-acts"><button class="view" data-open="${m.id}">View model</button><button class="add ${inCart?'in':''}" data-add="${m.id}">${inCart?'In cart ✓':'Add to cart'}</button></div>
+    </div></div>`;
+}
 // ---- carrito ----
 function toggle(id){ cart = cart.includes(id) ? cart.filter(x=>x!==id) : [...cart,id]; save(); update(); }
 function update(){
   $('cartN').textContent = cart.length;
-  render(); drawLines();
+  render(); renderFeatured(); drawLines();
   const m = $('modal').dataset.id; if (m==='PACK') setPackBtn(); else if (m) setMAdd(m);
 }
 function drawLines(){
@@ -296,7 +334,10 @@ function delivered(r){
 
 // ---- modal ----
 function setMAdd(id){ const b = $('mAdd'); const on = cart.includes(id); b.textContent = on ? 'In cart ✓ (click to remove)' : 'Add to cart'; b.className = 'add' + (on?' in':''); b.dataset.add = id; }
-function showImg(src, alt, t){ const b = $('mBig'); b.src = src; b.alt = alt; b.style.transform = t || ''; resetZ(); }
+function showImg(src, alt, t){ const b = $('mBig'); b.src = src; b.alt = alt; b.style.transform = t || ''; resetZ(); setTimeout(updCount, 0); }
+function photoBtns(){ return [...document.querySelectorAll('#mThumbs button')]; }
+function updCount(){ const bs = photoBtns(), i = bs.findIndex(b => b.getAttribute('aria-current') === 'true'); $('vp').dataset.multi = bs.length > 1 ? '1' : '0'; $('pCount').textContent = (i < 0 ? 1 : i + 1) + ' / ' + bs.length; }
+function stepPhoto(d){ const bs = photoBtns(); if (bs.length < 2) return; let i = bs.findIndex(b => b.getAttribute('aria-current') === 'true'); if (i < 0) i = 0; bs[(i + d + bs.length) % bs.length].click(); }
 function openModel(id){
   const m = byId[id]; $('modal').dataset.id = id;
   $('mName').textContent = m.name;
@@ -306,7 +347,7 @@ function openModel(id){
   const views = Object.keys(m.images);
   const v0 = m.images.front && mainV(m)==='front' ? 'front' : mainV(m);
   showImg(img(m,v0), m.name, m.fix && m.fix[v0]);
-  $('mThumbs').innerHTML = views.map(v => `<button data-view="${m.images[v]}" data-t="${(m.fix&&m.fix[v])||''}" aria-label="${VIEW_LABEL[v]||v}" ${v===v0?'aria-current="true"':''}><img src="${m.images[v]}"${tf(m,v)} alt="${VIEW_LABEL[v]||v}"></button>`).join('');
+  $('mThumbs').innerHTML = views.map(v => `<button data-view="${m.images[v]}" data-t="${(m.fix&&m.fix[v])||''}" aria-label="${viewLabel(v)}" ${v===v0?'aria-current="true"':''}><img src="${m.images[v]}"${tf(m,v)} alt="${viewLabel(v)}"></button>`).join('');
   const n = CUR.indexOf(id); $('mPos').textContent = n >= 0 ? `${n+1} of ${CUR.length}` : '';
   setMAdd(id); open('modal');
 }
@@ -344,7 +385,7 @@ function center(){ const r = vp.getBoundingClientRect(); return [r.width/2, r.he
 function setFull(on){ vp.classList.toggle('full', on); $('zFull').innerHTML = on ? '&times;' : '&#9974;'; document.body.style.overflow = 'hidden'; resetZ(); }
 vp.addEventListener('wheel', e => { e.preventDefault(); const r = vp.getBoundingClientRect(); zoomTo(Z.k * Math.exp(-e.deltaY * 0.002), e.clientX - r.left, e.clientY - r.top); }, {passive:false});
 const ptrs = new Map(); let pinch = 0;
-vp.addEventListener('pointerdown', e => { if (e.target.closest('.vc')) return; vp.setPointerCapture(e.pointerId); ptrs.set(e.pointerId, [e.clientX, e.clientY]); vp.classList.add('drag'); pinch = 0; });
+vp.addEventListener('pointerdown', e => { if (e.target.closest('.vc,.vn')) return; vp.setPointerCapture(e.pointerId); ptrs.set(e.pointerId, [e.clientX, e.clientY]); vp.classList.add('drag'); pinch = 0; });
 vp.addEventListener('pointermove', e => {
   if (!ptrs.has(e.pointerId)) return;
   const prev = ptrs.get(e.pointerId); ptrs.set(e.pointerId, [e.clientX, e.clientY]);
@@ -353,14 +394,15 @@ vp.addEventListener('pointermove', e => {
 });
 const endP = e => { ptrs.delete(e.pointerId); pinch = 0; if (!ptrs.size) vp.classList.remove('drag'); };
 vp.addEventListener('pointerup', endP); vp.addEventListener('pointercancel', endP);
-vp.addEventListener('dblclick', e => { if (e.target.closest('.vc')) return; const r = vp.getBoundingClientRect(); if (Z.k > 1.05) resetZ(); else zoomTo(3, e.clientX - r.left, e.clientY - r.top); });
+vp.addEventListener('dblclick', e => { if (e.target.closest('.vc,.vn')) return; const r = vp.getBoundingClientRect(); if (Z.k > 1.05) resetZ(); else zoomTo(3, e.clientX - r.left, e.clientY - r.top); });
 $('zIn').onclick = () => { const [x,y] = center(); zoomTo(Z.k * 1.6, x, y); };
 $('zOut').onclick = () => { const [x,y] = center(); zoomTo(Z.k / 1.6, x, y); };
 $('zReset').onclick = resetZ;
 $('zFull').onclick = () => setFull(!vp.classList.contains('full'));
 function stepModel(d){ const id = $('modal').dataset.id; if (!id || id==='PACK' || !$('modal').classList.contains('open') || CUR.length < 2) return; const i = CUR.indexOf(id); const n = CUR[((i < 0 ? 0 : i) + d + CUR.length) % CUR.length]; openModel(n); }
 $('mPrev').onclick = () => stepModel(-1); $('mNext').onclick = () => stepModel(1);
-document.addEventListener('keydown', e => { if (e.target.closest && e.target.closest('input,select,textarea')) return; if (e.key==='ArrowLeft') stepModel(-1); else if (e.key==='ArrowRight') stepModel(1); });
+$('pPrev').onclick = () => stepPhoto(-1); $('pNext').onclick = () => stepPhoto(1);
+document.addEventListener('keydown', e => { if (e.target.closest && e.target.closest('input,select,textarea')) return; const fs = $('vp').classList.contains('full'); if (e.key==='ArrowLeft') (fs ? stepPhoto : stepModel)(-1); else if (e.key==='ArrowRight') (fs ? stepPhoto : stepModel)(1); });
 $('cartBtn').onclick = () => { drawLines(); open('drawer'); };
 $('packDeal').onclick = openPack;
 ['mClose','dClose','back'].forEach(i => $(i).onclick = () => closeAll());
