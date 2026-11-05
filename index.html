@@ -63,6 +63,8 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .mgrid{display:grid;grid-template-columns:2.4fr 1fr}
 .mimg{background:#fff;padding:12px}
 .vp{position:relative;overflow:hidden;height:min(74vh,760px);background:#fff;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+.v3{position:relative;height:min(74vh,760px);background:#fff;display:none;cursor:grab}.v3.on{display:block}.v3 canvas{display:block;width:100%;height:100%;touch-action:none}.v3 .vh{display:block;position:absolute;left:0;right:0;bottom:8px;text-align:center;color:#777;font-size:.78rem;pointer-events:none}.v3 .ld{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#777;font-size:.9rem;pointer-events:none}.thumbs .b3{display:flex;align-items:center;justify-content:center;background:#161616;color:var(--gold);font-weight:700;letter-spacing:.06em;font-size:.95rem}
+.tagl{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 4px}.tagl span{font-size:.72rem;color:var(--muted);border:1px solid var(--border);padding:3px 8px}
 .vp.drag{cursor:grabbing}
 .vz{width:100%;height:100%;transform-origin:0 0;will-change:transform}
 .vz img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none;-webkit-user-drag:none}
@@ -130,9 +132,10 @@ footer a{color:var(--gold)}
 .feat-acts .view{background:var(--gold);color:#111;border:1px solid var(--gold)}
 .feat-acts .view:hover{background:var(--amber)}
 @media(max-width:720px){.feat-card{grid-template-columns:1fr}.feat-bd{padding:16px}.feat-bd h2{font-size:1.8rem}}
-@media(max-width:720px){.mgrid{grid-template-columns:1fr}.vp{height:56vh}.nav{top:calc(56vh / 2 + 12px);width:36px;height:56px}.vh{display:none}.thumbs button{width:64px;height:48px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+@media(max-width:720px){.mgrid{grid-template-columns:1fr}.vp,.v3{height:56vh}.nav{top:calc(56vh / 2 + 12px);width:36px;height:56px}.vh{display:none}.thumbs button{width:64px;height:48px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
 @media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--gold-dim)}}
 </style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 </head>
 <body>
 <header><div class="wrap bar">
@@ -178,9 +181,9 @@ footer a{color:var(--gold)}
     <div class="mimg"><button class="nav prev" id="mPrev" aria-label="Previous model">&#8249;</button><button class="nav next" id="mNext" aria-label="Next model">&#8250;</button><div class="vp" id="vp"><div class="vz" id="vz"><img id="mBig" alt=""></div>
       <div class="vc"><button id="zIn" aria-label="Zoom in">+</button><button id="zOut" aria-label="Zoom out">&minus;</button><button id="zReset" aria-label="Reset view">&#8634;</button><button id="zFull" aria-label="Full screen">&#9974;</button></div>
       <button class="vn pv" id="pPrev" aria-label="Previous photo">&#8249;</button><button class="vn nx" id="pNext" aria-label="Next photo">&#8250;</button><div class="vcount" id="pCount"></div>
-      <div class="vh">Scroll or pinch to zoom, drag to move, double-click to zoom in</div></div>
+      <div class="vh">Scroll or pinch to zoom, drag to move, double-click to zoom in</div></div><div class="v3" id="v3"><div class="ld" id="v3ld">Loading 3D…</div><div class="vh">Drag to rotate · scroll or pinch to zoom · right-drag to move</div></div>
     <div class="thumbs" id="mThumbs"></div></div>
-    <div class="minfo"><div class="pos" id="mPos"></div><h2 id="mName"></h2><div class="fmts" id="mFmts"></div><p id="mDesc"></p>
+    <div class="minfo"><div class="pos" id="mPos"></div><h2 id="mName"></h2><div class="fmts" id="mFmts"></div><p id="mDesc"></p><div class="tagl" id="mTags"></div>
       <div class="price" id="mPrice"></div><button class="add" id="mAdd"></button></div>
   </div>
 </div>
@@ -239,7 +242,7 @@ const tf = (m, v) => (m.fix && m.fix[v]) ? ` style="transform:${m.fix[v]}"` : ''
 
 // ---- grilla ----
 function render(){
-  let list = ALL.filter(m => (cat==='all' || m.cat===cat) && (!q || m.name.toLowerCase().includes(q)));
+  let list = ALL.filter(m => (cat==='all' || m.cat===cat) && (!q || (m.name+' '+(m.brand||'')+' '+(m.tags||[]).join(' ')).toLowerCase().includes(q)));
   list.sort(sort==='pa' ? (a,b)=>a.price-b.price||a.name.localeCompare(b.name) : sort==='pd' ? (a,b)=>b.price-a.price||a.name.localeCompare(b.name) : (a,b)=>a.name.localeCompare(b.name));
   CUR = list.map(m => m.id);
   $('count').textContent = list.length + ' models';
@@ -335,19 +338,21 @@ function delivered(r){
 // ---- modal ----
 function setMAdd(id){ const b = $('mAdd'); const on = cart.includes(id); b.textContent = on ? 'In cart ✓ (click to remove)' : 'Add to cart'; b.className = 'add' + (on?' in':''); b.dataset.add = id; }
 function showImg(src, alt, t){ const b = $('mBig'); b.src = src; b.alt = alt; b.style.transform = t || ''; resetZ(); setTimeout(updCount, 0); }
-function photoBtns(){ return [...document.querySelectorAll('#mThumbs button')]; }
+function photoBtns(){ return [...document.querySelectorAll('#mThumbs button[data-view]')]; }
 function updCount(){ const bs = photoBtns(), i = bs.findIndex(b => b.getAttribute('aria-current') === 'true'); $('vp').dataset.multi = bs.length > 1 ? '1' : '0'; $('pCount').textContent = (i < 0 ? 1 : i + 1) + ' / ' + bs.length; }
 function stepPhoto(d){ const bs = photoBtns(); if (bs.length < 2) return; let i = bs.findIndex(b => b.getAttribute('aria-current') === 'true'); if (i < 0) i = 0; bs[(i + d + bs.length) % bs.length].click(); }
 function openModel(id){
-  const m = byId[id]; $('modal').dataset.id = id;
+  stop3D(); const m = byId[id]; $('modal').dataset.id = id;
   $('mName').textContent = m.name;
   $('mFmts').innerHTML = m.formats.map(f => `<span>${FMT_NOTE[f]||f}</span>`).join('');
-  $('mDesc').textContent = m.cat==='cam' ? CAM_NOTE : m.cat==='bodies' ? 'Body only, ready to machine.' : m.cat==='basses' ? 'Bass guitar model.' : 'Full instrument model.';
+  $('mDesc').textContent = m.desc ? m.desc + (m.cat==='cam' ? ' ' + CAM_NOTE : '') : m.cat==='cam' ? CAM_NOTE : m.cat==='bodies' ? 'Body only, ready to machine.' : m.cat==='basses' ? 'Bass guitar model.' : 'Full instrument model.';
   $('mPrice').textContent = money(m.price);
+  $('mTags').innerHTML = (m.tags||[]).map(t => `<span>${esc(t)}</span>`).join('');
   const views = Object.keys(m.images);
   const v0 = m.images.front && mainV(m)==='front' ? 'front' : mainV(m);
   showImg(img(m,v0), m.name, m.fix && m.fix[v0]);
   $('mThumbs').innerHTML = views.map(v => `<button data-view="${m.images[v]}" data-t="${(m.fix&&m.fix[v])||''}" aria-label="${viewLabel(v)}" ${v===v0?'aria-current="true"':''}><img src="${m.images[v]}"${tf(m,v)} alt="${viewLabel(v)}"></button>`).join('');
+  if (m.preview) $('mThumbs').insertAdjacentHTML('beforeend', `<button class="b3" data-glb="${m.preview}" aria-label="3D preview">3D</button>`);
   const n = CUR.indexOf(id); $('mPos').textContent = n >= 0 ? `${n+1} of ${CUR.length}` : '';
   setMAdd(id); open('modal');
 }
@@ -359,21 +364,51 @@ function openPack(){
   $('mFmts').innerHTML = ['f3d','step','stl'].map(f => `<span>${FMT_NOTE[f]}</span>`).join('');
   const sum = ms.reduce((a,m)=>a+m.price,0);
   $('mDesc').textContent = `${ms.length} models worth ${money(sum)} if bought one by one. ` + ms.map(m=>m.name).join(', ') + '.';
-  $('mPrice').textContent = money(PACK.price);
+  $('mPrice').textContent = money(PACK.price); $('mTags').innerHTML = '';
   showImg(img(ms[0]), PACK.name);
   $('mThumbs').innerHTML = ms.map(m => `<button data-view="${img(m,'front')}" aria-label="${esc(m.name)}"><img src="${img(m,'front')}" alt="${esc(m.name)}"></button>`).join('');
   setPackBtn(); open('modal');
+}
+// ---- visor 3D (three.js, carga bajo demanda) ----
+let T3 = null;
+function stop3D(){ $('v3').classList.remove('on'); vp.style.display=''; if (T3){ T3.stop(); T3=null; } }
+async function show3D(url){
+  stop3D(); vp.classList.remove('full'); vp.style.display='none'; const box=$('v3'); box.classList.add('on'); const ld=$('v3ld'); ld.style.display='flex'; ld.textContent='Loading 3D…';
+  try {
+    const THREE = await import('three');
+    const {OrbitControls} = await import('three/addons/controls/OrbitControls.js');
+    const {GLTFLoader} = await import('three/addons/loaders/GLTFLoader.js');
+    if (!box.classList.contains('on')) return;
+    const r = new THREE.WebGLRenderer({antialias:true}); r.setPixelRatio(Math.min(devicePixelRatio,2)); r.setClearColor(0xffffff);
+    const sc = new THREE.Scene(), cam = new THREE.PerspectiveCamera(30,1,1,100000);
+    sc.add(new THREE.HemisphereLight(0xffffff,0x888888,1.6)); const dl = new THREE.DirectionalLight(0xffffff,2.2); dl.position.set(-300,500,800); sc.add(dl);
+    const dl2 = new THREE.DirectionalLight(0xffffff,0.8); dl2.position.set(400,-300,-600); sc.add(dl2);
+    box.appendChild(r.domElement);
+    const ctl = new OrbitControls(cam, r.domElement); ctl.enableDamping = true;
+    const size = () => { const w=box.clientWidth, h=box.clientHeight; r.setSize(w,h,false); cam.aspect=w/h; cam.updateProjectionMatrix(); };
+    size(); const ro = new ResizeObserver(size); ro.observe(box);
+    let raf=0, alive=true; const loop=()=>{ if(!alive) return; ctl.update(); r.render(sc,cam); raf=requestAnimationFrame(loop); };
+    T3 = { stop(){ alive=false; cancelAnimationFrame(raf); ro.disconnect(); ctl.dispose(); r.dispose(); r.domElement.remove(); sc.traverse(o=>{ if(o.geometry) o.geometry.dispose(); if(o.material) o.material.dispose(); }); } };
+    const g = await new GLTFLoader().loadAsync(url);
+    if (!alive) return;
+    g.scene.traverse(o => { if (o.isMesh){ o.material = new THREE.MeshStandardMaterial({color:0xb9a27a, roughness:.55, metalness:.05}); if(!o.geometry.attributes.normal) o.geometry.computeVertexNormals(); } });
+    sc.add(g.scene);
+    const bb = new THREE.Box3().setFromObject(g.scene), sp = bb.getBoundingSphere(new THREE.Sphere()), d = sp.radius / Math.sin(THREE.MathUtils.degToRad(cam.fov/2)) * 0.95;
+    cam.position.set(0,0,d); cam.up.set(0,1,0); ctl.target.copy(sp.center); cam.far = d*10; cam.updateProjectionMatrix(); ctl.update();
+    ld.style.display='none'; loop();
+  } catch(err){ ld.textContent = '3D preview not available'; }
 }
 function open(id){ closeAll(true); $(id).classList.add('open'); $('back').classList.add('open'); document.body.style.overflow='hidden'; }
 function closeAll(keep){ if (vp.classList.contains('full')) vp.classList.remove('full'); ['modal','drawer','doneModal'].forEach(i => $(i).classList.remove('open')); if(!keep){ $('back').classList.remove('open'); document.body.style.overflow=''; } }
 
 // ---- eventos ----
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-add],[data-open],[data-rm],[data-view]'); if (!t) return;
-  if (t.dataset.add) toggle(t.dataset.add);
+  const t = e.target.closest('[data-add],[data-open],[data-rm],[data-view],[data-glb]'); if (!t) return;
+  if (t.dataset.glb) { show3D(t.dataset.glb); document.querySelectorAll('#mThumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current','true'); }
+  else if (t.dataset.add) toggle(t.dataset.add);
   else if (t.dataset.open) openModel(t.dataset.open);
   else if (t.dataset.rm) toggle(t.dataset.rm);
-  else if (t.dataset.view) { showImg(t.dataset.view, '', t.dataset.t); document.querySelectorAll('#mThumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current','true'); }
+  else if (t.dataset.view) { stop3D(); showImg(t.dataset.view, '', t.dataset.t); document.querySelectorAll('#mThumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current','true'); }
 });
 
 // ---- visor con zoom ----
