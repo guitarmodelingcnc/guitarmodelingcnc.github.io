@@ -108,7 +108,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .row.save{color:var(--ok)}
 .row.tot{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;letter-spacing:.03em}
 .hint{color:var(--muted);font-size:.85rem}
-#paypal{margin-top:10px;min-height:48px}
+#paypal-btn{margin-top:10px;min-height:48px}
 .note{padding:10px 12px;border:1px solid var(--gold-dim);background:#1d1a12;font-size:.9rem}
 .err{color:var(--err);font-size:.9rem}
 /* delivery */
@@ -291,7 +291,7 @@ function drawLines(){
   let h = '';
   if (cart.length){
     if (t.save>0) h += `<div class="row"><span>Subtotal</span><span>${money(t.base)}</span></div><div class="row save"><span>Bundle discount</span><span>- ${money(t.save)}</span></div>`;
-    h += `<div class="row tot"><span>Total</span><span>${money(t.total)}</span></div><div id="paypal"></div><div id="payMsg"></div>`;
+    h += `<div class="row tot"><span>Total</span><span>${money(t.total)}</span></div><div id="paypal-btn"></div><div id="payMsg"></div>`;
     if (!CFG.PAYPAL_CLIENT_ID || !CFG.API_BASE) h += `<div class="note">Checkout is not connected yet. Message us on Facebook to order.</div>`;
   }
   $('sum').innerHTML = h;
@@ -314,7 +314,7 @@ async function api(path, body){
 async function mountPayPal(){
   if (!CFG.PAYPAL_CLIENT_ID || !CFG.API_BASE) return;
   try { await loadSdk(); } catch(e){ $('payMsg').innerHTML = '<p class="err">Could not load PayPal. Check your connection and reload.</p>'; return; }
-  const el = $('paypal'); if (!el) return;
+  const el = $('paypal-btn'); if (!el) return;
   paypal.Buttons({
     style:{layout:'vertical',color:'gold',shape:'rect',label:'pay'},
     createOrder: () => api('/create-order',{items:cart}).then(o => o.id),
@@ -323,7 +323,7 @@ async function mountPayPal(){
       catch(e){ $('payMsg').innerHTML = `<p class="err">Payment received but we could not prepare your files (${esc(e.message)}). Do not pay again. Message us on Facebook with this order ID: ${esc(d.orderID)}</p>`; }
     },
     onError: () => { const m = $('payMsg'); if (m) m.innerHTML = '<p class="err">PayPal reported an error. You were not charged. Try again.</p>'; }
-  }).render('#paypal');
+  }).render('#paypal-btn');
 }
 function delivered(r){
   closeAll();
