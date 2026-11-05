@@ -16,7 +16,8 @@
    "caballera": "images/42-trastes/caballera.jpg",
    "iso": "images/42-trastes/iso.jpg",
    "persp_b": "images/42-trastes/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540P_HS_v_2.0",
@@ -35,7 +36,8 @@
    "caballera": "images/540p-hs-v-2-0/caballera.jpg",
    "iso": "images/540p-hs-v-2-0/iso.jpg",
    "persp_b": "images/540p-hs-v-2-0/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_2.0",
@@ -54,7 +56,8 @@
    "caballera": "images/540pii-2-0/caballera.jpg",
    "iso": "images/540pii-2-0/iso.jpg",
    "persp_b": "images/540pii-2-0/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_2.RG",
@@ -73,7 +76,8 @@
    "caballera": "images/540pii-2-rg/caballera.jpg",
    "iso": "images/540pii-2-rg/iso.jpg",
    "persp_b": "images/540pii-2-rg/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_2.RG_Controls",
@@ -92,7 +96,8 @@
    "caballera": "images/540pii-2-rg-controls/caballera.jpg",
    "iso": "images/540pii-2-rg-controls/iso.jpg",
    "persp_b": "images/540pii-2-rg-controls/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_27_frets",
@@ -111,7 +116,8 @@
    "caballera": "images/540pii-27-frets/caballera.jpg",
    "iso": "images/540pii-27-frets/iso.jpg",
    "persp_b": "images/540pii-27-frets/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_3.0_HH_y_HS",
@@ -130,7 +136,8 @@
    "caballera": "images/540pii-3-0-hh-y-hs/caballera.jpg",
    "iso": "images/540pii-3-0-hh-y-hs/iso.jpg",
    "persp_b": "images/540pii-3-0-hh-y-hs/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_3.RG",
@@ -149,7 +156,8 @@
    "caballera": "images/540pii-3-rg/caballera.jpg",
    "iso": "images/540pii-3-rg/iso.jpg",
    "persp_b": "images/540pii-3-rg/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "540pii_Meets_RGD",
@@ -168,7 +176,8 @@
    "caballera": "images/540pii-meets-rgd/caballera.jpg",
    "iso": "images/540pii-meets-rgd/iso.jpg",
    "persp_b": "images/540pii-meets-rgd/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ADRIAN_HAMMER",
@@ -187,7 +196,8 @@
    "caballera": "images/adrian-hammer/caballera.jpg",
    "iso": "images/adrian-hammer/iso.jpg",
    "persp_b": "images/adrian-hammer/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ALL_STRATS_2",
@@ -206,7 +216,8 @@
    "caballera": "images/all-strats-2/caballera.jpg",
    "iso": "images/all-strats-2/iso.jpg",
    "persp_b": "images/all-strats-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "axis",
@@ -225,7 +236,8 @@
    "caballera": "images/axis/caballera.jpg",
    "iso": "images/axis/iso.jpg",
    "persp_b": "images/axis/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "bass_precision",
@@ -244,7 +256,8 @@
    "caballera": "images/bass-precision/caballera.jpg",
    "iso": "images/bass-precision/iso.jpg",
    "persp_b": "images/bass-precision/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BC_RICH_BITCH",
@@ -263,7 +276,8 @@
    "caballera": "images/bc-rich-bitch/caballera.jpg",
    "iso": "images/bc-rich-bitch/iso.jpg",
    "persp_b": "images/bc-rich-bitch/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BC_Rich_IGNITOR_6_Strings",
@@ -282,7 +296,8 @@
    "caballera": "images/bc-rich-ignitor-6-strings/caballera.jpg",
    "iso": "images/bc-rich-ignitor-6-strings/iso.jpg",
    "persp_b": "images/bc-rich-ignitor-6-strings/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BC_Rich_IGNITOR_6_Strings_bolt_on",
@@ -301,7 +316,8 @@
    "caballera": "images/bc-rich-ignitor-6-strings-bolt-on/caballera.jpg",
    "iso": "images/bc-rich-ignitor-6-strings-bolt-on/iso.jpg",
    "persp_b": "images/bc-rich-ignitor-6-strings-bolt-on/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BC_Rich_IGNITOR_6_Strings_v51_CLEAN",
@@ -320,7 +336,8 @@
    "caballera": "images/bc-rich-ignitor-6-strings-v51-clean/caballera.jpg",
    "iso": "images/bc-rich-ignitor-6-strings-v51-clean/iso.jpg",
    "persp_b": "images/bc-rich-ignitor-6-strings-v51-clean/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BC_Rich_IGNITOR_7_Strings",
@@ -339,7 +356,8 @@
    "caballera": "images/bc-rich-ignitor-7-strings/caballera.jpg",
    "iso": "images/bc-rich-ignitor-7-strings/iso.jpg",
    "persp_b": "images/bc-rich-ignitor-7-strings/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BC_RICH_STEALTH",
@@ -358,7 +376,8 @@
    "caballera": "images/bc-rich-stealth/caballera.jpg",
    "iso": "images/bc-rich-stealth/iso.jpg",
    "persp_b": "images/bc-rich-stealth/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BODEN",
@@ -377,7 +396,8 @@
    "caballera": "images/boden/caballera.jpg",
    "iso": "images/boden/iso.jpg",
    "persp_b": "images/boden/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BODEN_MULTISCALE",
@@ -396,7 +416,8 @@
    "caballera": "images/boden-multiscale/caballera.jpg",
    "iso": "images/boden-multiscale/iso.jpg",
    "persp_b": "images/boden-multiscale/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BODEN_TOP_MULTI",
@@ -415,7 +436,8 @@
    "caballera": "images/boden-top-multi/caballera.jpg",
    "iso": "images/boden-top-multi/iso.jpg",
    "persp_b": "images/boden-top-multi/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Body__Vintage_1962",
@@ -434,7 +456,8 @@
    "caballera": "images/body-vintage-1962/caballera.jpg",
    "iso": "images/body-vintage-1962/iso.jpg",
    "persp_b": "images/body-vintage-1962/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "BONES",
@@ -453,7 +476,8 @@
    "caballera": "images/bones/caballera.jpg",
    "iso": "images/bones/iso.jpg",
    "persp_b": "images/bones/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Brown_JazzTwist",
@@ -472,7 +496,8 @@
    "caballera": "images/brown-jazztwist/caballera.jpg",
    "iso": "images/brown-jazztwist/iso.jpg",
    "persp_b": "images/brown-jazztwist/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Burnt_tiger_ESP",
@@ -491,7 +516,8 @@
    "caballera": "images/burnt-tiger-esp/caballera.jpg",
    "iso": "images/burnt-tiger-esp/iso.jpg",
    "persp_b": "images/burnt-tiger-esp/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "CHARVEL_DK24_ROUNDED",
@@ -510,7 +536,8 @@
    "caballera": "images/charvel-dk24-rounded/caballera.jpg",
    "iso": "images/charvel-dk24-rounded/iso.jpg",
    "persp_b": "images/charvel-dk24-rounded/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Charvel_Model_1",
@@ -529,7 +556,8 @@
    "caballera": "images/charvel-model-1/caballera.jpg",
    "iso": "images/charvel-model-1/iso.jpg",
    "persp_b": "images/charvel-model-1/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Chris_Gee_Hampa",
@@ -548,7 +576,8 @@
    "caballera": "images/chris-gee-hampa/caballera.jpg",
    "iso": "images/chris-gee-hampa/iso.jpg",
    "persp_b": "images/chris-gee-hampa/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Ciberpunk_2077",
@@ -567,7 +596,8 @@
    "caballera": "images/ciberpunk-2077/caballera.jpg",
    "iso": "images/ciberpunk-2077/iso.jpg",
    "persp_b": "images/ciberpunk-2077/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Cool_modern_strat",
@@ -586,7 +616,8 @@
    "caballera": "images/cool-modern-strat/caballera.jpg",
    "iso": "images/cool-modern-strat/iso.jpg",
    "persp_b": "images/cool-modern-strat/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "CUERPO_JPM",
@@ -605,7 +636,8 @@
    "caballera": "images/cuerpo-jpm/caballera.jpg",
    "iso": "images/cuerpo-jpm/iso.jpg",
    "persp_b": "images/cuerpo-jpm/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Custon_jazzwaster",
@@ -624,7 +656,8 @@
    "caballera": "images/custon-jazzwaster/caballera.jpg",
    "iso": "images/custon-jazzwaster/iso.jpg",
    "persp_b": "images/custon-jazzwaster/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Danijel_custom",
@@ -643,7 +676,8 @@
    "caballera": "images/danijel-custom/caballera.jpg",
    "iso": "images/danijel-custom/iso.jpg",
    "persp_b": "images/danijel-custom/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "DEATH_DAGGER",
@@ -662,7 +696,8 @@
    "caballera": "images/death-dagger/caballera.jpg",
    "iso": "images/death-dagger/iso.jpg",
    "persp_b": "images/death-dagger/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "DEATH_IRON_WESTONE",
@@ -681,7 +716,8 @@
    "caballera": "images/death-iron-westone/caballera.jpg",
    "iso": "images/death-iron-westone/iso.jpg",
    "persp_b": "images/death-iron-westone/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "DINKY",
@@ -700,7 +736,8 @@
    "caballera": "images/dinky/caballera.jpg",
    "iso": "images/dinky/iso.jpg",
    "persp_b": "images/dinky/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "DK_24_body",
@@ -719,7 +756,8 @@
    "caballera": "images/dk-24-body/caballera.jpg",
    "iso": "images/dk-24-body/iso.jpg",
    "persp_b": "images/dk-24-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ECHOPARK_LES_PAUL",
@@ -738,7 +776,8 @@
    "caballera": "images/echopark-les-paul/caballera.jpg",
    "iso": "images/echopark-les-paul/iso.jpg",
    "persp_b": "images/echopark-les-paul/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ELECTRAJET",
@@ -757,7 +796,8 @@
    "caballera": "images/electrajet/caballera.jpg",
    "iso": "images/electrajet/iso.jpg",
    "persp_b": "images/electrajet/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ELECTRAJET_P90",
@@ -776,7 +816,8 @@
    "caballera": "images/electrajet-p90/caballera.jpg",
    "iso": "images/electrajet-p90/iso.jpg",
    "persp_b": "images/electrajet-p90/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Electric_Bass_Guitar_v23",
@@ -795,7 +836,8 @@
    "caballera": "images/electric-bass-guitar-v23/caballera.jpg",
    "iso": "images/electric-bass-guitar-v23/iso.jpg",
    "persp_b": "images/electric-bass-guitar-v23/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Ensemble_Guitare_Gretsch_R26",
@@ -814,7 +856,8 @@
    "caballera": "images/ensemble-guitare-gretsch-r26/caballera.jpg",
    "iso": "images/ensemble-guitare-gretsch-r26/iso.jpg",
    "persp_b": "images/ensemble-guitare-gretsch-r26/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ERNIE_BALL_MM_VH",
@@ -833,7 +876,8 @@
    "caballera": "images/ernie-ball-mm-vh/caballera.jpg",
    "iso": "images/ernie-ball-mm-vh/iso.jpg",
    "persp_b": "images/ernie-ball-mm-vh/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_HORIZONT_6_FLoyd",
@@ -852,7 +896,8 @@
    "caballera": "images/esp-horizont-6-floyd/caballera.jpg",
    "iso": "images/esp-horizont-6-floyd/iso.jpg",
    "persp_b": "images/esp-horizont-6-floyd/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_HORIZONT_6_FLoyd_v9mm",
@@ -871,7 +916,8 @@
    "caballera": "images/esp-horizont-6-floyd-v9mm/caballera.jpg",
    "iso": "images/esp-horizont-6-floyd-v9mm/iso.jpg",
    "persp_b": "images/esp-horizont-6-floyd-v9mm/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_HORIZONT_6_Stings",
@@ -890,7 +936,8 @@
    "caballera": "images/esp-horizont-6-stings/caballera.jpg",
    "iso": "images/esp-horizont-6-stings/iso.jpg",
    "persp_b": "images/esp-horizont-6-stings/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_HORIZONT_6_Strings",
@@ -909,7 +956,8 @@
    "caballera": "images/esp-horizont-6-strings/caballera.jpg",
    "iso": "images/esp-horizont-6-strings/iso.jpg",
    "persp_b": "images/esp-horizont-6-strings/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_Kamizake",
@@ -928,7 +976,8 @@
    "caballera": "images/esp-kamizake/caballera.jpg",
    "iso": "images/esp-kamizake/iso.jpg",
    "persp_b": "images/esp-kamizake/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_MII_24_Trastes",
@@ -947,7 +996,8 @@
    "caballera": "images/esp-mii-24-trastes/caballera.jpg",
    "iso": "images/esp-mii-24-trastes/iso.jpg",
    "persp_b": "images/esp-mii-24-trastes/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_M-II_Body",
@@ -966,7 +1016,8 @@
    "caballera": "images/esp-m-ii-body/caballera.jpg",
    "iso": "images/esp-m-ii-body/iso.jpg",
    "persp_b": "images/esp-m-ii-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ESP_M-II_Body_v15_-_AUTOCAM",
@@ -985,7 +1036,8 @@
    "caballera": "images/esp-m-ii-body-v15-autocam/caballera.jpg",
    "iso": "images/esp-m-ii-body-v15-autocam/iso.jpg",
    "persp_b": "images/esp-m-ii-body-v15-autocam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Fender_Jaguar_Body",
@@ -1004,7 +1056,8 @@
    "caballera": "images/fender-jaguar-body/caballera.jpg",
    "iso": "images/fender-jaguar-body/iso.jpg",
    "persp_b": "images/fender-jaguar-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "FENDER_TALON",
@@ -1023,7 +1076,8 @@
    "caballera": "images/fender-talon/caballera.jpg",
    "iso": "images/fender-talon/iso.jpg",
    "persp_b": "images/fender-talon/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "FLAME",
@@ -1042,7 +1096,8 @@
    "caballera": "images/flame/caballera.jpg",
    "iso": "images/flame/iso.jpg",
    "persp_b": "images/flame/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Flame_Body_front_v3",
@@ -1061,7 +1116,8 @@
    "caballera": "images/flame-body-front-v3/caballera.jpg",
    "iso": "images/flame-body-front-v3/iso.jpg",
    "persp_b": "images/flame-body-front-v3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Gibson__59_Les_Paul",
@@ -1080,7 +1136,8 @@
    "caballera": "images/gibson-59-les-paul/caballera.jpg",
    "iso": "images/gibson-59-les-paul/iso.jpg",
    "persp_b": "images/gibson-59-les-paul/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Gibson_ES_335",
@@ -1099,7 +1156,8 @@
    "caballera": "images/gibson-es-335/caballera.jpg",
    "iso": "images/gibson-es-335/iso.jpg",
    "persp_b": "images/gibson-es-335/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Gibson_V_1958",
@@ -1118,7 +1176,8 @@
    "caballera": "images/gibson-v-1958/caballera.jpg",
    "iso": "images/gibson-v-1958/iso.jpg",
    "persp_b": "images/gibson-v-1958/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "GREEN_MEDUSSA_TAKE_2",
@@ -1137,7 +1196,8 @@
    "caballera": "images/green-medussa-take-2/caballera.jpg",
    "iso": "images/green-medussa-take-2/iso.jpg",
    "persp_b": "images/green-medussa-take-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HELLRAISER_v9",
@@ -1156,7 +1216,8 @@
    "caballera": "images/hellraiser-v9/caballera.jpg",
    "iso": "images/hellraiser-v9/iso.jpg",
    "persp_b": "images/hellraiser-v9/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HETFIELD_EXPLORER_HEADSTOCK",
@@ -1175,7 +1236,8 @@
    "caballera": "images/hetfield-explorer-headstock/caballera.jpg",
    "iso": "images/hetfield-explorer-headstock/iso.jpg",
    "persp_b": "images/hetfield-explorer-headstock/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HIGER_7__H_Cuerdas_HARD_TAIL",
@@ -1194,7 +1256,8 @@
    "caballera": "images/higer-7-h-cuerdas-hard-tail/caballera.jpg",
    "iso": "images/higer-7-h-cuerdas-hard-tail/iso.jpg",
    "persp_b": "images/higer-7-h-cuerdas-hard-tail/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HIGER_7_Cuerdas",
@@ -1213,7 +1276,8 @@
    "caballera": "images/higer-7-cuerdas/caballera.jpg",
    "iso": "images/higer-7-cuerdas/iso.jpg",
    "persp_b": "images/higer-7-cuerdas/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HIGER_7_Cuerdas_HARD_TAIL",
@@ -1232,7 +1296,8 @@
    "caballera": "images/higer-7-cuerdas-hard-tail/caballera.jpg",
    "iso": "images/higer-7-cuerdas-hard-tail/iso.jpg",
    "persp_b": "images/higer-7-cuerdas-hard-tail/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HIGER_Completo",
@@ -1251,7 +1316,8 @@
    "caballera": "images/higer-completo/caballera.jpg",
    "iso": "images/higer-completo/iso.jpg",
    "persp_b": "images/higer-completo/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HIGER_Completo_2",
@@ -1270,7 +1336,8 @@
    "caballera": "images/higer-completo-2/caballera.jpg",
    "iso": "images/higer-completo-2/iso.jpg",
    "persp_b": "images/higer-completo-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HORUS_ALA",
@@ -1289,7 +1356,8 @@
    "caballera": "images/horus-ala/caballera.jpg",
    "iso": "images/horus-ala/iso.jpg",
    "persp_b": "images/horus-ala/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HORUS_BODY",
@@ -1308,7 +1376,8 @@
    "caballera": "images/horus-body/caballera.jpg",
    "iso": "images/horus-body/iso.jpg",
    "persp_b": "images/horus-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "HORUS_EYE",
@@ -1327,7 +1396,8 @@
    "caballera": "images/horus-eye/caballera.jpg",
    "iso": "images/horus-eye/iso.jpg",
    "persp_b": "images/horus-eye/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Ibanez_AZ_TELE",
@@ -1346,7 +1416,8 @@
    "caballera": "images/ibanez-az-tele/caballera.jpg",
    "iso": "images/ibanez-az-tele/iso.jpg",
    "persp_b": "images/ibanez-az-tele/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Ibanez_Iceman_24.75",
@@ -1365,7 +1436,8 @@
    "caballera": "images/ibanez-iceman-24-75/caballera.jpg",
    "iso": "images/ibanez-iceman-24-75/iso.jpg",
    "persp_b": "images/ibanez-iceman-24-75/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Ibanez_JEM_-_AANJ__FULL_CAM",
@@ -1384,7 +1456,8 @@
    "caballera": "images/ibanez-jem-aanj-full-cam/caballera.jpg",
    "iso": "images/ibanez-jem-aanj-full-cam/iso.jpg",
    "persp_b": "images/ibanez-jem-aanj-full-cam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "IBANEZ_S_2",
@@ -1403,7 +1476,8 @@
    "caballera": "images/ibanez-s-2/caballera.jpg",
    "iso": "images/ibanez-s-2/iso.jpg",
    "persp_b": "images/ibanez-s-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_FR_HH_AANJ_FINAL",
@@ -1422,7 +1496,8 @@
    "caballera": "images/ibanez-540p-fr-hh-aanj-final/caballera.jpg",
    "iso": "images/ibanez-540p-fr-hh-aanj-final/iso.jpg",
    "persp_b": "images/ibanez-540p-fr-hh-aanj-final/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_FR_HH_AANJ_FINAL_JPM_PICASSO",
@@ -1441,7 +1516,8 @@
    "caballera": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/caballera.jpg",
    "iso": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/iso.jpg",
    "persp_b": "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_FR_HH_AANJ_RGD_1_BISEL_MONKEYG_v2",
@@ -1460,7 +1536,8 @@
    "caballera": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/caballera.jpg",
    "iso": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/iso.jpg",
    "persp_b": "images/ibanez-540p-fr-hh-aanj-rgd-1-bisel-monkeyg-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_FR_HH_MONKEY_GRIP_FINAL_v2",
@@ -1479,7 +1556,8 @@
    "caballera": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/caballera.jpg",
    "iso": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/iso.jpg",
    "persp_b": "images/ibanez-540p-fr-hh-monkey-grip-final-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_FR_HS_AANJ_FINAL",
@@ -1498,7 +1576,8 @@
    "caballera": "images/ibanez-540p-fr-hs-aanj-final/caballera.jpg",
    "iso": "images/ibanez-540p-fr-hs-aanj-final/iso.jpg",
    "persp_b": "images/ibanez-540p-fr-hs-aanj-final/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_Petal_2_v5_Rigth",
@@ -1517,7 +1596,8 @@
    "caballera": "images/ibanez-540p-petal-2-v5-rigth/caballera.jpg",
    "iso": "images/ibanez-540p-petal-2-v5-rigth/iso.jpg",
    "persp_b": "images/ibanez-540p-petal-2-v5-rigth/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540P_RGD_v10",
@@ -1536,7 +1616,8 @@
    "caballera": "images/ibanez-540p-rgd-v10/caballera.jpg",
    "iso": "images/ibanez-540p-rgd-v10/iso.jpg",
    "persp_b": "images/ibanez-540p-rgd-v10/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540PII_DIENTES",
@@ -1555,7 +1636,8 @@
    "caballera": "images/ibanez-540pii-dientes/caballera.jpg",
    "iso": "images/ibanez-540pii-dientes/iso.jpg",
    "persp_b": "images/ibanez-540pii-dientes/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540PII_DIENTES_REVERSED",
@@ -1574,7 +1656,8 @@
    "caballera": "images/ibanez-540pii-dientes-reversed/caballera.jpg",
    "iso": "images/ibanez-540pii-dientes-reversed/iso.jpg",
    "persp_b": "images/ibanez-540pii-dientes-reversed/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540PII_OFF_DOTS",
@@ -1593,7 +1676,8 @@
    "caballera": "images/ibanez-540pii-off-dots/caballera.jpg",
    "iso": "images/ibanez-540pii-off-dots/iso.jpg",
    "persp_b": "images/ibanez-540pii-off-dots/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "ibanez-540PII_RGD_DIENTES",
@@ -1612,7 +1696,8 @@
    "caballera": "images/ibanez-540pii-rgd-dientes/caballera.jpg",
    "iso": "images/ibanez-540pii-rgd-dientes/iso.jpg",
    "persp_b": "images/ibanez-540pii-rgd-dientes/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Ibanez-Xiphos-XPT700_v23_RIGTH",
@@ -1631,7 +1716,8 @@
    "caballera": "images/ibanez-xiphos-xpt700-v23-rigth/caballera.jpg",
    "iso": "images/ibanez-xiphos-xpt700-v23-rigth/iso.jpg",
    "persp_b": "images/ibanez-xiphos-xpt700-v23-rigth/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "IKIGAI_1",
@@ -1650,13 +1736,14 @@
    "caballera": "images/ikigai-1/caballera.jpg",
    "iso": "images/ikigai-1/iso.jpg",
    "persp_b": "images/ikigai-1/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "IRONBIRD",
   "slug": "ironbird",
-  "name": "IRON BIRD",
-  "cat": "basses",
+  "name": "IRONBIRD",
+  "cat": "guitars",
   "price": 60,
   "formats": [
    "f3d",
@@ -1669,7 +1756,8 @@
    "caballera": "images/ironbird/caballera.jpg",
    "iso": "images/ironbird/iso.jpg",
    "persp_b": "images/ironbird/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JACKSON_KELLY_WARRIOR_7_Strings_25.5",
@@ -1688,7 +1776,8 @@
    "caballera": "images/jackson-kelly-warrior-7-strings-25-5/caballera.jpg",
    "iso": "images/jackson-kelly-warrior-7-strings-25-5/iso.jpg",
    "persp_b": "images/jackson-kelly-warrior-7-strings-25-5/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Jackson_King_V_no_History",
@@ -1707,7 +1796,8 @@
    "caballera": "images/jackson-king-v-no-history/caballera.jpg",
    "iso": "images/jackson-king-v-no-history/iso.jpg",
    "persp_b": "images/jackson-king-v-no-history/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JACKSON_RHOADS_6",
@@ -1726,7 +1816,8 @@
    "caballera": "images/jackson-rhoads-6/caballera.jpg",
    "iso": "images/jackson-rhoads-6/iso.jpg",
    "persp_b": "images/jackson-rhoads-6/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JACKSON_RHOADS_7_Strings_25.5",
@@ -1745,7 +1836,8 @@
    "caballera": "images/jackson-rhoads-7-strings-25-5/caballera.jpg",
    "iso": "images/jackson-rhoads-7-strings-25-5/iso.jpg",
    "persp_b": "images/jackson-rhoads-7-strings-25-5/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JACKSON_RHOADS_HH_7_Strings_25.5",
@@ -1764,7 +1856,8 @@
    "caballera": "images/jackson-rhoads-hh-7-strings-25-5/caballera.jpg",
    "iso": "images/jackson-rhoads-hh-7-strings-25-5/iso.jpg",
    "persp_b": "images/jackson-rhoads-hh-7-strings-25-5/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JACKSON_RHOADS_LEFT",
@@ -1783,7 +1876,8 @@
    "caballera": "images/jackson-rhoads-left/caballera.jpg",
    "iso": "images/jackson-rhoads-left/iso.jpg",
    "persp_b": "images/jackson-rhoads-left/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JACKSON_WARRIOR",
@@ -1802,7 +1896,8 @@
    "caballera": "images/jackson-warrior/caballera.jpg",
    "iso": "images/jackson-warrior/iso.jpg",
    "persp_b": "images/jackson-warrior/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Jakson_King_V",
@@ -1821,7 +1916,8 @@
    "caballera": "images/jakson-king-v/caballera.jpg",
    "iso": "images/jakson-king-v/iso.jpg",
    "persp_b": "images/jakson-king-v/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "jazzmaster",
@@ -1840,7 +1936,8 @@
    "caballera": "images/jazzmaster/caballera.jpg",
    "iso": "images/jazzmaster/iso.jpg",
    "persp_b": "images/jazzmaster/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_505_MARTIN",
@@ -1859,7 +1956,8 @@
    "caballera": "images/jem-505-martin/caballera.jpg",
    "iso": "images/jem-505-martin/iso.jpg",
    "persp_b": "images/jem-505-martin/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_77_PBK",
@@ -1878,7 +1976,8 @@
    "caballera": "images/jem-77-pbk/caballera.jpg",
    "iso": "images/jem-77-pbk/iso.jpg",
    "persp_b": "images/jem-77-pbk/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_777_DY",
@@ -1897,7 +1996,8 @@
    "caballera": "images/jem-777-dy/caballera.jpg",
    "iso": "images/jem-777-dy/iso.jpg",
    "persp_b": "images/jem-777-dy/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "JEM_777_LNG",
@@ -1916,7 +2016,8 @@
    "caballera": "images/jem-777-lng/caballera.jpg",
    "iso": "images/jem-777-lng/iso.jpg",
    "persp_b": "images/jem-777-lng/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_7V",
@@ -1935,7 +2036,8 @@
    "caballera": "images/jem-7v/caballera.jpg",
    "iso": "images/jem-7v/iso.jpg",
    "persp_b": "images/jem-7v/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_AANJ_LEFT_HANDED_v2",
@@ -1954,7 +2056,8 @@
    "caballera": "images/jem-aanj-left-handed-v2/caballera.jpg",
    "iso": "images/jem-aanj-left-handed-v2/iso.jpg",
    "persp_b": "images/jem-aanj-left-handed-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_Body",
@@ -1973,7 +2076,8 @@
    "caballera": "images/jem-body/caballera.jpg",
    "iso": "images/jem-body/iso.jpg",
    "persp_b": "images/jem-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_OLD_CAM",
@@ -1992,7 +2096,8 @@
    "caballera": "images/jem-old-cam/caballera.jpg",
    "iso": "images/jem-old-cam/iso.jpg",
    "persp_b": "images/jem-old-cam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_OLD_REAR",
@@ -2011,7 +2116,8 @@
    "caballera": "images/jem-old-rear/caballera.jpg",
    "iso": "images/jem-old-rear/iso.jpg",
    "persp_b": "images/jem-old-rear/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_REAR_ROUTED",
@@ -2030,7 +2136,8 @@
    "caballera": "images/jem-rear-routed/caballera.jpg",
    "iso": "images/jem-rear-routed/iso.jpg",
    "persp_b": "images/jem-rear-routed/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_REAR_ROUTED_CAM",
@@ -2049,7 +2156,8 @@
    "caballera": "images/jem-rear-routed-cam/caballera.jpg",
    "iso": "images/jem-rear-routed-cam/iso.jpg",
    "persp_b": "images/jem-rear-routed-cam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JEM_Sergio",
@@ -2068,7 +2176,8 @@
    "caballera": "images/jem-sergio/caballera.jpg",
    "iso": "images/jem-sergio/iso.jpg",
    "persp_b": "images/jem-sergio/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JPM_100_P3",
@@ -2087,7 +2196,8 @@
    "caballera": "images/jpm-100-p3/caballera.jpg",
    "iso": "images/jpm-100-p3/iso.jpg",
    "persp_b": "images/jpm-100-p3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JPM_con_Puntos",
@@ -2106,7 +2216,8 @@
    "caballera": "images/jpm-con-puntos/caballera.jpg",
    "iso": "images/jpm-con-puntos/iso.jpg",
    "persp_b": "images/jpm-con-puntos/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JPM_LEFT_v2",
@@ -2125,7 +2236,8 @@
    "caballera": "images/jpm-left-v2/caballera.jpg",
    "iso": "images/jpm-left-v2/iso.jpg",
    "persp_b": "images/jpm-left-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JPM_Plain_v3",
@@ -2144,7 +2256,8 @@
    "caballera": "images/jpm-plain-v3/caballera.jpg",
    "iso": "images/jpm-plain-v3/iso.jpg",
    "persp_b": "images/jpm-plain-v3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JPM_POST_CUERPO",
@@ -2163,13 +2276,14 @@
    "caballera": "images/jpm-post-cuerpo/caballera.jpg",
    "iso": "images/jpm-post-cuerpo/iso.jpg",
    "persp_b": "images/jpm-post-cuerpo/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JS2410",
   "slug": "js2410",
-  "name": "JS 2410",
-  "cat": "bodies",
+  "name": "JS2410",
+  "cat": "guitars",
   "price": 60,
   "formats": [
    "f3d",
@@ -2182,7 +2296,8 @@
    "caballera": "images/js2410/caballera.jpg",
    "iso": "images/js2410/iso.jpg",
    "persp_b": "images/js2410/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JS_SEBA",
@@ -2201,7 +2316,8 @@
    "caballera": "images/js-seba/caballera.jpg",
    "iso": "images/js-seba/iso.jpg",
    "persp_b": "images/js-seba/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JS_TELE",
@@ -2220,7 +2336,8 @@
    "caballera": "images/js-tele/caballera.jpg",
    "iso": "images/js-tele/iso.jpg",
    "persp_b": "images/js-tele/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JS_V_3",
@@ -2239,7 +2356,8 @@
    "caballera": "images/js-v-3/caballera.jpg",
    "iso": "images/js-v-3/iso.jpg",
    "persp_b": "images/js-v-3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "JS1",
@@ -2258,7 +2376,8 @@
    "caballera": "images/js1/caballera.jpg",
    "iso": "images/js1/iso.jpg",
    "persp_b": "images/js1/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Kamikaze__3",
@@ -2277,7 +2396,8 @@
    "caballera": "images/kamikaze-3/caballera.jpg",
    "iso": "images/kamikaze-3/iso.jpg",
    "persp_b": "images/kamikaze-3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Kelly_Fanned_frets",
@@ -2296,7 +2416,8 @@
    "caballera": "images/kelly-fanned-frets/caballera.jpg",
    "iso": "images/kelly-fanned-frets/iso.jpg",
    "persp_b": "images/kelly-fanned-frets/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "KLAUDIO__NECK",
@@ -2315,7 +2436,8 @@
    "caballera": "images/klaudio-neck/caballera.jpg",
    "iso": "images/klaudio-neck/iso.jpg",
    "persp_b": "images/klaudio-neck/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "KLONDIKE",
@@ -2334,7 +2456,8 @@
    "caballera": "images/klondike/caballera.jpg",
    "iso": "images/klondike/iso.jpg",
    "persp_b": "images/klondike/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "LES_PAUL_JR_MAXI",
@@ -2353,7 +2476,8 @@
    "caballera": "images/les-paul-jr-maxi/caballera.jpg",
    "iso": "images/les-paul-jr-maxi/iso.jpg",
    "persp_b": "images/les-paul-jr-maxi/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "LES_PAUL_JR_SINGLE_CUT_MAXI",
@@ -2372,7 +2496,8 @@
    "caballera": "images/les-paul-jr-single-cut-maxi/caballera.jpg",
    "iso": "images/les-paul-jr-single-cut-maxi/iso.jpg",
    "persp_b": "images/les-paul-jr-single-cut-maxi/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "LTD_SC-608_BARITONE",
@@ -2391,7 +2516,8 @@
    "caballera": "images/ltd-sc-608-baritone/caballera.jpg",
    "iso": "images/ltd-sc-608-baritone/iso.jpg",
    "persp_b": "images/ltd-sc-608-baritone/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Majesty_bass_Sin_historia",
@@ -2410,7 +2536,8 @@
    "caballera": "images/majesty-bass-sin-historia/caballera.jpg",
    "iso": "images/majesty-bass-sin-historia/iso.jpg",
    "persp_b": "images/majesty-bass-sin-historia/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MAMBA_BODY",
@@ -2429,7 +2556,8 @@
    "caballera": "images/mamba-body/caballera.jpg",
    "iso": "images/mamba-body/iso.jpg",
    "persp_b": "images/mamba-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Mandolina_neck",
@@ -2448,7 +2576,8 @@
    "caballera": "images/mandolina-neck/caballera.jpg",
    "iso": "images/mandolina-neck/iso.jpg",
    "persp_b": "images/mandolina-neck/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "maxi_luthier",
@@ -2467,7 +2596,8 @@
    "caballera": "images/maxi-luthier/caballera.jpg",
    "iso": "images/maxi-luthier/iso.jpg",
    "persp_b": "images/maxi-luthier/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Medussa_Body",
@@ -2486,7 +2616,8 @@
    "caballera": "images/medussa-body/caballera.jpg",
    "iso": "images/medussa-body/iso.jpg",
    "persp_b": "images/medussa-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Medussa_Body_v8_-_AUTOCAM",
@@ -2505,7 +2636,8 @@
    "caballera": "images/medussa-body-v8-autocam/caballera.jpg",
    "iso": "images/medussa-body-v8-autocam/iso.jpg",
    "persp_b": "images/medussa-body-v8-autocam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Meteora_Body",
@@ -2524,7 +2656,8 @@
    "caballera": "images/meteora-body/caballera.jpg",
    "iso": "images/meteora-body/iso.jpg",
    "persp_b": "images/meteora-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MIKE_Musiquiatra",
@@ -2543,7 +2676,8 @@
    "caballera": "images/mike-musiquiatra/caballera.jpg",
    "iso": "images/mike-musiquiatra/iso.jpg",
    "persp_b": "images/mike-musiquiatra/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MIKRO",
@@ -2562,7 +2696,8 @@
    "caballera": "images/mikro/caballera.jpg",
    "iso": "images/mikro/iso.jpg",
    "persp_b": "images/mikro/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Mini_Eddie",
@@ -2581,7 +2716,8 @@
    "caballera": "images/mini-eddie/caballera.jpg",
    "iso": "images/mini-eddie/iso.jpg",
    "persp_b": "images/mini-eddie/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MODELO_NUEVO_temolo_jazzmaster",
@@ -2600,7 +2736,8 @@
    "caballera": "images/modelo-nuevo-temolo-jazzmaster/caballera.jpg",
    "iso": "images/modelo-nuevo-temolo-jazzmaster/iso.jpg",
    "persp_b": "images/modelo-nuevo-temolo-jazzmaster/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MODERN_STRAT_BODY",
@@ -2619,7 +2756,8 @@
    "caballera": "images/modern-strat-body/caballera.jpg",
    "iso": "images/modern-strat-body/iso.jpg",
    "persp_b": "images/modern-strat-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MODERN_STRAT_FLOYD",
@@ -2638,7 +2776,8 @@
    "caballera": "images/modern-strat-floyd/caballera.jpg",
    "iso": "images/modern-strat-floyd/iso.jpg",
    "persp_b": "images/modern-strat-floyd/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "MODERN_STRAT_Gotoh",
@@ -2657,7 +2796,8 @@
    "caballera": "images/modern-strat-gotoh/caballera.jpg",
    "iso": "images/modern-strat-gotoh/iso.jpg",
    "persp_b": "images/modern-strat-gotoh/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Music-Man-Majesty_Solido",
@@ -2676,7 +2816,8 @@
    "caballera": "images/music-man-majesty-solido/caballera.jpg",
    "iso": "images/music-man-majesty-solido/iso.jpg",
    "persp_b": "images/music-man-majesty-solido/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Music-Man-Majesty_V3",
@@ -2695,7 +2836,8 @@
    "caballera": "images/music-man-majesty-v3/caballera.jpg",
    "iso": "images/music-man-majesty-v3/iso.jpg",
    "persp_b": "images/music-man-majesty-v3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "N4",
@@ -2714,7 +2856,8 @@
    "caballera": "images/n4/caballera.jpg",
    "iso": "images/n4/iso.jpg",
    "persp_b": "images/n4/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "NECK_LEE",
@@ -2733,7 +2876,8 @@
    "caballera": "images/neck-lee/caballera.jpg",
    "iso": "images/neck-lee/iso.jpg",
    "persp_b": "images/neck-lee/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "NECK_LEE_new_neck_joint",
@@ -2752,7 +2896,8 @@
    "caballera": "images/neck-lee-new-neck-joint/caballera.jpg",
    "iso": "images/neck-lee-new-neck-joint/iso.jpg",
    "persp_b": "images/neck-lee-new-neck-joint/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "New_Brown_Design",
@@ -2771,7 +2916,8 @@
    "caballera": "images/new-brown-design/caballera.jpg",
    "iso": "images/new-brown-design/iso.jpg",
    "persp_b": "images/new-brown-design/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "New_Decker_Design",
@@ -2790,7 +2936,8 @@
    "caballera": "images/new-decker-design/caballera.jpg",
    "iso": "images/new-decker-design/iso.jpg",
    "persp_b": "images/new-decker-design/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Nueva_JPM",
@@ -2809,7 +2956,8 @@
    "caballera": "images/nueva-jpm/caballera.jpg",
    "iso": "images/nueva-jpm/iso.jpg",
    "persp_b": "images/nueva-jpm/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Nueva_JPM_Plain",
@@ -2828,7 +2976,8 @@
    "caballera": "images/nueva-jpm-plain/caballera.jpg",
    "iso": "images/nueva-jpm-plain/iso.jpg",
    "persp_b": "images/nueva-jpm-plain/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Nueva_JPM_Plain_v1_-_AUTOCAM",
@@ -2847,7 +2996,8 @@
    "caballera": "images/nueva-jpm-plain-v1-autocam/caballera.jpg",
    "iso": "images/nueva-jpm-plain-v1-autocam/iso.jpg",
    "persp_b": "images/nueva-jpm-plain-v1-autocam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "NUNO_N4_ESTA_LOCAL",
@@ -2866,7 +3016,8 @@
    "caballera": "images/nuno-n4-esta-local/caballera.jpg",
    "iso": "images/nuno-n4-esta-local/iso.jpg",
    "persp_b": "images/nuno-n4-esta-local/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PARKER",
@@ -2885,7 +3036,8 @@
    "caballera": "images/parker/caballera.jpg",
    "iso": "images/parker/iso.jpg",
    "persp_b": "images/parker/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Peavey_T_40",
@@ -2904,7 +3056,8 @@
    "caballera": "images/peavey-t-40/caballera.jpg",
    "iso": "images/peavey-t-40/iso.jpg",
    "persp_b": "images/peavey-t-40/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PENSA_HH",
@@ -2923,7 +3076,8 @@
    "caballera": "images/pensa-hh/caballera.jpg",
    "iso": "images/pensa-hh/iso.jpg",
    "persp_b": "images/pensa-hh/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PENSA_HH_2",
@@ -2942,7 +3096,8 @@
    "caballera": "images/pensa-hh-2/caballera.jpg",
    "iso": "images/pensa-hh-2/iso.jpg",
    "persp_b": "images/pensa-hh-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PENSA_KNOFLER",
@@ -2961,7 +3116,8 @@
    "caballera": "images/pensa-knofler/caballera.jpg",
    "iso": "images/pensa-knofler/iso.jpg",
    "persp_b": "images/pensa-knofler/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PENSA_KNOFLER_v23",
@@ -2980,7 +3136,8 @@
    "caballera": "images/pensa-knofler-v23/caballera.jpg",
    "iso": "images/pensa-knofler-v23/iso.jpg",
    "persp_b": "images/pensa-knofler-v23/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PIA__7__V2",
@@ -2999,7 +3156,8 @@
    "caballera": "images/pia-7-v2/caballera.jpg",
    "iso": "images/pia-7-v2/iso.jpg",
    "persp_b": "images/pia-7-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PIA_SILVER",
@@ -3018,7 +3176,8 @@
    "caballera": "images/pia-silver/caballera.jpg",
    "iso": "images/pia-silver/iso.jpg",
    "persp_b": "images/pia-silver/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PIA_SILVER_Straigth_Front_routed",
@@ -3037,7 +3196,8 @@
    "caballera": "images/pia-silver-straigth-front-routed/caballera.jpg",
    "iso": "images/pia-silver-straigth-front-routed/iso.jpg",
    "persp_b": "images/pia-silver-straigth-front-routed/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PIA_SILVER_Straigth_v1",
@@ -3056,7 +3216,8 @@
    "caballera": "images/pia-silver-straigth-v1/caballera.jpg",
    "iso": "images/pia-silver-straigth-v1/iso.jpg",
    "persp_b": "images/pia-silver-straigth-v1/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PIA_V3",
@@ -3075,7 +3236,8 @@
    "caballera": "images/pia-v3/caballera.jpg",
    "iso": "images/pia-v3/iso.jpg",
    "persp_b": "images/pia-v3/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PIA_V3_CAM",
@@ -3094,7 +3256,8 @@
    "caballera": "images/pia-v3-cam/caballera.jpg",
    "iso": "images/pia-v3-cam/iso.jpg",
    "persp_b": "images/pia-v3-cam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PRS",
@@ -3113,7 +3276,8 @@
    "caballera": "images/prs/caballera.jpg",
    "iso": "images/prs/iso.jpg",
    "persp_b": "images/prs/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PRS_24",
@@ -3132,7 +3296,8 @@
    "caballera": "images/prs-24/caballera.jpg",
    "iso": "images/prs-24/iso.jpg",
    "persp_b": "images/prs-24/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "PRS_SC",
@@ -3151,7 +3316,8 @@
    "caballera": "images/prs-sc/caballera.jpg",
    "iso": "images/prs-sc/iso.jpg",
    "persp_b": "images/prs-sc/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RBM",
@@ -3170,7 +3336,8 @@
    "caballera": "images/rbm/caballera.jpg",
    "iso": "images/rbm/iso.jpg",
    "persp_b": "images/rbm/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RBM_v25_-_CAM_GENERAL",
@@ -3189,7 +3356,8 @@
    "caballera": "images/rbm-v25-cam-general/caballera.jpg",
    "iso": "images/rbm-v25-cam-general/iso.jpg",
    "persp_b": "images/rbm-v25-cam-general/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RG_520_GIGER",
@@ -3208,7 +3376,8 @@
    "caballera": "images/rg-520-giger/caballera.jpg",
    "iso": "images/rg-520-giger/iso.jpg",
    "persp_b": "images/rg-520-giger/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RG_550",
@@ -3227,7 +3396,8 @@
    "caballera": "images/rg-550/caballera.jpg",
    "iso": "images/rg-550/iso.jpg",
    "persp_b": "images/rg-550/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RG_570",
@@ -3246,7 +3416,8 @@
    "caballera": "images/rg-570/caballera.jpg",
    "iso": "images/rg-570/iso.jpg",
    "persp_b": "images/rg-570/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RG_7_Cuerdas_Hard_Tail",
@@ -3265,7 +3436,8 @@
    "caballera": "images/rg-7-cuerdas-hard-tail/caballera.jpg",
    "iso": "images/rg-7-cuerdas-hard-tail/iso.jpg",
    "persp_b": "images/rg-7-cuerdas-hard-tail/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RGA",
@@ -3284,7 +3456,8 @@
    "caballera": "images/rga/caballera.jpg",
    "iso": "images/rga/iso.jpg",
    "persp_b": "images/rga/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RGA_27_Frets",
@@ -3303,7 +3476,8 @@
    "caballera": "images/rga-27-frets/caballera.jpg",
    "iso": "images/rga-27-frets/iso.jpg",
    "persp_b": "images/rga-27-frets/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "RGD_7_Mejor",
@@ -3322,7 +3496,8 @@
    "caballera": "images/rgd-7-mejor/caballera.jpg",
    "iso": "images/rgd-7-mejor/iso.jpg",
    "persp_b": "images/rgd-7-mejor/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Robin_meddley",
@@ -3341,7 +3516,8 @@
    "caballera": "images/robin-meddley/caballera.jpg",
    "iso": "images/robin-meddley/iso.jpg",
    "persp_b": "images/robin-meddley/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "san_dimas",
@@ -3360,13 +3536,14 @@
    "caballera": "images/san-dimas/caballera.jpg",
    "iso": "images/san-dimas/iso.jpg",
    "persp_b": "images/san-dimas/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Shorte_rickenbacker_bass_neck",
   "slug": "shorte-rickenbacker-bass-neck",
   "name": "PAULS BASS",
-  "cat": "guitars",
+  "cat": "basses",
   "price": 60,
   "formats": [
    "f3d",
@@ -3379,7 +3556,8 @@
    "caballera": "images/shorte-rickenbacker-bass-neck/caballera.jpg",
    "iso": "images/shorte-rickenbacker-bass-neck/iso.jpg",
    "persp_b": "images/shorte-rickenbacker-bass-neck/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "SNAKEBYTE",
@@ -3398,7 +3576,8 @@
    "caballera": "images/snakebyte/caballera.jpg",
    "iso": "images/snakebyte/iso.jpg",
    "persp_b": "images/snakebyte/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "SR5_Bass_Neck_Steve_Miles",
@@ -3417,7 +3596,8 @@
    "caballera": "images/sr5-bass-neck-steve-miles/caballera.jpg",
    "iso": "images/sr5-bass-neck-steve-miles/iso.jpg",
    "persp_b": "images/sr5-bass-neck-steve-miles/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "STEALTH",
@@ -3436,7 +3616,8 @@
    "caballera": "images/stealth/caballera.jpg",
    "iso": "images/stealth/iso.jpg",
    "persp_b": "images/stealth/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "stingray_body",
@@ -3455,7 +3636,8 @@
    "caballera": "images/stingray-body/caballera.jpg",
    "iso": "images/stingray-body/iso.jpg",
    "persp_b": "images/stingray-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "stingray_body_2",
@@ -3474,7 +3656,8 @@
    "caballera": "images/stingray-body-2/caballera.jpg",
    "iso": "images/stingray-body-2/iso.jpg",
    "persp_b": "images/stingray-body-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Strato_Baritono",
@@ -3493,7 +3676,8 @@
    "caballera": "images/strato-baritono/caballera.jpg",
    "iso": "images/strato-baritono/iso.jpg",
    "persp_b": "images/strato-baritono/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "STRATOCASTER_Body__Vintage_1962",
@@ -3512,7 +3696,8 @@
    "caballera": "images/stratocaster-body-vintage-1962/caballera.jpg",
    "iso": "images/stratocaster-body-vintage-1962/iso.jpg",
    "persp_b": "images/stratocaster-body-vintage-1962/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Suhr_Modern",
@@ -3531,7 +3716,8 @@
    "caballera": "images/suhr-modern/caballera.jpg",
    "iso": "images/suhr-modern/iso.jpg",
    "persp_b": "images/suhr-modern/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "Suhr_Modern_Flato_top",
@@ -3550,7 +3736,8 @@
    "caballera": "images/suhr-modern-flato-top/caballera.jpg",
    "iso": "images/suhr-modern-flato-top/iso.jpg",
    "persp_b": "images/suhr-modern-flato-top/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "Suhr_Modern_Flato_top_REVERSED",
@@ -3569,7 +3756,8 @@
    "caballera": "images/suhr-modern-flato-top-reversed/caballera.jpg",
    "iso": "images/suhr-modern-flato-top-reversed/iso.jpg",
    "persp_b": "images/suhr-modern-flato-top-reversed/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "Suhr_Modern_Flato_top_REVERSED_LOOKING_NUT",
@@ -3588,7 +3776,8 @@
    "caballera": "images/suhr-modern-flato-top-reversed-looking-nut/caballera.jpg",
    "iso": "images/suhr-modern-flato-top-reversed-looking-nut/iso.jpg",
    "persp_b": "images/suhr-modern-flato-top-reversed-looking-nut/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "Surh_Modern_Top_11_16_radius",
@@ -3607,7 +3796,8 @@
    "caballera": "images/surh-modern-top-11-16-radius/caballera.jpg",
    "iso": "images/surh-modern-top-11-16-radius/iso.jpg",
    "persp_b": "images/surh-modern-top-11-16-radius/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELE__ROUNDED",
@@ -3626,7 +3816,8 @@
    "caballera": "images/tele-rounded/caballera.jpg",
    "iso": "images/tele-rounded/iso.jpg",
    "persp_b": "images/tele-rounded/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELE__ROUNDED_CABRONITA",
@@ -3645,7 +3836,8 @@
    "caballera": "images/tele-rounded-cabronita/caballera.jpg",
    "iso": "images/tele-rounded-cabronita/iso.jpg",
    "persp_b": "images/tele-rounded-cabronita/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELE__ROUNDED_CABRONITA_HSS",
@@ -3664,7 +3856,8 @@
    "caballera": "images/tele-rounded-cabronita-hss/caballera.jpg",
    "iso": "images/tele-rounded-cabronita-hss/iso.jpg",
    "persp_b": "images/tele-rounded-cabronita-hss/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELE_CABRONITA_2",
@@ -3683,7 +3876,8 @@
    "caballera": "images/tele-cabronita-2/caballera.jpg",
    "iso": "images/tele-cabronita-2/iso.jpg",
    "persp_b": "images/tele-cabronita-2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Tele_Hybrid",
@@ -3702,7 +3896,8 @@
    "caballera": "images/tele-hybrid/caballera.jpg",
    "iso": "images/tele-hybrid/iso.jpg",
    "persp_b": "images/tele-hybrid/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELECASTER_GIGER",
@@ -3721,7 +3916,8 @@
    "caballera": "images/telecaster-giger/caballera.jpg",
    "iso": "images/telecaster-giger/iso.jpg",
    "persp_b": "images/telecaster-giger/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "telecaster_thinline",
@@ -3740,7 +3936,8 @@
    "caballera": "images/telecaster-thinline/caballera.jpg",
    "iso": "images/telecaster-thinline/iso.jpg",
    "persp_b": "images/telecaster-thinline/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELECASTER_v6_v1",
@@ -3759,7 +3956,8 @@
    "caballera": "images/telecaster-v6-v1/caballera.jpg",
    "iso": "images/telecaster-v6-v1/iso.jpg",
    "persp_b": "images/telecaster-v6-v1/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "TELECASTERS",
@@ -3778,7 +3976,8 @@
    "caballera": "images/telecasters/caballera.jpg",
    "iso": "images/telecasters/iso.jpg",
    "persp_b": "images/telecasters/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Travis_Neck",
@@ -3797,7 +3996,8 @@
    "caballera": "images/travis-neck/caballera.jpg",
    "iso": "images/travis-neck/iso.jpg",
    "persp_b": "images/travis-neck/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Trevis_Bean_tb_1000",
@@ -3816,7 +4016,8 @@
    "caballera": "images/trevis-bean-tb-1000/caballera.jpg",
    "iso": "images/trevis-bean-tb-1000/iso.jpg",
    "persp_b": "images/trevis-bean-tb-1000/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "UFO_ZACHARY",
@@ -3835,7 +4036,8 @@
    "caballera": "images/ufo-zachary/caballera.jpg",
    "iso": "images/ufo-zachary/iso.jpg",
    "persp_b": "images/ufo-zachary/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "UNIVERSE",
@@ -3854,7 +4056,8 @@
    "caballera": "images/universe/caballera.jpg",
    "iso": "images/universe/iso.jpg",
    "persp_b": "images/universe/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "UNIVERSE_7",
@@ -3873,7 +4076,8 @@
    "caballera": "images/universe-7/caballera.jpg",
    "iso": "images/universe-7/iso.jpg",
    "persp_b": "images/universe-7/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "UNIVERSE_7_OLD_SCHOOL",
@@ -3892,7 +4096,8 @@
    "caballera": "images/universe-7-old-school/caballera.jpg",
    "iso": "images/universe-7-old-school/iso.jpg",
    "persp_b": "images/universe-7-old-school/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "UNIVERSE_AANJ_KAHLER",
@@ -3911,7 +4116,8 @@
    "caballera": "images/universe-aanj-kahler/caballera.jpg",
    "iso": "images/universe-aanj-kahler/iso.jpg",
    "persp_b": "images/universe-aanj-kahler/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "UNIVERSE_AANJ_V2",
@@ -3930,7 +4136,8 @@
    "caballera": "images/universe-aanj-v2/caballera.jpg",
    "iso": "images/universe-aanj-v2/iso.jpg",
    "persp_b": "images/universe-aanj-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "UNIVERSE_AANJ_V2_FULL_INLAYS",
@@ -3949,7 +4156,8 @@
    "caballera": "images/universe-aanj-v2-full-inlays/caballera.jpg",
    "iso": "images/universe-aanj-v2-full-inlays/iso.jpg",
    "persp_b": "images/universe-aanj-v2-full-inlays/persp_b.jpg"
-  }
+  },
+  "main": "persp_b"
  },
  {
   "id": "UNIVERSE_FRONT_AANJ_V2",
@@ -3968,7 +4176,8 @@
    "caballera": "images/universe-front-aanj-v2/caballera.jpg",
    "iso": "images/universe-front-aanj-v2/iso.jpg",
    "persp_b": "images/universe-front-aanj-v2/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VALENO",
@@ -3987,7 +4196,8 @@
    "caballera": "images/valeno/caballera.jpg",
    "iso": "images/valeno/iso.jpg",
    "persp_b": "images/valeno/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VALENO_NECK",
@@ -4006,7 +4216,8 @@
    "caballera": "images/valeno-neck/caballera.jpg",
    "iso": "images/valeno-neck/iso.jpg",
    "persp_b": "images/valeno-neck/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VARBERG",
@@ -4025,7 +4236,8 @@
    "caballera": "images/varberg/caballera.jpg",
    "iso": "images/varberg/iso.jpg",
    "persp_b": "images/varberg/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Veritas_Jazz",
@@ -4044,7 +4256,8 @@
    "caballera": "images/veritas-jazz/caballera.jpg",
    "iso": "images/veritas-jazz/iso.jpg",
    "persp_b": "images/veritas-jazz/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VERITAS_PORTHLANDER",
@@ -4063,7 +4276,8 @@
    "caballera": "images/veritas-porthlander/caballera.jpg",
    "iso": "images/veritas-porthlander/iso.jpg",
    "persp_b": "images/veritas-porthlander/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VERITAS_PORTHLANDER_Solid_Body",
@@ -4082,7 +4296,8 @@
    "caballera": "images/veritas-porthlander-solid-body/caballera.jpg",
    "iso": "images/veritas-porthlander-solid-body/iso.jpg",
    "persp_b": "images/veritas-porthlander-solid-body/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VERITAS_PORTHLANDER_Solid_Body_23.8",
@@ -4101,7 +4316,8 @@
    "caballera": "images/veritas-porthlander-solid-body-23-8/caballera.jpg",
    "iso": "images/veritas-porthlander-solid-body-23-8/iso.jpg",
    "persp_b": "images/veritas-porthlander-solid-body-23-8/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VERITAS_PORTHLANDER_Solid_Body_23.8_p90",
@@ -4120,7 +4336,8 @@
    "caballera": "images/veritas-porthlander-solid-body-23-8-p90/caballera.jpg",
    "iso": "images/veritas-porthlander-solid-body-23-8-p90/iso.jpg",
    "persp_b": "images/veritas-porthlander-solid-body-23-8-p90/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "VERITAS_STRAT",
@@ -4139,7 +4356,8 @@
    "caballera": "images/veritas-strat/caballera.jpg",
    "iso": "images/veritas-strat/iso.jpg",
    "persp_b": "images/veritas-strat/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "WARLOCK",
@@ -4158,7 +4376,8 @@
    "caballera": "images/warlock/caballera.jpg",
    "iso": "images/warlock/iso.jpg",
    "persp_b": "images/warlock/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Warrior_CAM",
@@ -4177,7 +4396,8 @@
    "caballera": "images/warrior-cam/caballera.jpg",
    "iso": "images/warrior-cam/iso.jpg",
    "persp_b": "images/warrior-cam/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Warrior_Close_to_original",
@@ -4196,7 +4416,8 @@
    "caballera": "images/warrior-close-to-original/caballera.jpg",
    "iso": "images/warrior-close-to-original/iso.jpg",
    "persp_b": "images/warrior-close-to-original/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Warrior_Kelly",
@@ -4215,7 +4436,8 @@
    "caballera": "images/warrior-kelly/caballera.jpg",
    "iso": "images/warrior-kelly/iso.jpg",
    "persp_b": "images/warrior-kelly/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Warrior_Kelly_7",
@@ -4234,7 +4456,8 @@
    "caballera": "images/warrior-kelly-7/caballera.jpg",
    "iso": "images/warrior-kelly-7/iso.jpg",
    "persp_b": "images/warrior-kelly-7/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Warwick_neck",
@@ -4253,7 +4476,8 @@
    "caballera": "images/warwick-neck/caballera.jpg",
    "iso": "images/warwick-neck/iso.jpg",
    "persp_b": "images/warwick-neck/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Washburn__NO_INLAY_EXPLORER_HEADSTOCK",
@@ -4272,7 +4496,8 @@
    "caballera": "images/washburn-no-inlay-explorer-headstock/caballera.jpg",
    "iso": "images/washburn-no-inlay-explorer-headstock/iso.jpg",
    "persp_b": "images/washburn-no-inlay-explorer-headstock/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Washburn_Dime_SCROSS",
@@ -4285,13 +4510,7 @@
    "step",
    "stl"
   ],
-  "images": {
-   "front": "images/washburn-dime-scross/front.jpg",
-   "back": "images/washburn-dime-scross/back.jpg",
-   "caballera": "images/washburn-dime-scross/caballera.jpg",
-   "iso": "images/washburn-dime-scross/iso.jpg",
-   "persp_b": "images/washburn-dime-scross/persp_b.jpg"
-  }
+  "images": {}
  },
  {
   "id": "Washburn_SCROSS_NO_INLAY",
@@ -4310,7 +4529,8 @@
    "caballera": "images/washburn-scross-no-inlay/caballera.jpg",
    "iso": "images/washburn-scross-no-inlay/iso.jpg",
    "persp_b": "images/washburn-scross-no-inlay/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Washburn_Stealth",
@@ -4329,7 +4549,8 @@
    "caballera": "images/washburn-stealth/caballera.jpg",
    "iso": "images/washburn-stealth/iso.jpg",
    "persp_b": "images/washburn-stealth/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Washburn_Stealth_27",
@@ -4348,7 +4569,8 @@
    "caballera": "images/washburn-stealth-27/caballera.jpg",
    "iso": "images/washburn-stealth-27/iso.jpg",
    "persp_b": "images/washburn-stealth-27/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "WASP",
@@ -4367,7 +4589,8 @@
    "caballera": "images/wasp/caballera.jpg",
    "iso": "images/wasp/iso.jpg",
    "persp_b": "images/wasp/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "WESTONE",
@@ -4386,7 +4609,8 @@
    "caballera": "images/westone/caballera.jpg",
    "iso": "images/westone/iso.jpg",
    "persp_b": "images/westone/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "WESTONE_SPECTOR_FINAL",
@@ -4405,7 +4629,8 @@
    "caballera": "images/westone-spector-final/caballera.jpg",
    "iso": "images/westone-spector-final/iso.jpg",
    "persp_b": "images/westone-spector-final/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "WOODY",
@@ -4424,7 +4649,8 @@
    "caballera": "images/woody/caballera.jpg",
    "iso": "images/woody/iso.jpg",
    "persp_b": "images/woody/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Xiphos_HIGER",
@@ -4443,7 +4669,8 @@
    "caballera": "images/xiphos-higer/caballera.jpg",
    "iso": "images/xiphos-higer/iso.jpg",
    "persp_b": "images/xiphos-higer/persp_b.jpg"
-  }
+  },
+  "main": "front"
  },
  {
   "id": "Yamaha",
@@ -4462,6 +4689,47 @@
    "caballera": "images/yamaha/caballera.jpg",
    "iso": "images/yamaha/iso.jpg",
    "persp_b": "images/yamaha/persp_b.jpg"
-  }
+  },
+  "main": "front"
+ },
+ {
+  "id": "IRON_BIRD",
+  "name": "IRON BIRD",
+  "cat": "basses",
+  "price": 60,
+  "slug": "iron-bird",
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/iron-bird/front.jpg",
+   "back": "images/iron-bird/back.jpg",
+   "caballera": "images/iron-bird/caballera.jpg",
+   "iso": "images/iron-bird/iso.jpg",
+   "persp_b": "images/iron-bird/persp_b.jpg"
+  },
+  "main": "front"
+ },
+ {
+  "id": "JS_2410",
+  "name": "JS 2410",
+  "cat": "bodies",
+  "price": 60,
+  "slug": "js-2410",
+  "formats": [
+   "f3d",
+   "step",
+   "stl"
+  ],
+  "images": {
+   "front": "images/js-2410/front.jpg",
+   "back": "images/js-2410/back.jpg",
+   "caballera": "images/js-2410/caballera.jpg",
+   "iso": "images/js-2410/iso.jpg",
+   "persp_b": "images/js-2410/persp_b.jpg"
+  },
+  "main": "front"
  }
 ]

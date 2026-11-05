@@ -43,7 +43,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 /* grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:12px 0 56px}
 .card{background:var(--panel);border:1px solid var(--border);display:flex;flex-direction:column}
-.card .ph{aspect-ratio:4/3;background:#0f0f0f;cursor:pointer;overflow:hidden;display:block;width:100%;border:0;padding:0}
+.card .ph{aspect-ratio:3/2;background:#fff;cursor:pointer;overflow:hidden;display:block;width:100%;border:0;padding:0}
 .card img{width:100%;height:100%;object-fit:contain;display:block}
 .card .bd{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card h3{font-weight:600;font-size:.95rem;line-height:1.25;word-break:break-word}
@@ -57,14 +57,22 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 /* modal + drawer */
 .back{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:90;display:none}
 .back.open{display:block}
-.modal{position:fixed;z-index:100;inset:4vh 0 auto 0;margin:0 auto;width:min(960px,94vw);max-height:92vh;overflow:auto;background:var(--panel);border:1px solid var(--border);display:none}
+.modal{position:fixed;z-index:100;inset:3vh 0 auto 0;margin:0 auto;width:min(1280px,96vw);max-height:92vh;overflow:auto;background:var(--panel);border:1px solid var(--border);display:none}
 .modal.open{display:block}
 .modal .x,.drawer .x{position:absolute;top:8px;right:12px;background:none;border:0;font-size:1.8rem;color:var(--muted);line-height:1}
-.mgrid{display:grid;grid-template-columns:1.4fr 1fr}
-.mimg{background:#0f0f0f;padding:12px}
-.mimg img.big{width:100%;aspect-ratio:4/3;object-fit:contain;display:block}
+.mgrid{display:grid;grid-template-columns:2.4fr 1fr}
+.mimg{background:#fff;padding:12px}
+.vp{position:relative;overflow:hidden;height:min(74vh,760px);background:#fff;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+.vp.drag{cursor:grabbing}
+.vz{width:100%;height:100%;transform-origin:0 0;will-change:transform}
+.vz img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none;-webkit-user-drag:none}
+.vc{position:absolute;right:10px;top:10px;display:flex;gap:6px;z-index:2}
+.vc button{width:40px;height:40px;background:rgba(10,10,10,.85);border:1px solid var(--gold-dim);color:var(--gold);font-size:1.3rem;line-height:1}
+.vc button:hover{background:var(--gold);color:#111}
+.vh{position:absolute;left:10px;bottom:8px;font-size:.78rem;color:#555;pointer-events:none}
+.vp.full{position:fixed;inset:0;z-index:300;height:auto;width:auto}
 .thumbs{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
-.thumbs button{border:1px solid var(--border);background:#0f0f0f;padding:0;width:64px;height:48px}
+.thumbs button{border:1px solid var(--border);background:#fff;padding:0;width:96px;height:64px}
 .thumbs button[aria-current=true]{border-color:var(--gold)}
 .thumbs img{width:100%;height:100%;object-fit:contain}
 .minfo{padding:28px 24px;display:flex;flex-direction:column;gap:14px}
@@ -77,7 +85,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .drawer h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1.8rem;padding:18px 20px;border-bottom:1px solid var(--border);letter-spacing:.04em}
 .lines{flex:1;overflow:auto;padding:8px 20px}
 .line{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--border)}
-.line img{width:56px;height:42px;object-fit:contain;background:#0f0f0f}
+.line img{width:56px;height:42px;object-fit:contain;background:#fff}
 .line .t{flex:1;font-size:.9rem;line-height:1.25;word-break:break-word}
 .line .p{color:var(--muted);font-size:.9rem}
 .line button{background:none;border:0;color:var(--muted);font-size:1.3rem}
@@ -97,7 +105,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .dl a{display:inline-block;margin:0 8px 6px 0;padding:6px 14px;background:var(--gold);color:#111;text-decoration:none;font-weight:600;font-size:.9rem}
 footer{border-top:1px solid var(--border);padding:32px 0;color:var(--muted);font-size:.9rem}
 footer a{color:var(--gold)}
-@media(max-width:720px){.mgrid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+@media(max-width:720px){.mgrid{grid-template-columns:1fr}.vp{height:56vh}.vh{display:none}.thumbs button{width:64px;height:48px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
 @media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--gold-dim)}}
 </style>
 </head>
@@ -140,7 +148,10 @@ footer a{color:var(--gold)}
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mName">
   <button class="x" id="mClose" aria-label="Close">&times;</button>
   <div class="mgrid">
-    <div class="mimg"><img class="big" id="mBig" alt=""><div class="thumbs" id="mThumbs"></div></div>
+    <div class="mimg"><div class="vp" id="vp"><div class="vz" id="vz"><img id="mBig" alt=""></div>
+      <div class="vc"><button id="zIn" aria-label="Zoom in">+</button><button id="zOut" aria-label="Zoom out">&minus;</button><button id="zReset" aria-label="Reset view">&#8634;</button><button id="zFull" aria-label="Full screen">&#9974;</button></div>
+      <div class="vh">Scroll or pinch to zoom, drag to move, double-click to zoom in</div></div>
+    <div class="thumbs" id="mThumbs"></div></div>
     <div class="minfo"><h2 id="mName"></h2><div class="fmts" id="mFmts"></div><p id="mDesc"></p>
       <div class="price" id="mPrice"></div><button class="add" id="mAdd"></button></div>
   </div>
@@ -192,7 +203,10 @@ function totals(){
 }
 const money = n => 'USD ' + n.toFixed(0);
 const save = () => { try { localStorage.setItem('gm_cart', JSON.stringify(cart)); } catch(e){} };
+const mainV = m => m.main || 'front';
+const thumb = m => img(m,mainV(m)).replace('.jpg','_t.jpg');
 const img = (m, v) => m.images[v] || m.images.front || m.images.iso || '';
+const tf = (m, v) => (m.fix && m.fix[v]) ? ` style="transform:${m.fix[v]}"` : '';
 
 // ---- grilla ----
 function render(){
@@ -201,7 +215,7 @@ function render(){
   $('count').textContent = list.length + ' models';
   $('grid').innerHTML = list.length ? list.map(m => `
     <article class="card">
-      <button class="ph" data-open="${m.id}" aria-label="View ${esc(m.name)}"><img loading="lazy" src="${img(m,'front')}" alt="${esc(m.name)}"></button>
+      <button class="ph" data-open="${m.id}" aria-label="View ${esc(m.name)}"><img loading="lazy" src="${thumb(m)}" alt="${esc(m.name)}"></button>
       <div class="bd"><h3>${esc(m.name)}</h3>
         <div class="meta"><span class="price">${money(m.price)}</span><span class="kind">${KIND[m.cat]}</span></div>
         <button class="add ${cart.includes(m.id)?'in':''}" data-add="${m.id}">${cart.includes(m.id)?'In cart ✓':'Add to cart'}</button>
@@ -222,7 +236,7 @@ function drawLines(){
   $('lines').innerHTML = cart.length ? cart.map(id => {
     const isP = id==='PACK', m = isP ? null : byId[id];
     const name = isP ? `${PACK.name} (${PACK.models.length} models)` : m.name;
-    const pic = isP ? img(byId[PACK.models[0]]||{images:{}},'front') : img(m,'front');
+    const pic = isP ? img(byId[PACK.models[0]]||{images:{}},'front') : img(m,mainV(m));
     const dup = !isP && t.pack && PACK.models.includes(id);
     return `<div class="line"><img src="${pic}" alt=""><div class="t">${esc(name)}${dup?'<br><span class="hint">Already in the Pack, not charged twice</span>':''}</div><div class="p">${isP?money(PACK.price):money(m.price)}</div><button data-rm="${id}" aria-label="Remove">&times;</button></div>`;
   }).join('') : '<p class="hint" style="padding:24px 0">Your cart is empty.</p>';
@@ -275,7 +289,7 @@ function delivered(r){
 
 // ---- modal ----
 function setMAdd(id){ const b = $('mAdd'); const on = cart.includes(id); b.textContent = on ? 'In cart ✓ (click to remove)' : 'Add to cart'; b.className = 'add' + (on?' in':''); b.dataset.add = id; }
-function showImg(src, alt){ $('mBig').src = src; $('mBig').alt = alt; }
+function showImg(src, alt, t){ const b = $('mBig'); b.src = src; b.alt = alt; b.style.transform = t || ''; resetZ(); }
 function openModel(id){
   const m = byId[id]; $('modal').dataset.id = id;
   $('mName').textContent = m.name;
@@ -283,8 +297,8 @@ function openModel(id){
   $('mDesc').textContent = m.cat==='cam' ? CAM_NOTE : m.cat==='bodies' ? 'Body only, ready to machine.' : m.cat==='basses' ? 'Bass guitar model.' : 'Full instrument model.';
   $('mPrice').textContent = money(m.price);
   const views = Object.keys(m.images);
-  showImg(img(m,'iso'), m.name);
-  $('mThumbs').innerHTML = views.map(v => `<button data-view="${m.images[v]}" aria-label="${VIEW_LABEL[v]||v}" ${v==='iso'?'aria-current="true"':''}><img src="${m.images[v]}" alt="${VIEW_LABEL[v]||v}"></button>`).join('');
+  showImg(img(m,'iso'), m.name, m.fix && m.fix.iso);
+  $('mThumbs').innerHTML = views.map(v => `<button data-view="${m.images[v]}" data-t="${(m.fix&&m.fix[v])||''}" aria-label="${VIEW_LABEL[v]||v}" ${v==='iso'?'aria-current="true"':''}><img src="${m.images[v]}"${tf(m,v)} alt="${VIEW_LABEL[v]||v}"></button>`).join('');
   setMAdd(id); open('modal');
 }
 function setPackBtn(){ const b = $('mAdd'), on = cart.includes('PACK'); b.textContent = on ? 'In cart ✓ (click to remove)' : 'Add Pack to cart'; b.className = 'add'+(on?' in':''); b.dataset.add = 'PACK'; }
@@ -301,7 +315,7 @@ function openPack(){
   setPackBtn(); open('modal');
 }
 function open(id){ closeAll(true); $(id).classList.add('open'); $('back').classList.add('open'); document.body.style.overflow='hidden'; }
-function closeAll(keep){ ['modal','drawer','doneModal'].forEach(i => $(i).classList.remove('open')); if(!keep){ $('back').classList.remove('open'); document.body.style.overflow=''; } }
+function closeAll(keep){ if (vp.classList.contains('full')) vp.classList.remove('full'); ['modal','drawer','doneModal'].forEach(i => $(i).classList.remove('open')); if(!keep){ $('back').classList.remove('open'); document.body.style.overflow=''; } }
 
 // ---- eventos ----
 document.addEventListener('click', e => {
@@ -309,12 +323,36 @@ document.addEventListener('click', e => {
   if (t.dataset.add) toggle(t.dataset.add);
   else if (t.dataset.open) openModel(t.dataset.open);
   else if (t.dataset.rm) toggle(t.dataset.rm);
-  else if (t.dataset.view) { showImg(t.dataset.view, ''); document.querySelectorAll('#mThumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current','true'); }
+  else if (t.dataset.view) { showImg(t.dataset.view, '', t.dataset.t); document.querySelectorAll('#mThumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current','true'); }
 });
+
+// ---- visor con zoom ----
+const vp = $('vp'), vz = $('vz'); let Z = {k:1,x:0,y:0};
+function applyZ(){ const r = vp.getBoundingClientRect(); Z.x = Math.min(0, Math.max(r.width - r.width*Z.k, Z.x)); Z.y = Math.min(0, Math.max(r.height - r.height*Z.k, Z.y)); vz.style.transform = `translate(${Z.x}px,${Z.y}px) scale(${Z.k})`; }
+function resetZ(){ Z = {k:1,x:0,y:0}; applyZ(); }
+function zoomTo(nk, cx, cy){ nk = Math.min(10, Math.max(1, nk)); const f = nk / Z.k; Z.x = cx - (cx - Z.x) * f; Z.y = cy - (cy - Z.y) * f; Z.k = nk; applyZ(); }
+function center(){ const r = vp.getBoundingClientRect(); return [r.width/2, r.height/2]; }
+function setFull(on){ vp.classList.toggle('full', on); $('zFull').innerHTML = on ? '&times;' : '&#9974;'; document.body.style.overflow = 'hidden'; resetZ(); }
+vp.addEventListener('wheel', e => { e.preventDefault(); const r = vp.getBoundingClientRect(); zoomTo(Z.k * Math.exp(-e.deltaY * 0.002), e.clientX - r.left, e.clientY - r.top); }, {passive:false});
+const ptrs = new Map(); let pinch = 0;
+vp.addEventListener('pointerdown', e => { if (e.target.closest('.vc')) return; vp.setPointerCapture(e.pointerId); ptrs.set(e.pointerId, [e.clientX, e.clientY]); vp.classList.add('drag'); pinch = 0; });
+vp.addEventListener('pointermove', e => {
+  if (!ptrs.has(e.pointerId)) return;
+  const prev = ptrs.get(e.pointerId); ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+  if (ptrs.size === 1) { Z.x += e.clientX - prev[0]; Z.y += e.clientY - prev[1]; applyZ(); }
+  else if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; const d = Math.hypot(a[0]-b[0], a[1]-b[1]); if (pinch) { const r = vp.getBoundingClientRect(); zoomTo(Z.k * d / pinch, (a[0]+b[0])/2 - r.left, (a[1]+b[1])/2 - r.top); } pinch = d; }
+});
+const endP = e => { ptrs.delete(e.pointerId); pinch = 0; if (!ptrs.size) vp.classList.remove('drag'); };
+vp.addEventListener('pointerup', endP); vp.addEventListener('pointercancel', endP);
+vp.addEventListener('dblclick', e => { if (e.target.closest('.vc')) return; const r = vp.getBoundingClientRect(); if (Z.k > 1.05) resetZ(); else zoomTo(3, e.clientX - r.left, e.clientY - r.top); });
+$('zIn').onclick = () => { const [x,y] = center(); zoomTo(Z.k * 1.6, x, y); };
+$('zOut').onclick = () => { const [x,y] = center(); zoomTo(Z.k / 1.6, x, y); };
+$('zReset').onclick = resetZ;
+$('zFull').onclick = () => setFull(!vp.classList.contains('full'));
 $('cartBtn').onclick = () => { drawLines(); open('drawer'); };
 $('packDeal').onclick = openPack;
 ['mClose','dClose','back'].forEach(i => $(i).onclick = () => closeAll());
-document.addEventListener('keydown', e => { if (e.key==='Escape') closeAll(); });
+document.addEventListener('keydown', e => { if (e.key==='Escape') { if ($('vp').classList.contains('full')) setFull(false); else closeAll(); } });
 $('q').oninput = e => { q = e.target.value.trim().toLowerCase(); render(); };
 $('sort').onchange = e => { sort = e.target.value; render(); };
 $('fb').href = CFG.FACEBOOK || '#';
