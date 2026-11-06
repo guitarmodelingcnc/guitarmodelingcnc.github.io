@@ -203,7 +203,7 @@ footer a{color:var(--gold)}
 const CFG = window.SHOP_CONFIG || {};
 const $ = id => document.getElementById(id);
 const VIEW_LABEL = {front:'Front',back:'Back',caballera:'Left-handed',iso:'Isometric',persp_a:'Perspective A',persp_b:'Perspective B'};
-const viewLabel = v => VIEW_LABEL[v] || (/^real/.test(v) ? 'Real build ' + v.slice(4) : v);
+const viewLabel = v => VIEW_LABEL[v] || (/^real/.test(v) ? 'Real build ' + v.slice(4) : /^sim/.test(v) ? 'CAM simulation' : v);
 const CATS = [['all','All'],['guitars','Guitars'],['bodies','Bodies'],['basses','Basses'],['cam','With CAM']];
 const KIND = {guitars:'Full guitar',bodies:'Body',basses:'Bass',cam:'With CAM'};
 const FMT_NOTE = {f3d:'Fusion 360',step:'STEP',stl:'STL'};
