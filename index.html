@@ -651,7 +651,7 @@ Promise.all([fetch('catalog.json').then(r=>r.json()), fetch('pack.json').then(r=
       document.getElementById('scName').innerHTML = m.name; document.getElementById('scD1').textContent = m.d1; document.getElementById('scD2').textContent = D2;
       if (!cache[i]){ ld.classList.remove('off'); ld.querySelector('i').style.display = ''; ldT.textContent = 'Loading 3D model…'; }
       let model;
-      try { model = await getModel(i, ev => { if (my === token && ev.total) ldT.textContent = 'Loading 3D model… ' + Math.round(100*ev.loaded/ev.total) + '%'; }); }
+      try { model = await getModel(i, ev => { if (my === token && ev.total) ldT.textContent = 'Loading 3D model… ' + Math.min(99, Math.round(100*ev.loaded/ev.total)) + '%'; }); }
       catch(e){ if (my === token){ ldT.textContent = '3D preview not available'; ld.querySelector('i').style.display = 'none'; } return; }
       if (my !== token) return;
       if (shown) inner.remove(shown);
