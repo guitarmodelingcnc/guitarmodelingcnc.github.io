@@ -367,7 +367,7 @@ function delivered(r){
   closeAll();
   const exp = new Date(r.expires*1000).toLocaleString();
   $('done').innerHTML = `<h2>Payment complete</h2>
-    <p>Download your files now. These links stay valid until ${esc(exp)}.</p>
+    <p>Download your files now. These links stay valid until ${esc(exp)}.${r.mailed && r.email ? ` We also emailed them to ${esc(r.email)}.` : ''}</p>
     <p class="hint">Save the files somewhere safe. Order ${esc(r.orderId)}. If you close this window, reopen it any time from <b>My downloads</b> at the top of the page (on this browser).</p>
     ${r.models.map(m => `<div class="dl"><b>${esc(m.name)}</b>${Object.entries(m.files).map(([f,u])=>`<a href="${u}">${DL_NOTE[f]||f}</a>`).join('')}</div>`).join('')}`;
   open('doneModal');
