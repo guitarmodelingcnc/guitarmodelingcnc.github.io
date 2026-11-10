@@ -9,7 +9,7 @@
 <meta property="og:type" content="website"><meta property="og:site_name" content="Guitar Modeling for CNC">
 <meta property="og:title" content="Guitar Modeling for CNC — 3D Guitar &amp; Bass Models for CNC">
 <meta property="og:description" content="Fusion 360, STEP and STL models of electric guitars, basses and bodies for CNC luthiers. Instant download after checkout.">
-<meta property="og:url" content="https://guitarmodelingcnc.github.io/"><meta property="og:image" content="https://guitarmodelingcnc.github.io/images/jem-7v/front.jpg">
+<meta property="og:url" content="https://guitarmodelingcnc.github.io/"><meta property="og:image" content="https://guitarmodelingcnc.github.io/showcase/poster.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"Guitar Modeling for CNC","url":"https://guitarmodelingcnc.github.io/","sameAs":["https://www.facebook.com/GUITARMODELINGFORCNC"]},{"@type":"WebSite","name":"Guitar Modeling for CNC","url":"https://guitarmodelingcnc.github.io/"}]}</script>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.92);backdrop-f
 .dl-btn[hidden]{display:none}
 .dl-btn+.cart-btn{margin-left:0}
 @media(max-width:560px){.bar{gap:8px}.logo{font-size:1.05rem;line-height:1.05}.dl-btn{padding:6px 9px;font-size:.78rem;white-space:nowrap}.cart-btn{padding:8px 12px}}
-.fab{position:fixed;right:16px;bottom:16px;z-index:60;background:var(--gold);color:#111;border:0;padding:14px 20px;font-weight:700;letter-spacing:.04em;box-shadow:0 6px 24px rgba(0,0,0,.55);border-radius:2px}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;background:var(--gold);color:#111;border:0;padding:14px 20px;font-weight:700;letter-spacing:.04em;box-shadow:0 6px 24px rgba(0,0,0,.55);border-radius:2px}
 .fab[hidden]{display:none}
 .fab .n{display:inline-block;min-width:22px;margin-left:8px;padding:0 6px;background:#111;color:var(--gold);border-radius:11px;font-size:.85rem;text-align:center}
 .toast{position:fixed;left:50%;bottom:78px;transform:translateX(-50%) translateY(20px);z-index:70;background:#161616;border:1px solid var(--gold);color:var(--white);padding:12px 16px;display:flex;gap:14px;align-items:center;opacity:0;pointer-events:none;transition:.25s;max-width:calc(100vw - 32px)}
@@ -150,6 +150,35 @@ footer a{color:var(--gold)}
 .feat-acts .view{background:var(--gold);color:#111;border:1px solid var(--gold)}
 .feat-acts .view:hover{background:var(--amber)}
 @media(max-width:720px){.feat-card{grid-template-columns:1fr}.feat-bd{padding:16px}.feat-bd h2{font-size:1.8rem}}
+/* showcase 3D */
+.sc{background:radial-gradient(120% 90% at 50% 0%,#201c15 0%,#0a0a0a 72%);border-bottom:1px solid var(--border)}
+.sc .wrap{padding-top:20px;padding-bottom:26px}
+.sc-grid{display:grid;grid-template-columns:minmax(0,2.3fr) minmax(0,1fr);gap:24px;align-items:stretch}
+.sc-view{position:relative;height:min(64vh,560px);min-height:360px;background:radial-gradient(90% 80% at 50% 42%,#2b261d 0%,#131210 78%);border:1px solid var(--gold-dim);overflow:hidden}
+.sc-view canvas{display:block;width:100%;height:100%;touch-action:pan-y;cursor:grab}
+.sc-view.live canvas{touch-action:none}
+.sc-view canvas:active{cursor:grabbing}
+.sc-ld{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--muted);font-size:.95rem;letter-spacing:.04em;pointer-events:none;transition:opacity .4s}
+.sc-ld.off{opacity:0}
+.sc-ld i{width:42px;height:42px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:scspin 1s linear infinite}
+@keyframes scspin{to{transform:rotate(360deg)}}
+.sc-hint{position:absolute;left:12px;bottom:10px;font-size:.78rem;color:var(--muted);letter-spacing:.05em;pointer-events:none;background:rgba(10,10,10,.55);padding:3px 8px}
+.sc-tools{position:absolute;right:10px;top:10px;display:flex;gap:8px}
+.sc-tools button{background:rgba(10,10,10,.7);border:1px solid var(--gold-dim);color:var(--gold);padding:7px 11px;font-size:.8rem;font-weight:600;letter-spacing:.04em}
+.sc-tools button:hover{border-color:var(--gold)}
+.sc-lock{display:none}
+@media(pointer:coarse){.sc-lock{display:inline-block}.sc-view:not(.live) canvas{pointer-events:none}.sc-view:not(.live) .sc-hint{display:none}}
+.sc-view.full{position:fixed;inset:0;z-index:90;height:100%;min-height:0;border:0}
+.sc-bd{display:flex;flex-direction:column;justify-content:center;gap:12px;padding:6px 2px}
+.sc-tag{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.sc-bd h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:2.7rem;letter-spacing:.04em;line-height:1;color:var(--white)}
+.sc-bd p{color:#cfc9bf;font-weight:300}
+.sc-acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.sc-acts a,.sc-acts button{padding:11px 18px;font-weight:600;letter-spacing:.03em;text-decoration:none;text-align:center;border:1px solid var(--gold);background:transparent;color:var(--gold)}
+.sc-acts .main{background:var(--gold);color:#111}
+.sc-acts .main:hover{background:var(--amber)}
+@media(max-width:820px){.sc-grid{grid-template-columns:1fr;gap:14px}.sc-view{height:min(68vh,520px)}.sc-bd h2{font-size:2.1rem}.sc-tools{top:auto;bottom:10px}.sc-hint{display:none}}
+
 @media(max-width:720px){.mgrid{grid-template-columns:1fr}.vp,.v3{height:56vh}.nav{top:calc(56vh / 2 + 12px);width:36px;height:56px}.vh{display:none}.thumbs button{width:64px;height:48px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
 @media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--gold-dim)}}
 </style>
@@ -161,10 +190,25 @@ footer a{color:var(--gold)}
   <button class="dl-btn" id="dlBtn" hidden>My downloads</button>
   <button class="cart-btn" id="cartBtn" aria-label="Open cart">Cart<span class="n" id="cartN">0</span></button>
 </div></header>
-<button class="fab" id="fab" hidden aria-label="Open cart">Cart<span class="n" id="fabN">0</span></button>
+<button class="fab" id="fab" aria-label="Open cart">Cart<span class="n" id="fabN">0</span></button>
 <div class="toast" id="toast" role="status"><span id="toastT"></span><button id="toastB">View cart</button></div>
 
 <main id="top">
+<section class="sc" id="showcase" aria-label="3D showcase"><div class="wrap"><div class="sc-grid">
+  <div class="sc-view" id="scView">
+    <div class="sc-ld" id="scLd"><i></i><span id="scLdT">Loading 3D model…</span></div>
+    <div class="sc-tools"><button class="sc-lock" id="scLock" type="button">Touch to rotate</button><button id="scFull" type="button" aria-label="Full screen">Full screen</button></div>
+    <div class="sc-hint">Drag to rotate · scroll or pinch to zoom</div>
+  </div>
+  <div class="sc-bd">
+    <span class="sc-tag">Free 3D preview</span>
+    <h2>Wes Hauch<br>Iceman Style</h2>
+    <p>7-string, fully parametric Fusion 360 build. Top, body, neck and fretboard are separate CAD parts, ready for your toolpaths.</p>
+    <p>Spin it, zoom in and look at every curve. This is the kind of model you get in the shop.</p>
+    <div class="sc-acts"><a class="main" href="#catalog">Browse all models</a><button id="scShare" type="button">Share this</button></div>
+  </div>
+</div></div></section>
+
 <section class="hero"><div class="wrap">
   <h1>Guitar &amp; bass models<br>for <em>CNC luthiers</em></h1>
   <p>Fusion 360, STEP and STL files, ready for your toolpaths. Pay with PayPal and download right after checkout.</p>
@@ -300,7 +344,7 @@ let toastTimer;
 function toast(t){ $('toastT').textContent = t; $('toast').classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(()=>$('toast').classList.remove('show'), 4500); }
 function toggle(id){ const had = cart.includes(id); cart = had ? cart.filter(x=>x!==id) : [...cart,id]; save(); update(); if (!had) toast('Added to cart'); }
 function update(){
-  $('cartN').textContent = cart.length; $('fabN').textContent = cart.length; $('fab').hidden = !cart.length;
+  $('cartN').textContent = cart.length; $('fabN').textContent = cart.length; $('fab').hidden = false;
   render(); renderFeatured(); drawLines();
   const m = $('modal').dataset.id; if (m==='PACK') setPackBtn(); else if (m) setMAdd(m);
 }
@@ -501,6 +545,93 @@ Promise.all([fetch('catalog.json').then(r=>r.json()), fetch('pack.json').then(r=
   const dl = new URLSearchParams(location.search).get('m'); if (dl && byId[dl]) openModel(dl);
 }).catch(() => { $('grid').innerHTML = '<p class="empty">Could not load the catalog. Reload the page.</p>'; });
 })();
+</script>
+<script>
+(function(){
+  const box = document.getElementById('scView'); if (!box) return;
+  const GLB = 'showcase/wes-hauch-iceman.glb';
+  const ld = document.getElementById('scLd'), ldT = document.getElementById('scLdT');
+  let started = false;
+  const io = new IntersectionObserver(es => { if (es[0].isIntersecting && !started){ started = true; start().catch(() => { ldT.textContent = '3D preview not available'; ld.querySelector('i').style.display='none'; }); } }, {rootMargin:'250px'});
+  io.observe(box);
+
+  document.getElementById('scFull').onclick = () => {
+    const on = box.classList.toggle('full'); document.getElementById('scFull').textContent = on ? 'Close' : 'Full screen';
+    document.body.style.overflow = on ? 'hidden' : '';
+  };
+  document.getElementById('scLock').onclick = () => {
+    const on = box.classList.toggle('live'); document.getElementById('scLock').textContent = on ? 'Done' : 'Touch to rotate';
+  };
+  document.getElementById('scShare').onclick = async () => {
+    const url = location.origin + location.pathname + '#showcase';
+    const data = {title:'Wes Hauch Iceman Style — free 3D preview', text:'Spin this guitar model in 3D', url};
+    try { if (navigator.share) { await navigator.share(data); return; } } catch(e){ return; }
+    try { await navigator.clipboard.writeText(url); document.getElementById('scShare').textContent = 'Link copied'; setTimeout(() => document.getElementById('scShare').textContent = 'Share this', 2200); } catch(e){ prompt('Copy this link', url); }
+  };
+
+  async function start(){
+    const THREE = await import('three');
+    const {OrbitControls} = await import('three/addons/controls/OrbitControls.js');
+    const {GLTFLoader} = await import('three/addons/loaders/GLTFLoader.js');
+    const {RoomEnvironment} = await import('three/addons/environments/RoomEnvironment.js');
+
+    const r = new THREE.WebGLRenderer({antialias:true, alpha:true, powerPreference:'high-performance', preserveDrawingBuffer:false});
+    r.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = 0.95;
+    box.insertBefore(r.domElement, box.firstChild);
+    const scene = new THREE.Scene();
+    const pm = new THREE.PMREMGenerator(r); scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture;
+    const key = new THREE.DirectionalLight(0xfff1dc, 2.2); key.position.set(-500, 700, 900); scene.add(key);
+    const rim = new THREE.DirectionalLight(0xbcd0ff, 1.1); rim.position.set(600, -200, -700); scene.add(rim);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.25));
+
+    const cam = new THREE.PerspectiveCamera(28, 1, 1, 100000);
+    const ctl = new OrbitControls(cam, r.domElement);
+    ctl.enableDamping = true; ctl.dampingFactor = 0.08; ctl.enablePan = false; ctl.rotateSpeed = 0.8;
+
+    const gltf = await new GLTFLoader().loadAsync(GLB, ev => { if (ev.total) ldT.textContent = 'Loading 3D model… ' + Math.round(100*ev.loaded/ev.total) + '%'; });
+    const aniso = r.capabilities.getMaxAnisotropy();
+    const model = gltf.scene;
+    model.traverse(o => {
+      if (!o.isMesh) return;
+      const old = o.material, top = old.name === 'top', fret = old.name === 'fret';
+      if (old.map){ old.map.anisotropy = aniso; old.map.wrapS = old.map.wrapT = THREE.RepeatWrapping; }
+      o.material = new THREE.MeshPhysicalMaterial({map: old.map, roughness: top ? 0.32 : fret ? 0.4 : 0.55, metalness: 0, clearcoat: top ? 1 : fret ? 0.3 : 0, clearcoatRoughness: 0.06, envMapIntensity: 1});
+    });
+    const holder = new THREE.Group(); const inner = new THREE.Group(); inner.add(model); holder.add(inner); scene.add(holder);
+
+    let portrait = null, sway = true, t0 = performance.now();
+    function fit(){
+      const w = box.clientWidth, h = box.clientHeight; if (!w || !h) return;
+      r.setSize(w, h, false); cam.aspect = w/h;
+      const wantP = w/h < 0.95;
+      if (wantP !== portrait){ portrait = wantP; inner.rotation.set(0, 0, portrait ? Math.PI/2 : 0); }
+      const ry = holder.rotation.y; holder.rotation.y = 0; inner.position.set(0,0,0); holder.updateMatrixWorld(true);
+      const bb = new THREE.Box3().setFromObject(inner), s2 = bb.getSize(new THREE.Vector3()), c2 = bb.getCenter(new THREE.Vector3());
+      inner.position.copy(c2).multiplyScalar(-1); holder.rotation.y = ry; holder.updateMatrixWorld(true);
+      const vf = THREE.MathUtils.degToRad(cam.fov), hf = 2*Math.atan(Math.tan(vf/2)*cam.aspect);
+      const d = Math.max((s2.y/2)/Math.tan(vf/2), (s2.x/2)/Math.tan(hf/2)) * (portrait ? 1.24 : 1.16) + s2.z/2;
+      cam.position.set(d*0.18, d*0.16, d*0.96); cam.near = d/50; cam.far = d*12; cam.updateProjectionMatrix();
+      ctl.target.set(0, portrait ? -s2.y*0.07 : 0, 0); ctl.minDistance = d*0.25; ctl.maxDistance = d*1.8; ctl.update();
+    }
+    fit();
+    new ResizeObserver(fit).observe(box);
+    ['pointerdown','wheel'].forEach(ev => r.domElement.addEventListener(ev, () => { sway = false; }, {passive:true}));
+
+    let visible = true; new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(box);
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; if (reduce || /[?&]still=1/.test(location.search)) sway = false;
+    function loop(){
+      requestAnimationFrame(loop);
+      if (!visible || document.hidden) return;
+      if (sway) holder.rotation.y = 0.36 * Math.sin((performance.now() - t0) / 1900);
+      ctl.update(); r.render(scene, cam);
+    }
+    loop();
+    ld.classList.add('off');
+    window.__showcaseReady = true;
+  }
+})();
+
 </script>
 </body>
 </html>
