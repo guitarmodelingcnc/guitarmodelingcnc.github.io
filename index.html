@@ -186,6 +186,12 @@ footer a{color:var(--gold)}
 @media(max-width:720px){.mgrid{grid-template-columns:1fr}.vp,.v3{height:56vh}.nav{top:calc(56vh / 2 + 12px);width:36px;height:56px}.vh{display:none}.thumbs button{width:64px;height:48px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
 @media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--gold-dim)}}
 </style>
+<script>
+/* Estadisticas propias (GoatCounter, sin cookies). track() nunca rompe la pagina si el contador no carga. */
+window.track=function(p,t,n){try{var gc=window.goatcounter;if(gc&&gc.count){gc.count({path:p,title:t||p,event:true});}else if(!n){setTimeout(function(){window.track(p,t,1)},1500);}}catch(e){}};
+try{var _g=new URLSearchParams(location.search).get('g');if(_g)window.track('from/'+_g.slice(0,30).toLowerCase(),'Visit from group: '+_g.slice(0,30));}catch(e){}
+</script>
+<script data-goatcounter="https://guitarmodeling.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 </head>
 <body>
@@ -347,7 +353,7 @@ function renderFeatured(){
 // ---- carrito ----
 let toastTimer;
 function toast(t){ $('toastT').textContent = t; $('toast').classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(()=>$('toast').classList.remove('show'), 4500); }
-function toggle(id){ const had = cart.includes(id); cart = had ? cart.filter(x=>x!==id) : [...cart,id]; save(); update(); if (!had) toast('Added to cart'); }
+function toggle(id){ const had = cart.includes(id); cart = had ? cart.filter(x=>x!==id) : [...cart,id]; save(); update(); if (!had){ toast('Added to cart'); track('cart-add/'+id,'Add to cart: '+(byId[id]?byId[id].name:id)); } }
 function update(){
   $('cartN').textContent = cart.length; $('fabN').textContent = cart.length; $('fab').hidden = false;
   render(); renderFeatured(); drawLines();
@@ -391,9 +397,9 @@ async function mountPayPal(){
   const el = $('paypal-btn'); if (!el) return;
   paypal.Buttons({
     style:{layout:'vertical',color:'gold',shape:'rect',label:'pay'},
-    createOrder: () => api('/create-order',{items:cart}).then(o => o.id),
+    createOrder: () => { track('checkout-start','Checkout started'); return api('/create-order',{items:cart}).then(o => o.id); },
     onApprove: async d => {
-      try { const items = cart.slice(); const r = await api('/capture-order',{orderId:d.orderID, items}); saveOrder(d.orderID, items); delivered(r); cart = []; save(); update(); }
+      try { const items = cart.slice(); const r = await api('/capture-order',{orderId:d.orderID, items}); saveOrder(d.orderID, items); track('purchase','Purchase completed'); delivered(r); cart = []; save(); update(); }
       catch(e){ $('payMsg').innerHTML = `<p class="err">Payment received but we could not prepare your files (${esc(e.message)}). Do not pay again. Message us on Facebook with this order ID: ${esc(d.orderID)}</p>`; }
     },
     onError: () => { const m = $('payMsg'); if (m) m.innerHTML = '<p class="err">PayPal reported an error. You were not charged. Try again.</p>'; }
@@ -429,7 +435,7 @@ function photoBtns(){ return [...document.querySelectorAll('#mThumbs button[data
 function updCount(){ const bs = photoBtns(), i = bs.findIndex(b => b.getAttribute('aria-current') === 'true'); $('vp').dataset.multi = bs.length > 1 ? '1' : '0'; $('pCount').textContent = (i < 0 ? 1 : i + 1) + ' / ' + bs.length; }
 function stepPhoto(d){ const bs = photoBtns(); if (bs.length < 2) return; let i = bs.findIndex(b => b.getAttribute('aria-current') === 'true'); if (i < 0) i = 0; bs[(i + d + bs.length) % bs.length].click(); }
 function openModel(id){
-  stop3D(); const m = byId[id]; $('modal').dataset.id = id;
+  stop3D(); const m = byId[id]; $('modal').dataset.id = id; track('model/'+id,'Open model: '+m.name);
   $('mName').textContent = m.name;
   $('mFmts').innerHTML = m.formats.map(f => `<span>${FMT_NOTE[f]||f}</span>`).join('');
   $('mDesc').textContent = m.desc ? m.desc + (m.cat==='cam' ? ' ' + CAM_NOTE : '') : m.cat==='cam' ? CAM_NOTE : m.cat==='bodies' ? 'Body only, ready to machine.' : m.cat==='basses' ? 'Bass guitar model.' : 'Full instrument model.';
@@ -532,7 +538,7 @@ $('dlBtn').onclick = reopenDownloads; showDlBtn();
 $('packDeal').onclick = openPack;
 ['mClose','dClose','back'].forEach(i => $(i).onclick = () => closeAll());
 document.addEventListener('keydown', e => { if (e.key==='Escape') { if ($('vp').classList.contains('full')) setFull(false); else closeAll(); } });
-$('q').oninput = e => { q = e.target.value.trim().toLowerCase(); render(); };
+let _qt; $('q').oninput = e => { q = e.target.value.trim().toLowerCase(); render(); clearTimeout(_qt); if (q.length > 2) _qt = setTimeout(() => track('search/'+q.slice(0,30),'Search: '+q.slice(0,30)), 1500); };
 $('sort').onchange = e => { sort = e.target.value; render(); };
 $('fb').href = CFG.FACEBOOK || '#';
 $('tabs').innerHTML = CATS.map(([k,l]) => `<button class="tab" data-tab="${k}" aria-pressed="${k==='all'}">${l}</button>`).join('');
@@ -661,7 +667,7 @@ Promise.all([fetch('catalog.json').then(r=>r.json()), fetch('pack.json').then(r=
     const tabsEl = document.getElementById('scTabs');
     MODELS.forEach((m, i) => {
       const b = document.createElement('button'); b.type = 'button'; b.setAttribute('role', 'tab'); b.textContent = m.tab; b.setAttribute('aria-selected', i === cur);
-      b.onclick = () => { if (i !== cur || !shown) show(i); };
+      b.onclick = () => { if (i !== cur) track('showcase/'+m.id,'3D viewer: '+m.tab); if (i !== cur || !shown) show(i); };
       const pre = () => { if (i !== cur) getModel(i).catch(() => {}); };
       b.addEventListener('pointerenter', pre, {once:true}); b.addEventListener('focus', pre, {once:true});
       tabsEl.appendChild(b);
