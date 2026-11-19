@@ -11,16 +11,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/42-trastes/front.jpg",
-                       "back":  "images/42-trastes/back.jpg",
-                       "caballera":  "images/42-trastes/caballera.jpg",
                        "wood_front":  "images/42-trastes/wood_front.jpg",
                        "wood_back":  "images/42-trastes/wood_back.jpg",
                        "wood_caballera":  "images/42-trastes/wood_caballera.jpg",
+                       "front":  "images/42-trastes/front.jpg",
+                       "back":  "images/42-trastes/back.jpg",
+                       "caballera":  "images/42-trastes/caballera.jpg",
                        "iso":  "images/42-trastes/iso.jpg",
                        "persp_b":  "images/42-trastes/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Monster 42!! is a complete guitar CAD model developed with reference to a design inspired by the MEW by Guitar Violence, a Japanese experimental 42-fret guitar built by Tsuchiya for the guitarist JINMO — MONSTER 42!!. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "MONSTER 42!!",
@@ -54,16 +54,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/540pii-2-0/front.jpg",
-                       "back":  "images/540pii-2-0/back.jpg",
-                       "caballera":  "images/540pii-2-0/caballera.jpg",
                        "wood_front":  "images/540pii-2-0/wood_front.jpg",
                        "wood_back":  "images/540pii-2-0/wood_back.jpg",
                        "wood_caballera":  "images/540pii-2-0/wood_caballera.jpg",
+                       "front":  "images/540pii-2-0/front.jpg",
+                       "back":  "images/540pii-2-0/back.jpg",
+                       "caballera":  "images/540pii-2-0/caballera.jpg",
                        "iso":  "images/540pii-2-0/iso.jpg",
                        "persp_b":  "images/540pii-2-0/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "540pii 2.0 is a body-only guitar CAD model developed with reference to 540pii HH ibanez. Key identified features include HH pickups. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "540pii 2.0",
@@ -133,16 +133,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/540pii-27-frets/front.jpg",
-                       "back":  "images/540pii-27-frets/back.jpg",
-                       "caballera":  "images/540pii-27-frets/caballera.jpg",
                        "wood_front":  "images/540pii-27-frets/wood_front.jpg",
                        "wood_back":  "images/540pii-27-frets/wood_back.jpg",
                        "wood_caballera":  "images/540pii-27-frets/wood_caballera.jpg",
+                       "front":  "images/540pii-27-frets/front.jpg",
+                       "back":  "images/540pii-27-frets/back.jpg",
+                       "caballera":  "images/540pii-27-frets/caballera.jpg",
                        "iso":  "images/540pii-27-frets/iso.jpg",
                        "persp_b":  "images/540pii-27-frets/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "540pii 27 Frets is a complete guitar CAD model developed with reference to Ibanez 540pii HS, 27 frets. Key identified features include 27-fret, HS pickups. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "540pii 27 frets",
@@ -175,16 +175,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/540pii-3-0-hh-y-hs/front.jpg",
-                       "back":  "images/540pii-3-0-hh-y-hs/back.jpg",
-                       "caballera":  "images/540pii-3-0-hh-y-hs/caballera.jpg",
                        "wood_front":  "images/540pii-3-0-hh-y-hs/wood_front.jpg",
                        "wood_back":  "images/540pii-3-0-hh-y-hs/wood_back.jpg",
                        "wood_caballera":  "images/540pii-3-0-hh-y-hs/wood_caballera.jpg",
+                       "front":  "images/540pii-3-0-hh-y-hs/front.jpg",
+                       "back":  "images/540pii-3-0-hh-y-hs/back.jpg",
+                       "caballera":  "images/540pii-3-0-hh-y-hs/caballera.jpg",
                        "iso":  "images/540pii-3-0-hh-y-hs/iso.jpg",
                        "persp_b":  "images/540pii-3-0-hh-y-hs/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "540pii 3.0 HH and HS is a body-only guitar CAD model developed with reference to Ibanez 540pii HS. Key identified features include HH pickups. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "540pii 3.0 HH and HS",
@@ -254,16 +254,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/540pii-meets-rgd/front.jpg",
-                       "back":  "images/540pii-meets-rgd/back.jpg",
-                       "caballera":  "images/540pii-meets-rgd/caballera.jpg",
                        "wood_front":  "images/540pii-meets-rgd/wood_front.jpg",
                        "wood_back":  "images/540pii-meets-rgd/wood_back.jpg",
                        "wood_caballera":  "images/540pii-meets-rgd/wood_caballera.jpg",
+                       "front":  "images/540pii-meets-rgd/front.jpg",
+                       "back":  "images/540pii-meets-rgd/back.jpg",
+                       "caballera":  "images/540pii-meets-rgd/caballera.jpg",
                        "iso":  "images/540pii-meets-rgd/iso.jpg",
                        "persp_b":  "images/540pii-meets-rgd/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "540pii Meets RGD is a complete guitar CAD model developed with reference to a mix of the Ibanez 540PII and the RGD. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "540pii Meets RGD",
@@ -293,16 +293,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/adrian-hammer/front.jpg",
-                       "back":  "images/adrian-hammer/back.jpg",
-                       "caballera":  "images/adrian-hammer/caballera.jpg",
                        "wood_front":  "images/adrian-hammer/wood_front.jpg",
                        "wood_back":  "images/adrian-hammer/wood_back.jpg",
                        "wood_caballera":  "images/adrian-hammer/wood_caballera.jpg",
+                       "front":  "images/adrian-hammer/front.jpg",
+                       "back":  "images/adrian-hammer/back.jpg",
+                       "caballera":  "images/adrian-hammer/caballera.jpg",
                        "iso":  "images/adrian-hammer/iso.jpg",
                        "persp_b":  "images/adrian-hammer/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Adrian Hammer is a complete guitar CAD model developed with reference to Based on Hamer guitars. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ADRIAN HAMMER",
@@ -452,16 +452,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/bc-rich-ignitor-7-strings/front.jpg",
-                       "back":  "images/bc-rich-ignitor-7-strings/back.jpg",
-                       "caballera":  "images/bc-rich-ignitor-7-strings/caballera.jpg",
                        "wood_front":  "images/bc-rich-ignitor-7-strings/wood_front.jpg",
                        "wood_back":  "images/bc-rich-ignitor-7-strings/wood_back.jpg",
                        "wood_caballera":  "images/bc-rich-ignitor-7-strings/wood_caballera.jpg",
+                       "front":  "images/bc-rich-ignitor-7-strings/front.jpg",
+                       "back":  "images/bc-rich-ignitor-7-strings/back.jpg",
+                       "caballera":  "images/bc-rich-ignitor-7-strings/caballera.jpg",
                        "iso":  "images/bc-rich-ignitor-7-strings/iso.jpg",
                        "persp_b":  "images/bc-rich-ignitor-7-strings/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "BC Rich Ignitor 7 Strings is a complete guitar CAD model developed with reference to B. Key identified features include 7-string. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "BC Rich IGNITOR 7 Strings",
@@ -493,16 +493,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/bc-rich-stealth/front.jpg",
-                       "back":  "images/bc-rich-stealth/back.jpg",
-                       "caballera":  "images/bc-rich-stealth/caballera.jpg",
                        "wood_front":  "images/bc-rich-stealth/wood_front.jpg",
                        "wood_back":  "images/bc-rich-stealth/wood_back.jpg",
                        "wood_caballera":  "images/bc-rich-stealth/wood_caballera.jpg",
+                       "front":  "images/bc-rich-stealth/front.jpg",
+                       "back":  "images/bc-rich-stealth/back.jpg",
+                       "caballera":  "images/bc-rich-stealth/caballera.jpg",
                        "iso":  "images/bc-rich-stealth/iso.jpg",
                        "persp_b":  "images/bc-rich-stealth/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "BC RICH Stealth is a complete guitar CAD model developed with reference to B. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "BC RICH STEALTH",
@@ -616,19 +616,19 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/boden-top-multi/front.jpg",
-                       "back":  "images/boden-top-multi/back.jpg",
-                       "caballera":  "images/boden-top-multi/caballera.jpg",
                        "wood_front":  "images/boden-top-multi/wood_front.jpg",
                        "wood_back":  "images/boden-top-multi/wood_back.jpg",
                        "wood_caballera":  "images/boden-top-multi/wood_caballera.jpg",
+                       "front":  "images/boden-top-multi/front.jpg",
+                       "back":  "images/boden-top-multi/back.jpg",
+                       "caballera":  "images/boden-top-multi/caballera.jpg",
                        "iso":  "images/boden-top-multi/iso.jpg",
                        "persp_b":  "images/boden-top-multi/persp_b.jpg",
                        "real1":  "images/boden-top-multi/real1.jpg",
                        "real2":  "images/boden-top-multi/real2.jpg",
                        "real3":  "images/boden-top-multi/real3.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Nørd Top Multiscale is a complete guitar CAD model developed with reference to Strandberg (Boden) — BODEN TOP MULTI. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "BODEN TOP MULTI",
@@ -737,16 +737,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/brown-jazztwist/front.jpg",
-                       "back":  "images/brown-jazztwist/back.jpg",
-                       "caballera":  "images/brown-jazztwist/caballera.jpg",
                        "wood_front":  "images/brown-jazztwist/wood_front.jpg",
                        "wood_back":  "images/brown-jazztwist/wood_back.jpg",
                        "wood_caballera":  "images/brown-jazztwist/wood_caballera.jpg",
+                       "front":  "images/brown-jazztwist/front.jpg",
+                       "back":  "images/brown-jazztwist/back.jpg",
+                       "caballera":  "images/brown-jazztwist/caballera.jpg",
                        "iso":  "images/brown-jazztwist/iso.jpg",
                        "persp_b":  "images/brown-jazztwist/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JAZZ TWIST is a body-only guitar CAD model developed with reference to a custom design partly based on the Fender Jazzmaster — JAZZ TWIST. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JAZZ TWIST",
@@ -777,16 +777,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/burnt-tiger-esp/front.jpg",
-                       "back":  "images/burnt-tiger-esp/back.jpg",
-                       "caballera":  "images/burnt-tiger-esp/caballera.jpg",
                        "wood_front":  "images/burnt-tiger-esp/wood_front.jpg",
                        "wood_back":  "images/burnt-tiger-esp/wood_back.jpg",
                        "wood_caballera":  "images/burnt-tiger-esp/wood_caballera.jpg",
+                       "front":  "images/burnt-tiger-esp/front.jpg",
+                       "back":  "images/burnt-tiger-esp/back.jpg",
+                       "caballera":  "images/burnt-tiger-esp/caballera.jpg",
                        "iso":  "images/burnt-tiger-esp/iso.jpg",
                        "persp_b":  "images/burnt-tiger-esp/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Burnt Tiger ESP is a complete guitar CAD model developed with reference to ESP / LTD — Burnt tiger ESP. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Burnt tiger ESP",
@@ -859,16 +859,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/charvel-model-1/front.jpg",
-                       "back":  "images/charvel-model-1/back.jpg",
-                       "caballera":  "images/charvel-model-1/caballera.jpg",
                        "wood_front":  "images/charvel-model-1/wood_front.jpg",
                        "wood_back":  "images/charvel-model-1/wood_back.jpg",
                        "wood_caballera":  "images/charvel-model-1/wood_caballera.jpg",
+                       "front":  "images/charvel-model-1/front.jpg",
+                       "back":  "images/charvel-model-1/back.jpg",
+                       "caballera":  "images/charvel-model-1/caballera.jpg",
                        "iso":  "images/charvel-model-1/iso.jpg",
                        "persp_b":  "images/charvel-model-1/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Charvel Model 1 is a complete guitar CAD model developed with reference to Charvel — Charvel Model 1. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Charvel Model 1",
@@ -899,16 +899,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/chris-gee-hampa/front.jpg",
-                       "back":  "images/chris-gee-hampa/back.jpg",
-                       "caballera":  "images/chris-gee-hampa/caballera.jpg",
                        "wood_front":  "images/chris-gee-hampa/wood_front.jpg",
                        "wood_back":  "images/chris-gee-hampa/wood_back.jpg",
                        "wood_caballera":  "images/chris-gee-hampa/wood_caballera.jpg",
+                       "front":  "images/chris-gee-hampa/front.jpg",
+                       "back":  "images/chris-gee-hampa/back.jpg",
+                       "caballera":  "images/chris-gee-hampa/caballera.jpg",
                        "iso":  "images/chris-gee-hampa/iso.jpg",
                        "persp_b":  "images/chris-gee-hampa/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HAMPA is a complete guitar CAD model developed with reference to Hapas — HAMPA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HAMPA",
@@ -939,16 +939,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ciberpunk-2077/front.jpg",
-                       "back":  "images/ciberpunk-2077/back.jpg",
-                       "caballera":  "images/ciberpunk-2077/caballera.jpg",
                        "wood_front":  "images/ciberpunk-2077/wood_front.jpg",
                        "wood_back":  "images/ciberpunk-2077/wood_back.jpg",
                        "wood_caballera":  "images/ciberpunk-2077/wood_caballera.jpg",
+                       "front":  "images/ciberpunk-2077/front.jpg",
+                       "back":  "images/ciberpunk-2077/back.jpg",
+                       "caballera":  "images/ciberpunk-2077/caballera.jpg",
                        "iso":  "images/ciberpunk-2077/iso.jpg",
                        "persp_b":  "images/ciberpunk-2077/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ciberpunk 2077 is a complete guitar CAD model developed with reference to a design inspired by a movie — Ciberpunk 2077. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Ciberpunk 2077",
@@ -1019,16 +1019,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/custon-jazzwaster/front.jpg",
-                       "back":  "images/custon-jazzwaster/back.jpg",
-                       "caballera":  "images/custon-jazzwaster/caballera.jpg",
                        "wood_front":  "images/custon-jazzwaster/wood_front.jpg",
                        "wood_back":  "images/custon-jazzwaster/wood_back.jpg",
                        "wood_caballera":  "images/custon-jazzwaster/wood_caballera.jpg",
+                       "front":  "images/custon-jazzwaster/front.jpg",
+                       "back":  "images/custon-jazzwaster/back.jpg",
+                       "caballera":  "images/custon-jazzwaster/caballera.jpg",
                        "iso":  "images/custon-jazzwaster/iso.jpg",
                        "persp_b":  "images/custon-jazzwaster/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jazzwaster is a body-only guitar CAD model developed with reference to Fender — JAZZWASTER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JAZZWASTER",
@@ -1059,16 +1059,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/danijel-custom/front.jpg",
-                       "back":  "images/danijel-custom/back.jpg",
-                       "caballera":  "images/danijel-custom/caballera.jpg",
                        "wood_front":  "images/danijel-custom/wood_front.jpg",
                        "wood_back":  "images/danijel-custom/wood_back.jpg",
                        "wood_caballera":  "images/danijel-custom/wood_caballera.jpg",
+                       "front":  "images/danijel-custom/front.jpg",
+                       "back":  "images/danijel-custom/back.jpg",
+                       "caballera":  "images/danijel-custom/caballera.jpg",
                        "iso":  "images/danijel-custom/iso.jpg",
                        "persp_b":  "images/danijel-custom/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Fussion Custom is a complete guitar CAD model developed with reference to an original custom design — FuSSion Custom. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "FuSSion Custom",
@@ -1099,16 +1099,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/death-dagger/front.jpg",
-                       "back":  "images/death-dagger/back.jpg",
-                       "caballera":  "images/death-dagger/caballera.jpg",
                        "wood_front":  "images/death-dagger/wood_front.jpg",
                        "wood_back":  "images/death-dagger/wood_back.jpg",
                        "wood_caballera":  "images/death-dagger/wood_caballera.jpg",
+                       "front":  "images/death-dagger/front.jpg",
+                       "back":  "images/death-dagger/back.jpg",
+                       "caballera":  "images/death-dagger/caballera.jpg",
                        "iso":  "images/death-dagger/iso.jpg",
                        "persp_b":  "images/death-dagger/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "DEATH Dagger is a complete guitar CAD model developed with reference to Hondo — DEATH DAGGER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "DEATH DAGGER",
@@ -1139,16 +1139,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/death-iron-westone/front.jpg",
-                       "back":  "images/death-iron-westone/back.jpg",
-                       "caballera":  "images/death-iron-westone/caballera.jpg",
                        "wood_front":  "images/death-iron-westone/wood_front.jpg",
                        "wood_back":  "images/death-iron-westone/wood_back.jpg",
                        "wood_caballera":  "images/death-iron-westone/wood_caballera.jpg",
+                       "front":  "images/death-iron-westone/front.jpg",
+                       "back":  "images/death-iron-westone/back.jpg",
+                       "caballera":  "images/death-iron-westone/caballera.jpg",
                        "iso":  "images/death-iron-westone/iso.jpg",
                        "persp_b":  "images/death-iron-westone/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "DEATH IRON Westone is a complete guitar CAD model developed with reference to Westone — DEATH IRON WESTONE. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "DEATH IRON WESTONE",
@@ -1179,16 +1179,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/dinky/front.jpg",
-                       "back":  "images/dinky/back.jpg",
-                       "caballera":  "images/dinky/caballera.jpg",
                        "wood_front":  "images/dinky/wood_front.jpg",
                        "wood_back":  "images/dinky/wood_back.jpg",
                        "wood_caballera":  "images/dinky/wood_caballera.jpg",
+                       "front":  "images/dinky/front.jpg",
+                       "back":  "images/dinky/back.jpg",
+                       "caballera":  "images/dinky/caballera.jpg",
                        "iso":  "images/dinky/iso.jpg",
                        "persp_b":  "images/dinky/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "DINKY is a complete guitar CAD model developed with reference to Jackson — DINKY. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "DINKY",
@@ -1300,16 +1300,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/electrajet/front.jpg",
-                       "back":  "images/electrajet/back.jpg",
-                       "caballera":  "images/electrajet/caballera.jpg",
                        "wood_front":  "images/electrajet/wood_front.jpg",
                        "wood_back":  "images/electrajet/wood_back.jpg",
                        "wood_caballera":  "images/electrajet/wood_caballera.jpg",
+                       "front":  "images/electrajet/front.jpg",
+                       "back":  "images/electrajet/back.jpg",
+                       "caballera":  "images/electrajet/caballera.jpg",
                        "iso":  "images/electrajet/iso.jpg",
                        "persp_b":  "images/electrajet/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Electrajet is a complete guitar CAD model developed with reference to Grosh — ELECTRAJET. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ELECTRAJET",
@@ -1340,16 +1340,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/electrajet-p90/front.jpg",
-                       "back":  "images/electrajet-p90/back.jpg",
-                       "caballera":  "images/electrajet-p90/caballera.jpg",
                        "wood_front":  "images/electrajet-p90/wood_front.jpg",
                        "wood_back":  "images/electrajet-p90/wood_back.jpg",
                        "wood_caballera":  "images/electrajet-p90/wood_caballera.jpg",
+                       "front":  "images/electrajet-p90/front.jpg",
+                       "back":  "images/electrajet-p90/back.jpg",
+                       "caballera":  "images/electrajet-p90/caballera.jpg",
                        "iso":  "images/electrajet-p90/iso.jpg",
                        "persp_b":  "images/electrajet-p90/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Electrajet P90 is a complete guitar CAD model developed with reference to Grosh — ELECTRAJET P90. Key identified features include P-90. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ELECTRAJET P90",
@@ -1381,16 +1381,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/electric-bass-guitar-v23/front.jpg",
-                       "back":  "images/electric-bass-guitar-v23/back.jpg",
-                       "caballera":  "images/electric-bass-guitar-v23/caballera.jpg",
                        "wood_front":  "images/electric-bass-guitar-v23/wood_front.jpg",
                        "wood_back":  "images/electric-bass-guitar-v23/wood_back.jpg",
                        "wood_caballera":  "images/electric-bass-guitar-v23/wood_caballera.jpg",
+                       "front":  "images/electric-bass-guitar-v23/front.jpg",
+                       "back":  "images/electric-bass-guitar-v23/back.jpg",
+                       "caballera":  "images/electric-bass-guitar-v23/caballera.jpg",
                        "iso":  "images/electric-bass-guitar-v23/iso.jpg",
                        "persp_b":  "images/electric-bass-guitar-v23/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Electric Bass Guitar V23 is a bass guitar CAD model developed with reference to Fender Precision Bass — Electric Bass Guitar. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Electric Bass Guitar v23",
@@ -1461,16 +1461,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ernie-ball-mm-vh/front.jpg",
-                       "back":  "images/ernie-ball-mm-vh/back.jpg",
-                       "caballera":  "images/ernie-ball-mm-vh/caballera.jpg",
                        "wood_front":  "images/ernie-ball-mm-vh/wood_front.jpg",
                        "wood_back":  "images/ernie-ball-mm-vh/wood_back.jpg",
                        "wood_caballera":  "images/ernie-ball-mm-vh/wood_caballera.jpg",
+                       "front":  "images/ernie-ball-mm-vh/front.jpg",
+                       "back":  "images/ernie-ball-mm-vh/back.jpg",
+                       "caballera":  "images/ernie-ball-mm-vh/caballera.jpg",
                        "iso":  "images/ernie-ball-mm-vh/iso.jpg",
                        "persp_b":  "images/ernie-ball-mm-vh/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "ERNIE BALL MM VH is a complete guitar CAD model developed with reference to Ernie Ball Music Man — ERNIE BALL MM VH. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ERNIE BALL MM VH",
@@ -1585,16 +1585,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/esp-horizont-6-stings/front.jpg",
-                       "back":  "images/esp-horizont-6-stings/back.jpg",
-                       "caballera":  "images/esp-horizont-6-stings/caballera.jpg",
                        "wood_front":  "images/esp-horizont-6-stings/wood_front.jpg",
                        "wood_back":  "images/esp-horizont-6-stings/wood_back.jpg",
                        "wood_caballera":  "images/esp-horizont-6-stings/wood_caballera.jpg",
+                       "front":  "images/esp-horizont-6-stings/front.jpg",
+                       "back":  "images/esp-horizont-6-stings/back.jpg",
+                       "caballera":  "images/esp-horizont-6-stings/caballera.jpg",
                        "iso":  "images/esp-horizont-6-stings/iso.jpg",
                        "persp_b":  "images/esp-horizont-6-stings/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "ESP Horizont 6 Stings 15mm is a complete guitar CAD model developed with reference to ESP / LTD — ESP HORIZONT 6 Stings 15mm. Key identified features include 6-string. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ESP HORIZONT 6 Stings 15mm",
@@ -1666,16 +1666,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/esp-kamizake/front.jpg",
-                       "back":  "images/esp-kamizake/back.jpg",
-                       "caballera":  "images/esp-kamizake/caballera.jpg",
                        "wood_front":  "images/esp-kamizake/wood_front.jpg",
                        "wood_back":  "images/esp-kamizake/wood_back.jpg",
                        "wood_caballera":  "images/esp-kamizake/wood_caballera.jpg",
+                       "front":  "images/esp-kamizake/front.jpg",
+                       "back":  "images/esp-kamizake/back.jpg",
+                       "caballera":  "images/esp-kamizake/caballera.jpg",
                        "iso":  "images/esp-kamizake/iso.jpg",
                        "persp_b":  "images/esp-kamizake/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "ESP Kamizake is a body-only guitar CAD model developed with reference to ESP / LTD — ESP Kamizake. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ESP Kamizake",
@@ -1707,16 +1707,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/esp-mii-24-trastes/front.jpg",
-                       "back":  "images/esp-mii-24-trastes/back.jpg",
-                       "caballera":  "images/esp-mii-24-trastes/caballera.jpg",
                        "wood_front":  "images/esp-mii-24-trastes/wood_front.jpg",
                        "wood_back":  "images/esp-mii-24-trastes/wood_back.jpg",
                        "wood_caballera":  "images/esp-mii-24-trastes/wood_caballera.jpg",
+                       "front":  "images/esp-mii-24-trastes/front.jpg",
+                       "back":  "images/esp-mii-24-trastes/back.jpg",
+                       "caballera":  "images/esp-mii-24-trastes/caballera.jpg",
                        "iso":  "images/esp-mii-24-trastes/iso.jpg",
                        "persp_b":  "images/esp-mii-24-trastes/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "ESP MII 24 Frets is a complete guitar CAD model developed with reference to ESP / LTD — ESP MII 24 Frets. Key identified features include 24-fret. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ESP MII 24 Frets",
@@ -1869,16 +1869,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/fender-talon/front.jpg",
-                       "back":  "images/fender-talon/back.jpg",
-                       "caballera":  "images/fender-talon/caballera.jpg",
                        "wood_front":  "images/fender-talon/wood_front.jpg",
                        "wood_back":  "images/fender-talon/wood_back.jpg",
                        "wood_caballera":  "images/fender-talon/wood_caballera.jpg",
+                       "front":  "images/fender-talon/front.jpg",
+                       "back":  "images/fender-talon/back.jpg",
+                       "caballera":  "images/fender-talon/caballera.jpg",
                        "iso":  "images/fender-talon/iso.jpg",
                        "persp_b":  "images/fender-talon/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Fender TALON is a complete guitar CAD model developed with reference to Fender — FENDER TALON. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "FENDER TALON",
@@ -1949,16 +1949,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/gibson-59-les-paul/front.jpg",
-                       "back":  "images/gibson-59-les-paul/back.jpg",
-                       "caballera":  "images/gibson-59-les-paul/caballera.jpg",
                        "wood_front":  "images/gibson-59-les-paul/wood_front.jpg",
                        "wood_back":  "images/gibson-59-les-paul/wood_back.jpg",
                        "wood_caballera":  "images/gibson-59-les-paul/wood_caballera.jpg",
+                       "front":  "images/gibson-59-les-paul/front.jpg",
+                       "back":  "images/gibson-59-les-paul/back.jpg",
+                       "caballera":  "images/gibson-59-les-paul/caballera.jpg",
                        "iso":  "images/gibson-59-les-paul/iso.jpg",
                        "persp_b":  "images/gibson-59-les-paul/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Gibson 59 Les Paul is a complete guitar CAD model developed with reference to Gibson — Gibson 59 Les Paul. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Gibson 59 Les Paul",
@@ -1989,16 +1989,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/gibson-es-335/front.jpg",
-                       "back":  "images/gibson-es-335/back.jpg",
-                       "caballera":  "images/gibson-es-335/caballera.jpg",
                        "wood_front":  "images/gibson-es-335/wood_front.jpg",
                        "wood_back":  "images/gibson-es-335/wood_back.jpg",
                        "wood_caballera":  "images/gibson-es-335/wood_caballera.jpg",
+                       "front":  "images/gibson-es-335/front.jpg",
+                       "back":  "images/gibson-es-335/back.jpg",
+                       "caballera":  "images/gibson-es-335/caballera.jpg",
                        "iso":  "images/gibson-es-335/iso.jpg",
                        "persp_b":  "images/gibson-es-335/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Gibson ES 335 is a complete guitar CAD model developed with reference to Gibson — Gibson ES 335. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Gibson ES 335",
@@ -2029,16 +2029,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/gibson-v-1958/front.jpg",
-                       "back":  "images/gibson-v-1958/back.jpg",
-                       "caballera":  "images/gibson-v-1958/caballera.jpg",
                        "wood_front":  "images/gibson-v-1958/wood_front.jpg",
                        "wood_back":  "images/gibson-v-1958/wood_back.jpg",
                        "wood_caballera":  "images/gibson-v-1958/wood_caballera.jpg",
+                       "front":  "images/gibson-v-1958/front.jpg",
+                       "back":  "images/gibson-v-1958/back.jpg",
+                       "caballera":  "images/gibson-v-1958/caballera.jpg",
                        "iso":  "images/gibson-v-1958/iso.jpg",
                        "persp_b":  "images/gibson-v-1958/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Gibson V 1958 is a complete guitar CAD model developed with reference to Gibson — Gibson V 1958. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Gibson V 1958",
@@ -2069,18 +2069,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/green-medussa-take-2/front.jpg",
-                       "back":  "images/green-medussa-take-2/back.jpg",
-                       "caballera":  "images/green-medussa-take-2/caballera.jpg",
                        "wood_front":  "images/green-medussa-take-2/wood_front.jpg",
                        "wood_back":  "images/green-medussa-take-2/wood_back.jpg",
                        "wood_caballera":  "images/green-medussa-take-2/wood_caballera.jpg",
+                       "front":  "images/green-medussa-take-2/front.jpg",
+                       "back":  "images/green-medussa-take-2/back.jpg",
+                       "caballera":  "images/green-medussa-take-2/caballera.jpg",
                        "iso":  "images/green-medussa-take-2/iso.jpg",
                        "persp_b":  "images/green-medussa-take-2/persp_b.jpg",
                        "real1":  "images/green-medussa-take-2/real1.jpg",
                        "real2":  "images/green-medussa-take-2/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "GREEN Medussa TAKE 2 is a complete guitar CAD model developed with reference to the modified and tuned Ibanez 540PII — GREEN MEDUSSA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "GREEN MEDUSSA TAKE 2",
@@ -2151,16 +2151,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/hetfield-explorer-headstock/front.jpg",
-                       "back":  "images/hetfield-explorer-headstock/back.jpg",
-                       "caballera":  "images/hetfield-explorer-headstock/caballera.jpg",
                        "wood_front":  "images/hetfield-explorer-headstock/wood_front.jpg",
                        "wood_back":  "images/hetfield-explorer-headstock/wood_back.jpg",
                        "wood_caballera":  "images/hetfield-explorer-headstock/wood_caballera.jpg",
+                       "front":  "images/hetfield-explorer-headstock/front.jpg",
+                       "back":  "images/hetfield-explorer-headstock/back.jpg",
+                       "caballera":  "images/hetfield-explorer-headstock/caballera.jpg",
                        "iso":  "images/hetfield-explorer-headstock/iso.jpg",
                        "persp_b":  "images/hetfield-explorer-headstock/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Hetfield Explorer Headstock is a complete guitar CAD model developed with reference to Gibson — HETFIELD EXPLORER HEADSTOCK. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HETFIELD EXPLORER HEADSTOCK",
@@ -2191,16 +2191,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/higer-7-h-cuerdas-hard-tail/front.jpg",
-                       "back":  "images/higer-7-h-cuerdas-hard-tail/back.jpg",
-                       "caballera":  "images/higer-7-h-cuerdas-hard-tail/caballera.jpg",
                        "wood_front":  "images/higer-7-h-cuerdas-hard-tail/wood_front.jpg",
                        "wood_back":  "images/higer-7-h-cuerdas-hard-tail/wood_back.jpg",
                        "wood_caballera":  "images/higer-7-h-cuerdas-hard-tail/wood_caballera.jpg",
+                       "front":  "images/higer-7-h-cuerdas-hard-tail/front.jpg",
+                       "back":  "images/higer-7-h-cuerdas-hard-tail/back.jpg",
+                       "caballera":  "images/higer-7-h-cuerdas-hard-tail/caballera.jpg",
                        "iso":  "images/higer-7-h-cuerdas-hard-tail/iso.jpg",
                        "persp_b":  "images/higer-7-h-cuerdas-hard-tail/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HIGER 7 H Strings Hardtail is a complete guitar CAD model developed with reference to a design based on the Ibanez RG — 7-string HIGER, H configuration with fixed bridge / hardtail. Key identified features include 7-string, hardtail. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HIGER 7 H Strings HARD TAIL",
@@ -2234,16 +2234,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/higer-7-cuerdas/front.jpg",
-                       "back":  "images/higer-7-cuerdas/back.jpg",
-                       "caballera":  "images/higer-7-cuerdas/caballera.jpg",
                        "wood_front":  "images/higer-7-cuerdas/wood_front.jpg",
                        "wood_back":  "images/higer-7-cuerdas/wood_back.jpg",
                        "wood_caballera":  "images/higer-7-cuerdas/wood_caballera.jpg",
+                       "front":  "images/higer-7-cuerdas/front.jpg",
+                       "back":  "images/higer-7-cuerdas/back.jpg",
+                       "caballera":  "images/higer-7-cuerdas/caballera.jpg",
                        "iso":  "images/higer-7-cuerdas/iso.jpg",
                        "persp_b":  "images/higer-7-cuerdas/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HIGER 7 Strings is a complete guitar CAD model developed with reference to a design based on the Ibanez RG — 7-string HIGER. Key identified features include 7-string. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HIGER 7 Strings",
@@ -2275,16 +2275,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/higer-7-cuerdas-hard-tail/front.jpg",
-                       "back":  "images/higer-7-cuerdas-hard-tail/back.jpg",
-                       "caballera":  "images/higer-7-cuerdas-hard-tail/caballera.jpg",
                        "wood_front":  "images/higer-7-cuerdas-hard-tail/wood_front.jpg",
                        "wood_back":  "images/higer-7-cuerdas-hard-tail/wood_back.jpg",
                        "wood_caballera":  "images/higer-7-cuerdas-hard-tail/wood_caballera.jpg",
+                       "front":  "images/higer-7-cuerdas-hard-tail/front.jpg",
+                       "back":  "images/higer-7-cuerdas-hard-tail/back.jpg",
+                       "caballera":  "images/higer-7-cuerdas-hard-tail/caballera.jpg",
                        "iso":  "images/higer-7-cuerdas-hard-tail/iso.jpg",
                        "persp_b":  "images/higer-7-cuerdas-hard-tail/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HIGER 7 Strings Hardtail is a complete guitar CAD model developed with reference to a design based on the Ibanez RG — 7-string HIGER with fixed bridge / hardtail. Key identified features include 7-string, hardtail. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HIGER 7 Strings HARD TAIL",
@@ -2318,16 +2318,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/higer-completo/front.jpg",
-                       "back":  "images/higer-completo/back.jpg",
-                       "caballera":  "images/higer-completo/caballera.jpg",
                        "wood_front":  "images/higer-completo/wood_front.jpg",
                        "wood_back":  "images/higer-completo/wood_back.jpg",
                        "wood_caballera":  "images/higer-completo/wood_caballera.jpg",
+                       "front":  "images/higer-completo/front.jpg",
+                       "back":  "images/higer-completo/back.jpg",
+                       "caballera":  "images/higer-completo/caballera.jpg",
                        "iso":  "images/higer-completo/iso.jpg",
                        "persp_b":  "images/higer-completo/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HIGER Full is a complete guitar CAD model developed with reference to a design based on the Ibanez RG — full 6-string HIGER. Key identified features include 6-string. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HIGER Full",
@@ -2400,16 +2400,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/horus-ala/front.jpg",
-                       "back":  "images/horus-ala/back.jpg",
-                       "caballera":  "images/horus-ala/caballera.jpg",
                        "wood_front":  "images/horus-ala/wood_front.jpg",
                        "wood_back":  "images/horus-ala/wood_back.jpg",
                        "wood_caballera":  "images/horus-ala/wood_caballera.jpg",
+                       "front":  "images/horus-ala/front.jpg",
+                       "back":  "images/horus-ala/back.jpg",
+                       "caballera":  "images/horus-ala/caballera.jpg",
                        "iso":  "images/horus-ala/iso.jpg",
                        "persp_b":  "images/horus-ala/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HORUS ALA is a complete guitar CAD model developed with reference to Caparison Horus — HORUS ALA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HORUS ALA",
@@ -2480,16 +2480,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/horus-eye/front.jpg",
-                       "back":  "images/horus-eye/back.jpg",
-                       "caballera":  "images/horus-eye/caballera.jpg",
                        "wood_front":  "images/horus-eye/wood_front.jpg",
                        "wood_back":  "images/horus-eye/wood_back.jpg",
                        "wood_caballera":  "images/horus-eye/wood_caballera.jpg",
+                       "front":  "images/horus-eye/front.jpg",
+                       "back":  "images/horus-eye/back.jpg",
+                       "caballera":  "images/horus-eye/caballera.jpg",
                        "iso":  "images/horus-eye/iso.jpg",
                        "persp_b":  "images/horus-eye/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "HORUS EYE is a complete guitar CAD model developed with reference to Caparison Horus — HORUS EYE. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "HORUS EYE",
@@ -2679,16 +2679,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540p-fr-hh-aanj-final/front.jpg",
-                       "back":  "images/ibanez-540p-fr-hh-aanj-final/back.jpg",
-                       "caballera":  "images/ibanez-540p-fr-hh-aanj-final/caballera.jpg",
                        "wood_front":  "images/ibanez-540p-fr-hh-aanj-final/wood_front.jpg",
                        "wood_back":  "images/ibanez-540p-fr-hh-aanj-final/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540p-fr-hh-aanj-final/wood_caballera.jpg",
+                       "front":  "images/ibanez-540p-fr-hh-aanj-final/front.jpg",
+                       "back":  "images/ibanez-540p-fr-hh-aanj-final/back.jpg",
+                       "caballera":  "images/ibanez-540p-fr-hh-aanj-final/caballera.jpg",
                        "iso":  "images/ibanez-540p-fr-hh-aanj-final/iso.jpg",
                        "persp_b":  "images/ibanez-540p-fr-hh-aanj-final/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540p FR HH AANJ is a complete guitar CAD model developed with reference to Ibanez — ibanez-540P FR HH AANJ. Key identified features include HH pickups, Floyd-style tremolo, AANJ neck joint. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540P FR HH AANJ FINAL",
@@ -2723,16 +2723,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/front.jpg",
-                       "back":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/back.jpg",
-                       "caballera":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/caballera.jpg",
                        "wood_front":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/wood_front.jpg",
                        "wood_back":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/wood_caballera.jpg",
+                       "front":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/front.jpg",
+                       "back":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/back.jpg",
+                       "caballera":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/caballera.jpg",
                        "iso":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/iso.jpg",
                        "persp_b":  "images/ibanez-540p-fr-hh-aanj-final-jpm-picasso/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540p FR HH AANJ JPM Picasso is a complete guitar CAD model developed with reference to Ibanez — ibanez-540P FR HH AANJ JPM PICASSO. Key identified features include HH pickups, Floyd-style tremolo, AANJ neck joint. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540P FR HH AANJ FINAL JPM PICASSO",
@@ -2810,16 +2810,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/front.jpg",
-                       "back":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/back.jpg",
-                       "caballera":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/caballera.jpg",
                        "wood_front":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/wood_front.jpg",
                        "wood_back":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/wood_caballera.jpg",
+                       "front":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/front.jpg",
+                       "back":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/back.jpg",
+                       "caballera":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/caballera.jpg",
                        "iso":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/iso.jpg",
                        "persp_b":  "images/ibanez-540p-fr-hh-monkey-grip-final-v2/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540p FR HH Monkey GRIP V2 is a complete guitar CAD model developed with reference to Ibanez — ibanez-540P FR HH MONKEY GRIP. Key identified features include HH pickups, Floyd-style tremolo. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540P FR HH MONKEY GRIP FINAL v2",
@@ -2853,16 +2853,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540p-fr-hs-aanj-final/front.jpg",
-                       "back":  "images/ibanez-540p-fr-hs-aanj-final/back.jpg",
-                       "caballera":  "images/ibanez-540p-fr-hs-aanj-final/caballera.jpg",
                        "wood_front":  "images/ibanez-540p-fr-hs-aanj-final/wood_front.jpg",
                        "wood_back":  "images/ibanez-540p-fr-hs-aanj-final/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540p-fr-hs-aanj-final/wood_caballera.jpg",
+                       "front":  "images/ibanez-540p-fr-hs-aanj-final/front.jpg",
+                       "back":  "images/ibanez-540p-fr-hs-aanj-final/back.jpg",
+                       "caballera":  "images/ibanez-540p-fr-hs-aanj-final/caballera.jpg",
                        "iso":  "images/ibanez-540p-fr-hs-aanj-final/iso.jpg",
                        "persp_b":  "images/ibanez-540p-fr-hs-aanj-final/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540p FR HS AANJ is a complete guitar CAD model developed with reference to Ibanez — ibanez-540P FR HS AANJ. Key identified features include HS pickups, Floyd-style tremolo, AANJ neck joint. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540P FR HS AANJ FINAL",
@@ -2897,16 +2897,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540p-petal-2-v5-rigth/front.jpg",
-                       "back":  "images/ibanez-540p-petal-2-v5-rigth/back.jpg",
-                       "caballera":  "images/ibanez-540p-petal-2-v5-rigth/caballera.jpg",
                        "wood_front":  "images/ibanez-540p-petal-2-v5-rigth/wood_front.jpg",
                        "wood_back":  "images/ibanez-540p-petal-2-v5-rigth/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540p-petal-2-v5-rigth/wood_caballera.jpg",
+                       "front":  "images/ibanez-540p-petal-2-v5-rigth/front.jpg",
+                       "back":  "images/ibanez-540p-petal-2-v5-rigth/back.jpg",
+                       "caballera":  "images/ibanez-540p-petal-2-v5-rigth/caballera.jpg",
                        "iso":  "images/ibanez-540p-petal-2-v5-rigth/iso.jpg",
                        "persp_b":  "images/ibanez-540p-petal-2-v5-rigth/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540p Petal 2 V5 Rigth is a complete guitar CAD model developed with reference to Ibanez — ibanez-540P Petal 2 Rigth. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540P Petal 2 v5 Rigth",
@@ -2937,16 +2937,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540p-rgd-v10/front.jpg",
-                       "back":  "images/ibanez-540p-rgd-v10/back.jpg",
-                       "caballera":  "images/ibanez-540p-rgd-v10/caballera.jpg",
                        "wood_front":  "images/ibanez-540p-rgd-v10/wood_front.jpg",
                        "wood_back":  "images/ibanez-540p-rgd-v10/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540p-rgd-v10/wood_caballera.jpg",
+                       "front":  "images/ibanez-540p-rgd-v10/front.jpg",
+                       "back":  "images/ibanez-540p-rgd-v10/back.jpg",
+                       "caballera":  "images/ibanez-540p-rgd-v10/caballera.jpg",
                        "iso":  "images/ibanez-540p-rgd-v10/iso.jpg",
                        "persp_b":  "images/ibanez-540p-rgd-v10/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540p RGD V10 is a body-only guitar CAD model developed with reference to Ibanez — ibanez-540P RGD. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540P RGD v10",
@@ -2977,16 +2977,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540pii-dientes/front.jpg",
-                       "back":  "images/ibanez-540pii-dientes/back.jpg",
-                       "caballera":  "images/ibanez-540pii-dientes/caballera.jpg",
                        "wood_front":  "images/ibanez-540pii-dientes/wood_front.jpg",
                        "wood_back":  "images/ibanez-540pii-dientes/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540pii-dientes/wood_caballera.jpg",
+                       "front":  "images/ibanez-540pii-dientes/front.jpg",
+                       "back":  "images/ibanez-540pii-dientes/back.jpg",
+                       "caballera":  "images/ibanez-540pii-dientes/caballera.jpg",
                        "iso":  "images/ibanez-540pii-dientes/iso.jpg",
                        "persp_b":  "images/ibanez-540pii-dientes/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540pii Dientes is a complete guitar CAD model developed with reference to Ibanez — ibanez-540PII DIENTES. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540PII DIENTES",
@@ -3017,18 +3017,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540pii-dientes-reversed/front.jpg",
-                       "back":  "images/ibanez-540pii-dientes-reversed/back.jpg",
-                       "caballera":  "images/ibanez-540pii-dientes-reversed/caballera.jpg",
                        "wood_front":  "images/ibanez-540pii-dientes-reversed/wood_front.jpg",
                        "wood_back":  "images/ibanez-540pii-dientes-reversed/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540pii-dientes-reversed/wood_caballera.jpg",
+                       "front":  "images/ibanez-540pii-dientes-reversed/front.jpg",
+                       "back":  "images/ibanez-540pii-dientes-reversed/back.jpg",
+                       "caballera":  "images/ibanez-540pii-dientes-reversed/caballera.jpg",
                        "iso":  "images/ibanez-540pii-dientes-reversed/iso.jpg",
                        "persp_b":  "images/ibanez-540pii-dientes-reversed/persp_b.jpg",
                        "real1":  "images/ibanez-540pii-dientes-reversed/real1.jpg",
                        "real2":  "images/ibanez-540pii-dientes-reversed/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Medussa is a complete guitar CAD model developed with reference to the modified and tuned Ibanez 540PII — MEDUSSA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "MEDUSSA",
@@ -3059,16 +3059,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540pii-off-dots/front.jpg",
-                       "back":  "images/ibanez-540pii-off-dots/back.jpg",
-                       "caballera":  "images/ibanez-540pii-off-dots/caballera.jpg",
                        "wood_front":  "images/ibanez-540pii-off-dots/wood_front.jpg",
                        "wood_back":  "images/ibanez-540pii-off-dots/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540pii-off-dots/wood_caballera.jpg",
+                       "front":  "images/ibanez-540pii-off-dots/front.jpg",
+                       "back":  "images/ibanez-540pii-off-dots/back.jpg",
+                       "caballera":  "images/ibanez-540pii-off-dots/caballera.jpg",
                        "iso":  "images/ibanez-540pii-off-dots/iso.jpg",
                        "persp_b":  "images/ibanez-540pii-off-dots/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540pii OFF DOTS is a complete guitar CAD model developed with reference to Ibanez — ibanez-540PII OFF DOTS. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540PII OFF DOTS",
@@ -3099,16 +3099,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-540pii-rgd-dientes/front.jpg",
-                       "back":  "images/ibanez-540pii-rgd-dientes/back.jpg",
-                       "caballera":  "images/ibanez-540pii-rgd-dientes/caballera.jpg",
                        "wood_front":  "images/ibanez-540pii-rgd-dientes/wood_front.jpg",
                        "wood_back":  "images/ibanez-540pii-rgd-dientes/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-540pii-rgd-dientes/wood_caballera.jpg",
+                       "front":  "images/ibanez-540pii-rgd-dientes/front.jpg",
+                       "back":  "images/ibanez-540pii-rgd-dientes/back.jpg",
+                       "caballera":  "images/ibanez-540pii-rgd-dientes/caballera.jpg",
                        "iso":  "images/ibanez-540pii-rgd-dientes/iso.jpg",
                        "persp_b":  "images/ibanez-540pii-rgd-dientes/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-540pii RGD Dientes is a complete guitar CAD model developed with reference to Ibanez — ibanez-540PII RGD DIENTES. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "ibanez-540PII RGD DIENTES",
@@ -3139,16 +3139,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ibanez-xiphos-xpt700-v23-rigth/front.jpg",
-                       "back":  "images/ibanez-xiphos-xpt700-v23-rigth/back.jpg",
-                       "caballera":  "images/ibanez-xiphos-xpt700-v23-rigth/caballera.jpg",
                        "wood_front":  "images/ibanez-xiphos-xpt700-v23-rigth/wood_front.jpg",
                        "wood_back":  "images/ibanez-xiphos-xpt700-v23-rigth/wood_back.jpg",
                        "wood_caballera":  "images/ibanez-xiphos-xpt700-v23-rigth/wood_caballera.jpg",
+                       "front":  "images/ibanez-xiphos-xpt700-v23-rigth/front.jpg",
+                       "back":  "images/ibanez-xiphos-xpt700-v23-rigth/back.jpg",
+                       "caballera":  "images/ibanez-xiphos-xpt700-v23-rigth/caballera.jpg",
                        "iso":  "images/ibanez-xiphos-xpt700-v23-rigth/iso.jpg",
                        "persp_b":  "images/ibanez-xiphos-xpt700-v23-rigth/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ibanez-xiphos-xpt700 V23 RIGTH is a complete guitar CAD model developed with reference to Ibanez — Ibanez-Xiphos-XPT700 RIGTH. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Ibanez-Xiphos-XPT700 v23 RIGTH",
@@ -3217,16 +3217,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/ironbird/front.jpg",
-                       "back":  "images/ironbird/back.jpg",
-                       "caballera":  "images/ironbird/caballera.jpg",
                        "wood_front":  "images/ironbird/wood_front.jpg",
                        "wood_back":  "images/ironbird/wood_back.jpg",
                        "wood_caballera":  "images/ironbird/wood_caballera.jpg",
+                       "front":  "images/ironbird/front.jpg",
+                       "back":  "images/ironbird/back.jpg",
+                       "caballera":  "images/ironbird/caballera.jpg",
                        "iso":  "images/ironbird/iso.jpg",
                        "persp_b":  "images/ironbird/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Ironbird is a complete guitar CAD model developed with reference to B. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "IRONBIRD",
@@ -3257,19 +3257,19 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-kelly-warrior-7-strings-25-5/front.jpg",
-                       "back":  "images/jackson-kelly-warrior-7-strings-25-5/back.jpg",
-                       "caballera":  "images/jackson-kelly-warrior-7-strings-25-5/caballera.jpg",
                        "wood_front":  "images/jackson-kelly-warrior-7-strings-25-5/wood_front.jpg",
                        "wood_back":  "images/jackson-kelly-warrior-7-strings-25-5/wood_back.jpg",
                        "wood_caballera":  "images/jackson-kelly-warrior-7-strings-25-5/wood_caballera.jpg",
+                       "front":  "images/jackson-kelly-warrior-7-strings-25-5/front.jpg",
+                       "back":  "images/jackson-kelly-warrior-7-strings-25-5/back.jpg",
+                       "caballera":  "images/jackson-kelly-warrior-7-strings-25-5/caballera.jpg",
                        "iso":  "images/jackson-kelly-warrior-7-strings-25-5/iso.jpg",
                        "persp_b":  "images/jackson-kelly-warrior-7-strings-25-5/persp_b.jpg",
                        "real1":  "images/jackson-kelly-warrior-7-strings-25-5/real1.jpg",
                        "real2":  "images/jackson-kelly-warrior-7-strings-25-5/real2.jpg",
                        "real3":  "images/jackson-kelly-warrior-7-strings-25-5/real3.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson KELLY Warrior 7 Strings 25.5 is a complete guitar CAD model developed with reference to Jackson — JACKSON KELLY WARRIOR 7 Strings 25. Key identified features include 7-string. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JACKSON KELLY WARRIOR 7 Strings 25.5",
@@ -3301,16 +3301,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-king-v-no-history/front.jpg",
-                       "back":  "images/jackson-king-v-no-history/back.jpg",
-                       "caballera":  "images/jackson-king-v-no-history/caballera.jpg",
                        "wood_front":  "images/jackson-king-v-no-history/wood_front.jpg",
                        "wood_back":  "images/jackson-king-v-no-history/wood_back.jpg",
                        "wood_caballera":  "images/jackson-king-v-no-history/wood_caballera.jpg",
+                       "front":  "images/jackson-king-v-no-history/front.jpg",
+                       "back":  "images/jackson-king-v-no-history/back.jpg",
+                       "caballera":  "images/jackson-king-v-no-history/caballera.jpg",
                        "iso":  "images/jackson-king-v-no-history/iso.jpg",
                        "persp_b":  "images/jackson-king-v-no-history/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson King V No History is a complete guitar CAD model developed with reference to Jackson — Jackson King V. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Jackson King V no History",
@@ -3341,18 +3341,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-rhoads-6/front.jpg",
-                       "back":  "images/jackson-rhoads-6/back.jpg",
-                       "caballera":  "images/jackson-rhoads-6/caballera.jpg",
                        "wood_front":  "images/jackson-rhoads-6/wood_front.jpg",
                        "wood_back":  "images/jackson-rhoads-6/wood_back.jpg",
                        "wood_caballera":  "images/jackson-rhoads-6/wood_caballera.jpg",
+                       "front":  "images/jackson-rhoads-6/front.jpg",
+                       "back":  "images/jackson-rhoads-6/back.jpg",
+                       "caballera":  "images/jackson-rhoads-6/caballera.jpg",
                        "iso":  "images/jackson-rhoads-6/iso.jpg",
                        "persp_b":  "images/jackson-rhoads-6/persp_b.jpg",
                        "real1":  "images/jackson-rhoads-6/real1.jpg",
                        "real2":  "images/jackson-rhoads-6/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson Rhoads 6 is a complete guitar CAD model developed with reference to Jackson — JACKSON RHOADS 6. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JACKSON RHOADS 6",
@@ -3383,18 +3383,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-rhoads-7-strings-25-5/front.jpg",
-                       "back":  "images/jackson-rhoads-7-strings-25-5/back.jpg",
-                       "caballera":  "images/jackson-rhoads-7-strings-25-5/caballera.jpg",
                        "wood_front":  "images/jackson-rhoads-7-strings-25-5/wood_front.jpg",
                        "wood_back":  "images/jackson-rhoads-7-strings-25-5/wood_back.jpg",
                        "wood_caballera":  "images/jackson-rhoads-7-strings-25-5/wood_caballera.jpg",
+                       "front":  "images/jackson-rhoads-7-strings-25-5/front.jpg",
+                       "back":  "images/jackson-rhoads-7-strings-25-5/back.jpg",
+                       "caballera":  "images/jackson-rhoads-7-strings-25-5/caballera.jpg",
                        "iso":  "images/jackson-rhoads-7-strings-25-5/iso.jpg",
                        "persp_b":  "images/jackson-rhoads-7-strings-25-5/persp_b.jpg",
                        "real1":  "images/jackson-rhoads-7-strings-25-5/real1.jpg",
                        "real2":  "images/jackson-rhoads-7-strings-25-5/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson Rhoads 7 Strings 25.5 is a complete guitar CAD model developed with reference to Jackson — JACKSON RHOADS 7 Strings 25. Key identified features include 7-string. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JACKSON RHOADS 7 Strings 25.5",
@@ -3426,18 +3426,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-rhoads-hh-7-strings-25-5/front.jpg",
-                       "back":  "images/jackson-rhoads-hh-7-strings-25-5/back.jpg",
-                       "caballera":  "images/jackson-rhoads-hh-7-strings-25-5/caballera.jpg",
                        "wood_front":  "images/jackson-rhoads-hh-7-strings-25-5/wood_front.jpg",
                        "wood_back":  "images/jackson-rhoads-hh-7-strings-25-5/wood_back.jpg",
                        "wood_caballera":  "images/jackson-rhoads-hh-7-strings-25-5/wood_caballera.jpg",
+                       "front":  "images/jackson-rhoads-hh-7-strings-25-5/front.jpg",
+                       "back":  "images/jackson-rhoads-hh-7-strings-25-5/back.jpg",
+                       "caballera":  "images/jackson-rhoads-hh-7-strings-25-5/caballera.jpg",
                        "iso":  "images/jackson-rhoads-hh-7-strings-25-5/iso.jpg",
                        "persp_b":  "images/jackson-rhoads-hh-7-strings-25-5/persp_b.jpg",
                        "real1":  "images/jackson-rhoads-hh-7-strings-25-5/real1.jpg",
                        "real2":  "images/jackson-rhoads-hh-7-strings-25-5/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson Rhoads HH 7 Strings 25.5 is a complete guitar CAD model developed with reference to Jackson — JACKSON RHOADS HH 7 Strings 25. Key identified features include 7-string, HH pickups. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JACKSON RHOADS HH 7 Strings 25.5",
@@ -3470,18 +3470,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-rhoads-left/front.jpg",
-                       "back":  "images/jackson-rhoads-left/back.jpg",
-                       "caballera":  "images/jackson-rhoads-left/caballera.jpg",
                        "wood_front":  "images/jackson-rhoads-left/wood_front.jpg",
                        "wood_back":  "images/jackson-rhoads-left/wood_back.jpg",
                        "wood_caballera":  "images/jackson-rhoads-left/wood_caballera.jpg",
+                       "front":  "images/jackson-rhoads-left/front.jpg",
+                       "back":  "images/jackson-rhoads-left/back.jpg",
+                       "caballera":  "images/jackson-rhoads-left/caballera.jpg",
                        "iso":  "images/jackson-rhoads-left/iso.jpg",
                        "persp_b":  "images/jackson-rhoads-left/persp_b.jpg",
                        "real1":  "images/jackson-rhoads-left/real1.jpg",
                        "real2":  "images/jackson-rhoads-left/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson Rhoads LEFT is a complete guitar CAD model developed with reference to Jackson — JACKSON RHOADS LEFT. Key identified features include left-handed. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JACKSON RHOADS LEFT",
@@ -3513,16 +3513,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jackson-warrior/front.jpg",
-                       "back":  "images/jackson-warrior/back.jpg",
-                       "caballera":  "images/jackson-warrior/caballera.jpg",
                        "wood_front":  "images/jackson-warrior/wood_front.jpg",
                        "wood_back":  "images/jackson-warrior/wood_back.jpg",
                        "wood_caballera":  "images/jackson-warrior/wood_caballera.jpg",
+                       "front":  "images/jackson-warrior/front.jpg",
+                       "back":  "images/jackson-warrior/back.jpg",
+                       "caballera":  "images/jackson-warrior/caballera.jpg",
                        "iso":  "images/jackson-warrior/iso.jpg",
                        "persp_b":  "images/jackson-warrior/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jackson Warrior is a complete guitar CAD model developed with reference to Jackson — JACKSON WARRIOR. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JACKSON WARRIOR",
@@ -3553,16 +3553,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jakson-king-v/front.jpg",
-                       "back":  "images/jakson-king-v/back.jpg",
-                       "caballera":  "images/jakson-king-v/caballera.jpg",
                        "wood_front":  "images/jakson-king-v/wood_front.jpg",
                        "wood_back":  "images/jakson-king-v/wood_back.jpg",
                        "wood_caballera":  "images/jakson-king-v/wood_caballera.jpg",
+                       "front":  "images/jakson-king-v/front.jpg",
+                       "back":  "images/jakson-king-v/back.jpg",
+                       "caballera":  "images/jakson-king-v/caballera.jpg",
                        "iso":  "images/jakson-king-v/iso.jpg",
                        "persp_b":  "images/jakson-king-v/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jakson King V is a complete guitar CAD model developed with reference to Jackson — Jakson King V. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Jakson King V",
@@ -3593,16 +3593,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jazzmaster/front.jpg",
-                       "back":  "images/jazzmaster/back.jpg",
-                       "caballera":  "images/jazzmaster/caballera.jpg",
                        "wood_front":  "images/jazzmaster/wood_front.jpg",
                        "wood_back":  "images/jazzmaster/wood_back.jpg",
                        "wood_caballera":  "images/jazzmaster/wood_caballera.jpg",
+                       "front":  "images/jazzmaster/front.jpg",
+                       "back":  "images/jazzmaster/back.jpg",
+                       "caballera":  "images/jazzmaster/caballera.jpg",
                        "iso":  "images/jazzmaster/iso.jpg",
                        "persp_b":  "images/jazzmaster/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Jazzmaster is a complete guitar CAD model developed with reference to Fender — jazzmaster. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "jazzmaster",
@@ -3633,12 +3633,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jem-505-martin/front.jpg",
-                       "back":  "images/jem-505-martin/back.jpg",
-                       "caballera":  "images/jem-505-martin/caballera.jpg",
                        "wood_front":  "images/jem-505-martin/wood_front.jpg",
                        "wood_back":  "images/jem-505-martin/wood_back.jpg",
                        "wood_caballera":  "images/jem-505-martin/wood_caballera.jpg",
+                       "front":  "images/jem-505-martin/front.jpg",
+                       "back":  "images/jem-505-martin/back.jpg",
+                       "caballera":  "images/jem-505-martin/caballera.jpg",
                        "iso":  "images/jem-505-martin/iso.jpg",
                        "persp_b":  "images/jem-505-martin/persp_b.jpg",
                        "real1":  "images/jem-505-martin/real1.jpg",
@@ -3646,7 +3646,7 @@
                        "real3":  "images/jem-505-martin/real3.jpg",
                        "real4":  "images/jem-505-martin/real4.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JEM 505 Martin is a complete guitar CAD model developed with reference to Ibanez — JEM 505 MARTIN. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JEM 505 MARTIN",
@@ -3762,12 +3762,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jem-777-lng/front.jpg",
-                       "back":  "images/jem-777-lng/back.jpg",
-                       "caballera":  "images/jem-777-lng/caballera.jpg",
                        "wood_front":  "images/jem-777-lng/wood_front.jpg",
                        "wood_back":  "images/jem-777-lng/wood_back.jpg",
                        "wood_caballera":  "images/jem-777-lng/wood_caballera.jpg",
+                       "front":  "images/jem-777-lng/front.jpg",
+                       "back":  "images/jem-777-lng/back.jpg",
+                       "caballera":  "images/jem-777-lng/caballera.jpg",
                        "iso":  "images/jem-777-lng/iso.jpg",
                        "persp_b":  "images/jem-777-lng/persp_b.jpg",
                        "real1":  "images/jem-777-lng/real1.jpg",
@@ -3775,7 +3775,7 @@
                        "real3":  "images/jem-777-lng/real3.jpg",
                        "real4":  "images/jem-777-lng/real4.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JEM 777 LNG is a complete guitar CAD model developed with reference to Ibanez — JEM 777 LNG. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JEM 777 LNG",
@@ -3806,12 +3806,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jem-7v/front.jpg",
-                       "back":  "images/jem-7v/back.jpg",
-                       "caballera":  "images/jem-7v/caballera.jpg",
                        "wood_front":  "images/jem-7v/wood_front.jpg",
                        "wood_back":  "images/jem-7v/wood_back.jpg",
                        "wood_caballera":  "images/jem-7v/wood_caballera.jpg",
+                       "front":  "images/jem-7v/front.jpg",
+                       "back":  "images/jem-7v/back.jpg",
+                       "caballera":  "images/jem-7v/caballera.jpg",
                        "iso":  "images/jem-7v/iso.jpg",
                        "persp_b":  "images/jem-7v/persp_b.jpg",
                        "real1":  "images/jem-7v/real1.jpg",
@@ -3821,7 +3821,7 @@
                        "real5":  "images/jem-7v/real5.jpg",
                        "real6":  "images/jem-7v/real6.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JEM 7V is a complete guitar CAD model developed with reference to Ibanez — JEM 7V. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JEM 7V",
@@ -3986,12 +3986,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jem-rear-routed/front.jpg",
-                       "back":  "images/jem-rear-routed/back.jpg",
-                       "caballera":  "images/jem-rear-routed/caballera.jpg",
                        "wood_front":  "images/jem-rear-routed/wood_front.jpg",
                        "wood_back":  "images/jem-rear-routed/wood_back.jpg",
                        "wood_caballera":  "images/jem-rear-routed/wood_caballera.jpg",
+                       "front":  "images/jem-rear-routed/front.jpg",
+                       "back":  "images/jem-rear-routed/back.jpg",
+                       "caballera":  "images/jem-rear-routed/caballera.jpg",
                        "iso":  "images/jem-rear-routed/iso.jpg",
                        "persp_b":  "images/jem-rear-routed/persp_b.jpg",
                        "real1":  "images/jem-rear-routed/real1.jpg",
@@ -4001,7 +4001,7 @@
                        "real5":  "images/jem-rear-routed/real5.jpg",
                        "real6":  "images/jem-rear-routed/real6.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JEM REAR Routed is a body-only guitar CAD model developed with reference to Ibanez — JEM REAR ROUTED. Key identified features include rear-routed. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JEM REAR ROUTED",
@@ -4076,12 +4076,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jem-sergio/front.jpg",
-                       "back":  "images/jem-sergio/back.jpg",
-                       "caballera":  "images/jem-sergio/caballera.jpg",
                        "wood_front":  "images/jem-sergio/wood_front.jpg",
                        "wood_back":  "images/jem-sergio/wood_back.jpg",
                        "wood_caballera":  "images/jem-sergio/wood_caballera.jpg",
+                       "front":  "images/jem-sergio/front.jpg",
+                       "back":  "images/jem-sergio/back.jpg",
+                       "caballera":  "images/jem-sergio/caballera.jpg",
                        "iso":  "images/jem-sergio/iso.jpg",
                        "persp_b":  "images/jem-sergio/persp_b.jpg",
                        "real1":  "images/jem-sergio/real1.jpg",
@@ -4089,7 +4089,7 @@
                        "real3":  "images/jem-sergio/real3.jpg",
                        "real4":  "images/jem-sergio/real4.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JEM Sergio is a complete guitar CAD model developed with reference to Ibanez — JEM Sergio. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JEM Sergio",
@@ -4157,16 +4157,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jpm-con-puntos/front.jpg",
-                       "back":  "images/jpm-con-puntos/back.jpg",
-                       "caballera":  "images/jpm-con-puntos/caballera.jpg",
                        "wood_front":  "images/jpm-con-puntos/wood_front.jpg",
                        "wood_back":  "images/jpm-con-puntos/wood_back.jpg",
                        "wood_caballera":  "images/jpm-con-puntos/wood_caballera.jpg",
+                       "front":  "images/jpm-con-puntos/front.jpg",
+                       "back":  "images/jpm-con-puntos/back.jpg",
+                       "caballera":  "images/jpm-con-puntos/caballera.jpg",
                        "iso":  "images/jpm-con-puntos/iso.jpg",
                        "persp_b":  "images/jpm-con-puntos/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JPM with Dots is a complete guitar CAD model developed with reference to Ibanez — JPM with dots. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JPM with Dots",
@@ -4238,18 +4238,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jpm-plain-v3/front.jpg",
-                       "back":  "images/jpm-plain-v3/back.jpg",
-                       "caballera":  "images/jpm-plain-v3/caballera.jpg",
                        "wood_front":  "images/jpm-plain-v3/wood_front.jpg",
                        "wood_back":  "images/jpm-plain-v3/wood_back.jpg",
                        "wood_caballera":  "images/jpm-plain-v3/wood_caballera.jpg",
+                       "front":  "images/jpm-plain-v3/front.jpg",
+                       "back":  "images/jpm-plain-v3/back.jpg",
+                       "caballera":  "images/jpm-plain-v3/caballera.jpg",
                        "iso":  "images/jpm-plain-v3/iso.jpg",
                        "persp_b":  "images/jpm-plain-v3/persp_b.jpg",
                        "real1":  "images/jpm-plain-v3/real1.jpg",
                        "real2":  "images/jpm-plain-v3/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JPM Plain V3 is a body-only guitar CAD model developed with reference to Ibanez — JPM Plain. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JPM Plain v3",
@@ -4280,16 +4280,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/jpm-post-cuerpo/front.jpg",
-                       "back":  "images/jpm-post-cuerpo/back.jpg",
-                       "caballera":  "images/jpm-post-cuerpo/caballera.jpg",
                        "wood_front":  "images/jpm-post-cuerpo/wood_front.jpg",
                        "wood_back":  "images/jpm-post-cuerpo/wood_back.jpg",
                        "wood_caballera":  "images/jpm-post-cuerpo/wood_caballera.jpg",
+                       "front":  "images/jpm-post-cuerpo/front.jpg",
+                       "back":  "images/jpm-post-cuerpo/back.jpg",
+                       "caballera":  "images/jpm-post-cuerpo/caballera.jpg",
                        "iso":  "images/jpm-post-cuerpo/iso.jpg",
                        "persp_b":  "images/jpm-post-cuerpo/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JPM POST Body is a complete guitar CAD model developed with reference to Ibanez — JPM POST BODY. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JPM POST BODY",
@@ -4320,12 +4320,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/js2410/front.jpg",
-                       "back":  "images/js2410/back.jpg",
-                       "caballera":  "images/js2410/caballera.jpg",
                        "wood_front":  "images/js2410/wood_front.jpg",
                        "wood_back":  "images/js2410/wood_back.jpg",
                        "wood_caballera":  "images/js2410/wood_caballera.jpg",
+                       "front":  "images/js2410/front.jpg",
+                       "back":  "images/js2410/back.jpg",
+                       "caballera":  "images/js2410/caballera.jpg",
                        "iso":  "images/js2410/iso.jpg",
                        "persp_b":  "images/js2410/persp_b.jpg",
                        "real1":  "images/js2410/real1.jpg",
@@ -4336,7 +4336,7 @@
                        "real6":  "images/js2410/real6.jpg",
                        "real7":  "images/js2410/real7.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Js2410 is a complete guitar CAD model developed with reference to Ibanez — JS2410. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JS2410",
@@ -4453,12 +4453,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/js-v-3/front.jpg",
-                       "back":  "images/js-v-3/back.jpg",
-                       "caballera":  "images/js-v-3/caballera.jpg",
                        "wood_front":  "images/js-v-3/wood_front.jpg",
                        "wood_back":  "images/js-v-3/wood_back.jpg",
                        "wood_caballera":  "images/js-v-3/wood_caballera.jpg",
+                       "front":  "images/js-v-3/front.jpg",
+                       "back":  "images/js-v-3/back.jpg",
+                       "caballera":  "images/js-v-3/caballera.jpg",
                        "iso":  "images/js-v-3/iso.jpg",
                        "persp_b":  "images/js-v-3/persp_b.jpg",
                        "real1":  "images/js-v-3/real1.jpg",
@@ -4467,7 +4467,7 @@
                        "real4":  "images/js-v-3/real4.jpg",
                        "real5":  "images/js-v-3/real5.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JS V 3 is a body-only guitar CAD model developed with reference to a design based on the Ibanez JS — JS V 3. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JS V 3",
@@ -4498,12 +4498,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/js1/front.jpg",
-                       "back":  "images/js1/back.jpg",
-                       "caballera":  "images/js1/caballera.jpg",
                        "wood_front":  "images/js1/wood_front.jpg",
                        "wood_back":  "images/js1/wood_back.jpg",
                        "wood_caballera":  "images/js1/wood_caballera.jpg",
+                       "front":  "images/js1/front.jpg",
+                       "back":  "images/js1/back.jpg",
+                       "caballera":  "images/js1/caballera.jpg",
                        "iso":  "images/js1/iso.jpg",
                        "persp_b":  "images/js1/persp_b.jpg",
                        "real1":  "images/js1/real1.jpg",
@@ -4512,7 +4512,7 @@
                        "real4":  "images/js1/real4.jpg",
                        "real5":  "images/js1/real5.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "JS1 is a complete guitar CAD model developed with reference to Ibanez — JS1. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "JS1",
@@ -4703,16 +4703,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/les-paul-jr-maxi/front.jpg",
-                       "back":  "images/les-paul-jr-maxi/back.jpg",
-                       "caballera":  "images/les-paul-jr-maxi/caballera.jpg",
                        "wood_front":  "images/les-paul-jr-maxi/wood_front.jpg",
                        "wood_back":  "images/les-paul-jr-maxi/wood_back.jpg",
                        "wood_caballera":  "images/les-paul-jr-maxi/wood_caballera.jpg",
+                       "front":  "images/les-paul-jr-maxi/front.jpg",
+                       "back":  "images/les-paul-jr-maxi/back.jpg",
+                       "caballera":  "images/les-paul-jr-maxi/caballera.jpg",
                        "iso":  "images/les-paul-jr-maxi/iso.jpg",
                        "persp_b":  "images/les-paul-jr-maxi/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "LES PAUL JR MAXI is a complete guitar CAD model developed with reference to semi-hollow Les Paul by luthier Maxi — double cut version. Key identified features include semi-hollow. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "LES PAUL JR MAXI",
@@ -4744,16 +4744,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/les-paul-jr-single-cut-maxi/front.jpg",
-                       "back":  "images/les-paul-jr-single-cut-maxi/back.jpg",
-                       "caballera":  "images/les-paul-jr-single-cut-maxi/caballera.jpg",
                        "wood_front":  "images/les-paul-jr-single-cut-maxi/wood_front.jpg",
                        "wood_back":  "images/les-paul-jr-single-cut-maxi/wood_back.jpg",
                        "wood_caballera":  "images/les-paul-jr-single-cut-maxi/wood_caballera.jpg",
+                       "front":  "images/les-paul-jr-single-cut-maxi/front.jpg",
+                       "back":  "images/les-paul-jr-single-cut-maxi/back.jpg",
+                       "caballera":  "images/les-paul-jr-single-cut-maxi/caballera.jpg",
                        "iso":  "images/les-paul-jr-single-cut-maxi/iso.jpg",
                        "persp_b":  "images/les-paul-jr-single-cut-maxi/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "LES PAUL JR Single CUT MAXI is a complete guitar CAD model developed with reference to semi-hollow Les Paul by luthier Maxi — single cut version. Key identified features include semi-hollow. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "LES PAUL JR SINGLE CUT MAXI",
@@ -4944,16 +4944,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/maxi-luthier/front.jpg",
-                       "back":  "images/maxi-luthier/back.jpg",
-                       "caballera":  "images/maxi-luthier/caballera.jpg",
                        "wood_front":  "images/maxi-luthier/wood_front.jpg",
                        "wood_back":  "images/maxi-luthier/wood_back.jpg",
                        "wood_caballera":  "images/maxi-luthier/wood_caballera.jpg",
+                       "front":  "images/maxi-luthier/front.jpg",
+                       "back":  "images/maxi-luthier/back.jpg",
+                       "caballera":  "images/maxi-luthier/caballera.jpg",
                        "iso":  "images/maxi-luthier/iso.jpg",
                        "persp_b":  "images/maxi-luthier/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Maxi Luthier is a complete guitar CAD model developed with reference to the semi-hollow Les Paul family by luthier Maxi, developed in single cut and double cut versions. Key identified features include semi-hollow. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "maxi luthier",
@@ -5063,16 +5063,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/meteora-body/front.jpg",
-                       "back":  "images/meteora-body/back.jpg",
-                       "caballera":  "images/meteora-body/caballera.jpg",
                        "wood_front":  "images/meteora-body/wood_front.jpg",
                        "wood_back":  "images/meteora-body/wood_back.jpg",
                        "wood_caballera":  "images/meteora-body/wood_caballera.jpg",
+                       "front":  "images/meteora-body/front.jpg",
+                       "back":  "images/meteora-body/back.jpg",
+                       "caballera":  "images/meteora-body/caballera.jpg",
                        "iso":  "images/meteora-body/iso.jpg",
                        "persp_b":  "images/meteora-body/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Meteora Body is a complete guitar CAD model developed with reference to Fender — Meteora Body. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Meteora Body",
@@ -5145,12 +5145,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/mikro/front.jpg",
-                       "back":  "images/mikro/back.jpg",
-                       "caballera":  "images/mikro/caballera.jpg",
                        "wood_front":  "images/mikro/wood_front.jpg",
                        "wood_back":  "images/mikro/wood_back.jpg",
                        "wood_caballera":  "images/mikro/wood_caballera.jpg",
+                       "front":  "images/mikro/front.jpg",
+                       "back":  "images/mikro/back.jpg",
+                       "caballera":  "images/mikro/caballera.jpg",
                        "iso":  "images/mikro/iso.jpg",
                        "persp_b":  "images/mikro/persp_b.jpg",
                        "real1":  "images/mikro/real1.jpg",
@@ -5160,7 +5160,7 @@
                        "real5":  "images/mikro/real5.jpg",
                        "real6":  "images/mikro/real6.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "MIKRO is a complete guitar CAD model developed with reference to Ibanez Mikro — MIKRO. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "MIKRO",
@@ -5191,16 +5191,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/mini-eddie/front.jpg",
-                       "back":  "images/mini-eddie/back.jpg",
-                       "caballera":  "images/mini-eddie/caballera.jpg",
                        "wood_front":  "images/mini-eddie/wood_front.jpg",
                        "wood_back":  "images/mini-eddie/wood_back.jpg",
                        "wood_caballera":  "images/mini-eddie/wood_caballera.jpg",
+                       "front":  "images/mini-eddie/front.jpg",
+                       "back":  "images/mini-eddie/back.jpg",
+                       "caballera":  "images/mini-eddie/caballera.jpg",
                        "iso":  "images/mini-eddie/iso.jpg",
                        "persp_b":  "images/mini-eddie/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Mini Eddie is a complete guitar CAD model developed with reference to a mini Les Paul based on Eddie Van Halen\u0027s mini guitar, associated with the song “Little Guitars” — Mini Eddie. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Mini Eddie",
@@ -5389,16 +5389,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/music-man-majesty-solido/front.jpg",
-                       "back":  "images/music-man-majesty-solido/back.jpg",
-                       "caballera":  "images/music-man-majesty-solido/caballera.jpg",
                        "wood_front":  "images/music-man-majesty-solido/wood_front.jpg",
                        "wood_back":  "images/music-man-majesty-solido/wood_back.jpg",
                        "wood_caballera":  "images/music-man-majesty-solido/wood_caballera.jpg",
+                       "front":  "images/music-man-majesty-solido/front.jpg",
+                       "back":  "images/music-man-majesty-solido/back.jpg",
+                       "caballera":  "images/music-man-majesty-solido/caballera.jpg",
                        "iso":  "images/music-man-majesty-solido/iso.jpg",
                        "persp_b":  "images/music-man-majesty-solido/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Music-man-majesty Solido is a complete guitar CAD model developed with reference to Ernie Ball Music Man — Music-Man-Majesty Solido. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Music-Man-Majesty Solido",
@@ -5429,16 +5429,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/music-man-majesty-v3/front.jpg",
-                       "back":  "images/music-man-majesty-v3/back.jpg",
-                       "caballera":  "images/music-man-majesty-v3/caballera.jpg",
                        "wood_front":  "images/music-man-majesty-v3/wood_front.jpg",
                        "wood_back":  "images/music-man-majesty-v3/wood_back.jpg",
                        "wood_caballera":  "images/music-man-majesty-v3/wood_caballera.jpg",
+                       "front":  "images/music-man-majesty-v3/front.jpg",
+                       "back":  "images/music-man-majesty-v3/back.jpg",
+                       "caballera":  "images/music-man-majesty-v3/caballera.jpg",
                        "iso":  "images/music-man-majesty-v3/iso.jpg",
                        "persp_b":  "images/music-man-majesty-v3/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Music-man-majesty V3 is a complete guitar CAD model developed with reference to Ernie Ball Music Man — Music-Man-Majesty. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Music-Man-Majesty V3",
@@ -5557,16 +5557,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/new-brown-design/front.jpg",
-                       "back":  "images/new-brown-design/back.jpg",
-                       "caballera":  "images/new-brown-design/caballera.jpg",
                        "wood_front":  "images/new-brown-design/wood_front.jpg",
                        "wood_back":  "images/new-brown-design/wood_back.jpg",
                        "wood_caballera":  "images/new-brown-design/wood_caballera.jpg",
+                       "front":  "images/new-brown-design/front.jpg",
+                       "back":  "images/new-brown-design/back.jpg",
+                       "caballera":  "images/new-brown-design/caballera.jpg",
                        "iso":  "images/new-brown-design/iso.jpg",
                        "persp_b":  "images/new-brown-design/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "New Brown Design is a body-only guitar CAD model developed with reference to an original custom design — New Brown Design. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "New Brown Design",
@@ -5672,18 +5672,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/nuno-n4-esta-local/front.jpg",
-                       "back":  "images/nuno-n4-esta-local/back.jpg",
-                       "caballera":  "images/nuno-n4-esta-local/caballera.jpg",
                        "wood_front":  "images/nuno-n4-esta-local/wood_front.jpg",
                        "wood_back":  "images/nuno-n4-esta-local/wood_back.jpg",
                        "wood_caballera":  "images/nuno-n4-esta-local/wood_caballera.jpg",
+                       "front":  "images/nuno-n4-esta-local/front.jpg",
+                       "back":  "images/nuno-n4-esta-local/back.jpg",
+                       "caballera":  "images/nuno-n4-esta-local/caballera.jpg",
                        "iso":  "images/nuno-n4-esta-local/iso.jpg",
                        "persp_b":  "images/nuno-n4-esta-local/persp_b.jpg",
                        "real1":  "images/nuno-n4-esta-local/real1.jpg",
                        "real2":  "images/nuno-n4-esta-local/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "NUNO N4 ESTA LOCAL is a complete guitar CAD model developed with reference to Washburn — NUNO N4. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "NUNO N4 ESTA LOCAL",
@@ -5714,16 +5714,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/parker/front.jpg",
-                       "back":  "images/parker/back.jpg",
-                       "caballera":  "images/parker/caballera.jpg",
                        "wood_front":  "images/parker/wood_front.jpg",
                        "wood_back":  "images/parker/wood_back.jpg",
                        "wood_caballera":  "images/parker/wood_caballera.jpg",
+                       "front":  "images/parker/front.jpg",
+                       "back":  "images/parker/back.jpg",
+                       "caballera":  "images/parker/caballera.jpg",
                        "iso":  "images/parker/iso.jpg",
                        "persp_b":  "images/parker/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Parker is a complete guitar CAD model developed with reference to Parker — PARKER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "PARKER",
@@ -5956,16 +5956,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/pia-silver/front.jpg",
-                       "back":  "images/pia-silver/back.jpg",
-                       "caballera":  "images/pia-silver/caballera.jpg",
                        "wood_front":  "images/pia-silver/wood_front.jpg",
                        "wood_back":  "images/pia-silver/wood_back.jpg",
                        "wood_caballera":  "images/pia-silver/wood_caballera.jpg",
+                       "front":  "images/pia-silver/front.jpg",
+                       "back":  "images/pia-silver/back.jpg",
+                       "caballera":  "images/pia-silver/caballera.jpg",
                        "iso":  "images/pia-silver/iso.jpg",
                        "persp_b":  "images/pia-silver/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "PIA Silver is a complete guitar CAD model developed with reference to Ibanez — PIA SILVER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "PIA SILVER",
@@ -5996,16 +5996,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/pia-silver-straigth-front-routed/front.jpg",
-                       "back":  "images/pia-silver-straigth-front-routed/back.jpg",
-                       "caballera":  "images/pia-silver-straigth-front-routed/caballera.jpg",
                        "wood_front":  "images/pia-silver-straigth-front-routed/wood_front.jpg",
                        "wood_back":  "images/pia-silver-straigth-front-routed/wood_back.jpg",
                        "wood_caballera":  "images/pia-silver-straigth-front-routed/wood_caballera.jpg",
+                       "front":  "images/pia-silver-straigth-front-routed/front.jpg",
+                       "back":  "images/pia-silver-straigth-front-routed/back.jpg",
+                       "caballera":  "images/pia-silver-straigth-front-routed/caballera.jpg",
                        "iso":  "images/pia-silver-straigth-front-routed/iso.jpg",
                        "persp_b":  "images/pia-silver-straigth-front-routed/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "VAI Dreams is a complete guitar CAD model developed with reference to a collection of three Steve Vai signature guitars — two Ibanez JEM and one Ibanez PIA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VAI Dreams",
@@ -6036,16 +6036,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/pia-silver-straigth-v1/front.jpg",
-                       "back":  "images/pia-silver-straigth-v1/back.jpg",
-                       "caballera":  "images/pia-silver-straigth-v1/caballera.jpg",
                        "wood_front":  "images/pia-silver-straigth-v1/wood_front.jpg",
                        "wood_back":  "images/pia-silver-straigth-v1/wood_back.jpg",
                        "wood_caballera":  "images/pia-silver-straigth-v1/wood_caballera.jpg",
+                       "front":  "images/pia-silver-straigth-v1/front.jpg",
+                       "back":  "images/pia-silver-straigth-v1/back.jpg",
+                       "caballera":  "images/pia-silver-straigth-v1/caballera.jpg",
                        "iso":  "images/pia-silver-straigth-v1/iso.jpg",
                        "persp_b":  "images/pia-silver-straigth-v1/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "PIA Silver Straigth V1 is a complete guitar CAD model developed with reference to Ibanez — PIA SILVER Straigth. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "PIA SILVER Straigth v1",
@@ -6154,16 +6154,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/prs/front.jpg",
-                       "back":  "images/prs/back.jpg",
-                       "caballera":  "images/prs/caballera.jpg",
                        "wood_front":  "images/prs/wood_front.jpg",
                        "wood_back":  "images/prs/wood_back.jpg",
                        "wood_caballera":  "images/prs/wood_caballera.jpg",
+                       "front":  "images/prs/front.jpg",
+                       "back":  "images/prs/back.jpg",
+                       "caballera":  "images/prs/caballera.jpg",
                        "iso":  "images/prs/iso.jpg",
                        "persp_b":  "images/prs/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "PRS is a complete guitar CAD model developed with reference to PRS — PRS. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "PRS",
@@ -6350,16 +6350,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/rg-520-giger/front.jpg",
-                       "back":  "images/rg-520-giger/back.jpg",
-                       "caballera":  "images/rg-520-giger/caballera.jpg",
                        "wood_front":  "images/rg-520-giger/wood_front.jpg",
                        "wood_back":  "images/rg-520-giger/wood_back.jpg",
                        "wood_caballera":  "images/rg-520-giger/wood_caballera.jpg",
+                       "front":  "images/rg-520-giger/front.jpg",
+                       "back":  "images/rg-520-giger/back.jpg",
+                       "caballera":  "images/rg-520-giger/caballera.jpg",
                        "iso":  "images/rg-520-giger/iso.jpg",
                        "persp_b":  "images/rg-520-giger/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "RG 520 is a complete guitar CAD model developed with reference to Ibanez — RG 520. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "RG 520",
@@ -6390,16 +6390,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/rg-550/front.jpg",
-                       "back":  "images/rg-550/back.jpg",
-                       "caballera":  "images/rg-550/caballera.jpg",
                        "wood_front":  "images/rg-550/wood_front.jpg",
                        "wood_back":  "images/rg-550/wood_back.jpg",
                        "wood_caballera":  "images/rg-550/wood_caballera.jpg",
+                       "front":  "images/rg-550/front.jpg",
+                       "back":  "images/rg-550/back.jpg",
+                       "caballera":  "images/rg-550/caballera.jpg",
                        "iso":  "images/rg-550/iso.jpg",
                        "persp_b":  "images/rg-550/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "RG 550 is a complete guitar CAD model developed with reference to Ibanez — RG 550. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "RG 550",
@@ -6430,16 +6430,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/rg-570/front.jpg",
-                       "back":  "images/rg-570/back.jpg",
-                       "caballera":  "images/rg-570/caballera.jpg",
                        "wood_front":  "images/rg-570/wood_front.jpg",
                        "wood_back":  "images/rg-570/wood_back.jpg",
                        "wood_caballera":  "images/rg-570/wood_caballera.jpg",
+                       "front":  "images/rg-570/front.jpg",
+                       "back":  "images/rg-570/back.jpg",
+                       "caballera":  "images/rg-570/caballera.jpg",
                        "iso":  "images/rg-570/iso.jpg",
                        "persp_b":  "images/rg-570/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "RG 570 is a complete guitar CAD model developed with reference to Ibanez — RG 570. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "RG 570",
@@ -6550,16 +6550,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/rga-27-frets/front.jpg",
-                       "back":  "images/rga-27-frets/back.jpg",
-                       "caballera":  "images/rga-27-frets/caballera.jpg",
                        "wood_front":  "images/rga-27-frets/wood_front.jpg",
                        "wood_back":  "images/rga-27-frets/wood_back.jpg",
                        "wood_caballera":  "images/rga-27-frets/wood_caballera.jpg",
+                       "front":  "images/rga-27-frets/front.jpg",
+                       "back":  "images/rga-27-frets/back.jpg",
+                       "caballera":  "images/rga-27-frets/caballera.jpg",
                        "iso":  "images/rga-27-frets/iso.jpg",
                        "persp_b":  "images/rga-27-frets/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "RGA 27 Frets is a complete guitar CAD model developed with reference to Ibanez — RGA 27 Frets. Key identified features include 27-fret. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "RGA 27 Frets",
@@ -6591,16 +6591,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/rgd-7-mejor/front.jpg",
-                       "back":  "images/rgd-7-mejor/back.jpg",
-                       "caballera":  "images/rgd-7-mejor/caballera.jpg",
                        "wood_front":  "images/rgd-7-mejor/wood_front.jpg",
                        "wood_back":  "images/rgd-7-mejor/wood_back.jpg",
                        "wood_caballera":  "images/rgd-7-mejor/wood_caballera.jpg",
+                       "front":  "images/rgd-7-mejor/front.jpg",
+                       "back":  "images/rgd-7-mejor/back.jpg",
+                       "caballera":  "images/rgd-7-mejor/caballera.jpg",
                        "iso":  "images/rgd-7-mejor/iso.jpg",
                        "persp_b":  "images/rgd-7-mejor/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "RGD 7 Mejor is a complete guitar CAD model developed with reference to Ibanez — RGD 7. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "RGD 7 Mejor",
@@ -6631,16 +6631,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/robin-meddley/front.jpg",
-                       "back":  "images/robin-meddley/back.jpg",
-                       "caballera":  "images/robin-meddley/caballera.jpg",
                        "wood_front":  "images/robin-meddley/wood_front.jpg",
                        "wood_back":  "images/robin-meddley/wood_back.jpg",
                        "wood_caballera":  "images/robin-meddley/wood_caballera.jpg",
+                       "front":  "images/robin-meddley/front.jpg",
+                       "back":  "images/robin-meddley/back.jpg",
+                       "caballera":  "images/robin-meddley/caballera.jpg",
                        "iso":  "images/robin-meddley/iso.jpg",
                        "persp_b":  "images/robin-meddley/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Robin Meddley is a complete guitar CAD model developed with reference to Robin Guitars — Robin meddley. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Robin meddley",
@@ -6711,16 +6711,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/shorte-rickenbacker-bass-neck/front.jpg",
-                       "back":  "images/shorte-rickenbacker-bass-neck/back.jpg",
-                       "caballera":  "images/shorte-rickenbacker-bass-neck/caballera.jpg",
                        "wood_front":  "images/shorte-rickenbacker-bass-neck/wood_front.jpg",
                        "wood_back":  "images/shorte-rickenbacker-bass-neck/wood_back.jpg",
                        "wood_caballera":  "images/shorte-rickenbacker-bass-neck/wood_caballera.jpg",
+                       "front":  "images/shorte-rickenbacker-bass-neck/front.jpg",
+                       "back":  "images/shorte-rickenbacker-bass-neck/back.jpg",
+                       "caballera":  "images/shorte-rickenbacker-bass-neck/caballera.jpg",
                        "iso":  "images/shorte-rickenbacker-bass-neck/iso.jpg",
                        "persp_b":  "images/shorte-rickenbacker-bass-neck/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "PAULS BASS is a bass guitar CAD model developed with reference to Rickenbacker by Paul McCartney — PAULS BASS. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "PAULS BASS",
@@ -7184,16 +7184,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/surh-modern-top-11-16-radius/front.jpg",
-                       "back":  "images/surh-modern-top-11-16-radius/back.jpg",
-                       "caballera":  "images/surh-modern-top-11-16-radius/caballera.jpg",
                        "wood_front":  "images/surh-modern-top-11-16-radius/wood_front.jpg",
                        "wood_back":  "images/surh-modern-top-11-16-radius/wood_back.jpg",
                        "wood_caballera":  "images/surh-modern-top-11-16-radius/wood_caballera.jpg",
+                       "front":  "images/surh-modern-top-11-16-radius/front.jpg",
+                       "back":  "images/surh-modern-top-11-16-radius/back.jpg",
+                       "caballera":  "images/surh-modern-top-11-16-radius/caballera.jpg",
                        "iso":  "images/surh-modern-top-11-16-radius/iso.jpg",
                        "persp_b":  "images/surh-modern-top-11-16-radius/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Surh Modern Top 11 16 Radius is a complete guitar CAD model developed with reference to Suhr — Surh Modern Top 11 16 radius. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Surh Modern Top 11 16 radius",
@@ -7264,16 +7264,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/tele-rounded-cabronita/front.jpg",
-                       "back":  "images/tele-rounded-cabronita/back.jpg",
-                       "caballera":  "images/tele-rounded-cabronita/caballera.jpg",
                        "wood_front":  "images/tele-rounded-cabronita/wood_front.jpg",
                        "wood_back":  "images/tele-rounded-cabronita/wood_back.jpg",
                        "wood_caballera":  "images/tele-rounded-cabronita/wood_caballera.jpg",
+                       "front":  "images/tele-rounded-cabronita/front.jpg",
+                       "back":  "images/tele-rounded-cabronita/back.jpg",
+                       "caballera":  "images/tele-rounded-cabronita/caballera.jpg",
                        "iso":  "images/tele-rounded-cabronita/iso.jpg",
                        "persp_b":  "images/tele-rounded-cabronita/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "TELE Rounded Cabronita is a complete guitar CAD model developed with reference to Fender — TELE ROUNDED CABRONITA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "TELE ROUNDED CABRONITA",
@@ -7304,16 +7304,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/tele-rounded-cabronita-hss/front.jpg",
-                       "back":  "images/tele-rounded-cabronita-hss/back.jpg",
-                       "caballera":  "images/tele-rounded-cabronita-hss/caballera.jpg",
                        "wood_front":  "images/tele-rounded-cabronita-hss/wood_front.jpg",
                        "wood_back":  "images/tele-rounded-cabronita-hss/wood_back.jpg",
                        "wood_caballera":  "images/tele-rounded-cabronita-hss/wood_caballera.jpg",
+                       "front":  "images/tele-rounded-cabronita-hss/front.jpg",
+                       "back":  "images/tele-rounded-cabronita-hss/back.jpg",
+                       "caballera":  "images/tele-rounded-cabronita-hss/caballera.jpg",
                        "iso":  "images/tele-rounded-cabronita-hss/iso.jpg",
                        "persp_b":  "images/tele-rounded-cabronita-hss/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "TELE Rounded Cabronita HSS is a complete guitar CAD model developed with reference to Fender — TELE ROUNDED CABRONITA HSS. Key identified features include HSS pickups. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "TELE ROUNDED CABRONITA HSS",
@@ -7345,16 +7345,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/tele-cabronita-2/front.jpg",
-                       "back":  "images/tele-cabronita-2/back.jpg",
-                       "caballera":  "images/tele-cabronita-2/caballera.jpg",
                        "wood_front":  "images/tele-cabronita-2/wood_front.jpg",
                        "wood_back":  "images/tele-cabronita-2/wood_back.jpg",
                        "wood_caballera":  "images/tele-cabronita-2/wood_caballera.jpg",
+                       "front":  "images/tele-cabronita-2/front.jpg",
+                       "back":  "images/tele-cabronita-2/back.jpg",
+                       "caballera":  "images/tele-cabronita-2/caballera.jpg",
                        "iso":  "images/tele-cabronita-2/iso.jpg",
                        "persp_b":  "images/tele-cabronita-2/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "TELE Cabronita 2 is a complete guitar CAD model developed with reference to Fender — TELE CABRONITA 2. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "TELE CABRONITA 2",
@@ -7385,16 +7385,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/tele-hybrid/front.jpg",
-                       "back":  "images/tele-hybrid/back.jpg",
-                       "caballera":  "images/tele-hybrid/caballera.jpg",
                        "wood_front":  "images/tele-hybrid/wood_front.jpg",
                        "wood_back":  "images/tele-hybrid/wood_back.jpg",
                        "wood_caballera":  "images/tele-hybrid/wood_caballera.jpg",
+                       "front":  "images/tele-hybrid/front.jpg",
+                       "back":  "images/tele-hybrid/back.jpg",
+                       "caballera":  "images/tele-hybrid/caballera.jpg",
                        "iso":  "images/tele-hybrid/iso.jpg",
                        "persp_b":  "images/tele-hybrid/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Tele Hybrid is a complete guitar CAD model developed with reference to Fender — Tele Hybrid. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Tele Hybrid",
@@ -7425,16 +7425,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/telecaster-giger/front.jpg",
-                       "back":  "images/telecaster-giger/back.jpg",
-                       "caballera":  "images/telecaster-giger/caballera.jpg",
                        "wood_front":  "images/telecaster-giger/wood_front.jpg",
                        "wood_back":  "images/telecaster-giger/wood_back.jpg",
                        "wood_caballera":  "images/telecaster-giger/wood_caballera.jpg",
+                       "front":  "images/telecaster-giger/front.jpg",
+                       "back":  "images/telecaster-giger/back.jpg",
+                       "caballera":  "images/telecaster-giger/caballera.jpg",
                        "iso":  "images/telecaster-giger/iso.jpg",
                        "persp_b":  "images/telecaster-giger/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Telecaster GIGER is a complete guitar CAD model developed with reference to Fender — TELECASTER GIGER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "TELECASTER GIGER",
@@ -7505,16 +7505,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/telecaster-v6-v1/front.jpg",
-                       "back":  "images/telecaster-v6-v1/back.jpg",
-                       "caballera":  "images/telecaster-v6-v1/caballera.jpg",
                        "wood_front":  "images/telecaster-v6-v1/wood_front.jpg",
                        "wood_back":  "images/telecaster-v6-v1/wood_back.jpg",
                        "wood_caballera":  "images/telecaster-v6-v1/wood_caballera.jpg",
+                       "front":  "images/telecaster-v6-v1/front.jpg",
+                       "back":  "images/telecaster-v6-v1/back.jpg",
+                       "caballera":  "images/telecaster-v6-v1/caballera.jpg",
                        "iso":  "images/telecaster-v6-v1/iso.jpg",
                        "persp_b":  "images/telecaster-v6-v1/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Telecaster V6 V1 is a complete guitar CAD model developed with reference to Fender — TELECASTER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "TELECASTER v6 v1",
@@ -7582,16 +7582,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/travis-neck/front.jpg",
-                       "back":  "images/travis-neck/back.jpg",
-                       "caballera":  "images/travis-neck/caballera.jpg",
                        "wood_front":  "images/travis-neck/wood_front.jpg",
                        "wood_back":  "images/travis-neck/wood_back.jpg",
                        "wood_caballera":  "images/travis-neck/wood_caballera.jpg",
+                       "front":  "images/travis-neck/front.jpg",
+                       "back":  "images/travis-neck/back.jpg",
+                       "caballera":  "images/travis-neck/caballera.jpg",
                        "iso":  "images/travis-neck/iso.jpg",
                        "persp_b":  "images/travis-neck/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Travis Neck is a complete guitar CAD model developed with reference to Travis Bean — Travis Neck. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Travis Neck",
@@ -7783,12 +7783,12 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/universe-aanj-kahler/front.jpg",
-                       "back":  "images/universe-aanj-kahler/back.jpg",
-                       "caballera":  "images/universe-aanj-kahler/caballera.jpg",
                        "wood_front":  "images/universe-aanj-kahler/wood_front.jpg",
                        "wood_back":  "images/universe-aanj-kahler/wood_back.jpg",
                        "wood_caballera":  "images/universe-aanj-kahler/wood_caballera.jpg",
+                       "front":  "images/universe-aanj-kahler/front.jpg",
+                       "back":  "images/universe-aanj-kahler/back.jpg",
+                       "caballera":  "images/universe-aanj-kahler/caballera.jpg",
                        "iso":  "images/universe-aanj-kahler/iso.jpg",
                        "persp_b":  "images/universe-aanj-kahler/persp_b.jpg",
                        "real1":  "images/universe-aanj-kahler/real1.jpg",
@@ -7799,7 +7799,7 @@
                        "real6":  "images/universe-aanj-kahler/real6.jpg",
                        "real7":  "images/universe-aanj-kahler/real7.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Universe AANJ Kahler is a complete guitar CAD model developed with reference to Ibanez — UNIVERSE AANJ KAHLER. Key identified features include Kahler routing, AANJ neck joint. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "UNIVERSE AANJ KAHLER",
@@ -8059,16 +8059,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/varberg/front.jpg",
-                       "back":  "images/varberg/back.jpg",
-                       "caballera":  "images/varberg/caballera.jpg",
                        "wood_front":  "images/varberg/wood_front.jpg",
                        "wood_back":  "images/varberg/wood_back.jpg",
                        "wood_caballera":  "images/varberg/wood_caballera.jpg",
+                       "front":  "images/varberg/front.jpg",
+                       "back":  "images/varberg/back.jpg",
+                       "caballera":  "images/varberg/caballera.jpg",
                        "iso":  "images/varberg/iso.jpg",
                        "persp_b":  "images/varberg/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Værberg Headless is a complete guitar CAD model developed with reference to Strandberg / Varberg — VARBERG. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VARBERG",
@@ -8138,18 +8138,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/veritas-porthlander/front.jpg",
-                       "back":  "images/veritas-porthlander/back.jpg",
-                       "caballera":  "images/veritas-porthlander/caballera.jpg",
                        "wood_front":  "images/veritas-porthlander/wood_front.jpg",
                        "wood_back":  "images/veritas-porthlander/wood_back.jpg",
                        "wood_caballera":  "images/veritas-porthlander/wood_caballera.jpg",
+                       "front":  "images/veritas-porthlander/front.jpg",
+                       "back":  "images/veritas-porthlander/back.jpg",
+                       "caballera":  "images/veritas-porthlander/caballera.jpg",
                        "iso":  "images/veritas-porthlander/iso.jpg",
                        "persp_b":  "images/veritas-porthlander/persp_b.jpg",
                        "real1":  "images/veritas-porthlander/real1.jpg",
                        "real2":  "images/veritas-porthlander/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Veritas Porthlander is a complete guitar CAD model developed with reference to Veritas — VERITAS PORTHLANDER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VERITAS PORTHLANDER",
@@ -8180,18 +8180,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/veritas-porthlander-solid-body/front.jpg",
-                       "back":  "images/veritas-porthlander-solid-body/back.jpg",
-                       "caballera":  "images/veritas-porthlander-solid-body/caballera.jpg",
                        "wood_front":  "images/veritas-porthlander-solid-body/wood_front.jpg",
                        "wood_back":  "images/veritas-porthlander-solid-body/wood_back.jpg",
                        "wood_caballera":  "images/veritas-porthlander-solid-body/wood_caballera.jpg",
+                       "front":  "images/veritas-porthlander-solid-body/front.jpg",
+                       "back":  "images/veritas-porthlander-solid-body/back.jpg",
+                       "caballera":  "images/veritas-porthlander-solid-body/caballera.jpg",
                        "iso":  "images/veritas-porthlander-solid-body/iso.jpg",
                        "persp_b":  "images/veritas-porthlander-solid-body/persp_b.jpg",
                        "real1":  "images/veritas-porthlander-solid-body/real1.jpg",
                        "real2":  "images/veritas-porthlander-solid-body/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Veritas Porthlander Solid Body is a complete guitar CAD model developed with reference to Veritas — VERITAS PORTHLANDER Solid Body. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VERITAS PORTHLANDER Solid Body",
@@ -8222,18 +8222,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/veritas-porthlander-solid-body-23-8/front.jpg",
-                       "back":  "images/veritas-porthlander-solid-body-23-8/back.jpg",
-                       "caballera":  "images/veritas-porthlander-solid-body-23-8/caballera.jpg",
                        "wood_front":  "images/veritas-porthlander-solid-body-23-8/wood_front.jpg",
                        "wood_back":  "images/veritas-porthlander-solid-body-23-8/wood_back.jpg",
                        "wood_caballera":  "images/veritas-porthlander-solid-body-23-8/wood_caballera.jpg",
+                       "front":  "images/veritas-porthlander-solid-body-23-8/front.jpg",
+                       "back":  "images/veritas-porthlander-solid-body-23-8/back.jpg",
+                       "caballera":  "images/veritas-porthlander-solid-body-23-8/caballera.jpg",
                        "iso":  "images/veritas-porthlander-solid-body-23-8/iso.jpg",
                        "persp_b":  "images/veritas-porthlander-solid-body-23-8/persp_b.jpg",
                        "real1":  "images/veritas-porthlander-solid-body-23-8/real1.jpg",
                        "real2":  "images/veritas-porthlander-solid-body-23-8/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Veritas Porthlander Solid Body 23.8 is a complete guitar CAD model developed with reference to Veritas — VERITAS PORTHLANDER Solid Body 23. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VERITAS PORTHLANDER Solid Body 23.8",
@@ -8264,18 +8264,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/veritas-porthlander-solid-body-23-8-p90/front.jpg",
-                       "back":  "images/veritas-porthlander-solid-body-23-8-p90/back.jpg",
-                       "caballera":  "images/veritas-porthlander-solid-body-23-8-p90/caballera.jpg",
                        "wood_front":  "images/veritas-porthlander-solid-body-23-8-p90/wood_front.jpg",
                        "wood_back":  "images/veritas-porthlander-solid-body-23-8-p90/wood_back.jpg",
                        "wood_caballera":  "images/veritas-porthlander-solid-body-23-8-p90/wood_caballera.jpg",
+                       "front":  "images/veritas-porthlander-solid-body-23-8-p90/front.jpg",
+                       "back":  "images/veritas-porthlander-solid-body-23-8-p90/back.jpg",
+                       "caballera":  "images/veritas-porthlander-solid-body-23-8-p90/caballera.jpg",
                        "iso":  "images/veritas-porthlander-solid-body-23-8-p90/iso.jpg",
                        "persp_b":  "images/veritas-porthlander-solid-body-23-8-p90/persp_b.jpg",
                        "real1":  "images/veritas-porthlander-solid-body-23-8-p90/real1.jpg",
                        "real2":  "images/veritas-porthlander-solid-body-23-8-p90/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Veritas Porthlander Solid Body 23.8 P90 is a complete guitar CAD model developed with reference to Veritas — VERITAS PORTHLANDER Solid Body 23. Key identified features include P-90. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VERITAS PORTHLANDER Solid Body 23.8 p90",
@@ -8307,16 +8307,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/veritas-strat/front.jpg",
-                       "back":  "images/veritas-strat/back.jpg",
-                       "caballera":  "images/veritas-strat/caballera.jpg",
                        "wood_front":  "images/veritas-strat/wood_front.jpg",
                        "wood_back":  "images/veritas-strat/wood_back.jpg",
                        "wood_caballera":  "images/veritas-strat/wood_caballera.jpg",
+                       "front":  "images/veritas-strat/front.jpg",
+                       "back":  "images/veritas-strat/back.jpg",
+                       "caballera":  "images/veritas-strat/caballera.jpg",
                        "iso":  "images/veritas-strat/iso.jpg",
                        "persp_b":  "images/veritas-strat/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Veritas STRAT is a complete guitar CAD model developed with reference to Fender — VERITAS STRAT. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "VERITAS STRAT",
@@ -8425,16 +8425,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/warrior-close-to-original/front.jpg",
-                       "back":  "images/warrior-close-to-original/back.jpg",
-                       "caballera":  "images/warrior-close-to-original/caballera.jpg",
                        "wood_front":  "images/warrior-close-to-original/wood_front.jpg",
                        "wood_back":  "images/warrior-close-to-original/wood_back.jpg",
                        "wood_caballera":  "images/warrior-close-to-original/wood_caballera.jpg",
+                       "front":  "images/warrior-close-to-original/front.jpg",
+                       "back":  "images/warrior-close-to-original/back.jpg",
+                       "caballera":  "images/warrior-close-to-original/caballera.jpg",
                        "iso":  "images/warrior-close-to-original/iso.jpg",
                        "persp_b":  "images/warrior-close-to-original/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Warrior Close To Original is a complete guitar CAD model developed with reference to Jackson — Warrior Close to original. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Warrior Close to original",
@@ -8465,18 +8465,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/warrior-kelly/front.jpg",
-                       "back":  "images/warrior-kelly/back.jpg",
-                       "caballera":  "images/warrior-kelly/caballera.jpg",
                        "wood_front":  "images/warrior-kelly/wood_front.jpg",
                        "wood_back":  "images/warrior-kelly/wood_back.jpg",
                        "wood_caballera":  "images/warrior-kelly/wood_caballera.jpg",
+                       "front":  "images/warrior-kelly/front.jpg",
+                       "back":  "images/warrior-kelly/back.jpg",
+                       "caballera":  "images/warrior-kelly/caballera.jpg",
                        "iso":  "images/warrior-kelly/iso.jpg",
                        "persp_b":  "images/warrior-kelly/persp_b.jpg",
                        "real1":  "images/warrior-kelly/real1.jpg",
                        "real2":  "images/warrior-kelly/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Warrior Kelly is a complete guitar CAD model developed with reference to Jackson — Warrior Kelly. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Warrior Kelly",
@@ -8507,18 +8507,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/warrior-kelly-7/front.jpg",
-                       "back":  "images/warrior-kelly-7/back.jpg",
-                       "caballera":  "images/warrior-kelly-7/caballera.jpg",
                        "wood_front":  "images/warrior-kelly-7/wood_front.jpg",
                        "wood_back":  "images/warrior-kelly-7/wood_back.jpg",
                        "wood_caballera":  "images/warrior-kelly-7/wood_caballera.jpg",
+                       "front":  "images/warrior-kelly-7/front.jpg",
+                       "back":  "images/warrior-kelly-7/back.jpg",
+                       "caballera":  "images/warrior-kelly-7/caballera.jpg",
                        "iso":  "images/warrior-kelly-7/iso.jpg",
                        "persp_b":  "images/warrior-kelly-7/persp_b.jpg",
                        "real1":  "images/warrior-kelly-7/real1.jpg",
                        "real2":  "images/warrior-kelly-7/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Warrior Kelly 7 is a body-only guitar CAD model developed with reference to Jackson — Warrior Kelly 7. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Warrior Kelly 7",
@@ -8706,16 +8706,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/washburn-stealth/front.jpg",
-                       "back":  "images/washburn-stealth/back.jpg",
-                       "caballera":  "images/washburn-stealth/caballera.jpg",
                        "wood_front":  "images/washburn-stealth/wood_front.jpg",
                        "wood_back":  "images/washburn-stealth/wood_back.jpg",
                        "wood_caballera":  "images/washburn-stealth/wood_caballera.jpg",
+                       "front":  "images/washburn-stealth/front.jpg",
+                       "back":  "images/washburn-stealth/back.jpg",
+                       "caballera":  "images/washburn-stealth/caballera.jpg",
                        "iso":  "images/washburn-stealth/iso.jpg",
                        "persp_b":  "images/washburn-stealth/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Washburn Stealth is a complete guitar CAD model developed with reference to Washburn — Washburn Stealth. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Washburn Stealth",
@@ -8746,16 +8746,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/washburn-stealth-27/front.jpg",
-                       "back":  "images/washburn-stealth-27/back.jpg",
-                       "caballera":  "images/washburn-stealth-27/caballera.jpg",
                        "wood_front":  "images/washburn-stealth-27/wood_front.jpg",
                        "wood_back":  "images/washburn-stealth-27/wood_back.jpg",
                        "wood_caballera":  "images/washburn-stealth-27/wood_caballera.jpg",
+                       "front":  "images/washburn-stealth-27/front.jpg",
+                       "back":  "images/washburn-stealth-27/back.jpg",
+                       "caballera":  "images/washburn-stealth-27/caballera.jpg",
                        "iso":  "images/washburn-stealth-27/iso.jpg",
                        "persp_b":  "images/washburn-stealth-27/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Washburn Stealth 27 is a complete guitar CAD model developed with reference to Washburn — Washburn Stealth 27. Key identified features include 27-fret. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Washburn Stealth 27",
@@ -8787,16 +8787,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/wasp/front.jpg",
-                       "back":  "images/wasp/back.jpg",
-                       "caballera":  "images/wasp/caballera.jpg",
                        "wood_front":  "images/wasp/wood_front.jpg",
                        "wood_back":  "images/wasp/wood_back.jpg",
                        "wood_caballera":  "images/wasp/wood_caballera.jpg",
+                       "front":  "images/wasp/front.jpg",
+                       "back":  "images/wasp/back.jpg",
+                       "caballera":  "images/wasp/caballera.jpg",
                        "iso":  "images/wasp/iso.jpg",
                        "persp_b":  "images/wasp/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "WASP is a complete guitar CAD model developed with reference to a design based on the guitar of the W.A.S.P. guitarist. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "WASP",
@@ -8827,16 +8827,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/westone/front.jpg",
-                       "back":  "images/westone/back.jpg",
-                       "caballera":  "images/westone/caballera.jpg",
                        "wood_front":  "images/westone/wood_front.jpg",
                        "wood_back":  "images/westone/wood_back.jpg",
                        "wood_caballera":  "images/westone/wood_caballera.jpg",
+                       "front":  "images/westone/front.jpg",
+                       "back":  "images/westone/back.jpg",
+                       "caballera":  "images/westone/caballera.jpg",
                        "iso":  "images/westone/iso.jpg",
                        "persp_b":  "images/westone/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Westone is a complete guitar CAD model developed with reference to Westone — WESTONE. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "WESTONE",
@@ -8907,18 +8907,18 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/woody/front.jpg",
-                       "back":  "images/woody/back.jpg",
-                       "caballera":  "images/woody/caballera.jpg",
                        "wood_front":  "images/woody/wood_front.jpg",
                        "wood_back":  "images/woody/wood_back.jpg",
                        "wood_caballera":  "images/woody/wood_caballera.jpg",
+                       "front":  "images/woody/front.jpg",
+                       "back":  "images/woody/back.jpg",
+                       "caballera":  "images/woody/caballera.jpg",
                        "iso":  "images/woody/iso.jpg",
                        "persp_b":  "images/woody/persp_b.jpg",
                        "real1":  "images/woody/real1.jpg",
                        "real2":  "images/woody/real2.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "WOODY is a complete guitar CAD model developed with reference to the modified and tuned Ibanez 540PII — WOODY, from the same family as MEDUSSA. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "WOODY",
@@ -8949,16 +8949,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/xiphos-higer/front.jpg",
-                       "back":  "images/xiphos-higer/back.jpg",
-                       "caballera":  "images/xiphos-higer/caballera.jpg",
                        "wood_front":  "images/xiphos-higer/wood_front.jpg",
                        "wood_back":  "images/xiphos-higer/wood_back.jpg",
                        "wood_caballera":  "images/xiphos-higer/wood_caballera.jpg",
+                       "front":  "images/xiphos-higer/front.jpg",
+                       "back":  "images/xiphos-higer/back.jpg",
+                       "caballera":  "images/xiphos-higer/caballera.jpg",
                        "iso":  "images/xiphos-higer/iso.jpg",
                        "persp_b":  "images/xiphos-higer/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Xiphos HIGER is a body-only guitar CAD model developed with reference to a design based on the Ibanez Xiphos — Xiphos HIGER. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Xiphos HIGER",
@@ -8989,16 +8989,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/yamaha/front.jpg",
-                       "back":  "images/yamaha/back.jpg",
-                       "caballera":  "images/yamaha/caballera.jpg",
                        "wood_front":  "images/yamaha/wood_front.jpg",
                        "wood_back":  "images/yamaha/wood_back.jpg",
                        "wood_caballera":  "images/yamaha/wood_caballera.jpg",
+                       "front":  "images/yamaha/front.jpg",
+                       "back":  "images/yamaha/back.jpg",
+                       "caballera":  "images/yamaha/caballera.jpg",
                        "iso":  "images/yamaha/iso.jpg",
                        "persp_b":  "images/yamaha/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "desc":  "Yamaha is a bass guitar CAD model developed with reference to Yamaha — Yamaha. The package includes F3D + STEP + STL files for CAD review, CNC/CAM preparation and fabrication planning. Always verify neck pocket, scale layout, pickup routes, bridge placement and hardware dimensions against the components used before cutting.",
         "tags":  [
                      "Yamaha",
@@ -9115,16 +9115,16 @@
                         "stl"
                     ],
         "images":  {
-                       "front":  "images/wes-iceman-27/front.jpg",
-                       "back":  "images/wes-iceman-27/back.jpg",
-                       "caballera":  "images/wes-iceman-27/caballera.jpg",
                        "wood_front":  "images/wes-iceman-27/wood_front.jpg",
                        "wood_back":  "images/wes-iceman-27/wood_back.jpg",
                        "wood_caballera":  "images/wes-iceman-27/wood_caballera.jpg",
+                       "front":  "images/wes-iceman-27/front.jpg",
+                       "back":  "images/wes-iceman-27/back.jpg",
+                       "caballera":  "images/wes-iceman-27/caballera.jpg",
                        "iso":  "images/wes-iceman-27/iso.jpg",
                        "persp_b":  "images/wes-iceman-27/persp_b.jpg"
                    },
-        "main":  "front",
+        "main":  "wood_front",
         "tags":  [
                      "Wes Iceman 27",
                      "Wes Hauch",
